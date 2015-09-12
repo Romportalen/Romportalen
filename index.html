@@ -1,9 +1,80 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<!-- presentation code start -->
+		<title>Romportalen</title>
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!-- presentation code end -->
+		<!-- favicon code start -->
 		<link href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAtnh2ANy/vgC3enkA17S0AO3d3QC+h4YAv4eGAMiYmADUsK8A9OrqAKZaWACwa2oAvIOBAM2hoAC+hYQAtXZ1AMKOjACdSUcAq2NhAODGxQC7gYAA8eTkAKxlZACjVFIAuX17AO7g3wCUODYAs3JxAMmbmgCbRUMAsW5sAKVWVQC6f34A7+LiAObR0ACpX10AsnBvAMiZmADewsEAz6alAKphYAC3eXcA7NzbAPXt7QDgxMQAx5eWANGoqADOpKMA7d7eAOTNzACgTkwAv4iHANWxsACRMjAAsGxrAL2EggChUE8ArmhmANazswDjy8oAvoaFAMqenAC1dXMA1K+uAKVZVwCZQUAApllXANu8uwCWPTsAtnd2AMKPjQDDj40A69raALNzcQCeSkgAp1taAOnW1QDy5+cA2rq5AKxkYgDq2NgA4cfGAJxIRgC8goEApFVTAK1mZQC5fnwA4snJAPjy8gCVOTcA062tAODFxAC7gH8Asm9tAPDj4wDYtrUAkzc1ALNxcADfw8IAmkRCAJtEQgCwbWsA5tDPAMGLigCTNTMA3sHAAOfS0gCZQkAAuXx7AKBPTQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAKQchF2AAAAAAAAAAAFtLVlYAAFRVQ2MAAAAAAB8iYgBXAABQAEFNPQAAAC9FNjgLGC4ubDcqYWlcAAAMBD4KFU4KClEPChUUIAAOLDBZAEcAAAAAIQBfRBYCJgBGAAAZAAAAAF0AAF0ACBBUS1RUOVRUVFQeVFQbVEZdAFQAADQAAAAADQAABgARHQAQAABtAAAAAEcAAFQAHAlONSwASAAAAAAVADEnBVIAWhNuDWQVDQ0BHg1lZjYAAC1nTABYawAAaisAJTtJAAAAESNMAD8AACQAEk8oAAAAAAAyM24DAAA6QlMaAAAAAAAAAAAUXmg4SjwAAAAAAPgfAADhhwAAxaMAAIABAACAAQAAC9AAAFvaAAAAAAAAW9oAAFvaAAAL0AAAgAEAAImRAADFowAA4YcAAPgfAAA=" rel="icon" type="image/x-icon" />
+		<link rel="icon" href="res/img/favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="res/img/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="res/img/apple-touch-icon.png" />
+		<link rel="apple-touch-icon" sizes="57x57" href="res/img/apple-touch-icon-57x57.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="res/img/apple-touch-icon-72x72.png" />
+		<link rel="apple-touch-icon" sizes="76x76" href="res/img/apple-touch-icon-76x76.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="res/img/apple-touch-icon-114x114.png" />
+		<link rel="apple-touch-icon" sizes="120x120" href="res/img/apple-touch-icon-120x120.png" />
+		<link rel="apple-touch-icon" sizes="144x144" href="res/img/apple-touch-icon-144x144.png" />
+		<link rel="apple-touch-icon" sizes="152x152" href="res/img/apple-touch-icon-152x152.png" />
+		<!-- favicon code end -->
+		<!-- code includes start -->
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="res/js/header.js"></script>
+		<script src="res/js/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="res/css/main.css" >
+		<link rel="stylesheet" type="text/css" href="res/css/section.css" >
+		<!-- IE8 HTML5 polyfill/shiv -->
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<!-- code includes end -->
 	</head>
 	<body>
-		<p>Test</p>
+		<header class="mainHeader">
+			<nav class="pageNav"></nav>
+			<nav class="sectionNav"></nav>
+		</header>
+		<section class="frontPageContainer">
+			<nav class="tileNav"></nav>
+		</section>
+		<div class="sectionTransition">
+			<div class="calendarContainer"></div>
+		</div>
+		<section class="sectionContainer generalInfo">
+			<main class="sectionContent"></main>
+		</section>
+		<div class="sectionTransition"></div>
+		<section class="sectionContainer preStudent">
+			<nav class="tileNav"></nav>
+			<main class="sectionContent">
+			</main>
+		</section>
+		<div class="sectionTransition"></div>
+		<section class="sectionContainer student">
+			<nav class="tileNav"></nav>
+			<main class="sectionContent">
+				<div class="sectionTransition"></div>
+			</main>
+		</section>
+		<div class="sectionTransition"></div>
+		<section class="sectionContainer postStudent">
+			<nav class="tileNav"></nav>
+			<main class="sectionContent">
+				<div class="sectionTransition"></div>
+			</main>
+		</section>
+		<div class="sectionTransition"></div>
+		<footer class="sectionContainer aboutUs">
+			<main class="sectionContent">
+				<div class="sectionTransition"></div>
+			</main>
+		</footer>
 	</body>
 </html>
