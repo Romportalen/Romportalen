@@ -101,6 +101,10 @@ nav.tileNav .tileButton {
 	float: none !important;
 }
 
+.navbar-nav>li>a {
+	    font-size: 24px !important;
+}
+
 nav.tileNav .tileButton h3 {
 	display: inline;
 }
