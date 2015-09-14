@@ -13,6 +13,11 @@ body > .sectionTransition {
 	width: 100%;
 }
 
+.calendarContainer {
+	overflow: hidden;
+	padding: 5%;
+}
+
 article,
 section header {
 	max-width: 1000px;
