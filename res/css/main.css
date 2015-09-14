@@ -13,8 +13,15 @@ body > .sectionTransition {
 	width: 100%;
 }
 
-article {
+article,
+section header {
 	max-width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+
+section header h1 {
+	text-align: center;
 }
 
 .frontPageContainer .titleContainer {
