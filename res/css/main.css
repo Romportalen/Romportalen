@@ -92,9 +92,13 @@ nav.tileNav ul {
 
 nav.tileNav .tileButton {
 	width: auto;
-	display: inline;
+	display: inline-block;
 	padding: 1em;
 	height: 100%;
+}
+
+.nav-pills>li {
+	float: none !important;
 }
 
 nav.tileNav .tileButton h3 {
