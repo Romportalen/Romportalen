@@ -96,6 +96,11 @@ nav.tileNav .tileButton h3 {
 	top: -50px;
 }
 
+.panel-heading h3 {
+	padding: 0;
+	margin: 0;
+}
+
 @media (min-width: 768px) {
     .navbar .navbar-nav {
         display: inline-block;
