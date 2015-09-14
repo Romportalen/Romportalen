@@ -57,7 +57,9 @@ function viewPoll( selector ) {
 	onScroll();
 }
 
-viewPoll( ".inviewTrigger" );
+$(document).ready(function(){
+	viewPoll( ".inviewTrigger" );
+});
 
 (function ($) {
     $(document).ready(function(){
