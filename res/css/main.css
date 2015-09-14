@@ -7,7 +7,7 @@ body {
 	width: 100%;
 }
 
-.frontPageContainer titleContainer {
+.frontPageContainer .titleContainer {
 	margin: 0;
 	padding: 0;
 	text-align: center;
@@ -16,9 +16,16 @@ body {
 	position: absolute;
 }
 
-.frontPageContainer titleContainer h1 {
+.frontPageContainer .titleContainer h1 {
 	margin: 0;
 	padding: 0;
+	color: white;
+}
+
+.frontPageContainer .titleContainer h2.catchLine {
+	margin: 0;
+	padding: 0;
+	color: gray;
 }
 
 .background-wrap {
