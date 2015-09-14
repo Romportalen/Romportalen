@@ -1,5 +1,5 @@
 // inview plugin: add inviewTrigger class to elements it should look for
-$(document).ready(function(){
+/*$(document).ready(function(){
     $(".inviewTrigger").bind("inview", function (event, visible) {
         if (visible == true) {
             // element is visible
@@ -9,7 +9,55 @@ $(document).ready(function(){
             $(this).removeClass("inview");
         }
     });
-});
+});*/
+
+function viewPoll( selector ) {
+	
+	var elems = document.querySelectorAll( selector ),
+		count = elems.length,
+		scrollTop = 0,
+		winHeight = 0;
+
+	function colliding( y1, h1, y2, h2 ) {
+		return ( 
+			( y2 >= y1 && y2 <= y1 + h1 ) || 
+			( y2 + h2 >= y1 && y2 + h2 <= y1 + h1 )
+		);
+	}
+
+	function updateElemRects() {
+		for( var i = 0; i < count; i++ ) {
+			var elem = elems[ i ],
+				rect = elem.getBoundingClientRect(),
+				y = scrollTop + rect.top,
+				h = rect.bottom - rect.top,
+				inView = colliding( scrollTop, winHeight, y, h );
+			if( inView ) {
+				elem.classList.add( 'inview' );
+			} else {
+				elem.classList.remove( 'inview' );
+			}
+		}
+	}
+
+	function onResize() {
+		winHeight = window.innerHeight;
+		updateElemRects();
+	}
+
+	function onScroll() {
+		updateElemRects();
+	}
+
+	window.addEventListener( 'resize', onResize, false );
+	document.addEventListener( 'scroll', onScroll, false );
+	document.addEventListener( 'touchmove', onScroll, false );
+
+	onResize();
+	onScroll();
+}
+
+viewPoll( ".inviewTrigger" );
 
 (function ($) {
     $(document).ready(function(){
