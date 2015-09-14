@@ -6,7 +6,7 @@ $(document).ready(function(){
              $(this).addClass("inview");
         } else {
             // element is not visible
-            $(this).removeClass('inview');
+            $(this).removeClass("inview");
         }
     });
 });
