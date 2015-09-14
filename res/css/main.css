@@ -70,6 +70,9 @@ nav.tileNav {
 	position: relative;
 	width: 100%;
 	text-align: center;
+}
+
+.frontPageContainer nav.tileNav {
 	top: 50vh;
 }
 
