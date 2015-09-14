@@ -39,7 +39,28 @@
 	</head>
 	<body>
 		<header class="mainHeader">
-			<nav class="pageNav"></nav>
+			<nav class="navbar mainNav navbar-inverse navbar-fixed-top">
+			  <div class="container-fluid">
+			    <div class="navbar-header">
+			        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			          <span class="icon-bar"></span>
+			          <span class="icon-bar"></span>
+			          <span class="icon-bar"></span>                        
+			      </button>
+			      <a class="navbar-brand" href="#">Romportalen</a>
+			    </div>
+			    <div>
+			      <div class="collapse navbar-collapse" id="myNavbar">
+			        <ul class="nav navbar-nav">
+			          <li><a href="#generalInfoSection">Section 1</a></li>
+			          <li><a href="#preStudentSection">Section 2</a></li>
+			          <li><a href="#studentSection">Section 3</a></li>
+			          <li><a href="#postStudentSection">Section 4</a></li>
+			        </ul>
+			      </div>
+			    </div>
+			  </div>
+			</nav>
 			<nav class="sectionNav"></nav>
 		</header>
 		<section class="frontPageContainer">
@@ -50,23 +71,37 @@
 			<nav class="tileNav">
 				<ul>
 					<li class="generalLink tileButton">
-						<div class="tileIcon"></div>
-						<h3>generelt</h3>
+						<a href="#generalInfoSection">
+							<div class="tileIcon"></div>
+							<h3>generelt</h3>
+						</a>
 					</li>
 					<li class="preStudentLink tileButton">
-						<div class="tileIcon"></div>
-						<h3>før høyere utdanning</h3>
+						<a href="#preStudentSection">
+							<div class="tileIcon"></div>
+							<h3>før høyere utdanning</h3>
+						</a>
 					</li>
 					<li class="studentLink tileButton">
-						<div class="tileIcon"></div>
-						<h3>student</h3>
+						<a href="#studentSection">
+							<div class="tileIcon"></div>
+							<h3>student</h3>
+						</a>
 					</li>
 					<li class="postStudentLink tileButton">
-						<div class="tileIcon"></div>
-						<h3>jobb</h3>
+						<a href="#postStudentSection">
+							<div class="tileIcon"></div>
+							<h3>jobb</h3>
+						</a>
 					</li>
 				</ul>
 			</nav>
+			<div class="background-wrap">
+				<video id="bgvideo" autoplay poster="concrete_seamless.png" muted>
+					<source src="iss.mp4" type="video/mp4"/>
+				</video>
+			</div>
+		</div>   
 		</section>
 		
 		<div class="sectionTransition">
@@ -77,13 +112,13 @@
 			</div>
 		</div>
 		
-		<section class="sectionContainer generalInfo">
+		<section id="#generalInfoSection" class="sectionContainer generalInfo">
 			<main class="sectionContent"></main>
 		</section>
 		
 		<div class="sectionTransition"></div>
 		
-		<section class="sectionContainer preStudent">
+		<section id="#preStudentSection" class="sectionContainer preStudent">
 			<nav class="tileNav">
 				<ul>
 					<li class="vgsStudyChoicesLink tileButton">
@@ -194,7 +229,7 @@
 		
 		<div class="sectionTransition"></div>
 		
-		<section class="sectionContainer student">
+		<section id="#studentSection" class="sectionContainer student">
 			<nav class="tileNav">
 				<ul>
 					<li class="projectChoicesLink tileButton">
@@ -305,7 +340,7 @@
 		
 		<div class="sectionTransition"></div>
 		
-		<section class="sectionContainer postStudent">
+		<section id="#postStudentSection" class="sectionContainer postStudent">
 			<nav class="tileNav">
 				<ul>
 					<li class="workplaces1Link tileButton">
