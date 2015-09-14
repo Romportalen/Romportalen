@@ -21,7 +21,7 @@ $(document).ready(function(){
 	    $(window).scroll(function () {
 
               // set distance user needs to scroll before we start fadeIn
-              if ($(this).scrollTop() > 950) {
+              if ($(this).scrollTop() > $(window).height()) {
 	                $('.navbar').fadeIn();
 	            } else {
 	                $('.navbar').fadeOut();
