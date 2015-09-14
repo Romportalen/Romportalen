@@ -124,13 +124,3 @@ nav.tileNav .tileButton h3 {
         text-align: center;
     }
 }
-
-.sectionContainer {
-	opacity: 0;
-	transition: opacity ease 1s;
-}
-
-
-.sectionContainer.inview {
-	opacity: 1;
-}
