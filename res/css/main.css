@@ -13,6 +13,10 @@ body > .sectionTransition {
 	width: 100%;
 }
 
+article {
+	max-width: 1000px;
+}
+
 .frontPageContainer .titleContainer {
 	margin: 0;
 	padding: 0;
