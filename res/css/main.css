@@ -106,6 +106,8 @@ nav.tileNav .tileButton h3 {
         display: inline-block;
         float: none;
         vertical-align: top;
+	position: relative;
+	left: -6%;
     }
 
     .navbar .navbar-collapse {
