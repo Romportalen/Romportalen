@@ -48,3 +48,8 @@ body {
 	min-width: 100%;
 	opacity: 0.7;
 }
+
+.sectionAnchor {
+	position: relative;
+	top: -50px;
+}
