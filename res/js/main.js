@@ -71,7 +71,7 @@ $(document).ready(function(){
 	    $(window).scroll(function () {
 
               // set distance user needs to scroll before we start fadeIn
-              if ($(this).scrollTop() > $(window).height()) {
+              if ($(this).scrollTop() > $(".frontPageContainer .tileNav h3").offset().top) {
 	                $('.navbar').fadeIn();
 	            } else {
 	                $('.navbar').fadeOut();
