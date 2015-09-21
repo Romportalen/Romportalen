@@ -1,7 +1,7 @@
 #Generelt
 
 #To-do
-* Begynn å lage stiler til grunnleggende elementer (prioritering og evt. deadlines i parantes)
+* Begynn å lage stiler og JS til grunnleggende elementer (prioritering og evt. deadlines i parantes)
     * Infobokser/panels (1, nødvendig for å begynne å legge inn og formatere innhold for resten!)
     * Forsiden
     * Tile links
