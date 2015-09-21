@@ -2,6 +2,12 @@ body {
 	background-color: rgba(42,42,42,1);
 }
 
+body > .sectionContainer {
+	background: rgb(42, 42, 42) none repeat scroll 0% 0%;
+	margin: 0px 0px -1.4em;
+	padding: 0px;
+}
+
 body > .sectionTransition {
 	background: rgba(42,42,42,1);
 	background: -moz-linear-gradient(top, rgba(42,42,42,1) 0%, rgba(42,42,42,0.4) 50%, rgba(42,42,42,1) 100%);
@@ -13,10 +19,19 @@ body > .sectionTransition {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a2a2a', endColorstr='#2a2a2a', GradientType=0 );
 }
 
+h2 {
+	color: white;
+}
+
 .frontPageContainer,
 body > .sectionTransition {
 	height: 100vh;
 	width: 100%;
+}
+
+.page-header {
+	padding-bottom: 0;
+	border-bottom: none;
 }
 
 .fullViewport {
