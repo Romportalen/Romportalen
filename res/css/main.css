@@ -6,6 +6,7 @@ body > .sectionContainer {
 	background: rgb(42, 42, 42) none repeat scroll 0% 0%;
 	margin: 0px 0px -2em;
 	padding: 0px;
+	min-height: 100vh;
 }
 
 body > .sectionTransition:nth-of-type(1) {
