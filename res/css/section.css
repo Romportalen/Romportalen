@@ -1,0 +1,12 @@
+.inviewTrigger .media-object {
+  transition: all 1s ease;
+  position: relative;
+  opacity: 0;
+  top: -100%;
+}
+
+.inviewTrigger.inview .media-object {
+  transition: all 1s ease;
+  opacity: 1;
+  top: 0;
+}
