@@ -179,6 +179,18 @@ nav.tileNav .tileButton {
 	padding-right: 1.25em;
 }
 
+.slick-slide {
+	height: 30vh;
+	width: auto;
+}
+
+.slick-slide img {
+    display: block;
+    height: 100%;
+    width: auto;
+    margin: 0px auto;
+}
+
 nav.tileNav .tileButton h3 {
 	display: inline;
 	position: absolute;
