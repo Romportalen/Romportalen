@@ -122,6 +122,34 @@ nav.tileNav {
 	text-align: center;
 }
 
+.tileButton a:focus,.tileButton a:hover, .tileButton a{
+	background-color: transparent !important;
+	color: white;
+	text-decoration: none;
+}
+.tileButton a:hover{
+	opacity: 1;
+}
+.tileButton a{
+	color: white;
+	opacity: 0.7;
+}
+
+.tile-image{
+	width:200px;
+	height:200px;
+	position: relative;
+	top: 0
+	left: 0;
+}
+
+
+nav.tileNav {
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+
 .frontPageContainer nav.tileNav {
 	bottom: 10vh;
 	position: absolute;
@@ -129,6 +157,9 @@ nav.tileNav {
 
 nav.tileNav ul {
 	text-align: center;
+	overflow: show;
+	width:100%;
+	padding:100px 0 0 0;
 }
 
 nav.tileNav .tileButton {
@@ -150,6 +181,11 @@ nav.tileNav .tileButton {
 
 nav.tileNav .tileButton h3 {
 	display: inline;
+	position: absolute;
+	bottom: -1.5em;
+	left: 0;
+	text-align: center;
+	width: 100%;
 }
 
 .sectionAnchor {
