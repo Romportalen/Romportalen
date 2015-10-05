@@ -103,13 +103,14 @@
 				<video id="bgvideo" autoplay poster="concrete_seamless.png" muted loop>
 					<source src="iss.mp4" type="video/mp4"/>
 				</video>
-				<script>document.querySelector(".frontpageContainer video").playbackRate = 0.8;</script>
 			</div>
 		</div>
 		</section>
 		
-		<div class="sectionTransition">
-			<div class="calendarContainer">
+		<div class="sectionTransition"></div>
+		
+		<section class="sectionContainer inviewTrigger calendar">
+						<div class="calendarContainer">
 				<header class="page-header">
 					<h2>Kalender</h2>
 				</header>
@@ -163,7 +164,9 @@
 				});
 				</script>
 			</div>
-		</div>
+		</section>
+		
+		<div class="sectionTransition"></div>
 		
 		<section class="sectionContainer inviewTrigger generalInfo">
 			<div class="sectionAnchor" id="generalInfoSection"></div>
@@ -545,5 +548,6 @@
 			</main>
 		</footer>
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script>document.querySelector(".frontpageContainer video").playbackRate = 0.8;</script>
 	</body>
 </html>
