@@ -190,6 +190,15 @@ nav.tileNav .tileButton {
     width: auto !important;
 }
 
+.slick-slide h3 {
+	position: absolute;
+	color: white;
+	bottom: 0.5em;
+	left: 0.5em;
+	padding: 0;
+	margin: 0;
+}
+
 nav.tileNav .tileButton h3 {
 	display: inline;
 	position: absolute;
