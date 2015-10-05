@@ -180,15 +180,14 @@ nav.tileNav .tileButton {
 }
 
 .slick-slide {
-	height: 30vh;
+	height: 30vh !important;
 	width: auto;
 }
 
 .slick-slide img {
-    display: block;
-    height: 100%;
-    width: auto;
-    margin: 0px auto;
+    display: block !important;
+    height: 100% !important;
+    width: auto !important;
 }
 
 nav.tileNav .tileButton h3 {
