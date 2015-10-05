@@ -185,9 +185,12 @@ nav.tileNav .tileButton {
 }
 
 .slick-slide img {
-    display: block !important;
-    height: 100% !important;
-    width: auto !important;
+	display: block !important;
+	height: 100% !important;
+	width: auto !important;
+	border: 0.3em rgba(127,127,127,0.5) solid;
+	border-radius: 0.5em;
+	margin: 0 auto;
 }
 
 .slick-slide h3 {
@@ -201,6 +204,7 @@ nav.tileNav .tileButton {
 	font-weight: bold;
 	font-family: sans-serif;
 	text-shadow: 0 0 0.5em black;
+	margin: 0 auto;
 }
 
 nav.tileNav .tileButton h3 {
