@@ -151,7 +151,7 @@ nav.tileNav {
 }
 
 .frontPageContainer nav.tileNav {
-	bottom: 10vh;
+	top: 20vh;
 	position: absolute;
 }
 
