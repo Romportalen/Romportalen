@@ -4,9 +4,17 @@ body {
 
 body > .sectionContainer {
 	background: rgba(41,44,47,0.8) none repeat scroll 0% 0%;
-	margin: 0px 0px -2em;
+	margin: 0;
 	padding: 0px;
 	min-height: 100vh;
+}
+
+article.panel {
+	margin-bottom: 0 !important;
+}
+
+.articleTransition {
+	height: 20px;
 }
 
 body > .sectionTransition:nth-of-type(1) {
