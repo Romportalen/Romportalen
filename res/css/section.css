@@ -20,7 +20,7 @@ footer {
 }
 
 .footerContainer{
-	background-color: #292c2f;
+	background: rgba(41,44,47,0.8) none repeat scroll 0% 0%;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
