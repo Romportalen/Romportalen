@@ -14,8 +14,8 @@
 }
 
 footer {
-	margin-top: -5.75em;
-	height: auto;
+	margin-top: -5.75em !important;
+	height: auto !important;
 	min-height: 0 !important;
 }
 
