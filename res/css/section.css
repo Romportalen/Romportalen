@@ -89,8 +89,6 @@ footer {
 	margin-bottom: 5px;
 }
 
-/* Footer Right */
-
 .footerContainer .footer-right{
 	float: right;
 }
@@ -101,8 +99,6 @@ footer {
 	margin: 15px 42px 0 0;
 	color: #ffffff;
 }
-
-/* The contact form */
 
 .footerContainer form{
 	display: inline-block;
