@@ -23,7 +23,8 @@ p,
 .level2BG,
 .level1BG,
 .panel,
-.panel-heading {
+.panel-heading,
+.panel-heading h3 {
 	color: #F4F4F4 !important;
 }
 
