@@ -37,11 +37,13 @@ a:hover {
 	background: #7B848D !important;
 }
 
-.level1BG {
+.level1BG,
+.panel {
 	background: #656565 !important;
 }
 
-.level2BG {
+.level2BG,
+.panel-heading {
 	background: #545454 !important;
 }
 
