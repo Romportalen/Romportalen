@@ -12,39 +12,39 @@ body > .sectionContainer {
 /* main colour settings */
 
 .logo {
-	color: #007AFF;
+	color: #007AFF !important;
 }
 
 p {
-	color: #F4F4F4;
+	color: #F4F4F4 !important;
 }
 
 a:hover {
-	color: #0055A2;
+	color: #0055A2 !important;
 }
 
 .level1Nav {
-	background: #173B5D;
+	background: #173B5D !important;
 }
 
 .level2Nav {
-	background: #7B848D;
+	background: #7B848D !important;
 }
 
 .level1BG {
-	background: #656565;
+	background: #656565 !important;
 }
 
 .level2BG {
-	background: #545454;
+	background: #545454 !important;
 }
 
 .level3BG {
-	background: #404040;
+	background: #404040 !important;
 }
 
 .level4BG {
-	background: #343434;
+	background: #343434 !important;
 }
 
 /* main colour settings end */
