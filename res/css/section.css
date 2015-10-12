@@ -13,6 +13,18 @@
   transform: rotate(0deg);
 }
 
+.smallContainer .media img {
+	height: 7em;
+}
+
+.mediumContainer .media img {
+	height: 14em;
+}
+
+.largeContainer .media img {
+	height: 21em;
+}
+
 footer {
 	margin-top: -5.75em !important;
 	height: auto !important;
