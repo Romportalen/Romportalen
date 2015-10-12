@@ -54,7 +54,8 @@ a:hover {
 	background: #404040 !important;
 }
 
-.panel-default {
+.panel-default, 
+.panel-default>.panel-heading {
 	border-color: #404040 !important;
 }
 
