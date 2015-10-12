@@ -11,7 +11,9 @@ body > .sectionContainer {
 
 /* main colour settings */
 
-.logo {
+.logo,
+.navbar-brand,
+.footer-left h3 {
 	color: #007AFF !important;
 }
 
