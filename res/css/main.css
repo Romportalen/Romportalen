@@ -9,6 +9,46 @@ body > .sectionContainer {
 	min-height: 100vh;
 }
 
+/* main colour settings */
+
+.logo {
+	color: #007AFF;
+}
+
+p {
+	color: #F4F4F4;
+}
+
+a:hover {
+	color: #0055A2;
+}
+
+.level1Nav {
+	background: #173B5D;
+}
+
+.level2Nav {
+	background: #7B848D;
+}
+
+.level1BG {
+	background: #656565;
+}
+
+.level2BG {
+	background: #545454;
+}
+
+.level3BG {
+	background: #404040;
+}
+
+.level4BG {
+	background: #343434;
+}
+
+/* main colour settings end */
+
 article.panel {
 	margin-bottom: 0 !important;
 }
