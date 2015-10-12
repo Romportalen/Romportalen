@@ -26,7 +26,8 @@ p,
 .level1BG,
 .panel,
 .panel-heading,
-.panel-heading h3 {
+.panel-heading h3,
+.navbar {
 	color: #F4F4F4 !important;
 }
 
@@ -34,7 +35,8 @@ a:hover {
 	color: #0055A2 !important;
 }
 
-.level1Nav {
+.level1Nav,
+.navbar {
 	background: #173B5D !important;
 }
 
