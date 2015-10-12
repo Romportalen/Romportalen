@@ -28,7 +28,8 @@ p,
 .panel-heading,
 .panel-heading h3,
 .navbar,
-.navbar-nav>li>a {
+.navbar-nav>li>a,
+nav.tileNav .tileButton h3 {
 	color: #F4F4F4 !important;
 }
 
