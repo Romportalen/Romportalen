@@ -52,6 +52,10 @@ a:hover {
 	background: #404040 !important;
 }
 
+.panel-default {
+	border-color: #404040 !important;
+}
+
 .level4BG {
 	background: #343434 !important;
 }
