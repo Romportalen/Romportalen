@@ -27,11 +27,13 @@ p,
 .panel,
 .panel-heading,
 .panel-heading h3,
-.navbar {
+.navbar,
+.navbar-nav>li>a {
 	color: #F4F4F4 !important;
 }
 
-a:hover {
+a:hover,
+.navbar-nav>li>a:hover {
 	color: #0055A2 !important;
 }
 
