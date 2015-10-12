@@ -21,7 +21,8 @@ p,
 .level4BG,
 .level3BG,
 .level2BG,
-.level1BG {
+.level1BG,
+.panel {
 	color: #F4F4F4 !important;
 }
 
