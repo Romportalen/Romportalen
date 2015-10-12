@@ -15,7 +15,13 @@ body > .sectionContainer {
 	color: #007AFF !important;
 }
 
-p {
+p,
+.level1Nav,
+.level2Nav,
+.level4BG,
+.level3BG,
+.level2BG,
+.level1BG {
 	color: #F4F4F4 !important;
 }
 
