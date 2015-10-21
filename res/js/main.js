@@ -179,7 +179,7 @@ $(document).ready(function(){
 		if ($(window).scrollTop() < $(".frontPageContainer").height()/10*5 ) {
 			document.querySelector(".frontPageContainer").style.top = -$(window).scrollTop()+"px";
 			$(".frontPageContainer .tile-image").show();
-		} else if ($(window).scrollTop() < $(".frontPageContainer").height()/10*9 ) {
+		} else if ($(window).scrollTop() < $(".frontPageContainer").height()/10*9.25 ) {
 			document.querySelector(".frontPageContainer").style.top = -$(window).scrollTop()+"px";
 			$(".frontPageContainer .tile-image").hide();
 		} else {

@@ -203,6 +203,7 @@ nav.tileNav {
 
 .frontPageContainer nav.tileNav {
 	bottom: 0vh;
+	width: 20%;
 	position: absolute;
 	margin-bottom: 1.5em;
 }
