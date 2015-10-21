@@ -8,6 +8,11 @@ body > .sectionContainer {
 	min-height: 100vh;
 }
 
+.frontpageContainer {
+	position: fixed;
+	z-index: 9999;
+}
+
 /* main colour settings */
 
 .logo,

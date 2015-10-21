@@ -172,3 +172,14 @@ $(document).ready(function(){
 
 	});
 	  }(jQuery));
+
+// fancy header function
+$(document).ready(function(){
+	$(window).scroll(function() {
+		if ($(window).scrollTop() < $(".frontPageContainer").height()/10*9 ) {
+			document.querySelector(".frontPageContainer").style.top = -$(window).scrollTop()+"px";
+		} else {
+			document.querySelector(".frontPageContainer").style.top = -$(".frontPageContainer").height()/10*9+"px";
+		}
+	});
+});
