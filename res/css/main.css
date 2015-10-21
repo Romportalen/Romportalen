@@ -189,11 +189,9 @@ nav.tileNav {
 }
 
 .tile-image{
-	width:200px;
-	height:200px;
+	width: auto;
+	height: 12em;
 	position: relative;
-	top: 0
-	left: 0;
 }
 
 
@@ -204,8 +202,9 @@ nav.tileNav {
 }
 
 .frontPageContainer nav.tileNav {
-	top: 20vh;
+	bottom: 0vh;
 	position: absolute;
+	margin-bottom: 1.5em;
 }
 
 nav.tileNav ul {

@@ -176,10 +176,15 @@ $(document).ready(function(){
 // fancy header function
 $(document).ready(function(){
 	$(window).scroll(function() {
-		if ($(window).scrollTop() < $(".frontPageContainer").height()/10*9 ) {
+		if ($(window).scrollTop() < $(".frontPageContainer").height()/10*5 ) {
 			document.querySelector(".frontPageContainer").style.top = -$(window).scrollTop()+"px";
+			document.querySelector(".frontPageContainer .tilenav img").style.display = "none";
+		} else if ($(window).scrollTop() < $(".frontPageContainer").height()/10*9 ) {
+			document.querySelector(".frontPageContainer").style.top = -$(window).scrollTop()+"px";
+			document.querySelector(".frontPageContainer .tilenav img").style.display = "block";
 		} else {
 			document.querySelector(".frontPageContainer").style.top = -$(".frontPageContainer").height()/10*9+"px";
+			document.querySelector(".frontPageContainer .tilenav img").style.display = "none";
 		}
 	});
 });
