@@ -178,13 +178,13 @@ $(document).ready(function(){
 	$(window).scroll(function() {
 		if ($(window).scrollTop() < $(".frontPageContainer").height()/10*5 ) {
 			document.querySelector(".frontPageContainer").style.top = -$(window).scrollTop()+"px";
-			document.querySelector(".frontPageContainer .tilenav img").style.display = "none";
+			$(".frontPageContainer .tile-image").hide();
 		} else if ($(window).scrollTop() < $(".frontPageContainer").height()/10*9 ) {
 			document.querySelector(".frontPageContainer").style.top = -$(window).scrollTop()+"px";
-			document.querySelector(".frontPageContainer .tilenav img").style.display = "block";
+			$(".frontPageContainer .tile-image").show();
 		} else {
 			document.querySelector(".frontPageContainer").style.top = -$(".frontPageContainer").height()/10*9+"px";
-			document.querySelector(".frontPageContainer .tilenav img").style.display = "none";
+			$(".frontPageContainer .tile-image").hide();
 		}
 	});
 });
