@@ -178,10 +178,10 @@ $(document).ready(function(){
 	$(window).scroll(function() {
 		if ($(window).scrollTop() < $(".frontPageContainer").height()/10*5 ) {
 			document.querySelector(".frontPageContainer").style.top = -$(window).scrollTop()+"px";
-			$(".frontPageContainer .tile-image").hide();
+			$(".frontPageContainer .tile-image").show();
 		} else if ($(window).scrollTop() < $(".frontPageContainer").height()/10*9 ) {
 			document.querySelector(".frontPageContainer").style.top = -$(window).scrollTop()+"px";
-			$(".frontPageContainer .tile-image").show();
+			$(".frontPageContainer .tile-image").hide();
 		} else {
 			document.querySelector(".frontPageContainer").style.top = -$(".frontPageContainer").height()/10*9+"px";
 			$(".frontPageContainer .tile-image").hide();

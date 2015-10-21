@@ -8,7 +8,7 @@ body > .sectionContainer {
 	min-height: 100vh;
 }
 
-.frontpageContainer {
+.frontPageContainer {
 	position: fixed;
 	z-index: 9999;
 }
