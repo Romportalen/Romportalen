@@ -203,7 +203,6 @@ nav.tileNav {
 
 .frontPageContainer nav.tileNav {
 	bottom: 0vh;
-	width: 20%;
 	position: absolute;
 	margin-bottom: 1.5em;
 }
@@ -216,7 +215,7 @@ nav.tileNav ul {
 }
 
 nav.tileNav .tileButton {
-	width: auto;
+	width: 20%;
 	display: inline-block;
 	padding: 1em;
 	height: 100%;
