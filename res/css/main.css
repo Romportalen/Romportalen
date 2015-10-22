@@ -175,6 +175,11 @@ nav.tileNav {
 	text-align: center;
 }
 
+.frontPageContainer nav.tileNav {
+	position: absolute;
+	bottom: 17.5%;
+}
+
 .tileButton a:focus,.tileButton a:hover, .tileButton a {
 	background-color: transparent !important;
 	color: white;
