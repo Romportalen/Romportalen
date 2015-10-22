@@ -175,7 +175,7 @@ nav.tileNav {
 	text-align: center;
 }
 
-.frontPageContainer nav.tileNav {
+.frontPageContainer nav.tileNav ul {
 	position: absolute;
 	bottom: 17.5%;
 }
@@ -185,15 +185,15 @@ nav.tileNav {
 	color: white;
 	text-decoration: none;
 }
-.tileButton a:hover{
+.tileButton a:hover {
 	opacity: 1;
 }
-.tileButton a{
+.tileButton a {
 	color: white;
 	opacity: 0.7;
 }
 
-.tile-image{
+.tile-image {
 	width: auto;
 	height: 12em;
 	position: relative;
