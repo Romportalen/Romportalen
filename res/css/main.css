@@ -4,7 +4,7 @@ body {
 
 body > .sectionContainer {
 	margin: 0;
-	padding: 0px;
+	padding: 0;
 	min-height: 100vh;
 }
 
@@ -210,8 +210,8 @@ nav.tileNav {
 nav.tileNav ul {
 	text-align: center;
 	overflow: show;
-	width:100%;
-	padding:100px 0 0 0;
+	width: 100%;
+	padding: 0;
 }
 
 nav.tileNav .tileButton {
@@ -249,8 +249,8 @@ nav.tileNav .tileButton {
 	position: relative;
 	color: #FFF;
 	bottom: 1.5em;
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 	z-index: 9999;
 	font-weight: bold;
 	font-family: sans-serif;
@@ -269,7 +269,7 @@ nav.tileNav .tileButton h3 {
 
 .sectionAnchor {
 	position: relative;
-	top: -50px;
+	top: -3em;
 }
 
 .panel-heading h3 {
