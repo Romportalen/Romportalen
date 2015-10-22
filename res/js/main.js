@@ -178,12 +178,15 @@ $(document).ready(function(){
 	$(window).scroll(function() {
 		if ($(window).scrollTop() < $(".frontPageContainer").height()/10*5 ) {
 			document.querySelector(".frontPageContainer").style.top = -$(window).scrollTop()+"px";
+			document.querySelector(".frontPageContainer .tileNav").style.height = $(".frontPageContainer").height()-$(window).scrollTop()+"px";
 			$(".frontPageContainer .tile-image").show();
 		} else if ($(window).scrollTop() < $(".frontPageContainer").height()/10*9.25 ) {
 			document.querySelector(".frontPageContainer").style.top = -$(window).scrollTop()+"px";
+			document.querySelector(".frontPageContainer .tileNav").style.height = $(".frontPageContainer").height()-$(window).scrollTop()+"px";
 			$(".frontPageContainer .tile-image").hide();
 		} else {
 			document.querySelector(".frontPageContainer").style.top = -$(".frontPageContainer").height()/10*9+"px";
+			document.querySelector(".frontPageContainer .tileNav").style.height = $(".frontPageContainer").height()/10*0.1;
 			$(".frontPageContainer .tile-image").hide();
 		}
 	});
