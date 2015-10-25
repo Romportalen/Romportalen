@@ -81,6 +81,14 @@ article.panel {
 	margin-bottom: 0 !important;
 }
 
+article header.panel-heading {
+	background: none;
+}
+
+.panel {
+	border: none !important;
+}
+
 .articleTransition {
 	height: 20px;
 }
@@ -112,7 +120,8 @@ body > .sectionTransition {
 }
 
 article,
-section header {
+section header,
+.sectionContent {
 	max-width: 1000px;
 	margin: 0 auto;
 	position: relative;
@@ -166,7 +175,7 @@ section header h1 {
 	left: 0;
 	min-height: 100%;
 	min-width: 100%;
-	opacity: 0.7;
+	opacity: 1;
 }
 
 nav.tileNav {
@@ -195,7 +204,6 @@ nav.tileNav {
 
 .tile-image {
 	width: auto;
-	height: 12em;
 	position: relative;
 }
 
@@ -266,10 +274,15 @@ nav.tileNav .tileButton {
 nav.tileNav .tileButton h3 {
 	display: inline;
 	position: absolute;
-	bottom: -1.5em;
+	height: 2.25em;
 	left: 0;
 	text-align: center;
 	width: 100%;
+	white-space: nowrap;
+}
+
+.sectionContainer  nav.tileNav {
+	top: -5em;
 }
 
 .sectionAnchor {
@@ -277,9 +290,14 @@ nav.tileNav .tileButton h3 {
 	top: -3em;
 }
 
-.panel-heading h3 {
+.panel-heading h3, .panel-heading h2 {
 	padding: 0;
 	margin: 0;
+	text-align: center;
+}
+
+.page-header.panel-heading h2 {
+	text-align: center;
 }
 
 @media (min-width: 768px) {
