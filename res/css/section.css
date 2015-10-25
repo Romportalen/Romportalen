@@ -26,7 +26,6 @@
 }
 
 footer {
-	margin-top: -5.75em !important;
 	height: auto !important;
 	min-height: 0 !important;
 }
@@ -37,9 +36,7 @@ footer {
 	width: 100%;
 	font: bold 16px sans-serif;
 	text-align: left;
-
 	padding: 50px 60px 40px;
-	margin-top: 80px;
 	overflow: hidden;
 }
 
