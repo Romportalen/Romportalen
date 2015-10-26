@@ -87,7 +87,7 @@ article.panel {
 }
 
 article header.panel-heading {
-	background: none;
+	background: none !important;
 }
 
 .panel {
@@ -284,9 +284,11 @@ nav.tileNav {
 	color: white;
 	text-decoration: none;
 }
+
 .tileButton a:hover {
 	opacity: 1;
 }
+
 .tileButton a {
 	color: white;
 	opacity: 0.9;
@@ -334,8 +336,6 @@ nav.tileNav .tileButton {
 	padding-right: 1.25em;
 }
 
-
-
 nav.tileNav .tileButton h3 {
 	display: inline;
 	position: absolute;
@@ -364,6 +364,7 @@ nav.tileNav .tileButton h3 {
 }
 
 .page-header.panel-heading h2 {
+	padding: 0.25em;
 	text-align: center;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
