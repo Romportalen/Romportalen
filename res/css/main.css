@@ -1,5 +1,6 @@
 body {
-	background-color: rgba(52,52,52,1);
+	/*background-color: rgba(52,52,52,1);*/
+	background: #000;
 }
 
 body > .sectionContainer {
