@@ -290,6 +290,7 @@ nav.tileNav .tileButton h3 {
 	text-align: center;
 	width: 100%;
 	white-space: nowrap;
+	bottom: -3em;
 }
 
 .sectionContainer  nav.tileNav {
