@@ -35,6 +35,7 @@
 		<link rel="stylesheet" type="text/css" href="res/css/section.css" >
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css"/>
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.5.7/slick-theme.css"/>
+		<script type="text/javascript" src="res/js/cycle2.js"></script>
 		<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
 		<!-- IE8 HTML5 polyfill/shiv -->
 		<!--[if lt IE 9]>
@@ -88,53 +89,50 @@
 		<div class="sectionTransition"></div>
 		
 		<section class="sectionContainer inviewTrigger calendar">
-			<div class="calendarContainer">
-				<header class="page-header">
-					<h2>Kalender</h2>
-				</header>
-				<div class="slider-for">
-					<div><img src="http://img.mrawr.net/test1.jpg"><h3>calendar test (1/10/2015)</h3></div>
-					<div><img src="http://img.mrawr.net/93.jpg"><h3>calendar test (16/10/2015)</h3></div>
-					<div><img src="http://img.mrawr.net/spacesunrise.jpg"><h3>calendar test (1/10/2015)</h3></div>
-					<div><img src="http://img.mrawr.net/outer%20space%20lights%20stars%20galaxies%201600x1200%20wallpaper_wallpaperswa.com_95.jpg"><h3>calendar test (7/10/2015)</h3></div>
-					<div><img src="http://img.mrawr.net/fire.GIF"><h3>calendar test (3/10/2016)</h3></div>
-					<div><img src="http://img.mrawr.net/FancyCircuit.jpg"><h3>calendar test (12/10/2015)</h3></div>
-				</div>
-				<div class="slider-nav">
-					<div><img src="http://img.mrawr.net/test1.jpg"><h3>calendar test (1/10/2015)</h3></div>
-					<div><img src="http://img.mrawr.net/93.jpg"><h3>calendar test (16/10/2015)</h3></div>
-					<div><img src="http://img.mrawr.net/spacesunrise.jpg"><h3>calendar test (1/10/2015)</h3></div>
-					<div><img src="http://img.mrawr.net/outer%20space%20lights%20stars%20galaxies%201600x1200%20wallpaper_wallpaperswa.com_95.jpg"><h3>calendar test (7/10/2015)</h3></div>
-					<div><img src="http://img.mrawr.net/fire.GIF"><h3>calendar test (3/10/2016)</h3></div>
-					<div><img src="http://img.mrawr.net/FancyCircuit.jpg"><h3>calendar test (12/10/2015)</h3></div>
-				</div>
-				<script>
-				$(document).ready(function(){
-					$('.slider-for').slick({
-						slidesToShow: 1,
-						slidesToScroll: 1,
-						arrows: false,
-						fade: true,
-						asNavFor: '.slider-nav'
-					});
-					$('.slider-nav').slick({
-						slidesToShow: 3,
-						slidesToScroll: 1,
-						asNavFor: '.slider-for',
-						dots: true,
-						centerMode: true,
-						focusOnSelect: true,
-						autoplay: false,
-						autoplaySpeed: 471
-					});
-				});
-				</script>
+			<div id="calendarContainer">
+			    <div id="slideshow" class="cycle-slideshow"
+				 data-cycle-fx="fade" 
+				 data-cycle-manual-fx="scrollHorz" 
+				 data-cycle-pager-fx = "fade" 
+				 data-cycle-manual-speed="400"
+				 data-cycle-prev="#prev"  	
+				 data-cycle-next="#next"
+				 data-cycle-speed="5000000000"  
+				 data-cycle-timeout="3000" 
+				 data-cycle-pager = "#pager" 
+				 data-cycle-pager-template="<a href='#'><img src='{{src}}' width=150 height=100></a>"
+			     > 
+			     	<img src="res/img/cImg/back.jpg" id="intro_img"/>
+			        <img src="res/img/cImg/esa.jpg" id="intro_img"/>
+			        <img src="res/img/cImg/footer-photo1.jpg" id="intro_img"/>
+			        <img src="res/img/cImg/Path Through meadow.jpg" id="intro_img"/>
+			        <img src="res/img/cImg/Snow Mt Milky Way.jpg" id="intro_img"/>
+			        <img src="res/img/cImg/Awesome Mountain.jpeg" id="intro_img"/>
+			        <img src="res/img/cImg/Spring Scenery.jpg" id="intro_img"/>
+			 	</div>
+			    
+			    <div id="pager"></div>
+
+			    <img id="prev" src="res/img/cImg/prev1.svg"/>
+			    <img id="next" src="res/img/cImg/next1.svg"/>
 			</div>
+
+			<script type="text/javascript">
+
+				function height() {
+					var h = window.innerHeight;
+					var a = document.getElementById('calendarContainer');
+					a.style.height = h+"px";
+					}
+					
+				window.addEventListener('load',height);
+				window.addEventListener('resize',height);
+			</script>
 		</section>
 		
 		<div class="sectionTransition parallax-window" data-parallax="scroll" data-image-src="res/img/iss_config_2011.png"></div>
 		
-		<section class="sectionContainer inviewTrigger generalInfo" parallax-window" data-parallax="scroll" data-image-src="res/img/soyuz.jpg">
+		<section class="sectionContainer inviewTrigger generalInfo parallax-window" data-parallax="scroll" data-image-src="res/img/soyuz.jpg">
 			<div class="sectionAnchor" id="generalInfoSection"></div>
 			<main class="sectionContent"></main>
 		</section>
