@@ -3,11 +3,11 @@ body {
 }
 
 body > .sectionContainer {
-	margin: 0;
-	padding: 0;
-	min-height: 100vh;
-	padding-bottom: 1em;
-	padding-top: 5em;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    padding-top: 2em;
+    position: relative;
 }
 
 .frontPageContainer {
@@ -111,6 +111,7 @@ body > .sectionTransition {
 body > .sectionTransition {
 	margin-top: -20px;
 	top: 0;
+	background: rgba(52,52,52,0.63);
 }
 
 .page-header {
@@ -292,7 +293,8 @@ nav.tileNav .tileButton h3 {
 }
 
 .sectionContainer  nav.tileNav {
-	top: -5em;
+    top: -13.5em;
+    position: absolute;
 }
 
 .sectionAnchor {
@@ -312,11 +314,11 @@ nav.tileNav .tileButton h3 {
 
 @media (min-width: 768px) {
     .navbar .navbar-nav {
-        display: inline-block;
-        float: none;
-        vertical-align: top;
-	position: relative;
-	left: -6%;
+		display: inline-block;
+		float: none;
+		vertical-align: top;
+		position: relative;
+		left: -6%;
     }
 
     .navbar .navbar-collapse {
