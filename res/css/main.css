@@ -1,6 +1,7 @@
 body {
 	/*background-color: rgba(52,52,52,1);*/
 	background: #000;
+	font-family: "Open Sans", sans-serif !important;
 }
 
 body > .sectionContainer {
@@ -9,6 +10,11 @@ body > .sectionContainer {
     min-height: 100vh;
     padding-top: 2em;
     position: relative;
+}
+
+.titleContainer h1 {
+	font-family: "Open Sans Condensed", sans-serif !important;
+	font-weight: 700 !important;
 }
 
 .frontPageContainer {
@@ -145,7 +151,7 @@ body > .sectionTransition {
     width: 100%;
 }
 #pager {
-	text-align: center;
+text-align: center;
     height: 120px;
     width: 100%;
     position: absolute;
@@ -154,6 +160,7 @@ body > .sectionTransition {
     z-index: 1000;
     transition: all 0.3s ease-in-out 0s;
 }
+
 #pager img{
 	margin: 10px 5px;
    	opacity: 0.3;
@@ -176,6 +183,7 @@ body > .sectionTransition {
     margin: auto 10px;
     z-index: 1000;
 }
+
 #prev img {
 	height:120px;
 	width:120px;
@@ -185,6 +193,7 @@ body > .sectionTransition {
 	left:0;
 	margin:auto 0px;
 }
+
 #next {
     height: 120px;
     width: 120px;
@@ -195,6 +204,7 @@ body > .sectionTransition {
     margin: auto 10px;
 	z-index: 1000;
 }
+
 #next img {
 	height:120px;
 	width:120px;
@@ -204,6 +214,7 @@ body > .sectionTransition {
 	right:0;
 	margin:auto 0px;
 }
+
 #next #prev { visibility:hidden;}
 #next,#prev:hover {
 	cursor:pointer;
