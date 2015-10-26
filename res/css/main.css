@@ -365,6 +365,7 @@ nav.tileNav .tileButton h3 {
 
 .page-header.panel-heading h2 {
 	padding: 0.25em;
+	padding-bottom: 0.5em;
 	text-align: center;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
