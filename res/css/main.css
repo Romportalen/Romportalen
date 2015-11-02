@@ -23,6 +23,7 @@ body > .sectionContainer {
 	top: 0;
 	left: 0;
 	background: rgba(52,52,52,1);
+	overflow: hidden;
 }
 
 /* main colour settings */
@@ -127,6 +128,10 @@ body > .sectionTransition {
 	background: rgba(52,52,52,0.63);
 }
 
+.frontPageContainer+.sectionTransition {
+	margin-top: -1.525em !important;
+}
+
 .page-header {
 	padding-bottom: 0;
 	border-bottom: none;
@@ -140,6 +145,14 @@ body > .sectionTransition {
 .slick-slide {
 	height: 30vh !important;
 	width: auto;
+}
+
+.slick-next {
+	right: 1% !important;
+}
+
+.slick-prev {
+	left: 1% !important;
 }
 
 .slick-slide img {
@@ -248,11 +261,13 @@ nav.tileNav {
 .tileButton a {
 	color: white;
 	opacity: 0.9;
+	padding: 0 !important;
 }
 
 .tile-image {
 	width: auto;
 	position: relative;
+	top: -0.25em;
 }
 
 
@@ -265,7 +280,8 @@ nav.tileNav {
 .frontPageContainer nav.tileNav {
 	bottom: 0vh;
 	position: absolute;
-	margin-bottom: 1.5em;
+	margin-bottom: 0;
+	overflow: hidden;
 }
 
 nav.tileNav ul {
@@ -276,7 +292,7 @@ nav.tileNav ul {
 }
 
 nav.tileNav .tileButton {
-	width: 20%;
+	width: 23%;
 	display: inline-block;
 	padding: 1em;
 	height: 100%;
@@ -295,12 +311,15 @@ nav.tileNav .tileButton {
 nav.tileNav .tileButton h3 {
 	display: inline;
 	position: absolute;
-	height: 2.25em;
+	height: 4.4em;
 	left: 0;
 	text-align: center;
 	width: 100%;
 	white-space: nowrap;
-	bottom: -3em;
+	vertical-align: middle;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	bottom: -2.75em;
 }
 
 .sectionContainer  nav.tileNav {
