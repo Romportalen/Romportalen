@@ -28,25 +28,35 @@ $(document).ready(function(){
 		var navHeight = $(".frontPageContainer ul li a h3").height()+2;
 		if($(window).scrollTop() > $(".postStudent").offset().top-navHeight) {
 			document.querySelector(".postStudentLink.tileButton h3").style.textDecoration = "underline";
+			history.replaceState("Romportalen.no - Student", "Romportalen.no - Student", "#postStudentSection");
+			
 			document.querySelector(".generalLink.tileButton h3").style.textDecoration = "none";
 			document.querySelector(".preStudentLink.tileButton h3").style.textDecoration = "none";
 			document.querySelector(".studentLink.tileButton h3").style.textDecoration = "none";
 		} else if($(window).scrollTop() > $(".student").offset().top-navHeight) {
 			document.querySelector(".studentLink.tileButton h3").style.textDecoration = "underline";
+			history.replaceState("Romportalen.no - Student", "Romportalen.no - Student", "#studentSection");
+			
 			document.querySelector(".generalLink.tileButton h3").style.textDecoration = "none";
 			document.querySelector(".preStudentLink.tileButton h3").style.textDecoration = "none";
 			document.querySelector(".postStudentLink.tileButton h3").style.textDecoration = "none";
 		} else if($(window).scrollTop() > $(".preStudent").offset().top-navHeight) {
 			document.querySelector(".preStudentLink.tileButton h3").style.textDecoration = "underline";
+			history.replaceState("Romportalen.no - Høyere utdanning", "Romportalen.no - Høyere utdanning", "#preStudentSection");
+			
 			document.querySelector(".generalLink.tileButton h3").style.textDecoration = "none";
 			document.querySelector(".studentLink.tileButton h3").style.textDecoration = "none";
 			document.querySelector(".postStudentLink.tileButton h3").style.textDecoration = "none";
 		} else if($(window).scrollTop() > $(".generalInfo").offset().top-navHeight) {
 			document.querySelector(".generalLink.tileButton h3").style.textDecoration = "underline";
+			history.replaceState("Romportalen.no - Generelt", "Romportalen.no - Generelt", "#generalInfoSection");
+			
 			document.querySelector(".preStudentLink.tileButton h3").style.textDecoration = "none";
 			document.querySelector(".studentLink.tileButton h3").style.textDecoration = "none";
 			document.querySelector(".postStudentLink.tileButton h3").style.textDecoration = "none";
 		} else {
+			history.replaceState("Romportalen.no", "Romportalen.no", "");
+			
 			document.querySelector(".generalLink.tileButton h3").style.textDecoration = "none";
 			document.querySelector(".preStudentLink.tileButton h3").style.textDecoration = "none";
 			document.querySelector(".studentLink.tileButton h3").style.textDecoration = "none";
