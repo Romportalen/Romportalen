@@ -25,5 +25,31 @@ $(document).ready(function(){
 			$(".frontPageContainer .tile-image").hide();
 			console.log("navbar state");
 		}
+		if($(window).scrollTop() > $(".postStudent").offset().top) {
+			document.querySelector(".postStudentLink.tileButton h3").style.textDecoration = "underline";
+			document.querySelector(".generalLink.tileButton h3").style.textDecoration = "none";
+			document.querySelector(".preStudentLink.tileButton h3").style.textDecoration = "none";
+			document.querySelector(".studentLink.tileButton h3").style.textDecoration = "none";
+		} else if($(window).scrollTop() > $(".student").offset().top) {
+			document.querySelector(".studentLink.tileButton h3").style.textDecoration = "underline";
+			document.querySelector(".generalLink.tileButton h3").style.textDecoration = "none";
+			document.querySelector(".preStudentLink.tileButton h3").style.textDecoration = "none";
+			document.querySelector(".postStudentLink.tileButton h3").style.textDecoration = "none";
+		} else if($(window).scrollTop() > $(".preStudent").offset().top) {
+			document.querySelector(".preStudentLink.tileButton h3").style.textDecoration = "underline";
+			document.querySelector(".generalLink.tileButton h3").style.textDecoration = "none";
+			document.querySelector(".studentLink.tileButton h3").style.textDecoration = "none";
+			document.querySelector(".postStudentLink.tileButton h3").style.textDecoration = "none";
+		} else if($(window).scrollTop() > $(".generalInfo").offset().top) {
+			document.querySelector(".generalLink.tileButton h3").style.textDecoration = "underline";
+			document.querySelector(".preStudentLink.tileButton h3").style.textDecoration = "none";
+			document.querySelector(".studentLink.tileButton h3").style.textDecoration = "none";
+			document.querySelector(".postStudentLink.tileButton h3").style.textDecoration = "none";
+		} else {
+			document.querySelector(".generalLink.tileButton h3").style.textDecoration = "none";
+			document.querySelector(".preStudentLink.tileButton h3").style.textDecoration = "none";
+			document.querySelector(".studentLink.tileButton h3").style.textDecoration = "none";
+			document.querySelector(".postStudentLink.tileButton h3").style.textDecoration = "none";
+		}
 	});
 });

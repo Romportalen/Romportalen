@@ -1,15 +1,13 @@
 .inviewTrigger .media-object {
-  transition: all 1s ease;
+  transition: all 1s ease, filter 0.3s ease, -webkit-filter 0.3s ease;
   position: relative;
   opacity: 0;
-  bottom: -100%;
   transform: rotate(0deg);
 }
 
 .inviewTrigger.inview .media-object {
-  transition: all 1s ease;
+  transition: all 1s ease, filter 0.3s ease, -webkit-filter 0.3s ease;
   opacity: 1;
-  bottom: 0;
   transform: rotate(0deg);
 }
 
@@ -23,6 +21,16 @@
 
 .largeContainer .media img {
 	height: 21em;
+}
+
+.media-object {
+	filter: brightness(80%);
+	-webkit-filter: brightness(80%);
+}
+
+.media-object:hover {
+	filter: brightness(100%);
+	-webkit-filter: brightness(100%);
 }
 
 footer {
@@ -99,6 +107,10 @@ footer {
 
 .footerContainer .footer-right{
 	float: right;
+}
+
+body > .calendar.sectionContainer {
+	padding: 0;
 }
 
 .footerContainer .footer-right p{
@@ -189,7 +201,6 @@ footer {
 }
 
 @media (max-width: 800px) {
-
 	.footerContainer{
 		padding: 30px;
 	}
