@@ -25,22 +25,22 @@ $(document).ready(function(){
 			$(".frontPageContainer .tile-image").hide();
 			console.log("navbar state");
 		}
-		if($(window).scrollTop() > $(".postStudent").offset().top) {
+		if($(window).scrollTop() > $(".postStudent").offset().top-50) {
 			document.querySelector(".postStudentLink.tileButton h3").style.textDecoration = "underline";
 			document.querySelector(".generalLink.tileButton h3").style.textDecoration = "none";
 			document.querySelector(".preStudentLink.tileButton h3").style.textDecoration = "none";
 			document.querySelector(".studentLink.tileButton h3").style.textDecoration = "none";
-		} else if($(window).scrollTop() > $(".student").offset().top) {
+		} else if($(window).scrollTop() > $(".student").offset().top-50) {
 			document.querySelector(".studentLink.tileButton h3").style.textDecoration = "underline";
 			document.querySelector(".generalLink.tileButton h3").style.textDecoration = "none";
 			document.querySelector(".preStudentLink.tileButton h3").style.textDecoration = "none";
 			document.querySelector(".postStudentLink.tileButton h3").style.textDecoration = "none";
-		} else if($(window).scrollTop() > $(".preStudent").offset().top) {
+		} else if($(window).scrollTop() > $(".preStudent").offset().top-50) {
 			document.querySelector(".preStudentLink.tileButton h3").style.textDecoration = "underline";
 			document.querySelector(".generalLink.tileButton h3").style.textDecoration = "none";
 			document.querySelector(".studentLink.tileButton h3").style.textDecoration = "none";
 			document.querySelector(".postStudentLink.tileButton h3").style.textDecoration = "none";
-		} else if($(window).scrollTop() > $(".generalInfo").offset().top) {
+		} else if($(window).scrollTop() > $(".generalInfo").offset().top-50) {
 			document.querySelector(".generalLink.tileButton h3").style.textDecoration = "underline";
 			document.querySelector(".preStudentLink.tileButton h3").style.textDecoration = "none";
 			document.querySelector(".studentLink.tileButton h3").style.textDecoration = "none";
