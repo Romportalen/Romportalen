@@ -373,6 +373,17 @@ nav.tileNav ul {
 	padding: 0;
 }
 
+.nav>li>a>img {
+	transition: max-height ease 0.5s;
+	max-height: 1000px;
+	display: inline-block;
+}
+
+.nav>li>a>img.hideImg {
+	transition: max-height ease 0.3s;
+    max-height: 0px;
+}
+
 nav.tileNav .tileButton {
 	width: 23%;
 	min-width: 22em;
