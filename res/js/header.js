@@ -55,7 +55,7 @@ $(document).ready(function(){
 			document.querySelector(".studentLink.tileButton h3").style.textDecoration = "none";
 			document.querySelector(".postStudentLink.tileButton h3").style.textDecoration = "none";
 		} else {
-			history.replaceState("Romportalen.no", "Romportalen.no", "#");
+			history.replaceState("Romportalen.no", "Romportalen.no", ".");
 			
 			document.querySelector(".generalLink.tileButton h3").style.textDecoration = "none";
 			document.querySelector(".preStudentLink.tileButton h3").style.textDecoration = "none";
