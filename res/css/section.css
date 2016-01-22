@@ -11,16 +11,20 @@
   transform: rotate(0deg);
 }
 
+img.media-object {
+	max-width: 20vw !important;
+}
+
 .smallContainer .media img {
-	height: 7em;
+	max-height: 7em;
 }
 
 .mediumContainer .media img {
-	height: 14em;
+	max-height: 14em;
 }
 
 .largeContainer .media img {
-	height: 21em;
+	max-height: 21em;
 }
 
 .media-object {
