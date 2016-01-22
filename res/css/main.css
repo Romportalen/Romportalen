@@ -251,7 +251,7 @@ body > .sectionTransition {
 .adContainer {
 	position: relative;
 	width: 100%;
-	height: 50vh;
+	height: 40vh;
 	background-size: cover;
 	overflow: hidden;
 }
@@ -490,6 +490,10 @@ nav.tileNav .tileButton h3 {
 	display: inline-block;
 	padding: 1em;
 	height: 100%;
+}
+
+.sectionAnchor#generellInfo {
+	top: -3em;
 }
 
 .sectionAnchor {
