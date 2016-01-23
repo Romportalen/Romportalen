@@ -39,10 +39,8 @@ body > .sectionContainer {
 	z-index: 9999;
 	top: 0;
 	left: 0;
-	background: rgba(34,34,34,1);
+	background: rgba(52,52,52,1);
 	overflow: hidden;
-	transition: box-shadow ease 0.5s;
-	-webkit-transition: box-shadow ease 0.5s;
 	box-shadow: 0px 0px 0.2em 0.2em rgba(0, 0, 0, 0.58);
 }
 
@@ -357,21 +355,6 @@ section header h1 {
 	overflow: hidden;
 	top: 0;
 	left: 0;
-	opacity: 1;
-	transition: opacity ease 0.5s;
-	-webkit-transition: opacity ease 0.5s;
-}
-
-.frontPageContainer.navbarState .background-wrap {
-	transition: opacity ease 0.5s;
-	-webkit-transition: opacity ease 0.5s;
-	opacity: 0.1;
-}
-
-.frontpageContainer.navbarState {
-	transition: box-shadow ease 0.5s;
-	-webkit-transition: box-shadow ease 0.5s;
-	box-shadow: 0px 0px 0.4em 0.3em rgba(34, 34, 34, 0.5);
 }
 
 .frontPageContainer video {
@@ -395,53 +378,6 @@ nav.tileNav {
 	position: absolute;
 	bottom: 13.5%;
 }
-
-/* fancy letter styles start */
-
-.frontPageSection.navbarState h3 {
-	overflow: hidden;
-	display: inline-block;
-	line-height: 1;
-}
-
-.frontPageSection.navbarState h3.currentSection {
-	color: #b2b0a9;
-}
-
-.frontPageSection.navbarState h3::after {
-	content: '';
-	position: absolute;
-	width: 100%;
-	right: 0;
-	background: #F9F9F9;
-	transform: translate3d(-100%,0,0);
-	transition: transform 0.4s;
-	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
-}
-
-.frontPageSection.navbarState h3.currentSection::after {
-	transform: translate3d(100%,0,0);
-}
-
-.frontPageSection.navbarState h3::before {
-	content: attr(data-letters);
-	position: absolute;
-	z-index: 2;
-	left:0;
-	top: 0;
-	overflow: hidden;
-	font-size: 4em;
-	color: #424242;
-	white-space: nowrap;
-	width: 0%;
-	transition: width 0.4s 0.3s;
-}
-
-.frontPageSection.navbarState h3.currentSection::before {
-	width: 100%;
-}
-
-/* fancy letter styles end */
 
 .tileButton a:focus,.tileButton a:hover, .tileButton a {
 	background-color: transparent !important;
