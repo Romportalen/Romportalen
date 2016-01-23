@@ -105,23 +105,28 @@
 					<h2>Hendelser</h2>
 				</header>-->
 				<div class="slider-for">
-					<div onclick="toggle_visibility('AFC_popup');"><img src="res/img/27.januar_artic_frontiers_conference.jpg"><h3>Artic Frontiers Conference (27.01.2016)</h3></div>
-					<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/STS-134_EVA4_view_to_the_Space_Shuttle_Endeavour.jpg/1024px-STS-134_EVA4_view_to_the_Space_Shuttle_Endeavour.jpg"><h3>calendar test (16.10.2016)</h3></div>
-					<div><img src="http://img.mrawr.net/spacesunrise.jpg"><h3>calendar test (1.10.2016)</h3></div>
-					<div><img src="http://img.mrawr.net/outer%20space%20lights%20stars%20galaxies%201600x1200%20wallpaper_wallpaperswa.com_95.jpg"><h3>an event (7.10.2016)</h3></div>
-					<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/ESTCube_orbiidil_2.jpg/1280px-ESTCube_orbiidil_2.jpg"><h3>something (3.10.2016)</h3></div>
-					<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Views_in_the_Main_Control_Room_%2812052189474%29.jpg/1280px-Views_in_the_Main_Control_Room_%2812052189474%29.jpg"><h3>calendar test (12.10.2016)</h3></div>
+					<div onclick="toggle_visibility('AFC_popup');">
+						<img src="res/img/27.januar_artic_frontiers_conference.jpg"><h3>Artic Frontiers Conference (27.01.2016)</h3>
+					</div>
+					<div onclick="toggle_visibility('ISUs_popup');">
+						<img src="res/img/31.januar_søknadsfrist_international_space_university.jpg"><h3>Søknadsfrist Interracial Space University (31.01.2016)</h3>
+					</div>
+					<div onclick="toggle_visibility('ISU_popup');">
+						<img src="res/img/12.juli_international_space_university.jpg"><h3>International Space University (12.07.2016)</h3>
+					</div>
 				</div>
 				<div class="sliderNavContainer">
 					<div class="slider-nav">
-					<div><img src="http://img.mrawr.net/test1.jpg"><h3>esa (1.10.2016)</h3></div>
-					<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/STS-134_EVA4_view_to_the_Space_Shuttle_Endeavour.jpg/1024px-STS-134_EVA4_view_to_the_Space_Shuttle_Endeavour.jpg"><h3>space (16.10.2016)</h3></div>
-					<div><img src="http://img.mrawr.net/spacesunrise.jpg"><h3>event (1.10.2016)</h3></div>
-					<div><img src="http://img.mrawr.net/outer%20space%20lights%20stars%20galaxies%201600x1200%20wallpaper_wallpaperswa.com_95.jpg"><h3>event (7.10.2016)</h3></div>
-					<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/ESTCube_orbiidil_2.jpg/1280px-ESTCube_orbiidil_2.jpg"><h3>launch (3.10.2016)</h3></div>
-					<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Views_in_the_Main_Control_Room_%2812052189474%29.jpg/1280px-Views_in_the_Main_Control_Room_%2812052189474%29.jpg"><h3>conference (12.10.2016)</h3></div>
+						<div>
+							<img src="res/img/27.januar_artic_frontiers_conference.jpg"><h3>AFC (27.01.2016)</h3>
+						</div>
+						<div>
+							<img src="res/img/31.januar_søknadsfrist_international_space_university.jpg"><h3>ISU (31.01.2016)</h3>
+						</div>
+						<div>
+							<img src="res/img/12.juli_international_space_university.jpg"><h3>ISU (12.07.2016)</h3>
+						</div>
 					</div>
-				</div>
 				<script>
 				$(document).ready(function(){
 					$('.slider-for').slick({
@@ -145,19 +150,46 @@
 				</script>
 			</div>
 			<!-- Popupboxes calendar-->
-		<div id="AFC_popup" class="popup">
-			<div id="popup-wrapper">
-				<div id="popup-container">
-					<div id="close-button">
-						<a href="javascript:void(0)" onclick="toggle_visibility('AFC_popup');" text-decoration="none">X</a>
+			<div id="AFC_popup" class="popup">
+				<div id="popup-wrapper">
+					<div id="popup-container">
+						<div id="close-button">
+							<a href="javascript:void(0)" onclick="toggle_visibility('AFC_popup');" text-decoration="none">X</a>
+						</div>
+						<h3>Nasa summer camp</h3>
+						<p>Hello here is alot of information...</p>
+						<a href="https://www.google.no/">more iformation</a>
 					</div>
-					<h3>Nasa summer camp</h3>
-					<p>Hello here is alot of information...</p>
-					<a href="https://www.google.no/">more iformation</a>
 				</div>
+				<div id="popup-wrapper2" onclick="toggle_visibility('AFC_popup');"></div>
 			</div>
-		<div id="popup-wrapper2" onclick="toggle_visibility('AFC_popup');"></div>
-	</div>
+
+			<div id="ISUs_popup" class="popup">
+				<div id="popup-wrapper">
+					<div id="popup-container">
+						<div id="close-button">
+							<a href="javascript:void(0)" onclick="toggle_visibility('ISUs_popup');" text-decoration="none">X</a>
+						</div>
+						<h3>Nasa summer camp</h3>
+						<p>Hello here is alot of information...</p>
+						<a href="https://www.google.no/">more iformation</a>
+					</div>
+				</div>
+				<div id="popup-wrapper2" onclick="toggle_visibility('ISUs_popup');"></div>
+			</div>
+			<div id="ISU_popup" class="popup">
+				<div id="popup-wrapper">
+					<div id="popup-container">
+						<div id="close-button">
+							<a href="javascript:void(0)" onclick="toggle_visibility('ISU_popup');" text-decoration="none">X</a>
+						</div>
+						<h3>Nasa summer camp</h3>
+						<p>Hello here is alot of information...</p>
+						<a href="https://www.google.no/">more iformation</a>
+					</div>
+				</div>
+				<div id="popup-wrapper2" onclick="toggle_visibility('ISU_popup');"></div>
+			</div>
 		</section>
 			
 		<section class="sectionContainer inviewTrigger generalInfo parallax-window" data-parallax="scroll" data-image-src="res/img/Satellites.png">
