@@ -142,6 +142,10 @@ body > .sectionTransition {
 	width: 100%;
 }
 
+body > .sectionTransition.preCalendar {
+	height: 100vh;
+}
+
 body > .sectionTransition {
 	margin-top: -20px;
 	top: 0;
@@ -259,6 +263,7 @@ body > .sectionTransition {
 	position: relative;
 	width: 100%;
 	height: 40vh;
+	top: 5vh;
 	background-size: cover;
 	overflow: hidden;
 }
