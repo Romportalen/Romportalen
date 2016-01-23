@@ -291,7 +291,7 @@ body > .sectionTransition .planetVideo {
 	width:100%;
 	height:100%;
 	text-align: left;
-	color:black;
+	color: black !important;
 	z-index: -1000;
 	position: absolute;
 	top: 0;
