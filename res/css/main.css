@@ -140,6 +140,7 @@ h2 {
 body > .sectionTransition {
 	height: 100vh;
 	width: 100%;
+	box-shadow: 0 0 0.5em 0.5em #000;
 }
 
 body > .sectionTransition.preCalendar {
