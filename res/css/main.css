@@ -282,6 +282,11 @@ body > .sectionTransition .planetVideo {
 	height: 100%;
 	z-index: 9999;
 }
+
+.popup p {
+	color: black !important;
+}
+
 #popup-wrapper{
 	width: 80vw;
 	margin: 25vh auto;
@@ -291,7 +296,6 @@ body > .sectionTransition .planetVideo {
 	width:100%;
 	height:100%;
 	text-align: left;
-	color: black !important;
 	z-index: -1000;
 	position: absolute;
 	top: 0;
