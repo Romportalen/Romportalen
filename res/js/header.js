@@ -5,6 +5,7 @@ var lastScrollPosition = 0;
 $(document).ready(function(){
 	window.requestAnimationFrame(updateHeaderPosition);
 	function updateHeaderPosition() {
+		window.requestAnimationFrame(updateHeaderPosition);
 		if (lastScrollPosition != $(window).scrollTop()) {
 			lastScrollPosition = $(window).scrollTop();
 			document.querySelector(".frontPageContainer").style.top = "0px";
@@ -73,6 +74,5 @@ $(document).ready(function(){
 				$(".postStudentLink.tileButton h3").removeClass("currentSection");
 			}
 		}
-		window.requestAnimationFrame(updateHeaderPosition);
 	}
 });
