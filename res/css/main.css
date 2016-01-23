@@ -203,6 +203,7 @@ body > .sectionTransition .planetVideo {
 .slick-slider.slider-for img {
 	height: 100vh !important;
 	min-width: 100% !important;
+	cursor: pointer;
 }
 
 .sliderNavContainer {
