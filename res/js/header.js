@@ -27,7 +27,7 @@ $(document).ready(function(){
 			$(".frontPageContainer").addClass("navbarState");
 		}
 		var navHeight = $(".frontPageContainer ul li a h3").height()+2;
-		if($(window).scrollTop() => $("#generellInfo").offset().top-navHeight) {
+		if($(window).scrollTop() > $("#jobb").offset().top-navHeight) {
 			$(".postStudentLink.tileButton h3").addClass("currentSection");
 			if (document.origin != "null") {
 				history.replaceState("Romportalen.no - Student", "Romportalen.no - Student", "#jobb");
@@ -35,7 +35,7 @@ $(document).ready(function(){
 			$(".generalLink.tileButton h3").removeClass("currentSection");
 			$(".preStudentLink.tileButton h3").removeClass("currentSection");
 			$(".studentLink.tileButton h3").removeClass("currentSection");
-		} else if($(window).scrollTop() => $("#hoeyereUtdanning").offset().top-navHeight) {
+		} else if($(window).scrollTop() > $("#student").offset().top-navHeight) {
 			$(".studentLink.tileButton h3").addClass("currentSection");
 			if (document.origin != "null") {
 				history.replaceState("Romportalen.no - Student", "Romportalen.no - Student", "#student");
@@ -43,7 +43,7 @@ $(document).ready(function(){
 			$(".generalLink.tileButton h3").removeClass("currentSection");
 			$(".preStudentLink.tileButton h3").removeClass("currentSection");
 			$(".postStudentLink.tileButton h3").removeClass("currentSection");
-		} else if($(window).scrollTop() => $("#student").offset().top-navHeight) {
+		} else if($(window).scrollTop() > $("#hoeyereUtdanning").offset().top-navHeight) {
 			$(".preStudentLink.tileButton h3").addClass("currentSection");
 			if (document.origin != "null") {
 				history.replaceState("Romportalen.no - Høyere utdanning", "Romportalen.no - Høyere utdanning", "#hoeyereUtdanning");
@@ -51,7 +51,7 @@ $(document).ready(function(){
 			$(".generalLink.tileButton h3").removeClass("currentSection");
 			$(".studentLink.tileButton h3").removeClass("currentSection");
 			$(".postStudentLink.tileButton h3").removeClass("currentSection");
-		} else if($(window).scrollTop() => $("#jobb").offset().top-navHeight) {
+		} else if($(window).scrollTop() > $("#generellInfo").offset().top-navHeight) {
 			$(".generalLink.tileButton h3").addClass("currentSection");
 			if (document.origin != "null") {
 				history.replaceState("Romportalen.no - Generelt", "Romportalen.no - Generelt", "#generellInfo");
