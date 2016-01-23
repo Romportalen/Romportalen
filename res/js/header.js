@@ -6,7 +6,7 @@ $(document).ready(function(){
 	window.requestAnimationFrame(updateHeaderPosition);
 	function updateHeaderPosition() {
 		window.requestAnimationFrame(updateHeaderPosition);
-		/* if (lastScrollPosition != $(window).scrollTop()) { */
+		if (lastScrollPosition != $(window).scrollTop()) {
 			lastScrollPosition = $(window).scrollTop();
 			document.querySelector(".frontPageContainer").style.top = "0px";
 			document.querySelector(".frontPageContainer .tileNav").style.height = $(window).height()-$(window).scrollTop()+"px";
@@ -73,6 +73,6 @@ $(document).ready(function(){
 				$(".studentLink.tileButton h3").removeClass("currentSection");
 				$(".postStudentLink.tileButton h3").removeClass("currentSection");
 			}
-		/* } */
+		}
 	}
 });
