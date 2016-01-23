@@ -35,6 +35,7 @@ body > .sectionContainer {
 }
 
 .frontPageContainer {
+	transform: translateZ(0px);
 	position: fixed;
 	z-index: 9999;
 	top: 0;
@@ -203,7 +204,6 @@ body > .sectionTransition .planetVideo {
 .slick-slider.slider-for img {
 	height: 100vh !important;
 	min-width: 100% !important;
-	cursor: pointer;
 }
 
 .sliderNavContainer {
