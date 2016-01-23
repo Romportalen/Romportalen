@@ -54,7 +54,7 @@
 			}
 		</script>
 	</head>
-	<body onkeydown="if (event.keyCode == 27){document.getElementByClass('popup-position').style.display = 'none';}">
+	<body onkeydown="if (event.keyCode == 27){$('.popup:visible').hide();}">
 		<section class="frontPageContainer">
 			<div class="titleContainer">
 				<h1>Romportalen</h1>
@@ -145,7 +145,7 @@
 				</script>
 			</div>
 			<!-- Popupboxes calendar-->
-		<div id="AFC_popup" class="popup-position">
+		<div id="AFC_popup" class="popup">
 			<div id="popup-wrapper">
 				<div id="popup-container">
 					<div id="close-button">
