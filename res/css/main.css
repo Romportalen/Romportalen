@@ -274,7 +274,7 @@ body > .sectionTransition {
 	height: 100%;
 }
 #popup-wrapper{
-	width: 80vh;
+	width: 80vw	;
 	margin: 25vh auto;
 	text-align: left;
 }
@@ -294,6 +294,7 @@ body > .sectionTransition {
 }
 #popup-container p,#popup-container a{
 	padding:1vh;
+	color: black;
 }
 #close-button{
 	display:block;
