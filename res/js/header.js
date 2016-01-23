@@ -1,6 +1,6 @@
 // fancy header function
 
-var lastScrollPosition = 0;
+var lastScrollPosition = 1;
 
 	function updateHeaderPosition() {
 		window.requestAnimationFrame(updateHeaderPosition);
