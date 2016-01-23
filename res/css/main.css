@@ -283,7 +283,7 @@ body > .sectionTransition .planetVideo {
 	z-index: 9999;
 }
 
-.popup p {
+.popup p, .popup h3 {
 	color: black !important;
 }
 
