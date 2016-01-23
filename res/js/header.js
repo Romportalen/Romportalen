@@ -3,7 +3,7 @@
 var lastScrollPosition = 0;
 
 $(document).ready(function(){
-	window.requestAnimationFrame(updateHeaderPosition);
+	updateHeaderPosition();
 	function updateHeaderPosition() {
 		window.requestAnimationFrame(updateHeaderPosition);
 		if (lastScrollPosition != $(window).scrollTop()) {
