@@ -43,7 +43,7 @@ body > .sectionContainer {
 	overflow: hidden;
 	transition: box-shadow ease 0.5s;
 	-webkit-transition: box-shadow ease 0.5s;
-	/* box-shadow: 0px 0px 0.2em 0.2em rgba(0, 0, 0, 0.58); */
+	box-shadow: 0px 0px 0.2em 0.2em rgba(0, 0, 0, 0.58);
 }
 
 /* main colour settings */
@@ -441,7 +441,7 @@ section header h1 {
 .frontpageContainer.navbarState {
 	transition: box-shadow ease 0.5s;
 	-webkit-transition: box-shadow ease 0.5s;
-	/* box-shadow: 0px 0px 0.4em 0.3em rgba(34, 34, 34, 0.5) !important; */
+	box-shadow: 0px 0px 0.4em 0.3em rgba(34, 34, 34, 0.5) !important;
 }
 
 .frontPageContainer video {
@@ -464,7 +464,7 @@ nav.tileNav {
 .frontpageContainer.navbarState {
 	transition: box-shadow ease 0.5s;
 	-webkit-transition: box-shadow ease 0.5s;
-	/* box-shadow: 0px 0px 0.4em 0.3em rgba(34, 34, 34, 0.5); */
+	box-shadow: 0px 0px 0.4em 0.3em rgba(34, 34, 34, 0.5);
 }
 
 .frontPageContainer nav.tileNav ul {
