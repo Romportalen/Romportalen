@@ -432,6 +432,7 @@ nav.tileNav {
 	transition: color ease 0.2s, box-shadow ease 0.2s;
 	-webkit-transition: color ease 0.2s, box-shadow ease 0.2s;
 	color: white !important;
+	text-decoration: none;
 	text-shadow: 0 0 0.25em rgba(0,136,249,0.3) !important;
 }
 
@@ -439,6 +440,7 @@ nav.tileNav {
 	transition: color ease 0.2s, box-shadow ease 0.2s;
 	-webkit-transition: color ease 0.2s, box-shadow ease 0.2s;
 	color: #0088F9 !important;
+	text-decoration: underline;
 	text-shadow: 0 0 0.25em rgba(255,255,255,0.3) !important;
 }
 
