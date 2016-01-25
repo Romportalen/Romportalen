@@ -300,6 +300,7 @@ body > .sectionTransition .planetVideo {
 	z-index: -1000;
 	position: absolute;
 	top: 0;
+	cursor: pointer;
 }
 #popup-container{
 	background: white;
@@ -381,6 +382,10 @@ body > .sectionTransition .planetVideo {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
 }
 
+.panel article:hover{
+	background: rgba(0,0,0,0.1);
+	cursor: pointer;
+}
 article,
 section header,
 .sectionContent {
