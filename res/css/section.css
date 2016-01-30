@@ -46,7 +46,7 @@ footer {
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
-	font: bold 16px sans-serif;
+	font: bold 16px 'Open Sans' sans-serif;
 	text-align: left;
 	padding: 50px 60px 40px;
 	overflow: hidden;
@@ -58,9 +58,9 @@ footer {
 	float: left;
 }
 
-.footerContainer h3{
+.footerContainer h3 {
 	color:  #ffffff;
-	font: normal 36px "Helvetica Neue",Helvetica,Arial,cursive,sans-serif;
+	font: normal 36px 'Electrolize', sans-serif !important;
 	margin: 0 0 10px;
 }
 
