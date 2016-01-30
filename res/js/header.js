@@ -4,12 +4,23 @@ var lastScrollPosition = 1;
 
 	function updateHeaderPosition() {
 		window.requestAnimationFrame(updateHeaderPosition);
+		if (document.querySelector(".frontPageContainer.opened")) {
+				document.querySelector(".frontPageContainer").style.top = -($(".frontPageContainer").height()-$(".frontPageContainer .nav-pills.nav").height())+$(".titleContainer").height()+"px";
+				document.querySelector(".frontPageContainer .tileNav").style.height = $(".frontPageContainer .nav-pills.nav").height()+"px";
+		} else {
+				//document.querySelector(".titleContainer").style.top = ($(".frontPageContainer").height()-$(".frontPageContainer ul li a h3").height())+"px";
+		}
 		if (lastScrollPosition != $(window).scrollTop()) {
 			lastScrollPosition = $(window).scrollTop();
 			document.querySelector(".frontPageContainer").style.top = "0px";
-			document.querySelector(".frontPageContainer .tileNav").style.height = $(window).height()-$(window).scrollTop()+"px";
+		    document.querySelector(".titleContainer").style.height = $(".titleContainer h1").height()+"px";
+            document.querySelector(".titleContainer").style.top = "10vh";
+	    	if ($(window).scrollTop() > $(".frontPageContainer").height()/10) {
+				document.querySelector(".titleContainer").style.top = $(window).scrollTop()+"px";
+		    }
 			if ($(window).scrollTop() == 0) {
 				document.querySelector(".frontPageContainer").style.top = "0px";
+				document.querySelector(".titleContainer").style.top = "10vh";
 				document.querySelector(".frontPageContainer .tileNav").style.height = $(window).height()-$(window).scrollTop()+"px";
 				$(".frontPageContainer .tile-image").removeClass("hideImg");
 				$(".frontPageContainer").removeClass("navbarState");
@@ -18,14 +29,16 @@ var lastScrollPosition = 1;
 				document.querySelector(".frontPageContainer .tileNav").style.height = $(window).height()-$(window).scrollTop()+"px";
 				$(".frontPageContainer .tile-image").removeClass("hideImg");
 				$(".frontPageContainer").removeClass("navbarState");
-			} else if ($(window).scrollTop() < $(".frontPageContainer").height()-$(".frontPageContainer ul li.preStudentLink a h3").height() ) {
+			} else if ($(window).scrollTop() < $(".frontPageContainer").height()-$(".frontPageContainer ul li.preStudentLink a h3").height()-$(".titleContainer").height()+"px" ) {
 				document.querySelector(".frontPageContainer").style.top = -$(window).scrollTop()+"px";
 				document.querySelector(".frontPageContainer .tileNav").style.height = $(window).height()-$(window).scrollTop()+"px";
 				$(".frontPageContainer .tile-image").addClass("hideImg");
 				$(".frontPageContainer").addClass("navbarState");
 			} else {
-				document.querySelector(".frontPageContainer").style.top = -($(".frontPageContainer").height()-$(".frontPageContainer ul li a h3").height())+"px";
-				document.querySelector(".frontPageContainer .tileNav").style.height = $(".frontPageContainer ul li.preStudentLink a h3").height()+"px";
+				document.querySelector(".titleContainer").style.top = "auto";
+				document.querySelector(".titleContainer").style.bottom = $(".frontPageContainer ul li.preStudentLink a h3").height()+"px";
+				document.querySelector(".frontPageContainer").style.top = -($(".frontPageContainer").height()-$(".frontPageContainer ul li a h3").height())+$(".titleContainer").height()+"px";
+				document.querySelector(".frontPageContainer .tileNav").style.height = $(".titleContainer").height()+$(".frontPageContainer ul li.preStudentLink a h3").height()+"px";
 				$(".frontPageContainer .tile-image").addClass("hideImg");
 				$(".frontPageContainer").addClass("navbarState");
 			}
