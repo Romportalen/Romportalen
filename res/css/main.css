@@ -99,7 +99,7 @@ a:hover,
 	background: #404040 !important;
 }
 
-.panel-default,
+.panel-default, 
 .panel-default>.panel-heading {
 	border-color: #404040 !important;
 }
@@ -474,25 +474,6 @@ section header h1 {
 	transition: opacity ease 0.5s;
 	-webkit-transition: opacity ease 0.5s;
 	opacity: 0.1;
-}
-
-.frontPageContainer .catchLine {
-	opacity: 1;
-	transition: opacity 0.5s ease;
-}
-
-.frontPageContainer.navbarState .catchLine {
-	opacity: 0;
-	transition: opacity 0.5s ease;
-}
-
-.frontPageContainer h1 {
-	transition: font-size 0.5s ease;
-}
-
-.frontPageContainer.navbarState h1 {
-	font-size: 2em;
-	transition: font-size 0.5s ease;
 }
 
 .frontpageContainer.navbarState {
