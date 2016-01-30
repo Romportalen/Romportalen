@@ -40,8 +40,6 @@ img.media-object {
 footer {
 	height: auto !important;
 	min-height: 0 !important;
-	float: left;
-	width: 100%;
 }
 
 .footerContainer{
