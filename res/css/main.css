@@ -99,7 +99,7 @@ a:hover,
 	background: #404040 !important;
 }
 
-.panel-default, 
+.panel-default,
 .panel-default>.panel-heading {
 	border-color: #404040 !important;
 }
@@ -218,6 +218,26 @@ body > .sectionTransition .planetVideo {
 	vertical-align: middle !important;
 }
 
+.container-fluid .media-left,
+.container-fluid .media-body,
+.container-fluid .media-right {
+	display: block;
+	max-width: 100%;
+	text-align: center;
+}
+
+.container-fluid .media-left img {
+	max-width: 100% !important;
+	display: inline-block;
+	background: white none repeat scroll 0% 0%;
+	padding: 1em;
+	border-radius: 0.5em;
+}
+
+.container-fluid .media-left img[src*="kongsberg"] {
+	background: black none repeat scroll 0% 0%;
+}
+
 .slick-slider.slider-for h3 {
 	font-family: "Electrolize",sans-serif !important;
 	font-size: 8vh;
@@ -289,10 +309,16 @@ body > .sectionTransition .planetVideo {
 }
 
 #popup-wrapper{
-	width: 80vw;
-	margin: 25vh auto;
 	text-align: left;
+	width: 80vw;
+	margin: 0px auto;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 }
+
 #popup-wrapper2{
 	width:100%;
 	height:100%;
@@ -302,14 +328,18 @@ body > .sectionTransition .planetVideo {
 	top: 0;
 	cursor: pointer;
 }
+
 #popup-container{
 	background: white;
-	height:40vh;
+	max-height: 100vh;
+	max-width: 100vw;
 	z-index: 9000;
 }
+
 #popup-container p,#popup-container a{
 	padding:1vh;
 }
+
 #close-button{
 	display:block;
 	top : 0;
@@ -322,9 +352,11 @@ body > .sectionTransition .planetVideo {
 	color: inherit;
 	text-decoration: none;
 }
+
 #popup-container h3{
 	padding: 1vh;
 }
+
 .adContainer {
 	position: relative;
 	width: 100%;
