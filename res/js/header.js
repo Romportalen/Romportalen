@@ -75,7 +75,7 @@ var lastScrollPosition = -1;
 				$(".studentLink.tileButton h3").removeClass("currentSection");
 				$(".postStudentLink.tileButton h3").removeClass("currentSection");
 			} else if($(window).scrollTop() > $("#generellInfo").offset().top-navHeight) {
-				document.querySelector(".progressBar").style.width = 0+(($(window).scrollTop()-$("#generellInfo").offset().top)/($("#hoeyereUtdanning").offset().top-$("#generellInfo").offset().top))*25+"%";
+				document.querySelector(".progressBar").style.width = 0.05+(($(window).scrollTop()-$("#generellInfo").offset().top)/($("#hoeyereUtdanning").offset().top-$("#generellInfo").offset().top))*25+"%";
 				$(".generalLink.tileButton h3").addClass("currentSection");
 				if (document.origin != "null") {
 					history.replaceState("Romportalen.no - Generelt", "Romportalen.no - Generelt", "#generellInfo");
