@@ -232,12 +232,6 @@ body > .sectionTransition .planetVideo {
 .workplaces3 article .media-left {
     display: block;
 }
-
-.workplaces1 article .media-left img,
-.workplaces2 article .media-left img,
-.workplaces3 article .media-left img {
-    max-width: 100% !important;
-}
 /* column styles end */
 
 .slick-slider.slider-for h3 {
