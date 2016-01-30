@@ -50,8 +50,8 @@ body > .sectionContainer {
 /* main colour settings */
 
 .logo,
-.navbar-brand,
-.footer-left h3 {
+.navbar-brand/*,
+.footer-left h3 */ {
 	color: #007AFF !important;
 }
 

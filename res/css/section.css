@@ -204,6 +204,41 @@ body > .calendar.sectionContainer {
 
 }
 
+@media (max-width: 35em) {
+	.tile-image {
+		height: 10vh;
+	}
+}
+
+@media (max-width: 800px) {
+	.footerContainer{
+		padding: 30px;
+	}
+
+	.footerContainer .footer-left,
+	.footerContainer .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footerContainer .footer-left{
+		margin-bottom: 40px;
+	}
+
+	.footerContainer form{
+		margin-top: 30px;
+	}
+
+	.footerContainer form{
+		display: block;
+	}
+
+	.footerContainer form button{
+		float: none;
+	}
+}
+
 @media (max-width: 800px) {
 	.footerContainer{
 		padding: 30px;
