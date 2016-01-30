@@ -522,7 +522,7 @@ section header h1 {
 .frontPageContainer.navbarState .background-wrap {
 	transition: opacity ease 0.5s;
 	-webkit-transition: opacity ease 0.5s;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 .frontpageContainer.navbarState {
