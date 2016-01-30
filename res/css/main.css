@@ -218,6 +218,22 @@ body > .sectionTransition .planetVideo {
 	vertical-align: middle !important;
 }
 
+/* column styles start */
+.workplaces1 article,
+.workplaces2 article,
+.workplaces3 article {
+    float: left;
+    z-index: 9;
+    max-width: 25%;
+}
+
+.workplaces1 article .media-left,
+.workplaces2 article .media-left,
+.workplaces3 article .media-left {
+    display: block;
+}
+/* column styles end */
+
 .slick-slider.slider-for h3 {
 	font-family: "Electrolize",sans-serif !important;
 	font-size: 8vh;
