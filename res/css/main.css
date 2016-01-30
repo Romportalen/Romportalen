@@ -127,7 +127,6 @@ article header.panel-heading {
 .panel {
 	border: none !important;
 	box-shadow: none !important;
-	float: left;
 }
 
 .articleTransition {
