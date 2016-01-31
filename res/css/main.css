@@ -601,6 +601,17 @@ nav.tileNav {
 	font-size: 0em;
 }
 
+.frontPageContainer .fa-arrow-circle-up {
+	display: none;
+}
+
+.frontPageContainer.navbarState .fa-arrow-circle-up {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	padding-right: 1em;
+}
+
 nav.tileNav a:hover h3 {
 	text-shadow: 0 0 0.25em rgba(255,255,255,0.3);
 }

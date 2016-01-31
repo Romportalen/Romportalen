@@ -138,6 +138,7 @@ function viewPoll( selector ) {
 			$(".frontPageContainer").removeClass("navWrapped");
 		}
 		winHeight = window.innerHeight;
+		lastScrollPosition = -7;
 		updateElemRects();
 	}
 
