@@ -659,17 +659,18 @@ nav.tileNav ul {
 }
 
 .nav>li>a>img {
-	transition: max-height ease 0.5s, filter ease 0.5s, -webkit-filter ease 0.5s;
+	transition: max-height ease 0.5s, filter ease 0.5s, -webkit-filter ease 0.5s, opacity ease 0.5s;
 	max-height: 1000px;
+	opacity: 1;
 	display: inline-block;
 	filter: brightness(1) grayscale(0) contrast(1);
 	-webkit-filter: brightness(1) grayscale(0) contrast(1);
 }
 
 .nav>li>a>img.hideImg {
-	transition: max-height ease 0.3s, filter ease 0.3s, -webkit-filter ease 0.3s;
-    max-height: 0px;
+	transition: max-height ease 0.3s, filter ease 0.3s, -webkit-filter ease 0.3s, opacity ease 0.3s;
 	filter: brightness(0.1) grayscale(1) contrast(0.01);
+	opacity: 0;
 	-webkit-filter: brightness(0.1) grayscale(1) contrast(0.01);
 }
 
