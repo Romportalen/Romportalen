@@ -592,7 +592,6 @@ nav.tileNav {
 	-webkit-transition: color ease 0.2s, box-shadow ease 0.2s, font-size 0.5s ease;
 	color: white !important;
 	text-decoration: none;
-	text-shadow: 0 0 0.25em rgba(0,136,249,0.3) !important;
 }
 
 .frontPageContainer.navbarState h3.currentSection {
@@ -620,7 +619,6 @@ nav.tileNav {
 }
 
 nav.tileNav a:hover h3 {
-	text-shadow: 0 0 0.25em rgba(255,255,255,0.3);
 }
 
 nav.tileNav a h3 {
