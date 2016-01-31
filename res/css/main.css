@@ -475,7 +475,7 @@ section header h1 {
 .frontPageContainer.navbarState .titleContainer .progressBar {
 	/* transition: width 0.5s ease; */
 	height: 100%;
-	background: #007AFF;
+	background: #0068D1;
 	width: 0%;
 }
 
@@ -597,7 +597,7 @@ nav.tileNav {
 .frontPageContainer.navbarState h3.currentSection {
 	transition: color ease 0.2s, box-shadow ease 0.2s, font-size 0.2s ease;
 	-webkit-transition: color ease 0.2s, box-shadow ease 0.2s, font-size 0.2s ease;
-	color: #0088F9 !important;
+	color: #0068D1 !important;
 	/* text-shadow: 0 0 0.25em rgba(255,255,255,0.3) !important;*/
 }
 
