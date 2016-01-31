@@ -47,17 +47,17 @@ var lastScrollPosition = -1;
 			/* link animation rules end */
 
 			var navHeight = $(".frontPageContainer ul li a h3").height()+2;
-			if($(window).scrollTop() > $("#jobb").offset().top-navHeight) {
-				document.querySelector(".progressBar").style.width = 75+(($(window).scrollTop()-$("#jobb").offset().top)/($(document).height()-$(window).height()-$("#jobb").offset().top))*25+"%";
+			if($(window).scrollTop() > $("#arbeidslivet").offset().top-navHeight) {
+				document.querySelector(".progressBar").style.width = 75+(($(window).scrollTop()-$("#arbeidslivet").offset().top)/($(document).height()-$(window).height()-$("#arbeidslivet").offset().top))*25+"%";
 				$(".postStudentLink.tileButton h3").addClass("currentSection");
 				if (document.origin != "null") {
-					history.replaceState("Romportalen.no - Student", "Romportalen.no - Student", "#jobb");
+					history.replaceState("Romportalen.no - Student", "Romportalen.no - Student", "#arbeidslivet");
 				}
 				$(".generalLink.tileButton h3").removeClass("currentSection");
 				$(".preStudentLink.tileButton h3").removeClass("currentSection");
 				$(".studentLink.tileButton h3").removeClass("currentSection");
 			} else if($(window).scrollTop() > $("#student").offset().top-navHeight) {
-				document.querySelector(".progressBar").style.width = 50+(($(window).scrollTop()-$("#student").offset().top)/($("#jobb").offset().top-$("#student").offset().top))*25+"%";
+				document.querySelector(".progressBar").style.width = 50+(($(window).scrollTop()-$("#student").offset().top)/($("#arbeidslivet").offset().top-$("#student").offset().top))*25+"%";
 				$(".studentLink.tileButton h3").addClass("currentSection");
 				if (document.origin != "null") {
 					history.replaceState("Romportalen.no - Student", "Romportalen.no - Student", "#student");
