@@ -132,7 +132,7 @@ function viewPoll( selector ) {
 	}
 
 	function onResize() {
-		if (($(".nav-pills").outerHeight() != $(".nav-pills .tileButton").outerHeight())) {
+		if (($(".nav-pills").height() > $(".nav-pills .tileButton").height())) {
 			$(".frontPageContainer").addClass("navWrapped");
 		} else {
 			$(".frontPageContainer").removeClass("navWrapped");
