@@ -47,6 +47,13 @@ body > .sectionContainer {
 	box-shadow: 0px 0px 0.2em 0.2em rgba(0, 0, 0, 0.58);
 }
 
+img.logoRight,
+img.logoLeft {
+    height: 1em;
+    position: relative;
+    top: -0.1em;
+}
+
 /* main colour settings */
 
 .logo,
@@ -598,7 +605,7 @@ nav.tileNav {
 .frontPageContainer.navbarState.navWrapped h3 {
 	transition: font-size 0.2s ease;
 	-webkit-transition: font-size 0.2s ease;
-	font-size: 0em;
+	font-size: 0em;	
 }
 
 .frontPageContainer .fa-arrow-circle-up {
