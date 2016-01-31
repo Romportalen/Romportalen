@@ -18,7 +18,7 @@ var lastScrollPosition = -1;
 				document.querySelector(".titleContainer").style.bottom = "auto";
 			} else {
 					document.querySelector(".titleContainer").style.top = "auto";
-					document.querySelector(".titleContainer").style.bottom = $(".frontPageContainer .titleContainer h1").outerHeight()+$(".frontPageContainer ul li a h3").height()+"px";
+					document.querySelector(".titleContainer").style.bottom = $(".frontPageContainer .titleContainer h1").outerHeight()+$(".frontPageContainer ul li a h3").height()+$(".frontPageContainer .titleContainer .progressContainer").outerHeight()+"px";
 			}
 			/* title animation rules end */
 

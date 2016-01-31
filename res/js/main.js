@@ -132,6 +132,11 @@ function viewPoll( selector ) {
 	}
 
 	function onResize() {
+		if (($(".nav-pills").outerHeight() != $(".nav-pills .tileButton").outerHeight())) {
+			$(".frontPageContainer").addClass("navWrapped");
+		} else {
+			$(".frontPageContainer").removeClass("navWrapped");
+		}
 		winHeight = window.innerHeight;
 		updateElemRects();
 	}

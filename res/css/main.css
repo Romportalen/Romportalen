@@ -581,18 +581,24 @@ nav.tileNav {
 }
 
 .frontPageContainer.navbarState h3 {
-	transition: color ease 0.2s, box-shadow ease 0.2s;
-	-webkit-transition: color ease 0.2s, box-shadow ease 0.2s;
+	transition: color ease 0.2s, box-shadow ease 0.2s, font-size 0.2s ease;
+	-webkit-transition: color ease 0.2s, box-shadow ease 0.2s, font-size 0.5s ease;
 	color: white !important;
 	text-decoration: none;
 	text-shadow: 0 0 0.25em rgba(0,136,249,0.3) !important;
 }
 
 .frontPageContainer.navbarState h3.currentSection {
-	transition: color ease 0.2s, box-shadow ease 0.2s;
-	-webkit-transition: color ease 0.2s, box-shadow ease 0.2s;
+	transition: color ease 0.2s, box-shadow ease 0.2s, font-size 0.2s ease;
+	-webkit-transition: color ease 0.2s, box-shadow ease 0.2s, font-size 0.2s ease;
 	color: #0088F9 !important;
 	/* text-shadow: 0 0 0.25em rgba(255,255,255,0.3) !important;*/
+}
+
+.frontPageContainer.navbarState.navWrapped h3 {
+	transition: font-size 0.2s ease;
+	-webkit-transition: font-size 0.2s ease;
+	font-size: 0em;
 }
 
 nav.tileNav a:hover h3 {
