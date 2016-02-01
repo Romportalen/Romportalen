@@ -49,9 +49,14 @@ body > .sectionContainer {
 
 img.logoRight,
 img.logoLeft {
-    height: 1em;
+    height: 2em;
     position: relative;
     top: -0.1em;
+}
+
+.navbarState img.logoRight,
+.navbarState img.logoLeft {
+    height: 1em;
 }
 
 /* main colour settings */
