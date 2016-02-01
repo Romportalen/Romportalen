@@ -19,19 +19,19 @@
 }
 
 .preStudent.sectionContainer {
-	background-image: url("res/img/Misc.png");
+	background-image: url("http://romportalen.no/res/img/Misc.png");
 }
 
 .student.sectionContainer {
-	background-image: url("res/img/RocketsSmall.png");
+	background-image: url("http://romportalen.no/res/img/RocketsSmall.png");
 }
 
 .postStudent.sectionContainer {
-	background-image: url("res/img/SpaceStationsSmall.png");
+	background-image: url("http://romportalen.no/res/img/SpaceStationsSmall.png");
 }
 
 .generalInfo.sectionContainer {
-	background-image: url("res/img/Satellites.png");
+	background-image: url("http://romportalen.no/res/img/Satellites.png");
 }
 
 /* section background images end */
