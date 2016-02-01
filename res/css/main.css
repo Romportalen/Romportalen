@@ -63,18 +63,26 @@ img.logoLeft {
 .frontPageContainer.navbarState img.logoRight,
 .frontPageContainer.navbarState img.logoLeft {
     height: 1em;
+    left: 0;
+    right: 0;
+    transition: left 0.2s ease, right 0.2s ease;
+    -webkit-transition: left 0.2s ease, right 0.2s ease;
 }
 
 /* styles for animating logo on hover */
 
 .frontPageContainer.navbarState .titleContainer h1:hover img.logoRight,
 .frontPageContainer.navbarState .titleContainer h1:hover img.logoLeft {
+    transition: left 0.2s ease, right 0.2s ease;
+    -webkit-transition: left 0.2s ease, right 0.2s ease;
 }
 
 .frontPageContainer.navbarState .titleContainer h1:hover img.logoRight {
+    left: 0.1em;
 }
 
 .frontPageContainer.navbarState .titleContainer h1:hover img.logoLeft {
+    left: -0.1em;
 }
 
 /* main colour settings */
