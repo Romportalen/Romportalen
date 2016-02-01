@@ -520,6 +520,7 @@ section header h1 {
 	cursor: pointer;
 }
 
+
 .frontPageContainer.navbarState .titleContainer h2.catchLine {
 	font-size: 0em;
 	opacity: 0;
@@ -627,6 +628,14 @@ nav.tileNav {
 	position: absolute;
 	right: 0;
 	padding-right: 1em;
+	transition: color ease 0.2s;
+	color: #173B5D;
+}
+
+.frontPageContainer.navbarState .titleContainer h1:hover .fa-arrow-circle-up,
+.frontPageContainer.navbarState .titleContainer h1 .fa-arrow-circle-up:hover {
+	transition: color ease 0.2s;
+	color: #0068D1;
 }
 
 nav.tileNav a:hover h3 {
