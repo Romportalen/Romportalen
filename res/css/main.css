@@ -666,7 +666,7 @@ nav.tileNav {
 .frontPageContainer.navbarState .titleContainer h1:hover .titleWrapper {
 	transition: text-shadow 0.2s ease;
 	-webkit-transition: text-shadow 0.2s ease;
-	text-shadow: 0 0 0.1em #0079FF;
+	text-shadow: 0 0 0.5em #0079FF;
 }
 
 .frontPageContainer.navbarState .titleContainer h1:hover .fa-arrow-circle-up,
