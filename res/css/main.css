@@ -54,6 +54,12 @@ img.logoLeft {
     top: -0.1em;
 }
 
+.footer img.logoRight 
+    height: 1em;
+    top: -0.05em;
+    left: 0.1em;
+}
+
 .navbarState img.logoRight,
 .navbarState img.logoLeft {
     height: 1em;
