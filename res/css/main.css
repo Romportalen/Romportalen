@@ -820,10 +820,16 @@ nav.tileNav .tileButton h3 {
 }
 
 .col-sm-3 .media-left {
-	background: white none repeat scroll 0% 0%;
+    background: white none repeat scroll 0% 0%;
     padding: 1em;
     height: 13em;
-    display: table-cell !important;
+}
+
+.col-sm-3 .media-left:after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
 
 .col-sm-3 .media-left img {
