@@ -825,7 +825,7 @@ nav.tileNav .tileButton h3 {
     height: 13em;
 }
 
-.col-sm-3 .media-left:after {
+.col-sm-3 .media-left:before {
     content: "";
     display: inline-block;
     height: 100%;
