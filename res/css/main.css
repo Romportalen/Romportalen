@@ -283,6 +283,7 @@ body > .sectionTransition .planetVideo {
 	position: relative;
 	top: 0;
 	padding-top: 0.2em;
+	font-family: "Open Sans", sans-serif;
 }
 
 .slick-slider.slider-nav img {
