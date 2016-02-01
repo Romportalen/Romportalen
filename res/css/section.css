@@ -11,6 +11,31 @@
   transform: rotate(0deg);
 }
 
+/* section background images start */
+
+.sectionContainer {
+	background-size: cover;
+	background-position: center center;
+}
+
+.preStudent.sectionContainer {
+	background-image: url("res/img/Misc.png");
+}
+
+.student.sectionContainer {
+	background-image: url("res/img/RocketsSmall.png");
+}
+
+.postStudent.sectionContainer {
+	background-image: url("res/img/SpaceStationsSmall.png");
+}
+
+.generalInfo.sectionContainer {
+	background-image: url("res/img/Satellites.png");
+}
+
+/* section background images end */
+
 img.media-object {
 	max-width: 20vw !important;
 }
