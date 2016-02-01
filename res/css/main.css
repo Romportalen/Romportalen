@@ -638,6 +638,26 @@ nav.tileNav {
 	color: #0068D1;
 }
 
+.frontPageContainer.navbarState .titleContainer h1 .fa-arrow-circle-up:after {
+	content: '';
+    background-color: white;
+    width: 0.8em;
+    height: 0.8em;
+    display: block;
+    position: absolute;
+    top: 0.1em;
+    left: 0.02em;
+    border-radius: 100%;
+    z-index: -99;
+	transition: opacity ease 0.2s;
+	opacity: 0;
+}
+
+.frontPageContainer.navbarState .titleContainer h1:hover .fa-arrow-circle-up:after {
+	transition: opacity ease 0.2s;
+	opacity: 1;
+}
+
 nav.tileNav a:hover h3 {
 }
 
