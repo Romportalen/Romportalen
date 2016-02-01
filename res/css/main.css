@@ -65,16 +65,20 @@ img.logoLeft {
     height: 1em;
     left: 0;
     right: 0;
-    transition: left 0.2s ease, right 0.2s ease;
-    -webkit-transition: left 0.2s ease, right 0.2s ease;
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+    transition: left 0.2s ease, right 0.2s ease, filter 0.2s ease, -webkit-filter 0.2s ease;
+    -webkit-transition: left 0.2s ease, right 0.2s ease, filter 0.2s ease, -webkit-filter 0.2s ease;
 }
 
 /* styles for animating logo on hover */
 
 .frontPageContainer.navbarState .titleContainer h1:hover img.logoRight,
 .frontPageContainer.navbarState .titleContainer h1:hover img.logoLeft {
-    transition: left 0.2s ease, right 0.2s ease;
-    -webkit-transition: left 0.2s ease, right 0.2s ease;
+    transition: left 0.2s ease, right 0.2s ease, filter 0.2s ease, -webkit-filter 0.2s ease;
+    -webkit-transition: left 0.2s ease, right 0.2s ease, filter 0.2s ease, -webkit-filter 0.2s ease;
+    filter: brightness(115%);
+    -webkit-filter: brightness(115%);
 }
 
 .frontPageContainer.navbarState .titleContainer h1:hover img.logoRight {
@@ -651,6 +655,18 @@ nav.tileNav {
 	padding-right: 1em;
 	transition: color ease 0.2s;
 	color: #173B5D;
+}
+
+.frontPageContainer.navbarState .titleContainer h1 .titleWrapper {
+	transition: text-shadow 0.2s ease;
+	-webkit-transition: text-shadow 0.2s ease;
+	text-shadow: none;
+}
+
+.frontPageContainer.navbarState .titleContainer h1:hover .titleWrapper {
+	transition: text-shadow 0.2s ease;
+	-webkit-transition: text-shadow 0.2s ease;
+	text-shadow: 0 0 0.1em #0079FF;
 }
 
 .frontPageContainer.navbarState .titleContainer h1:hover .fa-arrow-circle-up,
