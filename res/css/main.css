@@ -65,6 +65,18 @@ img.logoLeft {
     height: 1em;
 }
 
+/* styles for animating logo on hover */
+
+.frontPageContainer.navbarState .titleContainer h1:hover img.logoRight,
+.frontPageContainer.navbarState .titleContainer h1:hover img.logoLeft {
+}
+
+.frontPageContainer.navbarState .titleContainer h1:hover img.logoRight {
+}
+
+.frontPageContainer.navbarState .titleContainer h1:hover img.logoLeft {
+}
+
 /* main colour settings */
 
 .logo,
