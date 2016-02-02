@@ -835,6 +835,7 @@ nav.tileNav .tileButton h3 {
 .col-sm-3 .media-left img {
 	-webkit-filter: brightness(1) !important;
 	filter: brightness(1) !important;
+	max-height: 100%;
 }
 
 .col-sm-3 .panel-heading h3 {
