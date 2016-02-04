@@ -825,17 +825,13 @@ nav.tileNav .tileButton h3 {
     height: 13em;
 }
 
-.col-sm-3 .media-left:after {
-    content: "";
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
-
 .col-sm-3 .media-left img {
 	-webkit-filter: brightness(1) !important;
 	filter: brightness(1) !important;
 	max-height: 100%;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%) !important;
 }
 
 .col-sm-3 .panel-heading h3 {
