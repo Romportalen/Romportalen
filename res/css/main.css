@@ -832,6 +832,10 @@ nav.tileNav .tileButton h3 {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%) !important;
+	-ms-transform: translateY(-50%) !important;
+	-webkit-transform: translateY(-50%) !important;
+	-o-tranform: translateY(-50%) !important;
+	-moz-transform: translateY(-50%) !important;
 }
 
 .col-sm-3 .panel-heading h3 {
