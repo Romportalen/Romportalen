@@ -826,8 +826,9 @@ nav.tileNav .tileButton h3 {
     text-align: center;
 }
 
-.col-sm-3 .media-left:after {
+.col-sm-3 .media-left:before {
     content: "";
+    display: -moz-inline-stack !important;
     display: inline-block;
     height: 100%;
     vertical-align: middle;
