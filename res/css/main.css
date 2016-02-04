@@ -823,10 +823,9 @@ nav.tileNav .tileButton h3 {
     background: white none repeat scroll 0% 0%;
     padding: 1em;
     height: 13em;
-    text-align: center;
 }
 
-.col-sm-3 .media-left:before {
+.col-sm-3 .media-left:after {
     content: "";
     display: inline-block;
     height: 100%;
@@ -837,8 +836,6 @@ nav.tileNav .tileButton h3 {
 	-webkit-filter: brightness(1) !important;
 	filter: brightness(1) !important;
 	max-height: 100%;
-	display: inline-block;
-	vertical-align: middle;
 }
 
 .col-sm-3 .panel-heading h3 {
