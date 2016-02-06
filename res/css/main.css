@@ -406,6 +406,26 @@ body > .sectionTransition .planetVideo {
 	margin: 0;
 	padding: 0.5em;
 }
+
+.uniNavContainer .nav_img h3 {
+    font-family: "Electrolize",sans-serif !important;
+    font-size: 8vh;
+}
+.uniNavContainer .nav_img h3 {
+    position: absolute;
+    color: #FFF;
+    top: 20%;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 505;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-shadow: 0 0 0.1em black;
+    text-align: center;
+}
+
 /* UNI NAV THINGY END */
 
 
@@ -916,6 +936,69 @@ nav.tileNav .tileButton h3 {
 .col-sm-3 .panel-heading h3 {
 	font-size: 1.2em !important;
 }
+
+a[data-toggle="collapse"] {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a[data-toggle="collapse"] header h2:after {
+	content: "\f0d7 ";
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	position: absolute;
+	right: 0.7em;
+	transition: color 0.2s ease, transform 0.2s ease;
+	-webkit-transition: color 0.2s ease, transform 0.2s ease;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+}
+
+a[data-toggle="collapse"] header h2:hover:after {
+	transition: color 0.2s ease, transform 0.2s ease;
+	-webkit-transition: color 0.2s ease, transform 0.2s ease;
+	transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+}
+
+/* collapse styles start
+
+.collapseTrigger .media-body.collapse.in {
+	display: block !important;
+	width: auto !important;
+	height: auto !important;
+}
+
+.collapseTrigger .media-body.collapse {
+	display: none !important;
+	height: 0 !important;
+}
+
+.collapseTrigger .media-body {
+	text-align: left !important;
+}
+
+.collapseTrigger .media-object {
+	display: inline-block;
+}
+
+.collapseTrigger .media {
+	display: block;
+	text-align: center;
+}
+
+.collapseTrigger .media-object {
+	text-align: center;
+	display: inline-block;
+}
+
+.collapseTrigger .media-left {
+	display: inline-block;
+}
+
+collapse styles end */
 
 @media (min-width: 768px) {
     .navbar .navbar-nav {

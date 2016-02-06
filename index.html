@@ -251,7 +251,7 @@
 						</a>
 					</li>
 					<li class="happeningsLink tileButton">
-						<a href="#preStudyHappenings">
+						<a href="#preStudyHappenings" onclick="$('#preStudyHappeningsCollapse').collapse('show')">
 							<img class="tile-image" alt="hendelser" src="res/img/icons/ProjOgOrg.svg">
 							<h3>Hendelser</h3>
 						</a>
@@ -317,6 +317,7 @@
 					</header>
 					<div class="uniNavContainer">
 						<div class="nav_img">
+							<h3>Hvor ligger dine interesseområder?</h3>
 							<div id="default">
 								<img src="res/img/uniHeader/1.jpg">
 							</div>
@@ -453,12 +454,12 @@
 				<div class="sectionTransition"></div>
 				<section class="panel panel-default happenings">
 					<div class="sectionAnchor" id="preStudyHappenings"></div>
-					<header class="page-header panel-heading">
+					<a data-toggle="collapse" data-target="#preStudyHappeningsCollapse"><header class="page-header panel-heading">
 						<h2>Hendelser</h2>
-					</header>
+					</header></a>
 
 					<!-- start hendelser før høyere utdanning events -->
-
+					<div id="preStudyHappeningsCollapse" class="collapse">
 					<article class="mediumContainer inviewTrigger">
 						<header class="panel-heading">
 							<h3>CanSat</h3>
@@ -535,7 +536,7 @@
 							</div>
 						</div>
 						<aside class="imageContainer"></aside>
-					</article>
+					</article></div>
 
 				</section>
 				<div class="sectionTransition"></div>
@@ -606,7 +607,7 @@
 						</a>
 					</li>
 					<li class="happeningsLink tileButton">
-						<a href="#studentHappenings">
+						<a href="#studentHappenings" onclick="$('#studyHappeningsCollapse').collapse('show')">
 							<img class="tile-image" alt="hendelser" src="res/img/icons/Hendelser.svg">
 							<h3>Hendelser</h3>
 						</a>
@@ -832,89 +833,92 @@
 
 				<section class="panel panel-default happenings">
 					<div class="sectionAnchor" id="studentHappenings"></div>
-					<header class="page-header panel-heading">
+					<a data-toggle="collapse" data-target="#studyHappeningsCollapse"><header class="page-header panel-heading">
 						<h2>Hendelser</h2>
-					</header>
+					</header></a>
+
 
 					<!-- start hendelser student events -->
 
-					<article class="mediumContainer inviewTrigger">
-						<header class="panel-heading">
-							<h3>CanSat</h3>
-						</header>
-						<div class="contentContainer panel-body">
-							<div class="media">
-								<div class="media-left">
-									<a href="http://spacegeneration.org/"><img class="media-object" src="http://nuts.cubesat.no/site/gfx/satellitte.png" alt="glorious placeholder image"></a>
-								</div>
-								<div class="media-body">
-									<!--<h4 class="media-heading">Media heading</h4> -->
-									<p>Gjennom CanSat prosjektet får du mulighet til å bygge din egen satellittmodell som skal passe inn i en 0,33L brusboks. CanSat’en skal skytes opp med en rakett for så å sveve tilbake til bakken i fallskjerm. På vei ned skal den gjøre ulike målinger som sendes til en bakkestasjon. I dette prosjektet, som er arrangert av NAROM ved Andøya Space Center, vil din CanSat vere med på å konkurrere mot andre norske elever om en plass i den Europeiske CanSat konkurransen.</p>
-								</div>
-							</div>
-						</div>
-						<aside class="imageContainer"></aside>
-					</article>
-
-					<div class="articleTransition"></div>
-
-					<article class="mediumContainer inviewTrigger">
-						<header class="panel-heading">
-							<h3>International Space Camp USA</h3>
-						</header>
-						<div class="contentContainer panel-body">
-							<div class="media">
-								<div class="media-left">
-									<a href="http://www.romsenter.no/Vi-hjelper-med/Stipend-og-studier/International-Space-Camp-USA-for-elever"><img class="media-object" src="http://nuts.cubesat.no/site/gfx/satellitte.png" alt="glorious placeholder image"></a>
-								</div>
-								<div class="media-body">
-									<!-- <h4 class="media-heading">Media heading</h4> -->
-									<p>Er du mellom 15 og 18 år og interessert i romfart, kan en uke på International Space Camp være en super sommeropplevelse. International Space Camp går av stabelen i juli ved U.S. Space & Rocket Center i Huntsville, Alabama, USA. I løpet av romfartsleiren får du delta i en simulert oppskytning av romfergen samt utføre oppgaver og trene som om du var en ekte astronaut. Forelesninger, prosjekter og omvisninger er også en del av oppholdet. Norsk Romsenter tilbyr stipend for en gutt og en jente. <a href="http://www.romsenter.no/Media/Files/PDF-Office/Skole-student/Soeknadsskjema-ISC-2015"> Søknadsskjema.</a></p>
+					<div id="studyHappeningsCollapse" class="collapse">
+						<article class="mediumContainer inviewTrigger">
+							<header class="panel-heading">
+								<h3>CanSat</h3>
+							</header>
+							<div class="contentContainer panel-body">
+								<div class="media">
+									<div class="media-left">
+										<a href="http://spacegeneration.org/"><img class="media-object" src="http://nuts.cubesat.no/site/gfx/satellitte.png" alt="glorious placeholder image"></a>
+									</div>
+									<div class="media-body">
+										<!--<h4 class="media-heading">Media heading</h4> -->
+										<p>Gjennom CanSat prosjektet får du mulighet til å bygge din egen satellittmodell som skal passe inn i en 0,33L brusboks. CanSat’en skal skytes opp med en rakett for så å sveve tilbake til bakken i fallskjerm. På vei ned skal den gjøre ulike målinger som sendes til en bakkestasjon. I dette prosjektet, som er arrangert av NAROM ved Andøya Space Center, vil din CanSat vere med på å konkurrere mot andre norske elever om en plass i den Europeiske CanSat konkurransen.</p>
+									</div>
 								</div>
 							</div>
-						</div>
-						<aside class="imageContainer"></aside>
-					</article>
+							<aside class="imageContainer"></aside>
+						</article>
 
-					<div class="articleTransition"></div>
+						<div class="articleTransition"></div>
 
-					<article class="mediumContainer inviewTrigger">
-						<header class="panel-heading">
-							<h3>World Space Week</h3>
-						</header>
-						<div class="contentContainer panel-body">
-							<div class="media">
-								<div class="media-left">
-									<a href="http://www.worldspaceweek.org/"><img class="media-object" src="http://nuts.cubesat.no/site/gfx/satellitte.png" alt="glorious placeholder image"></a>
-								</div>
-								<div class="media-body">
-									<!-- <h4 class="media-heading">Media heading</h4> -->
-									<p>World Space Week har blitt holdt hvert år fra 4. til 10. oktober, etter initiativ fra FNs Generalforsamling i 1999. Mange hundre ulike arrangementer blir arrangert denne uken. Her feires engasjementet og teknologien som blir utviklet i forbindelse med utforskning av rommet. Det er også åpent for alle å holde et eget arrangement ifbm. World Space Week.</p>
-								</div>
-							</div>
-						</div>
-						<aside class="imageContainer"></aside>
-					</article>
-
-					<div class="articleTransition"></div>
-
-					<article class="mediumContainer inviewTrigger">
-						<header class="panel-heading">
-							<h3>European Space Camp</h3>
-						</header>
-						<div class="contentContainer panel-body">
-							<div class="media">
-								<div class="media-left">
-									<a href="http://www.spacecamp.no/."><img class="media-object" src="http://nuts.cubesat.no/site/gfx/satellitte.png" alt="glorious placeholder image"></a>
-								</div>
-								<div class="media-body">
-									<!-- <h4 class="media-heading">Media heading</h4> -->
-									<p>European Space Camp er en internasjonal sommerleir som arrangeres for elever i alderen 17 til 20 år på Andøya Space Center. I løpet av en uke får du delta på en ekte rakettkampanje hvor det bygges og skytes opp en egen studentrakett. I tillegg til dette blir det holdt forelesninger innenfor romfart med tema som rakett-teknikk, nordlyset, terraforming av Mars og the big bang. Det finnes flere muligheter til å søke om stipend for å delta på Europen Space Camp.</p>
+						<article class="mediumContainer inviewTrigger">
+							<header class="panel-heading">
+								<h3>International Space Camp USA</h3>
+							</header>
+							<div class="contentContainer panel-body">
+								<div class="media">
+									<div class="media-left">
+										<a href="http://www.romsenter.no/Vi-hjelper-med/Stipend-og-studier/International-Space-Camp-USA-for-elever"><img class="media-object" src="http://nuts.cubesat.no/site/gfx/satellitte.png" alt="glorious placeholder image"></a>
+									</div>
+									<div class="media-body">
+										<!-- <h4 class="media-heading">Media heading</h4> -->
+										<p>Er du mellom 15 og 18 år og interessert i romfart, kan en uke på International Space Camp være en super sommeropplevelse. International Space Camp går av stabelen i juli ved U.S. Space & Rocket Center i Huntsville, Alabama, USA. I løpet av romfartsleiren får du delta i en simulert oppskytning av romfergen samt utføre oppgaver og trene som om du var en ekte astronaut. Forelesninger, prosjekter og omvisninger er også en del av oppholdet. Norsk Romsenter tilbyr stipend for en gutt og en jente. <a href="http://www.romsenter.no/Media/Files/PDF-Office/Skole-student/Soeknadsskjema-ISC-2015"> Søknadsskjema.</a></p>
+									</div>
 								</div>
 							</div>
-						</div>
-						<aside class="imageContainer"></aside>
-					</article>
+							<aside class="imageContainer"></aside>
+						</article>
+
+						<div class="articleTransition"></div>
+
+						<article class="mediumContainer inviewTrigger">
+							<header class="panel-heading">
+								<h3>World Space Week</h3>
+							</header>
+							<div class="contentContainer panel-body">
+								<div class="media">
+									<div class="media-left">
+										<a href="http://www.worldspaceweek.org/"><img class="media-object" src="http://nuts.cubesat.no/site/gfx/satellitte.png" alt="glorious placeholder image"></a>
+									</div>
+									<div class="media-body">
+										<!-- <h4 class="media-heading">Media heading</h4> -->
+										<p>World Space Week har blitt holdt hvert år fra 4. til 10. oktober, etter initiativ fra FNs Generalforsamling i 1999. Mange hundre ulike arrangementer blir arrangert denne uken. Her feires engasjementet og teknologien som blir utviklet i forbindelse med utforskning av rommet. Det er også åpent for alle å holde et eget arrangement ifbm. World Space Week.</p>
+									</div>
+								</div>
+							</div>
+							<aside class="imageContainer"></aside>
+						</article>
+
+						<div class="articleTransition"></div>
+
+						<article class="mediumContainer inviewTrigger">
+							<header class="panel-heading">
+								<h3>European Space Camp</h3>
+							</header>
+							<div class="contentContainer panel-body">
+								<div class="media">
+									<div class="media-left">
+										<a href="http://www.spacecamp.no/."><img class="media-object" src="http://nuts.cubesat.no/site/gfx/satellitte.png" alt="glorious placeholder image"></a>
+									</div>
+									<div class="media-body">
+										<!-- <h4 class="media-heading">Media heading</h4> -->
+										<p>European Space Camp er en internasjonal sommerleir som arrangeres for elever i alderen 17 til 20 år på Andøya Space Center. I løpet av en uke får du delta på en ekte rakettkampanje hvor det bygges og skytes opp en egen studentrakett. I tillegg til dette blir det holdt forelesninger innenfor romfart med tema som rakett-teknikk, nordlyset, terraforming av Mars og the big bang. Det finnes flere muligheter til å søke om stipend for å delta på Europen Space Camp.</p>
+									</div>
+								</div>
+							</div>
+							<aside class="imageContainer"></aside>
+						</article>
+					</div>
 
 					<!-- end common events -->
 
