@@ -58,50 +58,68 @@ var prevLinkNavState = "init";
 
 			var navHeight = $(".frontPageContainer ul li a h3").height()+2;
 			if($(window).scrollTop() > $("#arbeidslivet").offset().top-navHeight) {
-				document.querySelector(".progressBar").style.width = 75+(($(window).scrollTop()-$("#arbeidslivet").offset().top)/($(document).height()-$(window).height()-$("#arbeidslivet").offset().top))*25+"%";
-				$(".postStudentLink.tileButton h3").addClass("currentSection");
-				if (document.origin != "null" && window.location.hash !== "#arbeidslivet") {
-					history.replaceState("Romportalen.no - Student", "Romportalen.no - Student", "#arbeidslivet");
+				if (window.location.hash !== "#arbeidslivet" | document.querySelector(".postStudentLink.tileButton h3").className.indexOf("currentSection") == -1) {
+					$(".postStudentLink.tileButton h3").addClass("currentSection");
+					if (document.origin != "null") {
+						history.replaceState("Romportalen.no - Student", "Romportalen.no - Arbeidslivet", "#arbeidslivet");
+					}
+					$(".generalLink.tileButton h3").removeClass("currentSection");
+					$(".preStudentLink.tileButton h3").removeClass("currentSection");
+					$(".studentLink.tileButton h3").removeClass("currentSection");
 				}
-				$(".generalLink.tileButton h3").removeClass("currentSection");
-				$(".preStudentLink.tileButton h3").removeClass("currentSection");
-				$(".studentLink.tileButton h3").removeClass("currentSection");
+			} else if($(window).scrollTop() > $("#student").offset().top-navHeight) {
+				if (window.location.hash !== "#student" | document.querySelector(".studentLink.tileButton h3").className.indexOf("currentSection") == -1) {
+					$(".studentLink.tileButton h3").addClass("currentSection");
+					if (document.origin != "null") {
+						history.replaceState("Romportalen.no - Student", "Romportalen.no - Student", "#student");
+					}
+					$(".generalLink.tileButton h3").removeClass("currentSection");
+					$(".preStudentLink.tileButton h3").removeClass("currentSection");
+					$(".postStudentLink.tileButton h3").removeClass("currentSection");
+				}
+			} else if($(window).scrollTop() > $("#hoeyereUtdanning").offset().top-navHeight) {
+				if (window.location.hash !== "#hoeyereUtdanning" | document.querySelector(".preStudentLink.tileButton h3").className.indexOf("currentSection") == -1) {
+					$(".preStudentLink.tileButton h3").addClass("currentSection");
+					if (document.origin != "null") {
+						history.replaceState("Romportalen.no - Høyere utdanning", "Romportalen.no - Høyere utdanning", "#hoeyereUtdanning");
+					}
+					$(".generalLink.tileButton h3").removeClass("currentSection");
+					$(".studentLink.tileButton h3").removeClass("currentSection");
+					$(".postStudentLink.tileButton h3").removeClass("currentSection");
+				}
+			} else if($(window).scrollTop() > $("#generellInfo").offset().top-navHeight) {
+				if (window.location.hash !== "#generellInfo" | document.querySelector(".generalLink.tileButton h3").className.indexOf("currentSection") == -1) {
+					$(".generalLink.tileButton h3").addClass("currentSection");
+					if (document.origin != "null") {
+						history.replaceState("Romportalen.no - Generelt", "Romportalen.no - Generelt", "#generellInfo");
+					}
+					$(".preStudentLink.tileButton h3").removeClass("currentSection");
+					$(".studentLink.tileButton h3").removeClass("currentSection");
+					$(".postStudentLink.tileButton h3").removeClass("currentSection");
+				}
+			} else if ($(window).scrollTop() < $("#generellInfo").offset().top-navHeight) {
+				if (window.location.hash !== "" | !!document.querySelector(".tileButton h3.currentSection")) {
+					if (document.origin != "null") {
+						history.replaceState("Romportalen.no", "Romportalen.no", ".");
+					}
+					$(".generalLink.tileButton h3").removeClass("currentSection");
+					$(".preStudentLink.tileButton h3").removeClass("currentSection");
+					$(".studentLink.tileButton h3").removeClass("currentSection");
+					$(".postStudentLink.tileButton h3").removeClass("currentSection");
+				}
+			}
+			
+			/* progress bar width updater */
+			if($(window).scrollTop() > $("#arbeidslivet").offset().top-navHeight) {
+				document.querySelector(".progressBar").style.width = 75+(($(window).scrollTop()-$("#arbeidslivet").offset().top)/($(document).height()-$(window).height()-$("#arbeidslivet").offset().top))*25+"%";
 			} else if($(window).scrollTop() > $("#student").offset().top-navHeight) {
 				document.querySelector(".progressBar").style.width = 50+(($(window).scrollTop()-$("#student").offset().top)/($("#arbeidslivet").offset().top-$("#student").offset().top))*25+"%";
-				$(".studentLink.tileButton h3").addClass("currentSection");
-				if (document.origin != "null" && window.location.hash !== "#student") {
-					history.replaceState("Romportalen.no - Student", "Romportalen.no - Student", "#student");
-				}
-				$(".generalLink.tileButton h3").removeClass("currentSection");
-				$(".preStudentLink.tileButton h3").removeClass("currentSection");
-				$(".postStudentLink.tileButton h3").removeClass("currentSection");
 			} else if($(window).scrollTop() > $("#hoeyereUtdanning").offset().top-navHeight) {
 				document.querySelector(".progressBar").style.width = 25+(($(window).scrollTop()-$("#hoeyereUtdanning").offset().top)/($("#student").offset().top-$("#hoeyereUtdanning").offset().top))*25+"%";
-				$(".preStudentLink.tileButton h3").addClass("currentSection");
-				if (document.origin != "null" && window.location.hash !== "#hoeyereUtdanning") {
-					history.replaceState("Romportalen.no - Høyere utdanning", "Romportalen.no - Høyere utdanning", "#hoeyereUtdanning");
-				}
-				$(".generalLink.tileButton h3").removeClass("currentSection");
-				$(".studentLink.tileButton h3").removeClass("currentSection");
-				$(".postStudentLink.tileButton h3").removeClass("currentSection");
 			} else if($(window).scrollTop() > $("#generellInfo").offset().top-navHeight) {
 				document.querySelector(".progressBar").style.width = 0.05+(($(window).scrollTop()-$("#generellInfo").offset().top)/($("#hoeyereUtdanning").offset().top-$("#generellInfo").offset().top))*25+"%";
-				$(".generalLink.tileButton h3").addClass("currentSection");
-				if (document.origin != "null" && window.location.hash !== "#generellInfo") {
-					history.replaceState("Romportalen.no - Generelt", "Romportalen.no - Generelt", "#generellInfo");
-				}
-				$(".preStudentLink.tileButton h3").removeClass("currentSection");
-				$(".studentLink.tileButton h3").removeClass("currentSection");
-				$(".postStudentLink.tileButton h3").removeClass("currentSection");
 			} else {
 				document.querySelector(".progressBar").style.width = "0%";
-				if (document.origin != "null") {
-					history.replaceState("Romportalen.no", "Romportalen.no", ".");
-				}
-				$(".generalLink.tileButton h3").removeClass("currentSection");
-				$(".preStudentLink.tileButton h3").removeClass("currentSection");
-				$(".studentLink.tileButton h3").removeClass("currentSection");
-				$(".postStudentLink.tileButton h3").removeClass("currentSection");
 			}
 		}
 	}
