@@ -137,13 +137,16 @@ function viewPoll( selector ) {
 		} else {
 			$(".frontPageContainer").removeClass("navWrapped");
 		}
-		winHeight = window.innerHeight;
 		lastScrollPosition = -7;
+		linkNavState = "changing";
+		window.requestAnimationFrame(updateHeaderPosition);
+		winHeight = window.innerHeight;
 		updateElemRects();
 	}
 
 	function onScroll() {
 		updateElemRects();
+		window.requestAnimationFrame(updateHeaderPosition);
 	}
 
 	window.addEventListener( 'resize', onResize, false );
