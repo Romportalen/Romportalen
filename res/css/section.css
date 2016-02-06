@@ -1,3 +1,31 @@
+/* front page onLoad animation styles start 
+
+.frontPageContainer h1 span {
+    animation-name: portalMagic;
+    animation-duration: 5s;
+	animation-timing-function: ease;
+	display: inline-block;
+	padding: 0.2em;
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+@keyframes portalMagic {
+    0% {max-width: 0em; padding: 0em;}
+	70% {max-width: 0em; padding: 0.2em;}
+    100% {max-width: 10em; padding: 0.2em;}
+}
+
+.frontPageContainer img.logoRight {
+	margin-left: -0.2em !important;
+}
+
+.frontPageContainer img.logoLeft {
+	margin-right: -0.2em !important;
+}
+
+ front page onLoad animation styles end */
+
 .inviewTrigger .media-object {
   transition: all 1s ease, filter 0.3s ease, -webkit-filter 0.3s ease;
   position: relative;
