@@ -541,11 +541,11 @@ body > .sectionTransition .planetVideo {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
 }
 
-.adContainer.spaceExpo {
-	background-image: url("http://romportalen.no/res/img/Space-Expo-inne-i-utstillingen_2columns_gallery.jpg");
+.adContainer.vitTrond {
+	background-image: url("http://romportalen.no/res/img/planetarium.jpg");
 }
 
-.adContainer.spaceExpo .textContainer {
+.adContainer.vitTrond .textContainer {
 	left: 0;
 	text-align: left;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&1+0,0+99 */
