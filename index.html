@@ -277,10 +277,7 @@
 									<header class="panel-heading">
 										<h3>Realfaglig studiespesialisering</h3>
 									</header>
-									<a href="http://www.vilbli.no/?Program=V.ST&Side=1.2&Kurs=V.STUSP1----_V.STREA2----_V.STREA3----">
-										<img class="media-object" src="res/img/panarama1.jpg" alt="glorious placeholder image">
-										
-									</a>
+									<img class="media-object" src="res/img/panarama1.jpg" alt="glorious placeholder image">
 									<div class="button1" onclick="toggle_visibility('real_stud');"></div>
 
 								</div>
@@ -303,9 +300,7 @@
 									<header class="panel-heading">
 										<h3>Landslinje i romteknolog</h3>
 									</header>
-									<a href="http://www.vilbli.no/?Program=V.ST&Side=1.2&Kurs=V.STUSP1----_V.STREA2----_V.STREA3----">
-										<img class="media-object" src="res/img/panarama2.jpg" alt="glorious placeholder image">
-									</a>
+									<img class="media-object" src="res/img/panarama2.jpg" alt="glorious placeholder image">
 									<div class="button1" onclick="toggle_visibility('romtek');"></div>
 								</div>
 								<div id="romtek" class="picture_col">
@@ -938,41 +933,76 @@
 					<header class="page-header panel-heading">
 						<h2>Fagvalg</h2>
 					</header>
-					<article class="mediumContainer inviewTrigger">
-						<header class="panel-heading">
-							<h3>innholdsboksoverskrift</h3>
-						</header>
-						<div class="contentContainer panel-body">
-							<div class="media">
-								<div class="media-left">
-									<a href="#"><img class="media-object" src="http://nuts.cubesat.no/site/gfx/satellitte.png" alt="glorious placeholder image"></a>
+
+					<div class="container-fluid">
+
+						<div class="row">
+
+							<article class="mediumContainer inviewTrigger col-sm-3" onclick="toggle_visibility('ntnu_popup');" >
+								<div class="contentContainer panel-body">
+									<div class="media">
+										<div class="media-left">
+											<img class="media-object" src="res/img/companyLogos/NTNU_sort.png" alt="ntnu company logo">
+										</div>
+										<div class="media-body">
+											<!-- <h4 class="media-heading">Media heading</h4> -->
+										</div>
+									</div>
 								</div>
-								<div class="media-body">
-									<!-- <h4 class="media-heading">Media heading</h4> -->
-									<p>CSS3 introduces a few new units. (Oh wait, I've said that before.) So, you've heard about px, pt, em, and the fancy new rem. Let's look at a couple more: vw and vh.</p>
+								<header class="panel-heading">
+									<h3>NTNU</h3>
+								</header>
+							</article>
+
+							<article class="mediumContainer inviewTrigger col-sm-3" onclick="toggle_visibility('uio_popup');" >
+								<div class="contentContainer panel-body">
+									<div class="media">
+										<div class="media-left">
+											<img class="media-object" src="res/img/companyLogos/uio_logo.png" alt="uio company logo">
+										</div>
+										<div class="media-body">
+											<!-- <h4 class="media-heading">Media heading</h4> -->
+										</div>
+									</div>
 								</div>
-							</div>
+								<header class="panel-heading">
+									<h3>Universitet i Oslo</h3>
+								</header>
+							</article>
+
+							<article class="mediumContainer inviewTrigger col-sm-3" onclick="toggle_visibility('uib_popup');" >
+								<div class="contentContainer panel-body">
+									<div class="media">
+										<div class="media-left">
+											<img class="media-object" src="res/img/companyLogos/uib_logo.png" alt="uib company logo">
+										</div>
+										<div class="media-body">
+											<!-- <h4 class="media-heading">Media heading</h4> -->
+										</div>
+									</div>
+								</div>
+								<header class="panel-heading">
+									<h3>Universitet i Bergen</h3>
+								</header>
+							</article>
+
+							<article class="mediumContainer inviewTrigger col-sm-3" onclick="toggle_visibility('uit_popup');" >
+								<div class="contentContainer panel-body">
+									<div class="media">
+										<div class="media-left">
+											<img class="media-object" src="res/img/companyLogos/UiT_Black.png" alt="uit company logo">
+										</div>
+										<div class="media-body">
+											<!-- <h4 class="media-heading">Media heading</h4> -->
+										</div>
+									</div>
+								</div>
+								<header class="panel-heading">
+									<h3>Universitet i Tromsø</h3>
+								</header>
+							</article>
 						</div>
-						<aside class="imageContainer"></aside>
-					</article>
-					<div class="articleTransition"></div>
-					<article class="mediumContainer inviewTrigger">
-						<header class="panel-heading">
-							<h3>innholdsboksoverskrift</h3>
-						</header>
-						<div class="contentContainer panel-body">
-							<div class="media">
-								<div class="media-left">
-									<a href="#"><img class="media-object" src="http://nuts.cubesat.no/site/gfx/satellitte.png" alt="glorious placeholder image"></a>
-								</div>
-								<div class="media-body">
-									<!-- <h4 class="media-heading">Media heading</h4> -->
-									<p>CSS3 introduces a few new units. (Oh wait, I've said that before.) So, you've heard about px, pt, em, and the fancy new rem. Let's look at a couple more: vw and vh.</p>
-								</div>
-							</div>
-						</div>
-						<aside class="imageContainer"></aside>
-					</article>
+					</div>
 				</section>
 			</main>
 		</section>
