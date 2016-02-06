@@ -5,7 +5,6 @@ var linkNavState = "changing";
 var prevLinkNavState = "init";
 
 	function updateHeaderPosition() {
-		window.requestAnimationFrame(updateHeaderPosition);
 		if (lastScrollPosition != $(window).scrollTop()) {
 			lastScrollPosition = $(window).scrollTop();
 			prevLinkNavState = linkNavState;
@@ -108,7 +107,10 @@ var prevLinkNavState = "init";
 	}
 
 $(document).ready(function(){
-	updateHeaderPosition();
+	$( window ).scroll(function() {
+		updateHeaderPosition();
+	});
+	
 	$(".frontPageContainer .titleContainer h1").bind("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){
 		linkNavState = "changing";
 		lastScrollPosition = -1;
