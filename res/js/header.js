@@ -3,11 +3,13 @@
 var lastScrollPosition = -1;
 var linkNavState = "changing";
 var prevLinkNavState = "init";
+var lastViewportWidth = -1;
 
 	function updateHeaderPosition() {
 		window.requestAnimationFrame(updateHeaderPosition);
-		if (lastScrollPosition != $(window).scrollTop()) {
+		if (lastScrollPosition != $(window).scrollTop() | lastViewportWidth != $(window).width()) {
 			lastScrollPosition = $(window).scrollTop();
+			lastViewportWidth = $(window).width();
 			prevLinkNavState = linkNavState;
 
 			if (!document.querySelector(".frontpageContainer.navbarState")) {
