@@ -337,6 +337,75 @@ body > .sectionTransition .planetVideo {
 	text-align: center;
 }
 
+/* UNI NAV THINGY START */
+.uniNavContainer {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.uniNavContainer .nav_img div img {
+	opacity: 1;
+	top:0;
+	left:0;
+	width: 100%;
+	height: auto;
+	z-index: 500;
+	overflow: hidden;
+	position: absolute;
+}
+
+.uniNavContainer .nav_img div {
+	display: none;
+}
+
+.uniNavContainer .nav_img div#default {
+	display: block;
+	position: relative;
+}
+
+.uniNavContainer .nav_img div#default img {
+	display: block;
+	position: relative;
+}
+
+.uniNavContainer .nav_img div img:visible {
+	position: relative;
+}
+
+.uniNavContainer nav ul{
+	position:absolute;
+	bottom:5%;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.uniNavContainer li{
+	z-index: 9000;
+	display: inline-block;
+	position: relative;
+	padding: 0.25em;
+	font-family: 'Electrolize', sans-serif !important;
+}
+
+.uniNavContainer li div:hover {
+    background-color: rgba(0,0,0,1);
+    color: #0068D1;
+}
+
+.uniNavContainer li div{
+	cursor: pointer;
+	text-align: center;
+	background-color: rgba(0,0,0,0.9);
+}
+
+.uniNavContainer li div h3{
+	margin: 0;
+	padding: 0.5em;
+}
+/* UNI NAV THINGY END */
+
 
 /**********************	POPUP-BOXES****************************/
 
