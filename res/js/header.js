@@ -6,6 +6,7 @@ var prevLinkNavState = "init";
 var lastViewportWidth = -1;
 
 	function updateHeaderPosition() {
+		var navHeight = $(".frontPageContainer ul li a h3").height()+2;
 		prevLinkNavState = linkNavState;
 
 		if (!document.querySelector(".frontpageContainer.navbarState")) {
@@ -22,19 +23,19 @@ var lastViewportWidth = -1;
 				document.querySelector(".titleContainer").style.bottom = $(".frontPageContainer .titleContainer h1").outerHeight()+$(".frontPageContainer ul li a h3").height()+$(".frontPageContainer .titleContainer .progressContainer").outerHeight()+"px";
 			}
 			/* title animation rules end */
+		}
+
+		/* progress bar width updater */
+		if($(window).scrollTop() > $("#arbeidslivet").offset().top-navHeight) {
+			document.querySelector(".progressBar").style.width = 75+(($(window).scrollTop()-$("#arbeidslivet").offset().top)/($(document).height()-$(window).height()-$("#arbeidslivet").offset().top))*25+"%";
+		} else if($(window).scrollTop() > $("#student").offset().top-navHeight) {
+			document.querySelector(".progressBar").style.width = 50+(($(window).scrollTop()-$("#student").offset().top)/($("#arbeidslivet").offset().top-$("#student").offset().top))*25+"%";
+		} else if($(window).scrollTop() > $("#hoeyereUtdanning").offset().top-navHeight) {
+			document.querySelector(".progressBar").style.width = 25+(($(window).scrollTop()-$("#hoeyereUtdanning").offset().top)/($("#student").offset().top-$("#hoeyereUtdanning").offset().top))*25+"%";
+		} else if($(window).scrollTop() > $("#generellInfo").offset().top-navHeight) {
+			document.querySelector(".progressBar").style.width = 0.05+(($(window).scrollTop()-$("#generellInfo").offset().top)/($("#hoeyereUtdanning").offset().top-$("#generellInfo").offset().top))*25+"%";
 		} else {
-			/* progress bar width updater */
-			if($(window).scrollTop() > $("#arbeidslivet").offset().top-navHeight) {
-				document.querySelector(".progressBar").style.width = 75+(($(window).scrollTop()-$("#arbeidslivet").offset().top)/($(document).height()-$(window).height()-$("#arbeidslivet").offset().top))*25+"%";
-			} else if($(window).scrollTop() > $("#student").offset().top-navHeight) {
-				document.querySelector(".progressBar").style.width = 50+(($(window).scrollTop()-$("#student").offset().top)/($("#arbeidslivet").offset().top-$("#student").offset().top))*25+"%";
-			} else if($(window).scrollTop() > $("#hoeyereUtdanning").offset().top-navHeight) {
-				document.querySelector(".progressBar").style.width = 25+(($(window).scrollTop()-$("#hoeyereUtdanning").offset().top)/($("#student").offset().top-$("#hoeyereUtdanning").offset().top))*25+"%";
-			} else if($(window).scrollTop() > $("#generellInfo").offset().top-navHeight) {
-				document.querySelector(".progressBar").style.width = 0.05+(($(window).scrollTop()-$("#generellInfo").offset().top)/($("#hoeyereUtdanning").offset().top-$("#generellInfo").offset().top))*25+"%";
-			} else {
-				document.querySelector(".progressBar").style.width = "0%";
-			}
+			document.querySelector(".progressBar").style.width = "0%";
 		}
 
 		/* link animation rules start */
@@ -66,8 +67,7 @@ var lastViewportWidth = -1;
 			$(".frontPageContainer").addClass("navbarState");
 		}
 		/* link animation rules end */
-
-		var navHeight = $(".frontPageContainer ul li a h3").height()+2;
+		
 		if($(window).scrollTop() > $("#arbeidslivet").offset().top-navHeight) {
 			if (window.location.hash !== "#arbeidslivet" | document.querySelector(".postStudentLink.tileButton h3").className.indexOf("currentSection") == -1) {
 				$(".postStudentLink.tileButton h3").addClass("currentSection");
