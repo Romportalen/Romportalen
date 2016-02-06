@@ -975,6 +975,7 @@ a[data-toggle="collapse"] header h2:hover:after {
 	z-index: 9000;
 	background-color: white;
 }
+
 .media_fwidth div{
 	color:black !important;
 }
@@ -998,27 +999,48 @@ a[data-toggle="collapse"] header h2:hover:after {
 
 }
 
-.button1{
-	width:1.5vw;
-	height:5vh;
+.button1, .button2 {
+	width: 10%;
+	height: 100%;
 	z-index: 1000;
 	background-color: white;
-	font-size: 4vh;
 	font-weight: bold;
-	top:40%;
-	right:0%;
+	top: 0;
 	position: absolute;
+	text-align: center;
+	vertical-align: middle;
 }
-.button2{
-	width:1.5vw;
-	height:5vh;
-	z-index: 1000;
-	background-color: white;
-	font-size: 4vh;
-	font-weight: bold;
-	top:40%;
-	right:40;
-	position: absolute;
+
+.button1 {
+	right: 0;
+}
+
+.button1:visible {
+	display: table-cell !important;
+}
+
+.button2:visible {
+	display: table-cell !important;
+	right: 80%;
+}
+
+.button1:after, .button2:after {
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font-size: 2em;
+	vertical-align: middle;
+    height: 100%;
+}
+
+.button1:after {
+	content: '\f137';
+}
+
+.button2:after {
+	content: '\f138';
 }
 
 /* collapse styles start
