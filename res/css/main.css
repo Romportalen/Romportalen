@@ -274,6 +274,9 @@ body > .sectionTransition .planetVideo {
 	max-width: 100%;
 	text-align: center;
 }
+.happenings .media-object{
+	width: 12vw !important;
+}
 
 .container-fluid .media-left img {
 	max-width: 100% !important;
