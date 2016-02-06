@@ -963,6 +963,64 @@ a[data-toggle="collapse"] header h2:hover:after {
 	-webkit-transform: rotate(0deg);
 }
 
+/* css for picture collaps	*/
+
+.picture_col{
+	width:70%;
+	height:100%;
+	display:none;
+	position:absolute;
+	top:0;
+	right:0;
+	z-index: 9000;
+	background-color: white;
+}
+.media_fwidth div{
+	color:black !important;
+}
+.picture_col p {
+	padding: 0 4vh;
+	color:black !important;
+}
+
+.picture_col h3{
+	color:black !important;
+}
+.picture_col div{
+	color:black !important;
+}
+.media_fwidth{
+	width: 100%;
+}
+.media_fwidth img.media-object {
+	max-width:100% !important;
+	height: 100%;
+
+}
+
+.button1{
+	width:1.5vw;
+	height:5vh;
+	z-index: 1000;
+	background-color: white;
+	font-size: 4vh;
+	font-weight: bold;
+	top:40%;
+	right:0%;
+	position: absolute;
+}
+.button2{
+	width:1.5vw;
+	height:5vh;
+	z-index: 1000;
+	background-color: white;
+	font-size: 4vh;
+	font-weight: bold;
+	top:40%;
+	right:40;
+	position: absolute;
+}
+
 /* collapse styles start
 
 .collapseTrigger .media-body.collapse.in {
