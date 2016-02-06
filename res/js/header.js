@@ -129,6 +129,9 @@ $(document).ready(function(){
 		lastScrollPosition = -1;
 		window.requestAnimationFrame(updateHeaderPosition);
 	});
+	$(".collapse").bind("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){
+		window.requestAnimationFrame(updateHeaderPosition);
+	});
     $("a").click(function() {
 		setTimeout(function(){lastScrollPosition = -5;}, 50);
     });
