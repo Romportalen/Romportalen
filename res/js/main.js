@@ -155,6 +155,5 @@ function viewPoll( selector ) {
 }
 
 $(document).ready(function(){
-	/* viewPoll( ".inviewTrigger" ); */
-	$(".inviewTrigger").addClass("inview");
+	viewPoll( ".inviewTrigger" );
 });

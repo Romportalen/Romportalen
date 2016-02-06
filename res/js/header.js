@@ -5,6 +5,7 @@ var linkNavState = "changing";
 var prevLinkNavState = "init";
 
 	function updateHeaderPosition() {
+		window.requestAnimationFrame(updateHeaderPosition);
 		if (lastScrollPosition != $(window).scrollTop()) {
 			lastScrollPosition = $(window).scrollTop();
 			prevLinkNavState = linkNavState;
@@ -23,6 +24,19 @@ var prevLinkNavState = "init";
 					document.querySelector(".titleContainer").style.bottom = $(".frontPageContainer .titleContainer h1").outerHeight()+$(".frontPageContainer ul li a h3").height()+$(".frontPageContainer .titleContainer .progressContainer").outerHeight()+"px";
 				}
 				/* title animation rules end */
+			} else {
+				/* progress bar width updater */
+				if($(window).scrollTop() > $("#arbeidslivet").offset().top-navHeight) {
+					document.querySelector(".progressBar").style.width = 75+(($(window).scrollTop()-$("#arbeidslivet").offset().top)/($(document).height()-$(window).height()-$("#arbeidslivet").offset().top))*25+"%";
+				} else if($(window).scrollTop() > $("#student").offset().top-navHeight) {
+					document.querySelector(".progressBar").style.width = 50+(($(window).scrollTop()-$("#student").offset().top)/($("#arbeidslivet").offset().top-$("#student").offset().top))*25+"%";
+				} else if($(window).scrollTop() > $("#hoeyereUtdanning").offset().top-navHeight) {
+					document.querySelector(".progressBar").style.width = 25+(($(window).scrollTop()-$("#hoeyereUtdanning").offset().top)/($("#student").offset().top-$("#hoeyereUtdanning").offset().top))*25+"%";
+				} else if($(window).scrollTop() > $("#generellInfo").offset().top-navHeight) {
+					document.querySelector(".progressBar").style.width = 0.05+(($(window).scrollTop()-$("#generellInfo").offset().top)/($("#hoeyereUtdanning").offset().top-$("#generellInfo").offset().top))*25+"%";
+				} else {
+					document.querySelector(".progressBar").style.width = "0%";
+				}
 			}
 
 			/* link animation rules start */
@@ -46,8 +60,7 @@ var prevLinkNavState = "init";
 				$(".frontPageContainer").addClass("navbarState");
 			} else {
 				linkNavState = "fixed";
-				if(prevLinkNavState !== linkNavState) {
-					console.log("nav position updated");
+				if (prevLinkNavState !== linkNavState) {
 					document.querySelector(".frontPageContainer").style.top = -($(".frontPageContainer").height()-$(".frontPageContainer ul li a h3").height())+$(".frontPageContainer .titleContainer h1").outerHeight()+"px";
 					document.querySelector(".frontPageContainer .tileNav").style.height = $(".frontPageContainer ul li.preStudentLink a h3").height()+"px";
 					$(".frontPageContainer .tile-image").addClass("hideImg");
@@ -108,27 +121,10 @@ var prevLinkNavState = "init";
 					$(".postStudentLink.tileButton h3").removeClass("currentSection");
 				}
 			}
-			
-			/* progress bar width updater */
-			if($(window).scrollTop() > $("#arbeidslivet").offset().top-navHeight) {
-				document.querySelector(".progressBar").style.width = 75+(($(window).scrollTop()-$("#arbeidslivet").offset().top)/($(document).height()-$(window).height()-$("#arbeidslivet").offset().top))*25+"%";
-			} else if($(window).scrollTop() > $("#student").offset().top-navHeight) {
-				document.querySelector(".progressBar").style.width = 50+(($(window).scrollTop()-$("#student").offset().top)/($("#arbeidslivet").offset().top-$("#student").offset().top))*25+"%";
-			} else if($(window).scrollTop() > $("#hoeyereUtdanning").offset().top-navHeight) {
-				document.querySelector(".progressBar").style.width = 25+(($(window).scrollTop()-$("#hoeyereUtdanning").offset().top)/($("#student").offset().top-$("#hoeyereUtdanning").offset().top))*25+"%";
-			} else if($(window).scrollTop() > $("#generellInfo").offset().top-navHeight) {
-				document.querySelector(".progressBar").style.width = 0.05+(($(window).scrollTop()-$("#generellInfo").offset().top)/($("#hoeyereUtdanning").offset().top-$("#generellInfo").offset().top))*25+"%";
-			} else {
-				document.querySelector(".progressBar").style.width = "0%";
-			}
 		}
 	}
 
 $(document).ready(function(){
-	$( window ).scroll(function() {
-		updateHeaderPosition();
-	});
-	
 	updateHeaderPosition();
 	
 	$(".frontPageContainer .titleContainer h1").bind("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){
