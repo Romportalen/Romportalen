@@ -157,6 +157,22 @@ function viewPoll( selector ) {
 	onScroll();
 }
 
+var images = new Array()
+function preload() {
+	for (i = 0; i < preload.arguments.length; i++) {
+		images[i] = new Image()
+		images[i].src = preload.arguments[i]
+	}
+}
+
 $(document).ready(function(){
 	viewPoll( ".inviewTrigger" );
+	preload(
+		"res/img/uniHeader/1.jpg",
+		"res/img/uniHeader/2.jpg",
+		"res/img/uniHeader/3.jpg",
+		"res/img/uniHeader/4.jpg",
+		"res/img/uniHeader/5.jpg",
+		"res/img/uniHeader/6.jpg"
+	)
 });
