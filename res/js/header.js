@@ -129,6 +129,8 @@ $(document).ready(function(){
 		updateHeaderPosition();
 	});
 	
+	updateHeaderPosition();
+	
 	$(".frontPageContainer .titleContainer h1").bind("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){
 		linkNavState = "changing";
 		lastScrollPosition = -1;
