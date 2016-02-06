@@ -982,9 +982,13 @@ a[data-toggle="collapse"] header h2:hover:after {
 .picture_col p {
     padding-left: 10%;
     padding-right: 10%;
+    padding-top: 3em;
 	color:black !important;
 }
-
+.media_fwidth .panel-heading{
+	position: absolute;
+	z-index: 500;
+}
 .picture_col h3{
 	color:black !important;
 }
