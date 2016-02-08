@@ -458,7 +458,11 @@ body > .sectionTransition .planetVideo {
 	right: 0px;
 	position: absolute;
 	top: 50%;
-	transform: translateY(-50%);
+	transform: translateY(-50%) !important;
+	-ms-transform: translateY(-50%) !important;
+	-webkit-transform: translateY(-50%) !important;
+	-o-tranform: translateY(-50%) !important;
+	-moz-transform: translateY(-50%) !important;
 }
 
 #popup-wrapper2{
@@ -976,7 +980,7 @@ a[data-toggle="collapse"] header h2:hover:after {
 	top:0;
 	right:0;
 	z-index: 9000;
-	background-color: white;
+	background-color: #545454;
 	overflow-y:auto;
 }
 
@@ -987,17 +991,17 @@ a[data-toggle="collapse"] header h2:hover:after {
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 3em;
-	color:black !important;
+	color:white !important;
 }
 .media_fwidth .panel-heading{
 	position: absolute;
 	z-index: 500;
 }
 .picture_col h3{
-	color:black !important;
+	color:white !important;
 }
 .picture_col div{
-	color:black !important;
+	color:white !important;
 }
 .media_fwidth{
 	width: 100%;
@@ -1012,7 +1016,7 @@ a[data-toggle="collapse"] header h2:hover:after {
 	width: 10%;
 	height: 100%;
 	z-index: 1000;
-	background-color: white;
+	background-color: #545454;
 	font-weight: bold;
 	top: 0;
 	position: absolute;
@@ -1035,14 +1039,19 @@ a[data-toggle="collapse"] header h2:hover:after {
 
 .button1:after, .button2:after {
     font: normal normal normal 14px/1 FontAwesome;
+	color: white;
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
 	display: inline-block;
 	font-size: 2em;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%) !important;
+	-ms-transform: translateY(-50%) !important;
+	-webkit-transform: translateY(-50%) !important;
+	-o-tranform: translateY(-50%) !important;
+	-moz-transform: translateY(-50%) !important;
 }
 
 .button1:after {
@@ -1288,6 +1297,7 @@ h2.resp-accordion:first-child {
 
 .popup .tabContainer {
 	padding: 0.5em;
+	padding-bottom: 0em;
 }
 
 .popup .tabContainer .resp-tab-content {
@@ -1300,8 +1310,12 @@ h2.resp-accordion:first-child {
 
 .popup .tabContainer .resp-tabs-list img {
 	position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+	top: 50%;
+	transform: translateY(-50%) !important;
+	-ms-transform: translateY(-50%) !important;
+	-webkit-transform: translateY(-50%) !important;
+	-o-tranform: translateY(-50%) !important;
+	-moz-transform: translateY(-50%) !important;
 	max-height: 100%;
 	max-width: 100%;
 }
@@ -1314,6 +1328,10 @@ h2.resp-accordion:first-child {
 
 .popup .tabContainer .uniTabChild {
 	color: black !important;
+}
+
+.popup .tabContainer .uniTabChild ul {
+	margin: 0;
 }
 /* responsive tab styles end */
 
