@@ -1033,11 +1033,15 @@ a[data-toggle="collapse"] header h2:hover:after {
 .button1 {
 	right: 0;
 	opacity: 0.8;
+	transition: opacity 0.2s ease;
+	-webkit-transition: opacity 0.2s ease;
 }
 
 .media_fwidth:hover .button1, 
 .button1:hover {
 	opacity: 0.9;
+	transition: opacity 0.2s ease;
+	-webkit-transition: opacity 0.2s ease;
 }
 
 .button1:visible {
