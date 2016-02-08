@@ -503,6 +503,9 @@ body > .sectionTransition .planetVideo {
 
 #popup-container h3{
 	padding: 1vh;
+    padding-top: 0;
+    margin-top: 0.22em;
+    margin-bottom: 0em;
 }
 
 .adContainer {
@@ -1033,15 +1036,15 @@ a[data-toggle="collapse"] header h2:hover:after {
 .button1 {
 	right: 0;
 	opacity: 0.8;
-	transition: opacity 0.2s ease;
-	-webkit-transition: opacity 0.2s ease;
+	transition: opacity 0.3s ease;
+	-webkit-transition: opacity 0.3s ease;
 }
 
 .media_fwidth:hover .button1, 
 .button1:hover {
 	opacity: 0.9;
-	transition: opacity 0.2s ease;
-	-webkit-transition: opacity 0.2s ease;
+	transition: opacity 0.3s ease;
+	-webkit-transition: opacity 0.3s ease;
 }
 
 .button1:visible {
