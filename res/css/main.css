@@ -1285,6 +1285,32 @@ h2.resp-accordion:first-child {
         border-bottom: 1px solid #c1c1c1 !important;
     }
 }
+
+.popup .tabContainer {
+	padding: 0.5em;
+}
+
+.popup .tabContainer .resp-tab-content {
+	border-color: #5AB1D0;
+}
+
+.popup .tabContainer .resp-tabs-list li {
+	height: 7em;
+}
+
+.popup .tabContainer .resp-tabs-list img {
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.popup .tabContainer img {
+	vertical-align: middle;
+	margin: 0 auto;
+	display: inherit;
+}
 /* responsive tab styles end */
 
 @media (min-width: 768px) {
