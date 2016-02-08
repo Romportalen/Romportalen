@@ -1049,7 +1049,7 @@ a[data-toggle="collapse"] header h2:hover:after {
 
 .media_fwidth h3 {
     font-family: "Electrolize",sans-serif !important;
-    text-shadow: 0 0 0.5em black;
+    text-shadow: 0 0 0.2em black, 0 0 0.5em black;
     font-size: 5vh;
 }
 
