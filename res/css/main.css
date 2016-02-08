@@ -1035,6 +1035,10 @@ a[data-toggle="collapse"] header h2:hover:after {
 	opacity: 0.8;
 }
 
+.button1:hover {
+	opacity: 0.9;
+}
+
 .button1:visible {
 	display: table-cell !important;
 }
