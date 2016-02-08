@@ -34,7 +34,6 @@
 
 .inviewTrigger.inview .media-object {
   transition: all 1s ease, filter 0.3s ease, -webkit-filter 0.3s ease;
-  opacity: 1;
 }
 
 /* section background images start */
