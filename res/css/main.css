@@ -1032,6 +1032,7 @@ a[data-toggle="collapse"] header h2:hover:after {
 
 .button1 {
 	right: 0;
+	opacity: 0.8;
 }
 
 .button1:visible {
