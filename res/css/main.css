@@ -412,12 +412,12 @@ body > .sectionTransition .planetVideo {
 
 .uniNavContainer .nav_img h3 {
     font-family: "Electrolize",sans-serif !important;
-    font-size: 8vh;
+    font-size: 7vh;
 }
 .uniNavContainer .nav_img h3 {
     position: absolute;
     color: #FFF;
-    top: 20%;
+    top: 0.25em;
     left: 0;
     right: 0;
     padding: 0;
@@ -1045,6 +1045,11 @@ a[data-toggle="collapse"] header h2:hover:after {
 	opacity: 0.9;
 	transition: opacity 0.3s ease;
 	-webkit-transition: opacity 0.3s ease;
+}
+
+.media_fwidth h3 {
+    font-family: "Electrolize",sans-serif !important;
+	text-shadow: 0 0 0.75em black;
 }
 
 .button1:visible {
