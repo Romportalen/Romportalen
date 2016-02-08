@@ -1311,6 +1311,10 @@ h2.resp-accordion:first-child {
 	margin: 0 auto;
 	display: inherit;
 }
+
+.popup .tabContainer .uniTabChild {
+	color: black !important;
+}
 /* responsive tab styles end */
 
 @media (min-width: 768px) {
