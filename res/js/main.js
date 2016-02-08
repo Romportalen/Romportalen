@@ -392,7 +392,7 @@ function preload() {
 }
 
 $(document).ready(function(){
-	viewPoll( ".inviewTrigger" );
+	/* viewPoll( ".inviewTrigger" ); */
 	preload(
 		"res/img/uniHeader/UniValg_1.jpg",
 		"res/img/uniHeader/UniValg_2.jpg",
