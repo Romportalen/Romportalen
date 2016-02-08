@@ -394,12 +394,12 @@ function preload() {
 $(document).ready(function(){
 	viewPoll( ".inviewTrigger" );
 	preload(
-		"res/img/uniHeader/1.jpg",
-		"res/img/uniHeader/2.jpg",
-		"res/img/uniHeader/3.jpg",
-		"res/img/uniHeader/4.jpg",
-		"res/img/uniHeader/5.jpg",
-		"res/img/uniHeader/6.jpg"
+		"res/img/uniHeader/UniValg_1.jpg",
+		"res/img/uniHeader/UniValg_2.jpg",
+		"res/img/uniHeader/UniValg_3.jpg",
+		"res/img/uniHeader/UniValg_4.jpg",
+		"res/img/uniHeader/UniValg_5.jpg",
+		"res/img/uniHeader/UniValg_6.jpg"
 	);
 	$("#uniTab").easyResponsiveTabs({
 		type: 'default', //Types: default, vertical, accordion           
