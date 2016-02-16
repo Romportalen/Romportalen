@@ -1051,6 +1051,7 @@ a[data-toggle="collapse"] header h2:hover:after {
     font-family: "Electrolize",sans-serif !important;
     text-shadow: 0 0 0.2em black, 0 0 0.5em black;
     font-size: 5vh;
+    margin-right: 10%;
 }
 
 .button1:visible {
