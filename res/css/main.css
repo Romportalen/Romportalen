@@ -952,7 +952,7 @@ a[data-toggle="collapse"] {
 	cursor: pointer;
 }
 
-a[data-toggle="collapse"] header h2:after {
+a[data-toggle="collapse"] header h3:after {
 	content: "\f0d7 ";
 	font: normal normal normal 14px/1 FontAwesome;
 	font-size: inherit;
@@ -966,14 +966,14 @@ a[data-toggle="collapse"] header h2:after {
 	-webkit-transform: rotate(90deg);
 }
 
-a[data-toggle="collapse"] header h2:hover:after {
+a[data-toggle="collapse"] header h3:hover:after {
 	transition: color 0.2s ease, transform 0.2s ease;
 	-webkit-transition: color 0.2s ease, transform 0.2s ease;
 	transform: rotate(0deg);
 	-webkit-transform: rotate(0deg);
 }
 
-/* css for picture collaps	*/
+/* css for picture collapse	*/
 
 .picture_col{
 	width:70%;
