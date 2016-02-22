@@ -8,6 +8,12 @@ var lastViewportWidth = -1;
 	function updateHeaderPosition() {
 		var navHeight = $(".frontPageContainer ul li a h3").height()+2;
 		prevLinkNavState = linkNavState;
+		
+		if ($(window).scrollTop() == 0) {
+			document.querySelector(".frontPageContainer video").play();
+		} else {
+			document.querySelector(".frontPageContainer video").pause();
+		}
 
 		if (!document.querySelector(".frontpageContainer.navbarState")) {
 			/* no point in running these if we're in .navbarState: they're hidden then. */
