@@ -1352,11 +1352,13 @@ h2.resp-accordion:first-child {
 	display: inherit;
 }
 
-.popup .tabContainer .uniTabChild {
+.popup .tabContainer .resp-tabs-list,
+.popup .tabContainer .resp-tabs-container {
 	color: black !important;
 }
 
-.popup .tabContainer .uniTabChild ul {
+.popup .tabContainer .resp-tabs-list ul,
+.popup .tabContainer .resp-tabs-container ul {
 	margin: 0;
 }
 /* responsive tab styles end */
