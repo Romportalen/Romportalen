@@ -5,16 +5,7 @@ var linkNavState = "changing";
 var prevLinkNavState = "init";
 var lastViewportWidth = -1;
 
-	function updateHeaderPosition() {
-		var navHeight = $(".frontPageContainer ul li a h3").height()+2;
-		prevLinkNavState = linkNavState;
-		
-		if ($(window).scrollTop() == 0) {
-			document.querySelector(".frontPageContainer video").play();
-		} else {
-			document.querySelector(".frontPageContainer video").pause();
-		}
-
+	function updateHeaderState() {
 		if (!document.querySelector(".frontpageContainer.navbarState")) {
 			/* no point in running these if we're in .navbarState: they're hidden then. */
 			/* title animation rules start */
@@ -30,6 +21,19 @@ var lastViewportWidth = -1;
 			}
 			/* title animation rules end */
 		}
+	}
+
+	function updateHeaderPosition() {
+		var navHeight = $(".frontPageContainer ul li a h3").height()+2;
+		prevLinkNavState = linkNavState;
+		
+		if ($(window).scrollTop() == 0) {
+			document.querySelector(".frontPageContainer video").play();
+		} else {
+			document.querySelector(".frontPageContainer video").pause();
+		}
+        
+		updateHeaderState();
 
 		/* progress bar width updater */
 		if($(window).scrollTop() > $("#arbeidslivet").offset().top-navHeight) {

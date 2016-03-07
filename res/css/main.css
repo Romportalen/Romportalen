@@ -159,11 +159,11 @@ article.panel {
 
 article header.panel-heading {
 	background: none !important;
-	border-radius: 3px;
+	border-radius: 0px;
 }
 
 .panel-heading {
-	border-radius: 3px !important;
+	border-radius: 0px !important;
 }
 
 .panel {
