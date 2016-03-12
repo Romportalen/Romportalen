@@ -1,0 +1,8 @@
+<header>Universitet i Oslo</header>
+<content>
+	<ul>
+		<li>Romteknologi I (TTT4234) - <a href="https://www.ntnu.no/studier/emner/TTT4234#tab=omEmnet" target="_BLANK">Fagside</a></li>
+		<li>Romteknologi II (TTT4234) - <a href="https://www.ntnu.no/studier/emner/TTT4235#tab=omEmnet" target="_BLANK">Fagside</a></li>
+		<li>Astrofysikk (FY2450) - <a href="https://www.ntnu.no/studier/emner/FY2450" target="_BLANK">Fagside</a></li>
+	</ul>
+</content>
