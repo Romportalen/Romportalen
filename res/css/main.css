@@ -310,6 +310,7 @@ body > .sectionTransition .planetVideo {
 	transition: filter ease 0.5s, -webkit-filter ease 0.5s, border ease 0.5s;
 	filter: brightness(70%);
 	-webkit-filter: brightness(70%);
+    max-width: 25vw;
 }
 
 .slick-slider.slider-nav img:hover {

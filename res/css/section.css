@@ -257,7 +257,11 @@ body > .calendar.sectionContainer {
 
 .sectionTransition img {
     height: 5em;
-    margin: 2em;
+    margin: 3em;
+    background-color: #2F2F2F;
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: 0 0.05em 0.1em 0.1em rgba(0, 0, 255, 0.48);
 }
 
 @media (max-width: 35em) {
