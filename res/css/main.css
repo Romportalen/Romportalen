@@ -191,12 +191,12 @@ body > .sectionTransition.preCalendar {
 }
 
 body > .sectionTransition {
-	margin-top: -20px;
-	top: 0;
-	height: auto;
-	background: rgba(0,0,0,1);
-	box-shadow: 0 0 0.5em 0.5em #000;
-	text-align: center;
+    margin-top: -20px;
+    top: 0;
+    background: #000000;
+    box-shadow: 0 0 0.5em 0.5em #000;
+    text-align: center;
+    height: 9em;
 }
 
 body > .sectionTransition .planetVideo {

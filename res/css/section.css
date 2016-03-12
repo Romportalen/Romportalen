@@ -39,7 +39,7 @@
 /* section background images start */
 
 .sectionContainer {
-	background-size: cover;
+	/*background-size: cover;*/
 	background-position: center center;
 	/* background-attachment: fixed; */
 }
@@ -257,11 +257,13 @@ body > .calendar.sectionContainer {
 
 .sectionTransition img {
     height: 5em;
-    margin: 3em;
-    background-color: #2F2F2F;
-    padding: 1em;
+    margin: 2em;
+    /* background-color: #2F2F2F; */
+    /* padding: 1em; */
     border-radius: 0.5em;
-    box-shadow: 0 0.05em 0.1em 0.1em rgba(0, 0, 255, 0.48);
+    /* box-shadow: 0 0.05em 0.1em 0.1em rgba(0, 0, 255, 0.48); */
+    position: relative;
+    top: 1em;
 }
 
 @media (max-width: 35em) {
