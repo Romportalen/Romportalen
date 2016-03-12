@@ -1,0 +1,55 @@
+﻿<header>Raketter</header>
+<content>
+	<p>Har du noen gang lurt på hvordan raketten som sendte menneske til månen ble laget? Hvilke fremdriftssystem kan gjøre det mulig å ta oss til Mars? Hvordan kan vi lage systemer som kan ta oss utenfor vårt solsystem? Da har du kanskje en rakettforsker i magen!</p>
+	<p>Mange fagfelt er inkludert i den komplekse prosessen av å bygge en rakett. En må blant annet utvikle effektive kjemiske brennstoffer for å få mest mulig skyvkraft. Benytte materialer som kan tåle de ekstreme temperatur og trykk forholdene. Designe avanserte elektroniske systemer som kan regulere raketten. I tillegg kreves smart produktutvikling og systemtenking i sammenheng med grundige analyser av strømning, termiske forhold og baneberegninger for å nå det endelige målet. Det finnes med andre ord mange veier som kan føre deg til raketteknologiens verden. Elektronikkstudier finner du <a href="javascript:void(0)" onclick="toggle_visibility('satellitter_popup');toggle_visibility('raketter_popup');" text-decoration="none"><b>HER</b></a>. Kjemistudier finner du <a href="javascript:void(0)" onclick="toggle_visibility('satellitter_popup');toggle_visibility('raketter_popup');" text-decoration="none"><b>HER</b></a>.  og under finner du en rekke studier som gir deg den grunnleggende faglige kompetansen til å arbeide med raketter.</p>
+	<div id="rocketTab" class="tabContainer">          
+		<ul class="resp-tabs-list rocketTabChild">
+			<li><img class="imgTabIcon" src="res/img/companyLogos/NTNU_sort.png" alt="ntnu company logo"></li>
+			<li><img class="imgTabIcon" src="res/img/companyLogos/UiT_Black.png" alt="uit company logo"></li>
+			<li><img class="imgTabIcon" src="res/img/companyLogos/uib_logo.png" alt="uib company logo"></li>
+			<li><img class="imgTabIcon" src="res/img/companyLogos/uio_logo.png" alt="uio company logo"></li>
+		</ul> 
+		<div class="resp-tabs-container rocketTabChild">                                                        
+			<div>
+				<ul>
+					<li>Fysikk og matematikk - <a target="_BLANK" href="http://www.ntnu.no/studier/mtfyma/om">Hjemmeside</a></li>
+					<li>Fysikk - <a target="_BLANK" href="http://www.ntnu.no/studier/bfy">Hjemmeside</a></li>
+				</ul>
+			</div>
+			<div>
+				<ul>
+					<li>Anvendt fysikk og matematikk (Master, 5 år) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=324988">Hjemmeside</a></li>
+					<li>Fysikk (Bachelor) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=282396">Hjemmeside</a></li>
+					<li>Fysikk (Master, 2 år) - <a target="_BLANK" href=" https://uit.no/utdanning/program?p_document_id=270597">Hjemmeside</a></li>
+				</ul>
+			</div>
+			<div>
+				<ul>
+					<li>Fysikk (Bachelor) - <a target="_BLANK" href="http://www.uib.no/studieprogram/BAMN-PHYS">Hjemmeside</a></li>
+					<li>Fysikk (Master, 2 år) - <a target="_BLANK" href="http://www.uib.no/studieprogram/MAMN-PHYS">Hjemmeside</a></li>
+				</ul>
+			</div>
+			<div>
+				<ul>
+					<li>Fysikk, astronomi og meteorologi (bachelor) - <a target="_BLANK" href="http://www.uio.no/studier/program/fam/index.html">Hjemmeside</a></li>
+					<li>Astronomi (Master, 2 år) - <a target="_BLANK" href="http://www.uio.no/studier/program/astronomi-master/index.html">Hjemmeside</a></li>
+					<li>Fysikk (Master, 2 år) - <a target="_BLANK" href="http://www.uio.no/studier/program/fysikk-master/index.html">Hjemmeside</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>    
+	<script>	
+		$("#rocketTab").easyResponsiveTabs({
+			type: 'default', //Types: default, vertical, accordion           
+			width: 'auto', //auto or any custom width
+			fit: true,   // 100% fits in a container
+			closed: false, // Close the panels on start, the options 'accordion' and 'tabs' keep them closed in there respective view types
+			activate: function() {},  // Callback function, gets called if tab is switched
+			tabidentify: 'rocketTabChild', // The tab groups identifier *This should be a unique name for each tab group and should not be defined in any styling or css file.
+			activetab_bg: '#FFF', // background color for active tabs in this group
+			inactive_bg: '#DDD', // background color for inactive tabs in this group
+			active_border_color: '#5AB1D0', // border color for active tabs heads in this group
+			active_content_border_color: '#5AB1D0' // border color for active tabs contect in this group so that it matches the tab head border
+		});
+	</script>
+</content>

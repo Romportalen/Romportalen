@@ -308,242 +308,33 @@
 						<nav class="nav_uni">
 							<ul class="ul_uni">
 								<li class="uni">
-									<div onmouseover="toggle_visibility('universet');" onmouseout="toggle_visibility('universet');"
-									onclick="toggle_visibility('uni_popup');">
+									<div class="togglePopup" data-popup="universet" onmouseover="toggle_visibility('universet');" onmouseout="toggle_visibility('universet');">
 										<h3 data-letters="Universet">Universet</h3>
 									</div>
 								</li>
 								<li class="rak">
-									<div onmouseover="toggle_visibility('raketter');" onmouseout="toggle_visibility('raketter');"
-									onclick="toggle_visibility('raketter_popup');">
+									<div class="togglePopup" data-popup="raketter" onmouseover="toggle_visibility('raketter');" onmouseout="toggle_visibility('raketter');">
 										<h3 data-letters="Raketter">Raketter</h3>
 									</div>
 								</li>
 								<li class="sat">
-									<div onmouseover="toggle_visibility('satellitter');" onmouseout="toggle_visibility('satellitter');"
-									onclick="toggle_visibility('satellitter_popup');">
+									<div class="togglePopup" data-popup="satellitter" onmouseover="toggle_visibility('satellitter');" onmouseout="toggle_visibility('satellitter');">
 										<h3 data-letters="Satellitter">Satellitter</h3>
 									<div>
 								</li>
 								<li class="atmo">
-									<div onmouseover="toggle_visibility('atmosfaeren');" onmouseout="toggle_visibility('atmosfaeren');"
-									onclick="toggle_visibility('atmo_popup');">
+									<div class="togglePopup" data-popup="atmosphere" onmouseover="toggle_visibility('atmosfaeren');" onmouseout="toggle_visibility('atmosfaeren');">
 										<h3 data-letters="Atmosfæren">Atmosfæren</h3>
 									</div>
 								</li>
 								<li class="jord">
-									<div onmouseover="toggle_visibility('jordobservasjoner');" onmouseout="toggle_visibility('jordobservasjoner');"
-									onclick="toggle_visibility('jord_popup');">
+									<div class="togglePopup" data-popup="earthObs" onmouseover="toggle_visibility('jordobservasjoner');" onmouseout="toggle_visibility('jordobservasjoner');">
 										<h3 data-letters="Jordobservasjon">Jordobservasjon</h3>
 									</div>
 								</li>
 							</ul>
 						</nav>
 					</div>
-
-					<div id="atmo_popup" class="popup">
-						<div id="popup-wrapper">
-							<div id="popup-container">
-								<div id="close-button">
-									<a href="javascript:void(0)" onclick="toggle_visibility('atmo_popup');" text-decoration="none">X</a>
-								</div>
-								<h3>Atmosfæren</h3>
-								<p>Har du lurt på hvordan vi egentlig kan varsle været? Hvordan rom-været påvirker vår planet? Hvilke konsekvenser kan nordlys ha på vital infrastruktur på jorden? Hva er det som egentlig skjer i atmosfæren ved økt menneskelig utslipp av klimagasser? Er dette spørsmål som opptar deg passer du perfekt til å drive med atmosfæreforskning. Enorme mengder satellittdata blir brukt til å analysere den nære atmosfæren for å svare på de utallige spørsmålene vi har om jorden vår. Dette fagfeltet krever at du har en god teoretisk bakgrunn innenfor fysikk, matematikk og/eller kjemi. </p>
-								<div id="atmoTab" class="tabContainer">          
-									<ul class="resp-tabs-list atmoTabChild">
-										<li><img class="imgTabIcon" src="res/img/companyLogos/NTNU_sort.png" alt="ntnu company logo"></li>
-										<li><img class="imgTabIcon" src="res/img/companyLogos/UiT_Black.png" alt="uit company logo"></li>
-										<li><img class="imgTabIcon" src="res/img/companyLogos/uib_logo.png" alt="uib company logo"></li>
-										<li><img class="imgTabIcon" src="res/img/companyLogos/uio_logo.png" alt="uio company logo"></li>
-									</ul> 
-									<div class="resp-tabs-container atmoTabChild">                                                        
-										<div>
-											<ul>
-												<li>Fysikk og matematikk - <a target="_BLANK" href="http://www.ntnu.no/studier/mtfyma/om">Hjemmeside</a></li>
-												<li>Fysikk - <a target="_BLANK" href="http://www.ntnu.no/studier/bfy">Hjemmeside</a></li>
-											</ul>
-										</div>
-										<div>
-											<ul>
-												<li>Anvendt fysikk og matematikk (Master, 5 år) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=324988">Hjemmeside</a></li>
-												<li>Fysikk (Bachelor) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=282396">Hjemmeside</a></li>
-												<li>Fysikk (Master, 2 år) - <a target="_BLANK" href=" https://uit.no/utdanning/program?p_document_id=270597">Hjemmeside</a></li>
-											</ul>
-										</div>
-										<div>
-											<ul>
-												<li>Fysikk (Bachelor) - <a target="_BLANK" href="http://www.uib.no/studieprogram/BAMN-PHYS">Hjemmeside</a></li>
-												<li>Fysikk (Master, 2 år) - <a target="_BLANK" href="http://www.uib.no/studieprogram/MAMN-PHYS">Hjemmeside</a></li>
-											</ul>
-										</div>
-										<div>
-											<ul>
-												<li>Fysikk, astronomi og meteorologi (bachelor) - <a target="_BLANK" href="http://www.uio.no/studier/program/fam/index.html">Hjemmeside</a></li>
-												<li>Astronomi (Master, 2 år) - <a target="_BLANK" href="http://www.uio.no/studier/program/astronomi-master/index.html">Hjemmeside</a></li>
-												<li>Fysikk (Master, 2 år) - <a target="_BLANK" href="http://www.uio.no/studier/program/fysikk-master/index.html">Hjemmeside</a></li>
-											</ul>
-										</div>
-									</div>
-								</div>    
-							</div>
-						</div>
-						<div id="popup-wrapper2" onclick="toggle_visibility('atmo_popup');">
-						</div>
-					</div>
-
-					<div id="jord_popup" class="popup">
-						<div id="popup-wrapper">
-							<div id="popup-container">
-								<div id="close-button">
-									<a href="javascript:void(0)" onclick="toggle_visibility('jord_popup');" text-decoration="none">X</a>
-								</div>
-								<h3>Jordobservasjoner</h3>
-								<p></p>
-								<div id="earthObsTab" class="tabContainer">          
-									<ul class="resp-tabs-list earthObsTabChild">
-										<li><img class="imgTabIcon" src="res/img/companyLogos/NTNU_sort.png" alt="ntnu company logo"></li>
-										<li><img class="imgTabIcon" src="res/img/companyLogos/UiT_Black.png" alt="uit company logo"></li>
-										<li><img class="imgTabIcon" src="res/img/companyLogos/uib_logo.png" alt="uib company logo"></li>
-										<li><img class="imgTabIcon" src="res/img/companyLogos/uio_logo.png" alt="uio company logo"></li>
-									</ul> 
-									<div class="resp-tabs-container earthObsTabChild">                                                        
-										<div>
-											<ul>
-												<li>Fysikk og matematikk - <a target="_BLANK" href="http://www.ntnu.no/studier/mtfyma/om">Hjemmeside</a></li>
-												<li>Fysikk - <a target="_BLANK" href="http://www.ntnu.no/studier/bfy">Hjemmeside</a></li>
-											</ul>
-										</div>
-										<div>
-											<ul>
-												<li>Anvendt fysikk og matematikk (Master, 5 år) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=324988">Hjemmeside</a></li>
-												<li>Fysikk (Bachelor) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=282396">Hjemmeside</a></li>
-												<li>Fysikk (Master, 2 år) - <a target="_BLANK" href=" https://uit.no/utdanning/program?p_document_id=270597">Hjemmeside</a></li>
-											</ul>
-										</div>
-										<div>
-											<ul>
-												<li>Fysikk (Bachelor) - <a target="_BLANK" href="http://www.uib.no/studieprogram/BAMN-PHYS">Hjemmeside</a></li>
-												<li>Fysikk (Master, 2 år) - <a target="_BLANK" href="http://www.uib.no/studieprogram/MAMN-PHYS">Hjemmeside</a></li>
-											</ul>
-										</div>
-										<div>
-											<ul>
-												<li>Fysikk, astronomi og meteorologi (bachelor) - <a target="_BLANK" href="http://www.uio.no/studier/program/fam/index.html">Hjemmeside</a></li>
-												<li>Astronomi (Master, 2 år) - <a target="_BLANK" href="http://www.uio.no/studier/program/astronomi-master/index.html">Hjemmeside</a></li>
-												<li>Fysikk (Master, 2 år) - <a target="_BLANK" href="http://www.uio.no/studier/program/fysikk-master/index.html">Hjemmeside</a></li>
-											</ul>
-										</div>
-									</div>
-								</div>    
-							</div>
-						</div>
-						<div id="popup-wrapper2" onclick="toggle_visibility('jord_popup');">
-						</div>
-					</div>
-
-					<div id="raketter_popup" class="popup">
-						<div id="popup-wrapper">
-							<div id="popup-container">
-								<div id="close-button">
-									<a href="javascript:void(0)" onclick="toggle_visibility('raketter_popup');" text-decoration="none">X</a>
-								</div>
-								<h3>Raketter</h3>
-								<p>Har du noen gang lurt på hvordan raketten som sendte menneske til månen ble laget? Hvilke fremdriftssystem kan gjøre det mulig å ta oss til Mars? Hvordan kan vi lage systemer som kan ta oss utenfor vårt solsystem? Da har du kanskje en rakettforsker i magen!</p>
-								<p>Mange fagfelt er inkludert i den komplekse prosessen av å bygge en rakett. En må blant annet utvikle effektive kjemiske brennstoffer for å få mest mulig skyvkraft. Benytte materialer som kan tåle de ekstreme temperatur og trykk forholdene. Designe avanserte elektroniske systemer som kan regulere raketten. I tillegg kreves smart produktutvikling og systemtenking i sammenheng med grundige analyser av strømning, termiske forhold og baneberegninger for å nå det endelige målet. Det finnes med andre ord mange veier som kan føre deg til raketteknologiens verden. Elektronikkstudier finner du <a href="javascript:void(0)" onclick="toggle_visibility('satellitter_popup');toggle_visibility('raketter_popup');" text-decoration="none"><b>HER</b></a>. Kjemistudier finner du <a href="javascript:void(0)" onclick="toggle_visibility('satellitter_popup');toggle_visibility('raketter_popup');" text-decoration="none"><b>HER</b></a>.  og under finner du en rekke studier som gir deg den grunnleggende faglige kompetansen til å arbeide med raketter.</p>
-								<div id="rocketTab" class="tabContainer">          
-									<ul class="resp-tabs-list rocketTabChild">
-										<li><img class="imgTabIcon" src="res/img/companyLogos/NTNU_sort.png" alt="ntnu company logo"></li>
-										<li><img class="imgTabIcon" src="res/img/companyLogos/UiT_Black.png" alt="uit company logo"></li>
-										<li><img class="imgTabIcon" src="res/img/companyLogos/uib_logo.png" alt="uib company logo"></li>
-										<li><img class="imgTabIcon" src="res/img/companyLogos/uio_logo.png" alt="uio company logo"></li>
-									</ul> 
-									<div class="resp-tabs-container rocketTabChild">                                                        
-										<div>
-											<ul>
-												<li>Fysikk og matematikk - <a target="_BLANK" href="http://www.ntnu.no/studier/mtfyma/om">Hjemmeside</a></li>
-												<li>Fysikk - <a target="_BLANK" href="http://www.ntnu.no/studier/bfy">Hjemmeside</a></li>
-											</ul>
-										</div>
-										<div>
-											<ul>
-												<li>Anvendt fysikk og matematikk (Master, 5 år) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=324988">Hjemmeside</a></li>
-												<li>Fysikk (Bachelor) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=282396">Hjemmeside</a></li>
-												<li>Fysikk (Master, 2 år) - <a target="_BLANK" href=" https://uit.no/utdanning/program?p_document_id=270597">Hjemmeside</a></li>
-											</ul>
-										</div>
-										<div>
-											<ul>
-												<li>Fysikk (Bachelor) - <a target="_BLANK" href="http://www.uib.no/studieprogram/BAMN-PHYS">Hjemmeside</a></li>
-												<li>Fysikk (Master, 2 år) - <a target="_BLANK" href="http://www.uib.no/studieprogram/MAMN-PHYS">Hjemmeside</a></li>
-											</ul>
-										</div>
-										<div>
-											<ul>
-												<li>Fysikk, astronomi og meteorologi (bachelor) - <a target="_BLANK" href="http://www.uio.no/studier/program/fam/index.html">Hjemmeside</a></li>
-												<li>Astronomi (Master, 2 år) - <a target="_BLANK" href="http://www.uio.no/studier/program/astronomi-master/index.html">Hjemmeside</a></li>
-												<li>Fysikk (Master, 2 år) - <a target="_BLANK" href="http://www.uio.no/studier/program/fysikk-master/index.html">Hjemmeside</a></li>
-											</ul>
-										</div>
-									</div>
-								</div>    
-							</div>
-						</div>
-						<div id="popup-wrapper2" onclick="toggle_visibility('raketter_popup');">
-						</div>
-					</div>
-
-					<div id="satellitter_popup" class="popup">
-						<div id="popup-wrapper">
-							<div id="popup-container">
-								<div id="close-button">
-									<a href="javascript:void(0)" onclick="toggle_visibility('satellitter_popup');" text-decoration="none">X</a>
-								</div>
-								<h3>Satellitter</h3>
-								<p>Har du noen gang undret deg over hvordan GPS’en fungerer? Hvordan vi kan overvåke våre enorme land- og havområder? Hvordan vi kan styre noe ute i rommet? Kommunisere med hverandre over enorme avstander ved hjelp av rommet? Svaret på disse spørsmålene er satellitteknologi! </p>
-								<p>Satellitter er komplekse systemer bygget opp av store mengder elektronikk. Med egenutviklet software utfører de mange oppgaver som gjør de til en vital del av vårt samfunn og infrastruktur. Ved hjelp av styring- og reguleringsystemer kan en satellitt holde seg i bane over lengre tid og utføre eksperiment eller opprettholde vårt enorme kommunikasjonssystem her på jorden ved hjelp av radioteknikk. Relevante studier som relaterer seg til materialer og produktutvikling av en satellitt finner du <a href="javascript:void(0)" onclick="toggle_visibility('satellitter_popup');toggle_visibility('raketter_popup');" text-decoration="none"><b>HER</b></a> studier som relaterer seg til elektronikk, styringsystemer, data og kommunikasjonsteknologi finner du ved å trykke på ett av universitetene nedenfor.</p>
-								<div id="satTab" class="tabContainer">          
-									<ul class="resp-tabs-list satTabChild">
-										<li><img class="imgTabIcon" src="res/img/companyLogos/NTNU_sort.png" alt="ntnu company logo"></li>
-										<li><img class="imgTabIcon" src="res/img/companyLogos/UiT_Black.png" alt="uit company logo"></li>
-										<li><img class="imgTabIcon" src="res/img/companyLogos/uib_logo.png" alt="uib company logo"></li>
-										<li><img class="imgTabIcon" src="res/img/companyLogos/uio_logo.png" alt="uio company logo"></li>
-									</ul> 
-									<div class="resp-tabs-container satTabChild">                                                        
-										<div>
-											<ul>
-												<li>Fysikk og matematikk - <a target="_BLANK" href="http://www.ntnu.no/studier/mtfyma/om">Hjemmeside</a></li>
-												<li>Fysikk - <a target="_BLANK" href="http://www.ntnu.no/studier/bfy">Hjemmeside</a></li>
-											</ul>
-										</div>
-										<div>
-											<ul>
-												<li>Anvendt fysikk og matematikk (Master, 5 år) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=324988">Hjemmeside</a></li>
-												<li>Fysikk (Bachelor) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=282396">Hjemmeside</a></li>
-												<li>Fysikk (Master, 2 år) - <a target="_BLANK" href=" https://uit.no/utdanning/program?p_document_id=270597">Hjemmeside</a></li>
-											</ul>
-										</div>
-										<div>
-											<ul>
-												<li>Fysikk (Bachelor) - <a target="_BLANK" href="http://www.uib.no/studieprogram/BAMN-PHYS">Hjemmeside</a></li>
-												<li>Fysikk (Master, 2 år) - <a target="_BLANK" href="http://www.uib.no/studieprogram/MAMN-PHYS">Hjemmeside</a></li>
-											</ul>
-										</div>
-										<div>
-											<ul>
-												<li>Fysikk, astronomi og meteorologi (bachelor) - <a target="_BLANK" href="http://www.uio.no/studier/program/fam/index.html">Hjemmeside</a></li>
-												<li>Astronomi (Master, 2 år) - <a target="_BLANK" href="http://www.uio.no/studier/program/astronomi-master/index.html">Hjemmeside</a></li>
-												<li>Fysikk (Master, 2 år) - <a target="_BLANK" href="http://www.uio.no/studier/program/fysikk-master/index.html">Hjemmeside</a></li>
-											</ul>
-										</div>
-									</div>
-								</div>    
-							</div>
-						</div>
-						<div id="popup-wrapper2" onclick="toggle_visibility('satellitter_popup');">
-						</div>
-					</div>
-
-					<!-- Popupboxes end -->
 				</section>
 				<div class="sectionTransition"></div>
 				<section class="panel panel-default happenings">

@@ -1,0 +1,54 @@
+﻿<header>Atmosfæren</header>
+<content>
+	<p>Har du lurt på hvordan vi egentlig kan varsle været? Hvordan rom-været påvirker vår planet? Hvilke konsekvenser kan nordlys ha på vital infrastruktur på jorden? Hva er det som egentlig skjer i atmosfæren ved økt menneskelig utslipp av klimagasser? Er dette spørsmål som opptar deg passer du perfekt til å drive med atmosfæreforskning. Enorme mengder satellittdata blir brukt til å analysere den nære atmosfæren for å svare på de utallige spørsmålene vi har om jorden vår. Dette fagfeltet krever at du har en god teoretisk bakgrunn innenfor fysikk, matematikk og/eller kjemi. </p>
+	<div id="atmoTab" class="tabContainer">          
+		<ul class="resp-tabs-list atmoTabChild">
+			<li><img class="imgTabIcon" src="res/img/companyLogos/NTNU_sort.png" alt="ntnu company logo"></li>
+			<li><img class="imgTabIcon" src="res/img/companyLogos/UiT_Black.png" alt="uit company logo"></li>
+			<li><img class="imgTabIcon" src="res/img/companyLogos/uib_logo.png" alt="uib company logo"></li>
+			<li><img class="imgTabIcon" src="res/img/companyLogos/uio_logo.png" alt="uio company logo"></li>
+		</ul> 
+		<div class="resp-tabs-container atmoTabChild">                                                        
+			<div>
+				<ul>
+					<li>Fysikk og matematikk - <a target="_BLANK" href="http://www.ntnu.no/studier/mtfyma/om">Hjemmeside</a></li>
+					<li>Fysikk - <a target="_BLANK" href="http://www.ntnu.no/studier/bfy">Hjemmeside</a></li>
+				</ul>
+			</div>
+			<div>
+				<ul>
+					<li>Anvendt fysikk og matematikk (Master, 5 år) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=324988">Hjemmeside</a></li>
+					<li>Fysikk (Bachelor) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=282396">Hjemmeside</a></li>
+					<li>Fysikk (Master, 2 år) - <a target="_BLANK" href=" https://uit.no/utdanning/program?p_document_id=270597">Hjemmeside</a></li>
+				</ul>
+			</div>
+			<div>
+				<ul>
+					<li>Fysikk (Bachelor) - <a target="_BLANK" href="http://www.uib.no/studieprogram/BAMN-PHYS">Hjemmeside</a></li>
+					<li>Fysikk (Master, 2 år) - <a target="_BLANK" href="http://www.uib.no/studieprogram/MAMN-PHYS">Hjemmeside</a></li>
+				</ul>
+			</div>
+			<div>
+				<ul>
+					<li>Fysikk, astronomi og meteorologi (bachelor) - <a target="_BLANK" href="http://www.uio.no/studier/program/fam/index.html">Hjemmeside</a></li>
+					<li>Astronomi (Master, 2 år) - <a target="_BLANK" href="http://www.uio.no/studier/program/astronomi-master/index.html">Hjemmeside</a></li>
+					<li>Fysikk (Master, 2 år) - <a target="_BLANK" href="http://www.uio.no/studier/program/fysikk-master/index.html">Hjemmeside</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>    
+	<script>	
+		$("#atmoTab").easyResponsiveTabs({
+			type: 'default', //Types: default, vertical, accordion           
+			width: 'auto', //auto or any custom width
+			fit: true,   // 100% fits in a container
+			closed: false, // Close the panels on start, the options 'accordion' and 'tabs' keep them closed in there respective view types
+			activate: function() {},  // Callback function, gets called if tab is switched
+			tabidentify: 'atmoTabChild', // The tab groups identifier *This should be a unique name for each tab group and should not be defined in any styling or css file.
+			activetab_bg: '#FFF', // background color for active tabs in this group
+			inactive_bg: '#DDD', // background color for inactive tabs in this group
+			active_border_color: '#5AB1D0', // border color for active tabs heads in this group
+			active_content_border_color: '#5AB1D0' // border color for active tabs contect in this group so that it matches the tab head border
+		});
+	</script>
+</content>
