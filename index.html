@@ -20,6 +20,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="res/js/popups.js"></script>
 		<script src="res/js/header.js"></script>
 		<script src="res/js/main.js"></script>
 		<!--<script src="res/js/parallax.min.js"></script>-->
@@ -46,10 +47,10 @@
 			}
 		</script>
 	</head>
-	<body id="forside" onkeydown="if (event.keyCode == 27){$('.popup:visible').hide();}">
+	<body id="forside" onkeydown="if (event.keyCode == 27){$('.modal').modal('hide');}">
 		<section class="frontPageContainer">
 			<div class="titleContainer">
-				<a href="#forside">
+				<a href="#forside" onclick="$('.modal').modal('hide');">
 						<h1><img class="logoLeft" src="res/img/LogoRomportalenLeft.png"><span class="titleWrapper">Romportalen</span><img class="logoRight" src="res/img/LogoRomportalenRight.png"><i class="fa fa-arrow-circle-up"></i></h1>
 						<div class="progressContainer">
 								<div class="progressBar"></div>
@@ -229,7 +230,7 @@
 		</section>
 
 		<div class="sectionTransition">
-				<video class="planetVideo" autoplay poster="concrete_seamless.png" muted loop>
+				<video class="planetVideo togglePopup" data-popup="universet" autoplay poster="concrete_seamless.png" muted loop>
 					<source src="res/img/OvergangVidNEW.mp4" type="video/mp4">
 				</video>
 		</div>
@@ -396,7 +397,7 @@
 						</nav>
 					</div>
 					<!-- Popupboxes til universitet -->
-					<div id="uni_popup" class="popup">
+					<!--<div id="uni_popup" class="popup">
 						<div id="popup-wrapper">
 							<div id="popup-container">
 								<div id="close-button">
@@ -450,7 +451,7 @@
 						</div>
 						<div id="popup-wrapper2" onclick="toggle_visibility('uni_popup');">
 						</div>
-					</div>
+					</div>-->
 
 
 					<div id="atmo_popup" class="popup">
@@ -2568,6 +2569,28 @@ http://www.summerschoolalpbach.at/index.php?file=start_uk.php"><img class="media
 					</div>
 			</main>
 		</section>
+		
+		<div class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title">WE'RE LOADING, HOPEFULLY</h4>
+					</div>
+
+					<div class="modal-body">
+
+						NOPE, STILL LOADING CONTENT!
+
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<div class="sectionTransition">
 			<video class="planetVideo" autoplay poster="concrete_seamless.png" muted loop>

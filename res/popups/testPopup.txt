@@ -1,0 +1,4 @@
+<header>Popup test</header>
+<content>
+I hope this works. <div style="height: 1em; width: 1em; background: red;">lol</div>
+</content>

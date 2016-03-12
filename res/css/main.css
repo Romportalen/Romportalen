@@ -1321,20 +1321,24 @@ h2.resp-accordion:first-child {
     }
 }
 
-.popup .tabContainer {
+.popup .tabContainer,
+.modal .modal-body .tabContainer {
 	padding: 0.5em;
 	padding-bottom: 0em;
 }
 
-.popup .tabContainer .resp-tab-content {
+.popup .tabContainer .resp-tab-content,
+.modal .modal-body .resp-tab-content {
 	border-color: #5AB1D0;
 }
 
-.popup .tabContainer .resp-tabs-list li {
+.popup .tabContainer .resp-tabs-list li,
+.modal .modal-body .resp-tabs-list img {
 	height: 7em;
 }
 
-.popup .tabContainer .resp-tabs-list img {
+.popup .tabContainer .resp-tabs-list img,
+.modal .modal-body .resp-tabs-list img {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%) !important;
@@ -1346,19 +1350,28 @@ h2.resp-accordion:first-child {
 	max-width: 100%;
 }
 
-.popup .tabContainer img {
+.popup .tabContainer img,
+.modal .modal-body img {
 	vertical-align: middle;
 	margin: 0 auto;
 	display: inherit;
+	max-height: 25vh;
+    max-width: 25vw;
 }
 
 .popup .tabContainer .resp-tabs-list,
-.popup .tabContainer .resp-tabs-container {
+.popup .tabContainer .resp-tabs-container,
+.modal .modal-body .resp-tabs-list,
+.modal .modal-body .resp-tabs-container,
+.modal .modal-body,
+.modal .modal-body p {
 	color: black !important;
 }
 
 .popup .tabContainer .resp-tabs-list ul,
-.popup .tabContainer .resp-tabs-container ul {
+.popup .tabContainer .resp-tabs-container ul,
+.modal .modal-body .resp-tabs-list ul,
+.modal .modal-body .resp-tabs-container ul {
 	margin: 0;
 }
 /* responsive tab styles end */
