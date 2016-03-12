@@ -255,6 +255,11 @@ body > .calendar.sectionContainer {
 
 }
 
+.sectionTransition img {
+    height: 5em;
+    margin: 2em;
+}
+
 @media (max-width: 35em) {
 	.tile-image {
 		height: 10vh;
