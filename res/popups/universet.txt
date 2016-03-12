@@ -43,7 +43,7 @@
 			</div>
 		</div>
 	</div>
-	<script>	
+	<script>
 		$("#uniTab").easyResponsiveTabs({
 			type: 'default', //Types: default, vertical, accordion           
 			width: 'auto', //auto or any custom width

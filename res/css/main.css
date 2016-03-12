@@ -1,6 +1,5 @@
 body {
-	/*background-color: rgba(52,52,52,1);*/
-	background: #000;
+	background-color: rgba(52,52,52,1);
 	font-family: "Open Sans", sans-serif !important;
 }
 
@@ -191,10 +190,10 @@ body > .sectionTransition.preCalendar {
 }
 
 body > .sectionTransition {
-    margin-top: -20px;
+    margin-top: 1em;
     top: 0;
-    background: #000000;
-    box-shadow: 0 0 0.5em 0.5em #000;
+    background: #212121;
+    box-shadow: 0 0 0.5em 0.5em #212121;
     text-align: center;
     height: 15em;
 }
@@ -882,8 +881,10 @@ nav.tileNav .tileButton h3 {
 .sectionContainer  nav.tileNav {
 	top: -1.5em;
 	position: relative;
-	background: black;
-	box-shadow: 0 0 0.5em 0.5em #000;
+    background: #0A0A0A;
+    box-shadow: 0 0 0.5em 0.5em #0A0A0A;
+    padding-bottom: 1em;
+	margin-bottom: 1.5em;
 }
 
 .sectionContainer nav.tilenav li {
@@ -1311,26 +1312,55 @@ h2.resp-accordion:first-child {
     .resp-vtabs .resp-tab-content:last-child {
         border-bottom: 1px solid #c1c1c1 !important;
     }
+	
+	.popup .tabContainer,
+	.modal .modal-body .tabContainer {
+		padding: 0.5em;
+		padding-bottom: 0em;
+	}
+
+	.popup .tabContainer .resp-tab-content,
+	.modal .modal-body .resp-tab-content {
+		border-color: #5AB1D0;
+	}
+
+	.popup .tabContainer .resp-tabs-list li,
+	.modal .modal-body .resp-tabs-list img {
+		height: 7em;
+	}
+
+	.popup .tabContainer .resp-tabs-list img,
+	.modal .modal-body .resp-tabs-list img {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%) !important;
+		-ms-transform: translateY(-50%) !important;
+		-webkit-transform: translateY(-50%) !important;
+		-o-tranform: translateY(-50%) !important;
+		-moz-transform: translateY(-50%) !important;
+		max-height: 100%;
+		max-width: 100%;
+	}
+
+	.popup .tabContainer img,
+	.modal .modal-body img {
+		vertical-align: middle;
+		margin: 0 auto;
+		display: inherit;
+		max-height: 25vh;
+		max-width: 25vw;
+	}
 }
 
-.popup .tabContainer,
-.modal .modal-body .tabContainer {
-	padding: 0.5em;
-	padding-bottom: 0em;
+.popup .tabContainer .resp-tabs-list .resp-tab-item,
+.modal .modal-body .resp-tabs-list .resp-tab-item {
+	max-width: 19%;
+	height: 8em;
 }
 
-.popup .tabContainer .resp-tab-content,
-.modal .modal-body .resp-tab-content {
-	border-color: #5AB1D0;
-}
-
-.popup .tabContainer .resp-tabs-list li,
-.modal .modal-body .resp-tabs-list img {
-	height: 7em;
-}
-
-.popup .tabContainer .resp-tabs-list img,
-.modal .modal-body .resp-tabs-list img {
+.popup .tabContainer .resp-tabs-list .resp-tab-item img,
+.modal .modal-body .resp-tabs-list .resp-tab-item img {
+	max-width: 100%;
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%) !important;
@@ -1338,17 +1368,6 @@ h2.resp-accordion:first-child {
 	-webkit-transform: translateY(-50%) !important;
 	-o-tranform: translateY(-50%) !important;
 	-moz-transform: translateY(-50%) !important;
-	max-height: 100%;
-	max-width: 100%;
-}
-
-.popup .tabContainer img,
-.modal .modal-body img {
-	vertical-align: middle;
-	margin: 0 auto;
-	display: inherit;
-	max-height: 25vh;
-    max-width: 25vw;
 }
 
 .popup .tabContainer .resp-tabs-list,
@@ -1358,6 +1377,10 @@ h2.resp-accordion:first-child {
 .modal .modal-body,
 .modal .modal-body p {
 	color: black !important;
+}
+
+.modal {
+	z-index: 9001 !important;
 }
 
 .popup .tabContainer .resp-tabs-list ul,
