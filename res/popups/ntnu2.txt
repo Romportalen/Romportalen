@@ -1,0 +1,4 @@
+<header>Norges teknisk- naturvitenskaplige universitet</header>
+<content>
+	<p>Driver med forskning bl.a. på atmosfæra, materialteknikk og fluidstrømsimuleringer, som alle er viktig når noe skal sendest opp i rommet. For deg som vil drive med forskning, er universitetene et naturlig valg. <a href="https://www.ntnu.no/" target="_BLANK">Besøk siden.</a></p>
+</content>

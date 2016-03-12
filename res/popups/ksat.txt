@@ -1,0 +1,4 @@
+<header>Kongsberg satellite services </header>
+<content>
+	<p>KSAT er verdens ledende leverandør av tjenester knyttet til mottak av data fra, og kontroll av satellitter. KSAT leverer også satellittbaserte tjenester for marine olje og skipsdeteksjon, samt forskjellige landbaserte anvedelser. Olje og gas industrien og nasjonale myndigheter er hovedkunder. Disse tjenestene leveres over hele verden i løpet av 20 ­ 60 minutter. KSAT opererer mer enn 60 antenner i syv forskjellige lokasjoner over hele verden. KSATs bakkestasjon på Svalbard er verdens største stasjon for kommunikasjon med satellitter i polare baner. Stasjonen er unik da den kan ha kontakt med satellittene på hvert av de daglige fjorten omløp. <a href="http://www.ksat.no" target="_BLANK">Besøk siden.</a></p>
+</content>

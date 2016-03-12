@@ -1,0 +1,4 @@
+<header>Forsvarets forskningsinstitutt</header>
+<content>
+	<p>Forsvaret er helt avhengig av satellittsystemer som er billige og sikre å bruke, samtidig som de håndterer store mengder data. De er derfor involvert i forskning og utvikling av mikrosatellitter, slik som AISSat-1 og 2, og også historisk har militært utviklet teknologi blitt tatt i bruk både i forskning og kommersielt. <a href="https://www.ffi.no/no/Sider/default.aspx" target="_BLANK">Besøk siden.</a></p>
+</content>

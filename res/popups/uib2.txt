@@ -1,0 +1,4 @@
+<header>Universitetet i Bergen</header>
+<content>
+	<p>UiB har vært involvert i en stor mengde ballong-, satellitt- og rakettkampanjer siden 60-tallet. Der forskes det bl.a. på jordmagnetismen og nordlys. Universitetene er et naturlig valg for deg som vil drive med forskning. <a href="http://www.uib.no/" target="_BLANK">Besøk siden.</a></p>
+</content>

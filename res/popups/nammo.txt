@@ -1,0 +1,4 @@
+<header>NAMMO Raufoss</header>
+<content>
+	<p>NAMMO leverer i hovedsak produkter til forsvarsindustrien, men er også tungt involvert i sivile romprogrammer. Ariane 5 benytter 16 små rakettmotorer fra NAMMO for å separere hjelperakettene fra førstetrinnet. Bedriften leverer også fire akselerasjonsmotorer til enkelte Ariane 5 konfigurasjoner for å øke nyttelastkapasiteten. NAMMO er også ledende på såkalte hydridmotorer, rakettmotorer som blander de beste egenskapene fra fast- og flytende drivstoffmotorer. <a href="http://www.nammo.com/" target="_BLANK">Besøk siden.</a></p>
+</content>

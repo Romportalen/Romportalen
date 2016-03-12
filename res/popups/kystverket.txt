@@ -1,0 +1,4 @@
+<header>Kystverket</header>
+<content>
+	<p>Kystverket er en nasjonal etat for kystforvaltning, sjøsikkerhet og beredskap mot akutt forurensning. Kystverket arbeider aktivt for en effektiv og sikker sjøtransport gjennom å ivareta transportnæringens behov for fremkomst og effektive havner. Kystverket forebygger og begrenser skadeeffektene ved akutt forurensing, og medvirker til en bærekraftig utvikling av kystsona. Bruker data fra ulike satellitter. <a href="http://www.kystverket.no" target="_BLANK">Besøk siden.</a></p>
+</content>

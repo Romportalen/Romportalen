@@ -1,0 +1,5 @@
+<header>IDEAS</header>
+<content>
+	<p>IDEAS utvikler og produserer stråledetekteringssystemer som blir brukt i mange sammenhenger. IDEASs foretak baserer seg i stor grad på bildesensorer og strålingsspektroskopi med høy kapasitet.</p>
+	<p>Selskapets ingeniører designer også elektriske og elektromekaniske komponenter for systemintegrasjon og applikasjon. IDEAS-produkter blir brukt i forskning innen fysikk, rombaserte observatorier, og medisinsk diagnostikkutstyr.<a href="http://www.ideas.no" target="_BLANK"> Besøk siden.</a></p>
+</content>

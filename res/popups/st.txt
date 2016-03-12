@@ -1,0 +1,4 @@
+<header>S&T</header>
+<content>
+	<p>Science & Technology Corporation utvikler systemer og prosesser for bruk av avansert teknologi. Ingeniørene jobber med alle delene av utviklingsprosessen, fra forskning og utvikling opp til levering av både hardware og software-produkter. <a href="http://www.stcorp.no/" target="_BLANK">Besøk siden.</a></p>
+</content>

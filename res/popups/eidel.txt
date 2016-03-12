@@ -1,0 +1,4 @@
+<header>Eidsvoll Electronics AS</header>
+<content>
+	<p>EIDEL leverer vitenskapelige instrumenter og databehandlingssystemer til romindustrien. Selv om hovedfokus er på bakkebaserte støtte- og testsystem, har EIDEL også levert utstyr som flyr ombord romprosjekter. EE 235 SSR, et system for sanntids lagring av digitale data i ekstreme miljø, flyr ombord Ariane 5. <a href="http://www.eidel.no" target="_BLANK">Besøk siden.</a></p>
+</content>

@@ -1,0 +1,4 @@
+<header>T&G Elektro AS</header>
+<content>
+	<p>T&G er leverandør av et bredt produktspekter innen fiber- og kobberteknologi som omfatter kontakter, kabelsystemer, måleutstyr og konnektorer for kretskort. Selskapet utvikler og leverer produkter og løsninger til både det militære og sivile markedet. I 2013 ble PROBA V-satellitten sendt ut i bane med T&Gs fiberteknologi som payload og har med det markert seg som en viktig aktør i romindustrien. T&G jobber for tiden med andre fiberprosjekter mot ESA samt norsk og europeisk romindustri. <a href="http://www.tgelektro.no" target="_BLANK">Besøk siden.</a></p>
+</content>

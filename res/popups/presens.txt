@@ -1,0 +1,4 @@
+<header>Presens AS</header>
+<content>
+	<p>Navnet Presens kommer fra engelske “pressure sensor technology”, og bedriften har spesialisert seg på å levere pinlig nøyaktige sensorer med lang levetid under ekstreme forhold. Presens har inngått kontrakt med ESA om utvikling av trykksensorer som skal brukes av et bredt spekter av romvirksomheten. Den svenske satellitten PRISMA flyr en av Presens trykksensorer. <a href="http://www.presens.com" target="_BLANK">Besøk siden.</a></p>
+</content>

@@ -1,0 +1,4 @@
+<header>SINTEF</header>
+<content>
+	<p>SINTEF er Skandinavias største uavhengige forskningsorganisasjon. Hvert år bidrar organisasjonen til videreutvikling av 2000 norske og utenlandske bedrifter gjennom forskning og rådgivning. SINTEF selger forskningsbasert kunnskap og tilknyttede tjenester innenfor teknologi, naturvitenskap, medisin og samfunnsfag. <a href="http://www.sintef.no" target="_BLANK">Besøk siden.</a></p>
+</content>

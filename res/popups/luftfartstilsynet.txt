@@ -1,0 +1,4 @@
+<header>Luftfartstilsynet</header>
+<content>
+	<p>Luftfartstilsynet fører tilsyn med at aktørene i norsk luftfart følger gjeldende lover, regler og forskrifter. Luftfartstilsynet er direkte underlagt Samferdselsdepartementet. Bruker satellitter for navigasjon og sporing og følger med på effekten av romvær på kommunikasjon.<a href="http://www.luftfartstilsynet.no/" target="_BLANK"> Besøk siden.</a></p>
+</content>

@@ -1,0 +1,4 @@
+<header>Jotne EPM Technology AS</header>
+<content>
+	<p>Leverandør av blant annet verktøy for styring av livssyklus for romrelaterte produkter. Jotne har flere store kunder, blant annet ESA, Thales-Alenia Space og et stort antall innen fly og forsvarsindustrien som Lockheed Martin, Airbus, BAE Systems. Den avanserte programvaren, EDMTruePLM™ bidrar til å redusere kostnader, effektivisere produktutvikling og sikre dataintegritet. Basert på ISO standarder tilbys løsninger innen datautveksling og langtidslagring av CAD/PLM og prosjektinformasjon. <a href="http://www.epmtech.jotne.com" target="_BLANK">Besøk siden.</a></p>
+</content>

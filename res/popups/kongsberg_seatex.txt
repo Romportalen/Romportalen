@@ -1,0 +1,4 @@
+<header>Kongsberg Seatex</header>
+<content>
+	<p>Seatex leverer navigasjonsprodukter til handelsflåten samt oljeinstallasjoner, systemer for å undersøke havbunnen, treningssimulatorer og mer. Seatex er aktivt involvert i den maritime delen av det nye europeiske navigasjonssystemet Galileo, et av ESAs store prosjekter. MarGal, for eksempel, er et system for sikker navigering mot kai og i kanaler. <a href="http://www.km.kongsberg.com/seatex" target="_BLANK">Besøk siden.</a></p>
+</content>

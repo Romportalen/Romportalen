@@ -1,0 +1,4 @@
+<header>Kongsberg Norspace</header>
+<content>
+	<p>Som leverandør av elektronisk utstyr for satellitter og bæreraketter spesialiserer Kongsberg Norspace seg på analog signal prosessering, TTC-utstyr og relaterte komponenter. Bedriften er verdensledende på filterteknologien Surface Acoustic Wave, SAW, for rom-anvendelser. For tiden har Kongsberg Norspace komponenter i over 150 satellitter, deriblant Radarsat, Globalstar, SOHO, Inmarsat 4, MSG, AMC15-16, Alphasat og Galileosat. <a href="http://www.norspace.no/" target="_BLANK">Besøk siden.</a></p>
+</content>

@@ -1,0 +1,4 @@
+<header>Zaptec</header>
+<content>
+	<p>I over et tiår har Zaptec jobba med kraftig minielektronikk. Dette har resultert i en unik høgspenningstransformatorteknologi med flere bruksområder. De utvikler for øyeblikket produkter med samarbeidspartenere innen energi, automering, romindustrien og mineralindustrien. <a href="http://www.zaptec.com/" target="_BLANK">Besøk siden.</a></p>
+</content>

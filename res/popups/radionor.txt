@@ -1,0 +1,4 @@
+<header>Radionor Communication AS</header>
+<content>
+	<p>Det Trondheimsbaserte firmaet utvikler og leverer teknologi for trådløst bredbånd og fokuserer spesielt på kommunikasjons- og lokaliseringsprodukter. Selskapet leverer til både militære og sivile kunder. <a href="http://www.radionor.no" target="_BLANK">Besøk siden.</a></p>
+</content>

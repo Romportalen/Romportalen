@@ -1,0 +1,4 @@
+<header>Kongsberg Spacetec AS</header>
+<content>
+	<p>Kongsberg Spacetec er en verdensledende leverandør av bakkestasjoner for jordobservasjons- og meteorologisatellitter. Med vårt MEOS-system (Multimission Earth Observation System) tilbyr vi komplette turn-key løsninger som inkluderer front-end trackingantenne, datainnsamling, bakke-stasjonskontroll- og nettverkssystemer, samt løsninger for billedbehandling og annen post-prosessering. Kongsberg Spacetec tilbyr også informasjons- og overvåkningssystemer som integrerer omfattende informasjon for kyst-, sjø-, og landområder i et felles anerkjent situasjonsbilde. <a href="http://www.spacetec.no" target="_BLANK">Besøk siden.</a></p>
+</content>

@@ -1,0 +1,4 @@
+<header>StatSat</header>
+<content>
+	<p>Statsat er en offentlig etat som er etablert for å ivareta mulighetene for å utnytte rominfrastruktur til offentlige formål. Småsatellitter er kostnadseffektive satellitter som er godt egnet til å yte spesifikke tjenester til allmenne formål. Statsat har i oppgave å definere, utvikle og anskaffe rominfrastruktur for å yte kostnadseffektive tjenester til enheter innen den norske stat. <a href="http://www.statsat.no" target="_BLANK">Besøk siden.</a></p>
+</content>

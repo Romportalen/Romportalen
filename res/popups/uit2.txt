@@ -1,0 +1,4 @@
+<header>Universitetet i Tromsø</header>
+<content>
+	<p>Norges arktiske universitet er sentralt i forskningen på nordlys, og har en gunstig lokalisering, i og med at nærheten til nordpolen gjør det mye lettere å hente ned data fra polarbanesatellitter. UiT driver spesielt med forskning på solvind, plasma og atmosfæra. Universitetene er et naturlig valg for deg som vil drive med forskning. <a href="https://uit.no/startsida" target="_BLANK">Besøk siden.</a></p>
+</content>

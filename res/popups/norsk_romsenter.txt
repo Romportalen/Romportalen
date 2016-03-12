@@ -1,0 +1,4 @@
+<header>Norsk Romsenter</header>
+<content>
+	<p>Norsk Romsenters hovedoppgave er å ivareta norske interesser innen romindustrien, romforskning og bruk av romteknologi. De tilbyr bla.a økonomisk støtte og undervisningsressurser. NR er et offentlig forvaltningsorgan med særskilte fullmakter som er direkte underlagt Nærings- og fiskeridepartementet. <a href="http://www.romsenter.no/" target="_BLANK">Besøk siden.</a></p>
+</content>

@@ -1,0 +1,4 @@
+<header>STM Norway</header>
+<content>
+	<p>STM tilbyr utstyr for satellittkommunikasjon, beregnet for toveis kommunikasjon av tale, data og kringkasting av video. Hovedmarkedet er nasjonale myndigheter og store konsern innen finans, handel og transport. STM er et internasjonal selskap hvor forsknings- og utviklingsavdelingene er lokalisert i Norge og USA. <a href="http://www.stmi.com" target="_BLANK">Besøk siden.</a></p>
+</content>

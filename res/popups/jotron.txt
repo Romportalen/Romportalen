@@ -1,0 +1,4 @@
+<header>Jotron</header>
+<content>
+	<p>Jotron SatCom AS leverer verdensledende teknologi og løsninger innen satellittkommuikasjon til det norske og internasjonale markedet. <a href="http://www.jotron.no/" target="_BLANK">Besøk siden.</a></p>
+</content>

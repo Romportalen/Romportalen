@@ -1,0 +1,4 @@
+<header>CMR Prototech AS</header>
+<content>
+	<p>Driver med teknologiutvikling, konstruksjon, maskinering og testing innen følgende bransjer: romfart, olje & gass, fornybar og maritime. Spesiell fokus på brenselcelleteknologi og avanserte mekaniske strukturer. Prototech samarbeider nært med ESA og leverer strukturelle komponenter til satellitter og bæreraketter, nyttelaster for forskningsraketter, teknologiutvikling, eksperimentmoduler for både bemannede og ubemannede romflyvninger. <a href="http://prototech.no/space/" target="_BLANK">Besøk siden.</a></p>
+</content>

@@ -1,0 +1,4 @@
+<header>Universitetet i Oslo</header>
+<content>
+	<p>Ved UiO forskes det bl.a. på plasma, nordlys, Langmuirprober og romvær.   Universitetene er et naturlig valg for deg som vil drive med forskning. <a href="http://www.uio.no/" target="_BLANK">Besøk siden.</a></p>
+</content>

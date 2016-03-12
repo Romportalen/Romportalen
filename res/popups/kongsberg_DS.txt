@@ -1,0 +1,4 @@
+<header>Kongsberg Defence System</header>
+<content>
+	<p>Romvirksomheten i Kongsberg Defence Systems er organisert under divisjon Space & Surveillance. I tillegg til romvirksomheten på Kongsberg, inngår her selskapene Kongsberg Norspace AS, Kongsberg Spacetec AS samt Kongsberg Satellite Services AS (50%-eierskap).Teknologisk utstyr for bruk innen forsvar og romrelaterte virksomheter står i fokus hos KDS. For Ariane 5 har KDS utviklet systemer for festing og utløsning av hjelperakettene, men også andre romprosjekter nyter godt av KDSs kunnskaper. Rosetta, Mars Express og Venus Express benytter KDS sine systemer for styring av solcellepaneler. Også Envisat, GOCE og Aeolus flyr med KDS-produkter.</p>
+</content>

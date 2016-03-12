@@ -1,0 +1,4 @@
+<header>Norut</header>
+<content>
+	<p>Norut Northern Research Institute er et tverrfaglig forsknings- og innovasjonsselskap som er lokalisert i alle de tre nordnorske fylkene, og har spesiell kompetanse på nordområdene. Norut bygger på 30 års erfaring og ivaretar både grunnforskning, anvendt forskning og kommersialisering. Norut-konsernet har totalt 130 ansatte og består av de fire selskapene Norut, Norut Narvik, Norinnova Technology transfer og Barents Biocentre Lab. <a href="http://www.norut.no/" target="_BLANK">Besøk siden.</a></p>
+</content>

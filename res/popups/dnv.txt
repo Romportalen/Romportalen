@@ -1,0 +1,4 @@
+<header>Det norske veritas</header>
+<content>
+	<p>Det Norske Veritas (DNV) er en uavhengig stiftelse som sikrer liv, eiendom og miljø gjennom å utføre driftsoptimalisering, risikovurdering og sertifisering. Har vært med på romprosjektene Galileo, Mars Express, Rosetta og ATV. <a href="http://www.dnv.com" target="_BLANK">Besøk siden.</a></p>
+</content>

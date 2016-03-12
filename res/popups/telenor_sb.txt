@@ -1,0 +1,4 @@
+<header>Telenor Satellite Broadcasting</header>
+<content>
+	<p>En del av Telenor ASA og den ledende satellittkommunikasjonstilbyderen til Norden og de baltiske land. TSB opererer for tiden to satellitter, Thor 5 og Thor 6, samt eier en del av kapasiteten til Intelsat 10-02. Dekningsområdet til TSB omfatter Norden, sentraleuropa og Midtøsten. <a href="http://www.telenorsbc.com" target="_BLANK">Besøk siden.</a></p>
+</content>

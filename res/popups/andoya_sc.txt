@@ -1,0 +1,5 @@
+<header>Andøya Space Center</header>
+<content>
+	<p>Andøya Space Center er den norske inngangsporten til verdensrommet. Med utskytningsramper på Andøya og Svalbard har ARR skutt ut mer enn tusen forskningsraketter og vitenskapelige ballonger for kunder som NASA (USA), DLR (Tyskland), JAXA (Japan), CNES (Frankrike), ASI (Italia) for å nevne noen. ARR er også kjent for observatoriet ALOMAR.
+	<a href="http://andoyaspace.no/" target="_BLANK">Besøk siden.</a></p>
+</content>
