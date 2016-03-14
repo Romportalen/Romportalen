@@ -40,6 +40,7 @@ $(document).ready(function(){
 				$('.modal .modal-title').html(headerContent);
 				$('.modal .modal-body').html(bodyContent);
 				$('.modal').modal('show');
+				document.querySelector('.modal').focus();
 			});
 		}
 	});
