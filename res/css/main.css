@@ -193,7 +193,7 @@ body > .sectionTransition {
     margin-top: 2.5em;
     top: 0;
     background: #212121;
-    box-shadow: 0 0 0.5em 0.5em #212121;
+    /*box-shadow: 0 0 0.5em 0.5em #212121;*/
     text-align: center;
     height: 15em;
 }
@@ -882,7 +882,7 @@ nav.tileNav .tileButton h3 {
 	top: -1.5em;
 	position: relative;
     background: #0A0A0A;
-    box-shadow: 0 0 0.5em 0.5em #0A0A0A;
+    /*box-shadow: 0 0 0.5em 0.5em #0A0A0A;*/
     padding-bottom: 1em;
 	margin-bottom: 1.5em;
 }
