@@ -4,6 +4,6 @@
 		Hei...
 	</p>
 	<a href="https://www.youtube.com/user/spacegeneration">
-		<img src="res/img/sgc.jpg">
+		<img style="width:100%;" src="res/img/sgc.jpg">
 	</a>
 </content>

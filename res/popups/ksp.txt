@@ -4,6 +4,6 @@
 		Hei...
 	</p>
 	<a href="https://kerbalspaceprogram.com/en/">
-		<img src="res/img/Kerbal.png" alt="rocket nozzle">
+		<img style="width:100%;" src="res/img/Kerbal.png" alt="rocket nozzle">
 	</a>
 </content>
