@@ -1,0 +1,9 @@
+<header>Isaac Asimov Memorial Debate</header>
+<content>
+	<p>
+		Hei...
+	</p>
+	<iframe width="730" height="405"
+		src="https://www.youtube.com/watch?v=FSF79uS3t04&list=PLrfcruGtplwGKzxDI_Ne06NlpOKt-yonZ">
+	</iframe>
+</content>
