@@ -192,7 +192,8 @@ body > .sectionTransition.preCalendar {
 body > .sectionTransition {
     margin-top: 2.5em;
     top: 0;
-    background: #212121;
+	background: transparent;
+    /* background: #212121; */
     /*box-shadow: 0 0 0.5em 0.5em #212121;*/
     text-align: center;
     height: 15em;
@@ -878,13 +879,30 @@ nav.tileNav .tileButton h3 {
 	text-shadow: 0px 0px 1em black;
 }
 
-.sectionContainer  nav.tileNav {
-	top: -1.5em;
-	position: relative;
-    background: #0A0A0A;
-    /*box-shadow: 0 0 0.5em 0.5em #0A0A0A;*/
+.sectionContainer nav.tileNav {
+    top: -19.5em;
+    position: relative;
+    background-size: cover;
+    background: url("http://127.0.0.1:8000/res/img/VideoPrtScrResize.jpg");
+    /* box-shadow: 0 0 0.5em 0.5em #0A0A0A; */
     padding-bottom: 1em;
-	margin-bottom: 1.5em;
+    margin-bottom: -17.75em;
+    padding-top: 14.5em;
+    background-position: 40% 42%;
+}
+
+.sectionContainer nav.tileNav::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(51,51,51,0.3);
+    z-index: 0;
 }
 
 .sectionContainer nav.tilenav li {
@@ -893,6 +911,11 @@ nav.tileNav .tileButton h3 {
 	display: inline-block;
 	padding: 1em;
 	height: 100%;
+	z-index: 5;
+}
+
+.sectionContainer nav.tileNav ul li {
+	z-index: 5;
 }
 
 .sectionAnchor#generellInfo {
