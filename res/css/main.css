@@ -190,13 +190,15 @@ body > .sectionTransition.preCalendar {
 }
 
 body > .sectionTransition {
-    margin-top: 2.5em;
+    /* margin-top: 2.5em; */
+	height: 0;
+	margin: 0;
     top: 0;
 	background: transparent;
     /* background: #212121; */
     /*box-shadow: 0 0 0.5em 0.5em #212121;*/
     text-align: center;
-    height: 15em;
+    /* height: 15em; */
 }
 
 .frontPageContainer+.sectionTransition {
@@ -880,15 +882,27 @@ nav.tileNav .tileButton h3 {
 }
 
 .sectionContainer nav.tileNav {
-    top: -19.25em;
+    /* top: -19.25em; */
     position: relative;
-    background-size: cover;
+    margin-bottom: 1.5em;
+    /* background-size: cover; */
     background: url("http://romportalen.no/res/img/VideoPrtScrResize.jpg");
-    /* box-shadow: 0 0 0.5em 0.5em #0A0A0A; */
+    box-shadow: 0 -0.5em 0.2em -0.1em #343434 inset, 0 0.5em 0.2em -0.1em #343434 inset;
     padding-bottom: 1em;
-    margin-bottom: -17.75em;
-    padding-top: 14.5em;
+    /* margin-bottom: -17.75em; */
+    /* padding-top: 14.5em; */
     background-position: 40% 42%;
+    /* padding: 0; */
+    overflow: hidden;
+    /* padding: 1em; */
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
+    /* margin: 2em; */
+    /* left: -2em; */
+}
+
+.calendar + .sectionContainer  {
+    margin-bottom: -4.5em !important;
 }
 
 .sectionContainer nav.tileNav::after {
@@ -924,7 +938,7 @@ nav.tileNav .tileButton h3 {
 
 .sectionAnchor {
 	position: relative;
-	top: -8.5em;
+	top: -7.15em;
 }
 
 .panel-heading h3, .panel-heading h2 {

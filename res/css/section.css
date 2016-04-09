@@ -256,6 +256,7 @@ body > .calendar.sectionContainer {
 }
 
 .sectionTransition img {
+	display: none;
     height: 5em;
     margin: 2em;
     /* background-color: #2F2F2F; */
