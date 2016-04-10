@@ -186,7 +186,25 @@ body > .sectionTransition {
 }
 
 body > .sectionTransition.preCalendar {
-	height: 100vh;
+    margin-top: 100vh !important;
+    height: auto;
+    position: relative;
+    padding-top: 0.75em;
+}
+
+.preCalendar > div {
+	min-width: 10em;
+    display: inline-block;
+    width: 24.6%;
+    vertical-align: middle;
+}
+
+.preCalendar > div > p .navCategory {
+	display: none;
+}
+
+.navWrapped + .preCalendar > div > p .navCategory {
+	display: inline;
 }
 
 body > .sectionTransition {
@@ -215,10 +233,50 @@ body > .sectionTransition {
 	width: 100%;
 }
 
+.calendarContainer {
+	position: relative;
+}
+
+.calendarContainer .page-header {
+    position: absolute;
+    top: 1em;
+    z-index: 9;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100vw;
+}
+
+.calendarContainer .page-header h2 {
+	font-family: "Electrolize", sans-serif;
+    font-weight: bold;
+    text-shadow: 0 0 0.1em black;
+    text-align: center;
+	color: white;
+}
+
 .slick-slide {
 	height: 100%;
 	width: auto;
 	position: relative;
+}
+
+.slick-next, .slick-prev {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 20px;
+    margin-top: 0px !important;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+    height: 100% !important;
+	z-index: 99;
 }
 
 .slick-next {
@@ -343,6 +401,18 @@ body > .sectionTransition {
 	left: 0;
 }
 
+.uniNavContainer .nav_img {
+	position: relative;
+}
+
+.nav_img map {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .uniNavContainer .nav_img div img {
 	opacity: 1;
 	top:0;
@@ -372,15 +442,14 @@ body > .sectionTransition {
 	position: relative;
 }
 
-.uniNavContainer nav ul{
-	position:absolute;
-	bottom:5%;
+.uniNavContainer nav ul {
     width: 100%;
     text-align: center;
-    padding: 0;
+    padding: 0.5em;
     margin: 0;
 }
-.uniNavContainer li{
+
+.uniNavContainer li {
 	z-index: 9000;
 	display: inline-block;
 	position: relative;
@@ -404,17 +473,13 @@ body > .sectionTransition {
 	padding: 0.5em;
 }
 
-.uniNavContainer .nav_img h3 {
+.uniNavContainer > h3 {
     font-family: "Electrolize",sans-serif !important;
-    font-size: 7vh;
+    font-size: 2.25em;
+	padding: 0.5em;
 }
-.uniNavContainer .nav_img h3 {
-    position: absolute;
+.uniNavContainer > h3 {
     color: #FFF;
-    top: 0.25em;
-    left: 0;
-    right: 0;
-    padding: 0;
     margin: 0;
     z-index: 505;
     font-weight: bold;
