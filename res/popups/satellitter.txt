@@ -6,34 +6,36 @@
 		<ul class="resp-tabs-list satTabChild">
 			<li><img class="imgTabIcon" src="res/img/companyLogos/NTNU_sort.png" alt="ntnu company logo"></li>
 			<li><img class="imgTabIcon" src="res/img/companyLogos/UiT_Black.png" alt="uit company logo"></li>
-			<li><img class="imgTabIcon" src="res/img/companyLogos/uib_logo.png" alt="uib company logo"></li>
 			<li><img class="imgTabIcon" src="res/img/companyLogos/uio_logo.png" alt="uio company logo"></li>
 		</ul> 
 		<div class="resp-tabs-container satTabChild">                                                        
 			<div>
 				<ul>
-					<li>Fysikk og matematikk - <a target="_BLANK" href="http://www.ntnu.no/studier/mtfyma/om">Hjemmeside</a></li>
-					<li>Fysikk - <a target="_BLANK" href="http://www.ntnu.no/studier/bfy">Hjemmeside</a></li>
+					<li>Elektronisk systemdesign og innovasjon - <a target="_BLANK" href="http://www.ntnu.no/studier/mtelsys/om">Hjemmeside</a></li>
+					<li>Kybernetikk og robotikk - <a target="_BLANK" href="http://www.ntnu.no/studier/mttk/om">Hjemmeside</a></li>
+					<li>Automatiseringsteknikk (treårig bachelor) - <a target="_BLANK" href="http://www.ntnu.no/studier/017au">Hjemmeside</a></li>
+					<li>Dataingeniør (treårig bachelor) - <a target="_BLANK" href="https://www.ntnu.no/studier/ithingda">Hjemmeside</a></li>
+					<li>Datateknologi (femårig master) - <a target="_BLANK" href="http://www.ntnu.no/studier/mtdt">Hjemmeside</a></li>
+					<li>Elektroingeniør (treårig bachelor) - <a target="_BLANK" href="http://www.ntnu.no/studier/fthingel">Hjemmeside</a></li>
+					<li>Elkraftsystemer (treårig bachelor) - <a target="_BLANK" href="http://www.ntnu.no/studier/006ek/studiets-oppbygging">Hjemmeside</a></li>
+					<li>Ingeniørvitenskap og IKT (femårig master) - <a target="_BLANK" href="http://www.ntnu.no/studier/mting">Hjemmeside</a></li>
+					<li>Kommunikasjonsteknologi (femårig master) - <a target="_BLANK" href="http://www.ntnu.no/studier/mtkom">Hjemmeside</a></li>
 				</ul>
 			</div>
 			<div>
 				<ul>
-					<li>Anvendt fysikk og matematikk (Master, 5 år) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=324988">Hjemmeside</a></li>
-					<li>Fysikk (Bachelor) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=282396">Hjemmeside</a></li>
-					<li>Fysikk (Master, 2 år) - <a target="_BLANK" href=" https://uit.no/utdanning/program?p_document_id=270597">Hjemmeside</a></li>
+					<li>Satellitteknologi (bachelor) - <a target="_BLANK" href="http://www.hin.no/nor/hovedside/bli-student/studietilbud-2015/bachelor-ingeniorfag-%E2%80%93-satellitteknologi">Hjemmeside</a></li>
+					<li>Automasjon - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=280715">Hjemmeside</a></li>
+					<li>Elektroingeniør (bachelor) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=447942">Hjemmeside</a></li>
+					<li>Ingeniør i datateknikk (bachelor) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=446218">Hjemmeside</a></li>
+					<li>Ingeniør i elkraftteknikk (bachelor) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=446223">Hjemmeside</a></li>
+					<li>Ingeniør i industriell elektronikk (bachelor) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=446226">Hjemmeside</a></li>
 				</ul>
 			</div>
 			<div>
 				<ul>
-					<li>Fysikk (Bachelor) - <a target="_BLANK" href="http://www.uib.no/studieprogram/BAMN-PHYS">Hjemmeside</a></li>
-					<li>Fysikk (Master, 2 år) - <a target="_BLANK" href="http://www.uib.no/studieprogram/MAMN-PHYS">Hjemmeside</a></li>
-				</ul>
-			</div>
-			<div>
-				<ul>
-					<li>Fysikk, astronomi og meteorologi (bachelor) - <a target="_BLANK" href="http://www.uio.no/studier/program/fam/index.html">Hjemmeside</a></li>
-					<li>Astronomi (Master, 2 år) - <a target="_BLANK" href="http://www.uio.no/studier/program/astronomi-master/index.html">Hjemmeside</a></li>
-					<li>Fysikk (Master, 2 år) - <a target="_BLANK" href="http://www.uio.no/studier/program/fysikk-master/index.html">Hjemmeside</a></li>
+					<li>Elektronikk og datateknologi (bachelor) - <a target="_BLANK" href="http://www.uio.no/studier/program/elektronikk-data/index.html">Hjemmeside</a></li>
+					<li>Elektronikk og datateknologi (toårig master) - <a target="_BLANK" href="http://www.uio.no/studier/program/elektronikk-data-master/index.html">Hjemmeside</a></li>
 				</ul>
 			</div>
 		</div>
