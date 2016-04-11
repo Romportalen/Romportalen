@@ -201,9 +201,9 @@ body > .sectionTransition.preCalendar {
 }
 
 .preCalendar > div {
-	min-width: 10em;
+    min-width: 10em;
     display: inline-block;
-    width: 24.6%;
+    width: 23%;
     vertical-align: middle;
 }
 
