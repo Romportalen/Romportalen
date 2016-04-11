@@ -3,6 +3,6 @@
 	<p>
 		Dette er en programvare utviklet av NASA hvor man kan utforske hvordan en dyse fungerer, ved og forandre på ulike egenskaper ved dysen og se hvordan den produserte kraften varierer.</p>
 	<a href="https://www.grc.nasa.gov/www/k-12/airplane/ienzl.html">
-		<img style="max-width:100%; max-height: 50vh;" src="res/img/rocket_nozzle.jpg" alt="rocket nozzle">
+		<img style="max-width:100%; max-height: 25em;" src="res/img/rocket_nozzle.jpg" alt="rocket nozzle">
 	</a>
 </content>
