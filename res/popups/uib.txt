@@ -1,8 +1,9 @@
 <header>Universitet i Bergen</header>
 <content>
 	<ul>
-		<li>Romteknologi I (TTT4234) - <a href="https://www.ntnu.no/studier/emner/TTT4234#tab=omEmnet" target="_BLANK">Fagside</a></li>
-		<li>Romteknologi II (TTT4234) - <a href="https://www.ntnu.no/studier/emner/TTT4235#tab=omEmnet" target="_BLANK">Fagside</a></li>
-		<li>Astrofysikk (FY2450) - <a href="https://www.ntnu.no/studier/emner/FY2450" target="_BLANK">Fagside</a></li>
+		<li>Innføring i astrofysikk (PHYS109) - <a href="http://www.uib.no/emne/PHYS109" target="_BLANK">Fagside</a></li>
+		<li>Det nære verdensrommet (PHYS251) - <a href="http://www.uib.no/emne/PHYS251" target="_BLANK">Fagside</a></li>
+		<li>Eksperimentelle metodar i romfysikk (PHYS252) - <a href="http://www.uib.no/emne/PHYS252" target="_BLANK">Fagside</a></li>
+		<li>Romplasmafysikk (PHYS350) - <a href="http://www.uib.no/emne/PHYS350" target="_BLANK">Fagside</a></li>
 	</ul>
 </content>

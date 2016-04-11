@@ -4,6 +4,6 @@
 		Youtube-siden til space generation. Her ligger det mange romrelaterte videroer, fra rakettoppskytninger til forelesninger av de fremste forskerne på sine felt.
 	</p>
 	<a href="https://www.youtube.com/user/spacegeneration" style= "width:100%; display: block; text-align:center;">
-		<img style="max-width:100%; height: 22em; display: inline-block;" src="res/img/sgc.jpg">
+		<img style="max-width:100%; height: 5em; display: inline-block;" src="res/img/sgc.jpg">
 	</a>
 </content>

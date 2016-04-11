@@ -1,8 +1,18 @@
 <header>Universitet i Oslo</header>
 <content>
 	<ul>
-		<li>Romteknologi I (TTT4234) - <a href="https://www.ntnu.no/studier/emner/TTT4234#tab=omEmnet" target="_BLANK">Fagside</a></li>
-		<li>Romteknologi II (TTT4234) - <a href="https://www.ntnu.no/studier/emner/TTT4235#tab=omEmnet" target="_BLANK">Fagside</a></li>
-		<li>Astrofysikk (FY2450) - <a href="https://www.ntnu.no/studier/emner/FY2450" target="_BLANK">Fagside</a></li>
+		<li>Kosmologi I (AST3220) - <a href="http://www.uio.no/studier/emner/matnat/astro/AST3220/" target="_BLANK">Fagside</a></li>
+		<li>Kosmologi II (AST5220) - <a href="http://www.uio.no/studier/emner/matnat/astro/AST5220/" target="_BLANK">Fagside</a></li>
+		<li>Strålingsprosesser i astrofysikk (AST4310) - <a href="http://www.uio.no/studier/emner/matnat/astro/AST4310/" target="_BLANK">Fagside</a></li>
+		<li>Innføring i astrofysikk (AST1100) - <a href="http://www.uio.no/studier/emner/matnat/astro/AST1100/" target="_BLANK">Fagside</a></li>
+		<li>Elementærpartikkelfysikk (FYS4560) - <a href="http://www.uio.no/studier/emner/matnat/fys/FYS4560/" target="_BLANK">Fagside</a></li>
+		<li>Romfysikk (FYS3610) - <a href="http://www.uio.no/studier/emner/matnat/fys/FYS3610/" target="_BLANK">Fagside</a></li>
+		<li>Radiation and remote sensing (GEF4320) - <a href="http://www.uio.no/studier/emner/matnat/geofag/GEF4320/" target="_BLANK">Fagside</a></li>
+		<li>Stjerneatmosfærer I (AST5210) - <a href="http://www.uio.no/studier/emner/matnat/astro/AST5210/" target="_BLANK">Fagside</a></li>
+		<li>Astrofysiske plasma og stjernenes indre (AST3310) - <a href="https://www.uio.no/studier/emner/matnat/astro/AST3310/" target="_BLANK">Fagside</a></li>
+		<li>Magnetosfæriske prosesser (FYS4610) - <a href="http://www.uio.no/studier/emner/matnat/fys/FYS4610/" target="_BLANK">Fagside</a></li>
+		<li>Strålingstransport i atmosfæren (FYS4630) - <a href="http://www.uio.no/studier/emner/matnat/fys/FYS4630/" target="_BLANK">Fagside</a></li>
+		<li>Satellittkommunikasjon (UNIK4100) - <a href="http://www.uio.no/studier/emner/matnat/ifi/UNIK4100/" target="_BLANK">Fagside</a></li>
+		<li>Solceller (UNIK4450) - <a href="http://www.uio.no/studier/emner/matnat/fys/UNIK4450/" target="_BLANK">Fagside</a></li>
 	</ul>
 </content>

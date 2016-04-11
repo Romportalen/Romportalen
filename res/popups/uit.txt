@@ -1,8 +1,8 @@
 <header>Universitet i Tromsø</header>
 <content>
 	<ul>
-		<li>Romteknologi I (TTT4234) - <a href="https://www.ntnu.no/studier/emner/TTT4234#tab=omEmnet" target="_BLANK">Fagside</a></li>
-		<li>Romteknologi II (TTT4234) - <a href="https://www.ntnu.no/studier/emner/TTT4235#tab=omEmnet" target="_BLANK">Fagside</a></li>
-		<li>Astrofysikk (FY2450) - <a href="https://www.ntnu.no/studier/emner/FY2450" target="_BLANK">Fagside</a></li>
+		<li>Earth Observation from Satellites (FYS-3001) - <a href="https://uit.no/utdanning/emner/emne?p_document_id=369198" target="_BLANK">Fagside</a></li>
+		<li>Techniques for Investigating the Near-Earth Space Environment (FYS-3002) - <a href="https://uit.no/education/courses/course?p_document_id=206594" target="_BLANK">Fagside</a></li>
+		<li>Cosmic geophysics (FYS-3003) - <a href="https://uit.no/utdanning/emner/emne?p_document_id=369028" target="_BLANK">Fagside</a></li>
 	</ul>
 </content>
