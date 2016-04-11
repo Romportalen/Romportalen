@@ -6,33 +6,23 @@
 			<li><img class="imgTabIcon" src="res/img/companyLogos/NTNU_sort.png" alt="ntnu company logo"></li>
 			<li><img class="imgTabIcon" src="res/img/companyLogos/UiT_Black.png" alt="uit company logo"></li>
 			<li><img class="imgTabIcon" src="res/img/companyLogos/uib_logo.png" alt="uib company logo"></li>
-			<li><img class="imgTabIcon" src="res/img/companyLogos/uio_logo.png" alt="uio company logo"></li>
 		</ul> 
 		<div class="resp-tabs-container earthObsTabChild">                                 
 			<div>
 				<ul>
-					<li>Fysikk og matematikk - <a target="_BLANK" href="http://www.ntnu.no/studier/mtfyma/om">Hjemmeside</a></li>
+					<li>Geomatikk - <a target="_BLANK" href="http://www.ntnu.no/studier/bgeo">Hjemmeside</a></li>
 					<li>Fysikk - <a target="_BLANK" href="http://www.ntnu.no/studier/bfy">Hjemmeside</a></li>
 				</ul>
 			</div>
 			<div>
 				<ul>
-					<li>Anvendt fysikk og matematikk (Master, 5 år) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=324988">Hjemmeside</a></li>
-					<li>Fysikk (Bachelor) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=282396">Hjemmeside</a></li>
-					<li>Fysikk (Master, 2 år) - <a target="_BLANK" href=" https://uit.no/utdanning/program?p_document_id=270597">Hjemmeside</a></li>
+					<li>Jordobservasjon (toårig master) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=402685">Hjemmeside</a></li>
+					<li>Droneteknologi - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=446019">Hjemmeside</a></li>
 				</ul>
 			</div>
 			<div>
 				<ul>
-					<li>Fysikk (Bachelor) - <a target="_BLANK" href="http://www.uib.no/studieprogram/BAMN-PHYS">Hjemmeside</a></li>
-					<li>Fysikk (Master, 2 år) - <a target="_BLANK" href="http://www.uib.no/studieprogram/MAMN-PHYS">Hjemmeside</a></li>
-				</ul>
-			</div>
-			<div>
-				<ul>
-					<li>Fysikk, astronomi og meteorologi (bachelor) - <a target="_BLANK" href="http://www.uio.no/studier/program/fam/index.html">Hjemmeside</a></li>
-					<li>Astronomi (Master, 2 år) - <a target="_BLANK" href="http://www.uio.no/studier/program/astronomi-master/index.html">Hjemmeside</a></li>
-					<li>Fysikk (Master, 2 år) - <a target="_BLANK" href="http://www.uio.no/studier/program/fysikk-master/index.html">Hjemmeside</a></li>
+					<li>Meteorologi og oseanografi (toårig master) - <a target="_BLANK" href="http://www.uib.no/studieprogram/MAMN-GEOF">Hjemmeside</a></li>
 				</ul>
 			</div>
 		</div>

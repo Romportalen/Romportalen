@@ -11,28 +11,31 @@
 		<div class="resp-tabs-container atmoTabChild">                                                        
 			<div>
 				<ul>
-					<li>Fysikk og matematikk - <a target="_BLANK" href="http://www.ntnu.no/studier/mtfyma/om">Hjemmeside</a></li>
-					<li>Fysikk - <a target="_BLANK" href="http://www.ntnu.no/studier/bfy">Hjemmeside</a></li>
+					<li>Kjemi (bachelor) - <a target="_BLANK" href="https://www.ntnu.no/studier/bkj">Hjemmeside</a></li>
+					<li>Industriell kjemi og bioteknologi (femårig master) - <a target="_BLANK" href="https://www.ntnu.no/studier/mtkj">Hjemmeside</a></li>
 				</ul>
 			</div>
 			<div>
 				<ul>
-					<li>Anvendt fysikk og matematikk (Master, 5 år) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=324988">Hjemmeside</a></li>
-					<li>Fysikk (Bachelor) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=282396">Hjemmeside</a></li>
-					<li>Fysikk (Master, 2 år) - <a target="_BLANK" href=" https://uit.no/utdanning/program?p_document_id=270597">Hjemmeside</a></li>
+					<li>Romfysikk - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=282393">Hjemmeside</a></li>
+					<li>Biologi, klima og miljø - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=282395">Hjemmeside</a></li>
+					<li>Kjemi (bachelor) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=279717">Hjemmeside</a></li>
+					<li>Organisk kjemi (master) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=280268">Hjemmeside</a></li>
+					<li>Teoretisk kjemi (master) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=280270">Hjemmeside</a></li>
+					<li>Kjemi (toårig master) - <a target="_BLANK" href="https://uit.no/utdanning/program?p_document_id=271264">Hjemmeside</a></li>
 				</ul>
 			</div>
 			<div>
 				<ul>
-					<li>Fysikk (Bachelor) - <a target="_BLANK" href="http://www.uib.no/studieprogram/BAMN-PHYS">Hjemmeside</a></li>
-					<li>Fysikk (Master, 2 år) - <a target="_BLANK" href="http://www.uib.no/studieprogram/MAMN-PHYS">Hjemmeside</a></li>
+					<li>Kjemi (bachelor) - <a target="_BLANK" href="http://www.uib.no/studieprogram/BAMN-KJEM">Hjemmeside</a></li>
+					<li>Kjemi (master) - <a target="_BLANK" href="http://www.uib.no/studieprogram/MAMN-KJEM">Hjemmeside</a></li>
 				</ul>
 			</div>
 			<div>
 				<ul>
-					<li>Fysikk, astronomi og meteorologi (bachelor) - <a target="_BLANK" href="http://www.uio.no/studier/program/fam/index.html">Hjemmeside</a></li>
-					<li>Astronomi (Master, 2 år) - <a target="_BLANK" href="http://www.uio.no/studier/program/astronomi-master/index.html">Hjemmeside</a></li>
-					<li>Fysikk (Master, 2 år) - <a target="_BLANK" href="http://www.uio.no/studier/program/fysikk-master/index.html">Hjemmeside</a></li>
+					<li>Fysikk, astronomi og meteorologi - <a target="_BLANK" href="http://www.uio.no/studier/program/fam/">Hjemmeside</a></li>
+					<li>Kjemi (bachelor) - <a target="_BLANK" href="http://www.uio.no/studier/program/kjemi/index.html">Hjemmeside</a></li>
+					<li>Kjemi (master) - <a target="_BLANK" href="http://www.uio.no/studier/program/kjemi-master/index.html">Hjemmeside</a></li>		
 				</ul>
 			</div>
 		</div>
