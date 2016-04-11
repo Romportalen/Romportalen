@@ -191,10 +191,13 @@ body > .sectionTransition {
 }
 
 body > .sectionTransition.preCalendar {
-    margin-top: 100vh !important;
-    height: auto;
-    position: relative;
-    padding-top: 0.75em;
+	margin-top: 100vh !important;
+	height: auto;
+	position: relative;
+	padding-top: 0.75em;
+	background-color: #030203;
+	box-shadow: 0 0 0.1em 0.1em #030203;
+	z-index: 1;
 }
 
 .preCalendar > div {
