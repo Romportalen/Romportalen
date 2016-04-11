@@ -265,7 +265,7 @@ body > .sectionTransition {
     font-size: 0;
     line-height: 0;
     position: absolute;
-    top: 0;
+    top: 0 !important;
     display: block;
     width: 20px;
     margin-top: 0px !important;
@@ -276,7 +276,7 @@ body > .sectionTransition {
     outline: none;
     background: transparent;
     height: 100% !important;
-	z-index: 99;
+    z-index: 99;
 }
 
 .slick-next {
