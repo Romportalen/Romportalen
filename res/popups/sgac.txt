@@ -1,7 +1,7 @@
 <header>Space Generation Advisory Council</header>
 <content>
 	<p>
-		Hei...
+		Youtube-siden til space generation. Her ligger det mange romrelaterte videroer, fra rakettoppskytninger til forelesninger av de fremste forskerne på sine felt.
 	</p>
 	<a href="https://www.youtube.com/user/spacegeneration">
 		<img style="max-width:100%; max-height: 15 em;" src="res/img/sgc.jpg">

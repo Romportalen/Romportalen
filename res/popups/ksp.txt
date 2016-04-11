@@ -1,7 +1,7 @@
 <header>Kerbal Space Program</header>
 <content>
 	<p>
-		Hei...
+		Et dataspill hvor man kan bygge sine egne romskip og utforske verdensrommet. Vil ditt romskip få deg til månen, mars, eller lengre ut i rommet? Med en fantastisk reell fysikkmotor, er dette den riktig god utfordring for rominteresserte. Du kan også tøye de fysiskebarrierene og fly nærme lysets hastiget. Live long a prosper _|Y| .
 	</p>
 	<a href="https://kerbalspaceprogram.com/en/">
 		<img style="max-width:100%; max-height: 15 em;" src="res/img/Kerbal.png" alt="rocket nozzle">
