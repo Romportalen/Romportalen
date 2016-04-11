@@ -40,10 +40,10 @@ var lastViewportWidth = -1;
 			document.querySelector(".progressBar").style.width = 75+(($(window).scrollTop()-$("#arbeidslivet").offset().top)/($(document).height()-$(window).height()-$("#arbeidslivet").offset().top))*25+"%";
 		} else if($(window).scrollTop() > $("#student").offset().top-navHeight) {
 			document.querySelector(".progressBar").style.width = 50+(($(window).scrollTop()-$("#student").offset().top)/($("#arbeidslivet").offset().top-$("#student").offset().top))*25+"%";
-		} else if($(window).scrollTop() > $("#hoeyereUtdanning").offset().top-navHeight) {
-			document.querySelector(".progressBar").style.width = 25+(($(window).scrollTop()-$("#hoeyereUtdanning").offset().top)/($("#student").offset().top-$("#hoeyereUtdanning").offset().top))*25+"%";
+		} else if($(window).scrollTop() > $("#elev").offset().top-navHeight) {
+			document.querySelector(".progressBar").style.width = 25+(($(window).scrollTop()-$("#elev").offset().top)/($("#student").offset().top-$("#elev").offset().top))*25+"%";
 		} else if($(window).scrollTop() > $("#generellInfo").offset().top-navHeight) {
-			document.querySelector(".progressBar").style.width = 0.05+(($(window).scrollTop()-$("#generellInfo").offset().top)/($("#hoeyereUtdanning").offset().top-$("#generellInfo").offset().top))*25+"%";
+			document.querySelector(".progressBar").style.width = 0.05+(($(window).scrollTop()-$("#generellInfo").offset().top)/($("#elev").offset().top-$("#generellInfo").offset().top))*25+"%";
 		} else {
 			document.querySelector(".progressBar").style.width = "0%";
 		}
@@ -98,11 +98,11 @@ var lastViewportWidth = -1;
 				$(".preStudentLink.tileButton h3").removeClass("currentSection");
 				$(".postStudentLink.tileButton h3").removeClass("currentSection");
 			}
-		} else if($(window).scrollTop() > $("#hoeyereUtdanning").offset().top-navHeight) {
-			if (window.location.hash !== "#hoeyereUtdanning" | document.querySelector(".preStudentLink.tileButton h3").className.indexOf("currentSection") == -1) {
+		} else if($(window).scrollTop() > $("#elev").offset().top-navHeight) {
+			if (window.location.hash !== "#elev" | document.querySelector(".preStudentLink.tileButton h3").className.indexOf("currentSection") == -1) {
 				$(".preStudentLink.tileButton h3").addClass("currentSection");
 				if (document.origin != "null") {
-					history.replaceState("Romportalen.no - Høyere utdanning", "Romportalen.no - Høyere utdanning", "#hoeyereUtdanning");
+					history.replaceState("Romportalen.no - Høyere utdanning", "Romportalen.no - Høyere utdanning", "#elev");
 				}
 				$(".generalLink.tileButton h3").removeClass("currentSection");
 				$(".studentLink.tileButton h3").removeClass("currentSection");
