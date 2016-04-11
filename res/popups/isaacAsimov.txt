@@ -3,6 +3,5 @@
 	<p>
 		Hvert år velges det ett tema som skal bli diskutert i denne debatten. Programlederen er den kjente astrofysikkern Neil deGrasse Tyson, og han henter ledende forskere i sine felt til diskusjon. Tidligere tema: "Nothing", "Theory of Everything", "Faster than the Speed of Light" og mer. 
 	</p>
-	<iframe style="max-width:100%; max-height: 15 em;" src="https://www.youtube.com/embed/FSF79uS3t04?list=PLrfcruGtplwGKzxDI_Ne06NlpOKt-yonZ">
 	</iframe>
 </content>
