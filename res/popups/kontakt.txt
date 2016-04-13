@@ -1,0 +1,7 @@
+﻿<header>Kontaktskjema</header>
+<content>
+	<iframe src="https://docs.google.com/forms/d/1iXQynxixg0yKMw1iykIs1bpmJ5G24Uk_mStA9_vZ7iE/viewform?embedded=true" width="" height="" frameborder="0" marginheight="0" marginwidth="0" style="
+		width: 100%;
+		height: 40em;
+	">Loading...</iframe>
+</content>
