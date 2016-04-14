@@ -134,8 +134,10 @@ function viewPoll( selector ) {
 	function onResize() {
 		if ($(".frontPageContainer .nav-pills").outerHeight() > $(".frontPageContainer .nav-pills .tileButton").outerHeight()*1.7) {
 			$(".frontPageContainer").addClass("navWrapped");
+			$("body").addClass("navWrapped");
 		} else {
 			$(".frontPageContainer").removeClass("navWrapped");
+			$("body").removeClass("navWrapped");
 		}
 		lastScrollPosition = -7;
 		linkNavState = "changing";
