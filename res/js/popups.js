@@ -41,6 +41,7 @@ $(document).ready(function(){
 				$('.modal .modal-body').html(bodyContent);
 				$('.modal').modal('show');
 				document.querySelector('.modal').focus();
+				$(".modal-content").click();
 			});
 		}
 	});
