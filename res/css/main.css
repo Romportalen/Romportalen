@@ -206,7 +206,6 @@ body > .sectionTransition.preCalendar {
     margin-top: 100vh !important;
     height: auto;
     position: relative;
-    padding-top: 0.75em;
 }
 
 .preCalendar > div {
@@ -393,7 +392,7 @@ body > .sectionTransition {
 }
 
 .generalInfo {
-	padding-top: 3em !important;
+	padding-top: 1.5em !important;
 }
 
 .slick-slide h3 {
@@ -1020,7 +1019,7 @@ nav.tileNav .tileButton h3 {
     /* top: -19.25em; */
     position: relative;
     margin-bottom: 1.5em;
-    /* background-size: cover; */
+    background-size: cover !important;
     background: url("http://romportalen.no/res/img/VideoPrtScrResize.jpg");
     box-shadow: 0 -0.5em 0.2em -0.1em #343434 inset, 0 0.5em 0.2em -0.1em #343434 inset;
     padding-bottom: 1em;
@@ -1030,7 +1029,6 @@ nav.tileNav .tileButton h3 {
     /* padding: 0; */
     overflow: hidden;
     /* padding: 1em; */
-    background-size: 100%;
     background-repeat: no-repeat;
     /* margin: 2em; */
     /* left: -2em; */
