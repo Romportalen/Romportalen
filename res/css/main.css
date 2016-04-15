@@ -679,10 +679,15 @@ body > .sectionTransition {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
 }
 
-.panel article:hover{
+.col-sm-3:hover,
+.media_fwidth:hover,
+.studentProjects article:hover,
+.vgsStudyChoices article:hover,
+.vgsHappenings article:hover  {
 	background: rgba(0,0,0,0.1);
 	cursor: pointer;
 }
+
 article,
 section header,
 .sectionContent {
@@ -723,6 +728,16 @@ section header h1 {
 	transition: opacity 0.5s ease, height 0.5s ease;
 	height: 0.15em;
 	opacity: 1;
+}
+
+.frontPageContainer .tileButton p {
+	transition: opacity 0.5s ease;
+	opacity: 1;
+}
+
+.frontPageContainer.navbarState .tileButton p {
+	transition: opacity 0.5s ease;
+	opacity: 0;
 }
 
 .frontPageContainer.navbarState .titleContainer .progressBar {
