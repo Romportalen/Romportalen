@@ -403,14 +403,52 @@ body > .sectionTransition {
 
 .uniNavContainer .nav_img {
 	position: relative;
+	overflow: hidden;
 }
 
-.nav_img map {
-	position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.togglePopup.navSelector[data-popup="universet"] {
+    height: 39%;
+    width: 31%;
+}
+
+.togglePopup.navSelector[data-popup="raketter"] {
+    width: 47%;
+    height: 23%;
+    top: 48%;
+    left: 18%;
+    transform: rotate(28deg);
+	z-index: 1000;
+}
+
+.togglePopup.navSelector[data-popup="satellitter"] {
+    height: 43%;
+    width: 50%;
+    top: 10%;
+    left: 42%;
+    z-index: 999;
+}
+
+.togglePopup.navSelector[data-popup="atmosphere"] {
+	border-radius: 100%;
+    width: 115%;
+    height: 164%;
+    bottom: -90%;
+    right: -73%;
+}
+
+.togglePopup.navSelector[data-popup="earthObs"] {
+    border-radius: 100%;
+    width: 115%;
+    height: 139%;
+    bottom: -75%;
+    right: -82%;
+}
+
+.togglePopup.navSelector {
+    z-index: 1001;
+    position: absolute;
+    display: block;
+	cursor: pointer;
 }
 
 .uniNavContainer .nav_img div img {
@@ -424,7 +462,7 @@ body > .sectionTransition {
 	position: absolute;
 }
 
-.uniNavContainer .nav_img div {
+.uniNavContainer .nav_img .navBackground {
 	display: none;
 }
 
