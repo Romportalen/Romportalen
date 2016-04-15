@@ -299,7 +299,6 @@ body > .sectionTransition {
     background: #545454 !important;
 	opacity: 0.8;
 	transition: opacity 0.3s ease;
-	border-radius: 5px;
 }
 
 .slick-next:hover, .slick-prev:hover {
@@ -365,6 +364,10 @@ body > .sectionTransition {
 	border-radius: 0.5em;
 }
 
+.modal-content {
+	border-radius: 0px !important;
+}
+
 .container-fluid .media-left img[src*="kongsberg"] {
 	background: black none repeat scroll 0% 0%;
 }
@@ -385,7 +388,7 @@ body > .sectionTransition {
 .slick-slider.slider-nav img {
 	height: 15vh !important;
 	border: 0.1em rgba(127,127,127,0.5) solid;
-	border-radius: 0.5em;
+	border-radius: 0px !important;
 	transition: filter ease 0.5s, -webkit-filter ease 0.5s, border ease 0.5s;
 	filter: brightness(70%);
 	-webkit-filter: brightness(70%);
@@ -394,7 +397,7 @@ body > .sectionTransition {
 
 .slick-slider.slider-nav img:hover {
 	border: 0.1em rgba(127,127,127,0.7) solid;
-	border-radius: 0.5em;
+	border-radius: 0px !important;
 	filter: brightness(100%);
 	-webkit-filter: brightness(100%);
 }
