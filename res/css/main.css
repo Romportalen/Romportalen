@@ -223,6 +223,10 @@ body > .sectionTransition.preCalendar {
 	display: inline;
 }
 
+.navWrapped .frontPageContainer .tileButton p {
+	display: none;
+}
+
 body > .sectionTransition {
     /* margin-top: 2.5em; */
 	height: 0;
