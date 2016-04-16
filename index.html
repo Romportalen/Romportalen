@@ -102,83 +102,40 @@
 		<div class="sectionTransition preCalendar">
 		</div>
 
-		<section class="sectionContainer inviewTrigger calendar">
+		<section class="sectionContainer inviewTrigger calendar generalInfoSection">
 			<div class="sectionAnchor" id="generellInfo"></div>
 			<div class="calendarContainer">
-				<header class="page-header">
-					<h2>Kalender</h2>
-				</header>
-				<div class="slider-for">
-					<div class="togglePopup" data-popup="afc">
-						<img src="res/img/27.januar_arctic_frontier_conference.jpg"><h3>Arctic Frontiers Conference</h3>
-					</div>
-					<div class="togglePopup" data-popup="isus">
-						<img src="res/img/12.juli_international_space_university.jpg"><h3>Søknadsfrist International Space University</h3>
-					</div>
-					<div class="togglePopup" data-popup="isu">
-						<img src="res/img/12.juli_international_space_university.jpg"><h3>International Space University</h3>
-					</div>
-					<div class="togglePopup" data-popup="esc">
-						<img src="res/img/EuropeanSpaceCampKalender.jpg"><h3>European Space Camp</h3>
-					</div>
-				</div>
-				<div class="sliderNavContainer">
-					<div class="slider-nav">
-						<div class="togglePopup" data-popup="afc">
-							<img src="res/img/arctic_frontiers_logo.jpg"><h3>27.01.2016</h3>
-						</div>
-						<div class="togglePopup" data-popup="isus">
-							<img src="res/img/isu.jpg"><h3>31.01.2016</h3>
-						</div>
-						<div class="togglePopup" data-popup="isu">
-							<img src="res/img/isu.jpg"><h3>12.07.2016</h3>
-						</div>
-						<div class="togglePopup" data-popup="esc">
-							<img src="res/img/european_space_camp.png"><h3>30.06.2016</h3>
-						</div>
-					</div>
-				<script>
-				$(document).ready(function(){
-					$('.slider-for').slick({
-						slidesToShow: 1,
-						slidesToScroll: 1,
-						arrows: false,
-						fade: true,
-						asNavFor: '.slider-nav'
-					});
-					$('.slider-nav').slick({
-						slidesToShow: 3,
-						slidesToScroll: 1,
-						asNavFor: '.slider-for',
-						dots: false,
-						centerMode: true,
-						focusOnSelect: true,
-						autoplay: false,
-						autoplaySpeed: 471
-					});
-				});
-				</script>
-			</div>
-
-		</section>
-
-		<section class="sectionContainer inviewTrigger generalInfo parallax-window" data-parallax="scroll" data-image-src="res/img/Satellites.png">
-			<main class="sectionContent">
-				<div class="adContainer spaceShipAurora">
+			
+				<div class="adSlider">
+					<div>				<div class="adContainer spaceShipAurora">
 					<!--<img src="res/img/Aurora.png" alt="Spaceship Aurora">-->
 					<div class="textContainer">
 						<h2>Spaceship Aurora</h2>
 						<p>Her kan du oppleve en virtuell tur ut i verdensrommet, du kan erfare nordlyset, forstå dets opprinnelse, effekten på planeten vår og lære mer om hvordan nordlyset gjenspeiles i Norsk historie og kultur.</p>
 					</div>
-				</div>
-				<div class="adContainer vitTrond">
+				</div></div>
+					<div>				<div class="adContainer vitTrond">
 					<!--<img src="res/img/Space-Expo-inne-i-utstillingen_2columns_gallery.jpg" alt="Space Expo">-->
 					<div class="textContainer">
 						<h2>Vitensenteret i Trondheim</h2>
 						<p>På Vitensenteret i Trondheim kan du blant annet besøke deres planetarie og få en lærerik opplevelse om stjernehimmelen og vårt univers.</p>
 					</div>
+				</div></div>
 				</div>
-			</main>
+				<script>
+					$('.adSlider').slick({
+						dots: true,
+						infinite: true,
+						arrows: false,
+						speed: 500,
+						fade: true,
+						autoplay: true,
+						autoplaySpeed: 2000,
+						cssEase: 'linear'
+					});
+				</script>
+			</div>
+
 		</section>
 
 		<div class="sectionTransition">

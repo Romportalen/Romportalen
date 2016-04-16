@@ -91,6 +91,7 @@ img.media-object {
 footer {
 	height: auto !important;
 	min-height: 0 !important;
+	background: #1A1A1A;
 }
 
 .footerContainer{
