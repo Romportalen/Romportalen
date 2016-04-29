@@ -676,6 +676,16 @@ section header h1 {
 	background: #173B5D;
 }
 
+.frontPageContainer .titleContainer .progressContainer .sectionDivider {
+    position: relative;
+    width: 25%;
+    float: left;
+    height: 300%;
+    border-right: 0.2em solid #0079FF;
+    left: -0.1em;
+    top: -100%;
+}
+
 .frontPageContainer.navbarState .titleContainer .progressContainer {
 	transition: opacity 0.5s ease, height 0.5s ease;
 	height: 0.15em;
@@ -710,6 +720,7 @@ section header h1 {
 	text-decoration: none;
 	cursor: default;
 	transition: font-size 0.5s ease, opacity 0.5s ease, border 0.5s ease, padding 0.5s ease;
+	white-space: nowrap;
 }
 
 .frontPageContainer .titleContainer h2.catchLine {
@@ -720,6 +731,8 @@ section header h1 {
 	font-family: "Electrolize", sans-serif;
 	opacity : 1;
 	transition: font-size 0.5s ease, opacity 0.5s ease;
+	width: 100%;
+	display: inline-block;
 }
 
 .frontPageContainer.navbarState .titleContainer h1 {
