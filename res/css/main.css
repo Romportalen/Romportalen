@@ -289,6 +289,7 @@ body > .sectionTransition {
 	max-width: 100%;
 	text-align: center;
 }
+
 .happenings .media-object{
 	max-width: 50vw !important;
 }
@@ -577,8 +578,7 @@ body > .sectionTransition {
 .adContainer {
 	position: relative;
 	width: 100%;
-	height: 40vh;
-	top: 5vh;
+	height: 100vh;
 	background-size: cover;
 	overflow: hidden;
 }
@@ -604,7 +604,7 @@ body > .sectionTransition {
 }
 
 .adContainer.spaceShipAurora {
-	background-image: url("http://romportalen.no/res/img/Aurora_c82.jpg");
+	background-image: url("https://hurtigruten.global.ssl.fastly.net/assets/48e11a/globalassets/photos/excursions/explorer-voyages/crossingseurope/andenes---spaceship-aurora/2500x1250_aurora-meets-aurora.jpg?width=2500&height=1250&transform=DownFill");
 }
 
 .adContainer.spaceShipAurora .textContainer {
@@ -618,7 +618,7 @@ body > .sectionTransition {
 }
 
 .adContainer.vitTrond {
-	background-image: url("http://romportalen.no/res/img/Viten_i_TRH.png");
+	background-image: url("http://www.southfloridamuseum.org/portals/0/Planetarium/Constellation_web.jpg");
 }
 
 .adContainer.vitTrond .textContainer {
@@ -762,7 +762,7 @@ section header h1 {
 }
 
 .frontPageContainer video {
-	background: black url("res/img/fpVideoPoster.jpg");
+	background: black url("http://romportalen.no/res/img/fpVideoPlaceholder.jpg");
 	background-size: cover;
     height: 100%;
     width: 162.18809980806142034548944337812vh;
@@ -997,7 +997,77 @@ nav.tileNav .tileButton h3 {
 	position: absolute;
 	left: 0;
 	top: 0;
-	
+}
+
+.generalInfoSection .compactCalendar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 66%;
+	color: white;
+	overflow-y: hidden;
+    margin-bottom: 1em;
+}
+
+.generalInfoSection .compactCalendar:hover {
+	overflow-y: auto;
+}
+
+.compactCalendar .calendarEventDate {
+    position: absolute;
+    background: #232321;
+    padding: 0.15em;
+    padding-bottom: 0em;
+    margin: 0;
+    display: inline-block;
+    left: 0;
+    width: 2.75em;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    vertical-align: middle;
+}
+
+.compactCalendar .calendarEventName {
+    position: relative;
+    left: 2.75em;
+    margin-right: 2.75em;
+}
+
+.compactCalendar .calendarEventDate .calContent {
+	position: absolute;
+	top: 50%;
+	margin-top: -0.65em;
+	display: inline-block;
+	vertical-align: middle;
+	left: 0;
+	right: 0;
+}
+
+.calendarMonth {
+	border-top: 0.1em none #FFF;
+}
+
+.calendarMonth, .calendarEventContainer {
+	position: relative;
+    padding: 0.5em;
+    margin: 0.5em;
+    background: #545454;
+    font-family: 'Electrolize', sans-serif !important;
+    font-size: 1.5em;
+    border-left: 0.1em solid #FFF;
+    margin-right: 0;
+}
+
+.calendarEventContainer {
+    transition: border 0.1s ease;
+}
+
+.calendarEventContainer:hover {
+    border-left: 0.2em solid #0068D1;
+    cursor: pointer;
 }
 
 .generalInfoSection .adSlider {
@@ -1048,7 +1118,7 @@ nav.tileNav .tileButton h3 {
 }
 
 .sectionAnchor#generellInfo {
-	top: -6em;
+	top: -7.25em;
 }
 
 .navWrapped .sectionAnchor#generellInfo {
