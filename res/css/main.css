@@ -1,5 +1,136 @@
+/* main colour settings */
+
+.logo,
+.navbar-brand/*,
+.footer-left h3 */ {
+	color: #007AFF !important;
+}
+
+p,
+.level1Nav,
+.level2Nav,
+.level4BG,
+.level3BG,
+.level2BG,
+.level1BG,
+.panel,
+.panel-heading,
+.panel-heading h3,
+.navbar,
+.navbar-nav>li>a,
+nav.tileNav .tileButton h3 {
+	color: #F4F4F4 !important;
+}
+
+h2 {
+	color: white;
+}
+
 body {
-	background-color: rgba(52,52,52,1);
+	background: #343434;
+}
+
+a:hover,
+.navbar-nav>li>a:hover {
+	color: #0055A2 !important;
+}
+
+.level1Nav,
+.navbar {
+	background: #173B5D !important;
+}
+
+.level2Nav {
+	background: #7B848D !important;
+}
+
+.level1BG {
+	background: #656565 !important;
+}
+
+.headerVideoMatchingBG,
+.frontPageContainer,
+.calendarEventDate {
+	background: rgba(34,34,34,1) !important;
+}
+
+.panel {
+	background: transparent !important;
+}
+
+.level2BG,
+.panel-heading,
+.calendarEventContainer,
+.picture_col,
+.calendarMonth,
+.button1,
+.button2 {
+	background: #545454 !important;
+}
+
+.level3BG {
+	background: #404040 !important;
+}
+
+.panel-default,
+.panel-default>.panel-heading {
+	border-color: #404040 !important;
+}
+
+.level4BG,
+body > .sectionContainer {
+	/* background: rgba(255, 255, 255, 0.398); */
+}
+
+.tileButton p {
+    color: #868686 !important;
+}
+
+.tileButton:hover p {
+    color: #D8D8D8 !important;
+}
+
+.slick-slide h3 {
+	color: #FFF;
+}
+
+/* "Romportalen" logotype colour */
+
+.frontPageContainer .titleContainer h1 {
+	color: white;
+}
+
+/* Front page catchphrase colour */
+
+.frontPageContainer .titleContainer h2.catchLine {
+	color: gray;
+}
+
+/* default tile button text colour */
+
+.tileButton a, .tileButton a:focus,.tileButton a:hover, .tileButton a {
+	color: white;
+}
+
+.uniNavContainer > h3 {
+    color: #FFF;
+}
+
+.uniNavContainer li div {
+    color: #FFF;
+}
+
+.uniNavContainer li div:hover {
+    color: #0068D1;
+}
+
+.generalInfoSection .compactCalendar {
+	color: white;
+}
+
+/* main colour settings end */
+
+body {
 	font-family: "Open Sans", sans-serif !important;
 }
 
@@ -39,7 +170,6 @@ body > .sectionContainer {
 	z-index: 9999;
 	top: 0;
 	left: 0;
-	background: rgba(34,34,34,1);
 	overflow: hidden;
 	transition: box-shadow ease 0.5s;
 	-webkit-transition: box-shadow ease 0.5s;
@@ -88,73 +218,6 @@ img.logoLeft {
     left: -0.1em;
 }
 
-/* main colour settings */
-
-.logo,
-.navbar-brand/*,
-.footer-left h3 */ {
-	color: #007AFF !important;
-}
-
-p,
-.level1Nav,
-.level2Nav,
-.level4BG,
-.level3BG,
-.level2BG,
-.level1BG,
-.panel,
-.panel-heading,
-.panel-heading h3,
-.navbar,
-.navbar-nav>li>a,
-nav.tileNav .tileButton h3 {
-	color: #F4F4F4 !important;
-}
-
-a:hover,
-.navbar-nav>li>a:hover {
-	color: #0055A2 !important;
-}
-
-.level1Nav,
-.navbar {
-	background: #173B5D !important;
-}
-
-.level2Nav {
-	background: #7B848D !important;
-}
-
-.level1BG {
-	background: #656565 !important;
-}
-
-.panel {
-	background: transparent !important;
-}
-
-.level2BG,
-.panel-heading {
-	background: #545454 !important;
-}
-
-.level3BG {
-	background: #404040 !important;
-}
-
-.panel-default,
-.panel-default>.panel-heading {
-	border-color: #404040 !important;
-}
-
-.level4BG,
-body > .sectionContainer {
-	/* background: rgba(255, 255, 255, 0.398); */
-}
-
-/* main colour settings end */
-
 article.panel {
 	margin-bottom: 0 !important;
 }
@@ -178,9 +241,7 @@ article header.panel-heading {
 	/* height: 20px; */
 }
 
-h2 {
-	color: white;
-}
+
 
 .frontPageContainer,
 body > .sectionTransition {
@@ -195,14 +256,9 @@ body > .sectionTransition {
     display: block;
     padding: 0;
     margin: 0;
-    color: #868686 !important;
     text-shadow: 0 0 0.3em #000;
 	margin: 0 auto;
     width: 100%;
-}
-
-.tileButton:hover p {
-    color: #D8D8D8 !important;
 }
 
 body > .sectionTransition.preCalendar {
@@ -350,7 +406,6 @@ body > .sectionTransition {
 
 .slick-slide h3 {
 	position: absolute;
-	color: #FFF;
 	top: 23vh;
 	left: 0;
 	right: 0;
@@ -368,7 +423,6 @@ body > .sectionTransition {
 	position: relative;
 	top: 0;
 	left: 0;
-	background: #656565;
 }
 
 .uniNavContainer .nav_img {
@@ -467,7 +521,6 @@ body > .sectionTransition {
 
 .uniNavContainer li div:hover {
     background-color: rgba(0,0,0,1);
-    color: #0068D1;
 }
 
 .uniNavContainer li div{
@@ -486,8 +539,8 @@ body > .sectionTransition {
     font-size: 2.25em;
 	padding: 0.5em;
 }
+
 .uniNavContainer > h3 {
-    color: #FFF;
     margin: 0;
     z-index: 505;
     font-weight: bold;
@@ -716,7 +769,6 @@ section header h1 {
 .frontPageContainer .titleContainer h1 {
 	margin: 0;
 	padding: 0;
-	color: white;
 	text-decoration: none;
 	cursor: default;
 	transition: font-size 0.5s ease, opacity 0.5s ease, border 0.5s ease, padding 0.5s ease;
@@ -726,7 +778,6 @@ section header h1 {
 .frontPageContainer .titleContainer h2.catchLine {
 	margin: 0;
 	padding: 0;
-	color: gray;
 	font-size: 5.5vh;
 	font-family: "Electrolize", sans-serif;
 	opacity : 1;
@@ -806,7 +857,6 @@ nav.tileNav {
 
 .tileButton a:focus,.tileButton a:hover, .tileButton a {
 	background-color: transparent !important;
-	color: white;
 	text-decoration: none;
 }
 
@@ -816,7 +866,6 @@ nav.tileNav {
 }
 
 .tileButton a {
-	color: white;
 	filter: brightness(100%);
 	-webkit-filter: brightness(100%);
 	padding: 0 !important;
@@ -1018,7 +1067,6 @@ nav.tileNav .tileButton h3 {
     top: 0;
     bottom: 0;
     left: 66%;
-	color: white;
 	overflow-y: hidden;
     margin-bottom: 1em;
 }
@@ -1029,7 +1077,6 @@ nav.tileNav .tileButton h3 {
 
 .compactCalendar .calendarEventDate {
     position: absolute;
-    background: #232321;
     padding: 0.15em;
     padding-bottom: 0em;
     margin: 0;
@@ -1067,7 +1114,6 @@ nav.tileNav .tileButton h3 {
 	position: relative;
     padding: 0.5em;
     margin: 0.5em;
-    background: #545454;
     font-family: 'Electrolize', sans-serif !important;
     font-size: 1.5em;
     border-left: 0.1em solid #FFF;
@@ -1210,7 +1256,6 @@ a[data-toggle="collapse"] header h3:hover:after {
 	top:0;
 	right:0;
 	z-index: 9000;
-	background-color: #545454;
 	overflow-y:auto;
 }
 
@@ -1252,7 +1297,6 @@ a[data-toggle="collapse"] header h3:hover:after {
 	width: 10%;
 	height: 100%;
 	z-index: 1000;
-	background-color: #545454;
 	font-weight: bold;
 	top: 0;
 	position: absolute;
