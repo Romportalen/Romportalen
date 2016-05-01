@@ -22,7 +22,8 @@ nav.tileNav .tileButton h3 {
 	color: #F4F4F4 !important;
 }
 
-h2 {
+h2,
+.generalInfoSection .compactCalendar {
 	color: white;
 }
 
@@ -132,10 +133,6 @@ body > .sectionContainer {
 
 .uniNavContainer li div:hover {
     color: #0068D1;
-}
-
-.generalInfoSection .compactCalendar {
-	color: white;
 }
 
 /* main colour settings end */
@@ -1056,6 +1053,8 @@ nav.tileNav .tileButton h3 {
     background-repeat: no-repeat;
     /* margin: 2em; */
     /* left: -2em; */
+	margin-right: 0;
+	margin-left: 0;
 }
 
 .calendar + .sectionContainer  {
