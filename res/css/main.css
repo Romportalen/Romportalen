@@ -1,137 +1,299 @@
-/* main colour settings */
-
-.logo,
-.navbar-brand/*,
+/* main colour settings begin */
+/* new theme settings */
+.lightTheme .logo,
+.lightTheme .navbar-brand/*,
 .footer-left h3 */ {
 	color: #007AFF !important;
 }
 
-p,
-.level1Nav,
-.level2Nav,
-.level4BG,
-.level3BG,
-.level2BG,
-.level1BG,
-.panel,
-.panel-heading,
-.panel-heading h3,
-.navbar,
-.navbar-nav>li>a,
-nav.tileNav .tileButton h3 {
+.lightTheme p,
+.lightTheme .level1Nav,
+.lightTheme .level2Nav,
+.lightTheme .level4BG,
+.lightTheme .level3BG,
+.lightTheme .level2BG,
+.lightTheme .level1BG,
+.lightTheme .panel,
+.lightTheme .col-sm-3 .panel-heading h3,
+.lightTheme .navbar,
+.lightTheme .navbar-nav>li>a {
 	color: #F4F4F4 !important;
 }
 
-h2,
-.generalInfoSection .compactCalendar {
-	color: white;
+.lightTheme nav.tileNav .tileButton h3 {
+	color: #F4F4F4 !important;
+}
+
+.lightTheme h2,
+.lightTheme .generalInfoSection .compactCalendar,
+.lightTheme .panel-heading h2,
+.lightTheme .panel-heading h3 {
+	color: white !important;
 }
 
 /* background colour */
-body,
-.sectionContainer nav.tileNav::after {
+body.lightTheme,
+.lightTheme .sectionContainer nav.tileNav::after {
 	background: #343434;
 }
 
 /* set to same colour value as above */
-.sectionContainer nav.tileNav {
+.lightTheme .sectionContainer nav.tileNav {
     box-shadow: 0 -0.5em 0.2em -0.1em #343434 inset, 0 0.5em 0.2em -0.1em #343434 inset;
 }
 
-a:hover,
-.navbar-nav>li>a:hover {
+.lightTheme a:hover,
+.lightTheme .navbar-nav>li>a:hover {
 	color: #0055A2 !important;
 }
 
-.level1Nav,
-.navbar {
+.lightTheme .level1Nav,
+.lightTheme .navbar {
 	background: #173B5D !important;
 }
 
-.level2Nav {
+.lightTheme .level2Nav {
 	background: #7B848D !important;
 }
 
-.level1BG {
+.lightTheme .level1BG {
 	background: #656565 !important;
 }
 
 /* should be set to a colour close to the video on the front page. */
-.headerVideoMatchingBG,
-.frontPageContainer,
-.calendarEventDate {
+.lightTheme .headerVideoMatchingBG,
+.lightTheme .frontPageContainer,
+.lightTheme .calendarEventDate,
+.lightTheme footer {
 	background: rgba(34,34,34,1) !important;
 }
 
-.panel {
+.lightTheme .panel {
 	background: transparent !important;
 }
 
-.level2BG,
-.panel-heading,
-.calendarEventContainer,
-.picture_col,
-.calendarMonth,
-.button1,
-.button2 {
-	background: #545454 !important;
+.lightTheme .level2BG,
+.lightTheme .panel-heading,
+.lightTheme .calendarEventContainer,
+.lightTheme .picture_col,
+.lightTheme .calendarMonth,
+.lightTheme .button1,
+.lightTheme .button2 {
+	background: #545454;
 }
 
-.level3BG {
+.lightTheme .level3BG {
 	background: #404040 !important;
 }
 
 /* should be set to the same colour as above */
 
-.panel-default,
-.panel-default>.panel-heading {
+.lightTheme .panel-default,
+.lightTheme .panel-default>.panel-heading {
 	border-color: #404040 !important;
 }
 
-.level4BG,
-body > .sectionContainer {
+.lightTheme .level4BG,
+body.lightTheme > .sectionContainer {
 	/* background: rgba(255, 255, 255, 0.398); */
 }
 
-.tileButton p {
+.lightTheme .tileButton p {
     color: #868686 !important;
 }
 
-.tileButton:hover p {
+.lightTheme .tileButton:hover p,
+.lightTheme footer p {
     color: #D8D8D8 !important;
 }
 
-.slick-slide h3 {
+.lightTheme .slick-slide h3 {
 	color: #FFF;
 }
 
 /* "Romportalen" logotype colour */
 
-.frontPageContainer .titleContainer h1 {
+.lightTheme .frontPageContainer .titleContainer h1,
+.lightTheme .footerContainer h3 {
 	color: white;
 }
 
 /* Front page catchphrase colour */
 
-.frontPageContainer .titleContainer h2.catchLine {
-	color: gray;
+.lightTheme .frontPageContainer .titleContainer h2.catchLine {
+	color: gray !important;
 }
 
 /* default tile button text colour */
 
-.tileButton a, .tileButton a:focus,.tileButton a:hover, .tileButton a {
+.lightTheme .tileButton a, .tileButton a:focus,
+.lightTheme .tileButton a:hover,
+.lightTheme .tileButton a {
 	color: white;
 }
 
-.uniNavContainer > h3 {
+.lightTheme .uniNavContainer > h3 {
     color: #FFF;
 }
 
-.uniNavContainer li div {
+.lightTheme .uniNavContainer li div {
     color: #FFF;
 }
 
-.uniNavContainer li div:hover {
+.lightTheme .uniNavContainer li div:hover {
+    color: #0068D1;
+}
+
+/* new theme code ends */
+
+/***************************/
+/* colour scheme separator */
+/***************************/
+
+/* old dark theme code begins */
+
+
+.darkTheme .logo,
+.darkTheme .navbar-brand/*,
+.footer-left h3 */ {
+	color: #007AFF !important;
+}
+
+.darkTheme p,
+.darkTheme .level1Nav,
+.darkTheme .level2Nav,
+.darkTheme .level4BG,
+.darkTheme .level3BG,
+.darkTheme .level2BG,
+.darkTheme .level1BG,
+.darkTheme .panel,
+.darkTheme .col-sm-3 .panel-heading h3,
+.darkTheme .navbar,
+.darkTheme .navbar-nav>li>a {
+	color: #F4F4F4 !important;
+}
+
+.darkTheme nav.tileNav .tileButton h3 {
+	color: #F4F4F4 !important;
+}
+
+.darkTheme h2,
+.darkTheme .generalInfoSection .compactCalendar,
+.darkTheme .panel-heading h2,
+.darkTheme .panel-heading h3 {
+	color: white !important;
+}
+
+/* background colour */
+body.darkTheme,
+.darkTheme .sectionContainer nav.tileNav::after {
+	background: #343434;
+}
+
+/* set to same colour value as above */
+.darkTheme .sectionContainer nav.tileNav {
+    box-shadow: 0 -0.5em 0.2em -0.1em #343434 inset, 0 0.5em 0.2em -0.1em #343434 inset;
+}
+
+.darkTheme a:hover,
+.darkTheme .navbar-nav>li>a:hover {
+	color: #0055A2 !important;
+}
+
+.darkTheme .level1Nav,
+.darkTheme .navbar {
+	background: #173B5D !important;
+}
+
+.darkTheme .level2Nav {
+	background: #7B848D !important;
+}
+
+.darkTheme .level1BG {
+	background: #656565 !important;
+}
+
+/* should be set to a colour close to the video on the front page. */
+.darkTheme .headerVideoMatchingBG,
+.darkTheme .frontPageContainer,
+.darkTheme .calendarEventDate,
+.darkTheme footer {
+	background: rgba(34,34,34,1) !important;
+}
+
+.darkTheme .panel {
+	background: transparent !important;
+}
+
+.darkTheme .level2BG,
+.darkTheme .panel-heading,
+.darkTheme .calendarEventContainer,
+.darkTheme .picture_col,
+.darkTheme .calendarMonth,
+.darkTheme .button1,
+.darkTheme .button2 {
+	background: #545454;
+}
+
+.darkTheme .level3BG {
+	background: #404040 !important;
+}
+
+/* should be set to the same colour as above */
+
+.darkTheme .panel-default,
+.darkTheme .panel-default>.panel-heading {
+	border-color: #404040 !important;
+}
+
+.darkTheme .level4BG,
+body.darkTheme > .sectionContainer {
+	/* background: rgba(255, 255, 255, 0.398); */
+}
+
+.darkTheme .tileButton p {
+    color: #868686 !important;
+}
+
+.darkTheme .tileButton:hover p,
+.darkTheme footer p {
+    color: #D8D8D8 !important;
+}
+
+.darkTheme .slick-slide h3 {
+	color: #FFF;
+}
+
+/* "Romportalen" logotype colour */
+
+.darkTheme .frontPageContainer .titleContainer h1,
+.darkTheme .footerContainer h3 {
+	color: white;
+}
+
+/* Front page catchphrase colour */
+
+.darkTheme .frontPageContainer .titleContainer h2.catchLine {
+	color: gray !important;
+}
+
+/* default tile button text colour */
+
+.darkTheme .tileButton a, .tileButton a:focus,
+.darkTheme .tileButton a:hover,
+.darkTheme .tileButton a {
+	color: white;
+}
+
+.darkTheme .uniNavContainer > h3 {
+    color: #FFF;
+}
+
+.darkTheme .uniNavContainer li div {
+    color: #FFF;
+}
+
+.darkTheme .uniNavContainer li div:hover {
     color: #0068D1;
 }
 

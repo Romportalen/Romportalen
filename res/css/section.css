@@ -91,7 +91,6 @@ img.media-object {
 footer {
 	height: auto !important;
 	min-height: 0 !important;
-	background: #1A1A1A;
 }
 
 .footerContainer{
@@ -111,12 +110,11 @@ footer {
 }
 
 .footerContainer h3 {
-	color:  #ffffff;
 	font: normal 36px 'Electrolize', sans-serif !important;
 	margin: 0 0 10px;
 }
 
-.footerContainer h3 span{
+.footerContainer h3 span {
 	color:  #5383d3;
 }
 
@@ -134,7 +132,6 @@ footer {
 }
 
 .footerContainer .footer-company-name{
-	color:  #8f9296;
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
