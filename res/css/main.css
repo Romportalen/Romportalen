@@ -37,6 +37,11 @@ body.lightTheme,
 	background: #343434;
 }
 
+body.lightTheme {
+    background-image: url("http://127.0.0.1:8000/res/img/footer_lodyas.png");
+    background-repeat: repeat;
+}
+
 /* set to same colour value as above */
 .lightTheme .sectionContainer nav.tileNav {
     box-shadow: 0 -0.5em 0.2em -0.1em #343434 inset, 0 0.5em 0.2em -0.1em #343434 inset;
@@ -91,6 +96,10 @@ body.lightTheme,
 .lightTheme .panel-default,
 .lightTheme .panel-default>.panel-heading {
 	border-color: #404040 !important;
+}
+
+body.lightTheme .contentContainer.panel-body {
+    background: rgba(0,0,0,0.2);
 }
 
 .lightTheme .level4BG,
@@ -200,7 +209,7 @@ body.darkTheme,
 
 /* set to same colour value as above */
 .darkTheme .sectionContainer nav.tileNav {
-    box-shadow: 0 -0.5em 0.2em -0.1em #343434 inset, 0 0.5em 0.2em -0.1em #343434 inset;
+    box-shadow: 0 -0.5em 0em -0.1em #343434 inset, 0 0.5em 0em -0.1em #343434 inset;
 }
 
 .darkTheme a:hover,
@@ -521,6 +530,10 @@ body > .sectionTransition {
 
 .media-left, .media-body, .media-right {
 	vertical-align: middle !important;
+}
+
+.container-fluid {
+	padding-top: 15px;
 }
 
 .container-fluid .media-left,
@@ -1007,7 +1020,7 @@ section header h1 {
 .frontPageContainer.navbarState {
 	transition: box-shadow ease 0.5s;
 	-webkit-transition: box-shadow ease 0.5s;
-	box-shadow: 0px 0px 0.4em 0.3em rgba(34, 34, 34, 0.5) !important;
+	box-shadow: 0px 0px 0em 0.2em rgba(34, 34, 34, 0.5) !important;
 }
 
 .frontPageContainer video {
@@ -1032,7 +1045,7 @@ nav.tileNav {
 .frontPageContainer.navbarState {
 	transition: box-shadow ease 0.5s;
 	-webkit-transition: box-shadow ease 0.5s;
-	box-shadow: 0px 0px 0.4em 0.3em rgba(34, 34, 34, 0.5);
+	box-shadow: 0px 0px 0.0em 0.2em rgba(34, 34, 34, 0.7);
 }
 
 .frontPageContainer nav.tileNav ul {
