@@ -66,29 +66,29 @@
 			<nav class="tileNav">
 				<ul class="nav-pills nav">
 					<li class="generalLink tileButton">
-						<a href="#generellInfo">
-							<img class="tile-image" alt="generelt" src="res/img/icons/1Generelt.svg">
+						<a id="generalInfoLink" href="#generellInfo">
+							<img class="tile-image" alt="generelt" src="res/img/sqIcons/1Generelt.svg">
 							<h3 data-letters="Generelt">Generelt</h3>
 							<p>For deg som ønsker å finne romrelaterte tilbud og hendelser i Norge.</p>
 						</a>
 					</li>
 					<li class="preStudentLink tileButton">
 						<a href="#elev">
-							<img class="tile-image" alt="elev" src="res/img/icons/2ForHU.svg">
+							<img class="tile-image" alt="elev" src="res/img/sqIcons/2ForHU.svg">
 							<h3 data-letters="Elev">Elev</h3>
 							<p>For deg som går på videregående eller ungdomsskolenivå.</p>
 						</a>
 					</li>
 					<li class="studentLink tileButton">
 						<a href="#student">
-							<img class="tile-image" alt="student" src="res/img/icons/3Student.svg">
+							<img class="tile-image" alt="student" src="res/img/sqIcons/3Student.svg">
 							<h3 data-letters="Student">Student</h3>
 							<p>For deg som studerer på universitetsnivå.</p>
 						</a>
 					</li>
 					<li class="postStudentLink tileButton">
 						<a href="#arbeidslivet">
-							<img class="tile-image" alt="Arbeidslivet" src="res/img/icons/4arbeidslivet.svg">
+							<img class="tile-image" alt="Arbeidslivet" src="res/img/sqIcons/4arbeidslivet.svg">
 							<h3 data-letters="Arbeidslivet">Arbeidslivet</h3>
 							<p>For deg som leter etter en romrelatert jobb i Norge.</p>
 						</a>
@@ -96,9 +96,11 @@
 				</ul>
 			</nav>
 			<div class="background-wrap">
-				<video id="bgvideo" autoplay muted loop>
-					<source src="res/img/crab%20nebula%20Repeat%20NEW.mp4" type="video/mp4">
-				</video>
+				<div class="rotator">
+					<video id="bgvideo" autoplay muted loop>
+						<source src="res/img/crab%20nebula%20Repeat%20NEW.mp4" type="video/mp4">
+					</video>
+				</div>
 			</div>
 		</div>
 		</section>
@@ -219,25 +221,25 @@
 				<ul class="nav-pills nav">
 					<li class="vgsStudyChoicesLink tileButton">
 						<a href="#preStudyVgsStudyChoices">
-							<img class="tile-image" alt="Studievalg - videregående" src="res/img/icons/VidereStudValgVGS.svg">
+							<img class="tile-image" alt="Studievalg - videregående" src="res/img/sqIcons/VidereStudValgVGS.svg">
 							<h3>Studievalg - videregående</h3>
 						</a>
 					</li>
 					<li class="uniStudyChoicesLink tileButton">
 						<a href="#preStudyUniStudyChoices">
-							<img class="tile-image" alt="Studievalg - universitet" src="res/img/icons/VidereStudValgUni.svg">
+							<img class="tile-image" alt="Studievalg - universitet" src="res/img/sqIcons/VidereStudValgUni.svg">
 							<h3>Studievalg - universitet</h3>
 						</a>
 					</li>
 					<li class="happeningsLink tileButton">
 						<a href="#preStudyHappenings">
-							<img class="tile-image" alt="hendelser" src="res/img/icons/ProjOgOrg.svg">
+							<img class="tile-image" alt="hendelser" src="res/img/sqIcons/ProjOgOrg.svg">
 							<h3>Hendelser</h3>
 						</a>
 					</li>
 					<li class="digitalLearningLink tileButton">
 						<a href="#preStudyDigitalLearning">
-							<img class="tile-image" alt="digitale læringsopplevelser" src="res/img/icons/DigLaering.svg">
+							<img class="tile-image" alt="digitale læringsopplevelser" src="res/img/sqIcons/DigLaering.svg">
 							<h3>Digitale læringsopplevelser</h3>
 						</a>
 					</li>
@@ -386,18 +388,12 @@
 					<article class="mediumContainer inviewTrigger">
 						<div class="contentContainer panel-body">
 							<div class="media">
-								<div class="media_fwidth" onclick="toggle_visibility('CanSatEvent');">
+								<div class="media_fwidth togglePopup" data-popup="CanSatEvent">
 									<header class="panel-heading">
 										<h3>CanSat</h3>
 									</header>
 									<img class="media-object" src="res/img/CANSAT.png" alt="glorious placeholder image">
-									<div class="button1" onclick="toggle_visibility('CanSatEvent');"></div>
-
-								</div>
-								<div id="CanSatEvent" class="picture_col" onclick="toggle_visibility('CanSatEvent');" >
-									<!-- <h4 class="media-heading">placeholder</h4> -->
-									<p>Gjennom CanSat prosjektet får du mulighet til å bygge din egen satellittmodell som skal passe inn i en 0,33L brusboks. CanSat’en skal skytes opp med en rakett for så å sveve tilbake til bakken i fallskjerm. På vei ned skal den gjøre ulike målinger som sendes til en bakkestasjon. I dette prosjektet, som er arrangert av NAROM ved Andøya Space Center, vil din CanSat vere med på å konkurrere mot andre norske elever om en plass i den Europeiske CanSat konkurransen.</p>
-									<div class="button2"></div>
+									<div class="button1"></div>
 								</div>
 							</div>
 						</div>
@@ -406,18 +402,12 @@
 					<article class="mediumContainer inviewTrigger">
 						<div class="contentContainer panel-body">
 							<div class="media">
-								<div class="media_fwidth" onclick="toggle_visibility('iscUSAEvent');">
+								<div class="media_fwidth togglePopup" data-popup="iscUSAEvent">
 									<header class="panel-heading">
 										<h3>International Space Camp USA</h3>
 									</header>
 									<img class="media-object" src="res/img/InternationalSpaceCamp.png" alt="glorious placeholder image">
 									<div class="button1" ></div>
-
-								</div>
-								<div id="iscUSAEvent" class="picture_col" onclick="toggle_visibility('iscUSAEvent');">
-									<!-- <h4 class="media-heading">placeholder</h4> -->
-									<p>Er du mellom 15 og 18 år og interessert i romfart, kan en uke på International Space Camp være en super sommeropplevelse. International Space Camp går av stabelen i juli ved U.S. Space & Rocket Center i Huntsville, Alabama, USA. I løpet av romfartsleiren får du delta i en simulert oppskytning av romfergen samt utføre oppgaver og trene som om du var en ekte astronaut. Forelesninger, prosjekter og omvisninger er også en del av oppholdet. Norsk Romsenter tilbyr stipend for en gutt og en jente. <a href="http://www.romsenter.no/Media/Files/PDF-Office/Skole-student/Soeknadsskjema-ISC-2015" target="_BLANK"> Søknadsskjema.</a></p>
-									<div class="button2" ></div>
 								</div>
 							</div>
 						</div>
@@ -551,25 +541,25 @@
 				<ul class="nav-pills nav">
 					<li class="projectChoicesLink tileButton">
 						<a href="#studentStudentProjects">
-							<img class="tile-image" alt="prosjekter/organisasjoner" src="res/img/icons/ProjOgOrg.svg">
+							<img class="tile-image" alt="prosjekter/organisasjoner" src="res/img/sqIcons/ProjOgOrg.svg">
 							<h3>Prosjekter/organisasjoner</h3>
 						</a>
 					</li>
 					<li class="industryRelationsLink tileButton">
 						<a href="#studentIndustryRelations">
-							<img class="tile-image" alt="industrirelasjoner" src="res/img/icons/IndustriRel.svg">
+							<img class="tile-image" alt="industrirelasjoner" src="res/img/sqIcons/IndustriRel.svg">
 							<h3>Sommerjobber</h3>
 						</a>
 					</li>
 					<li class="happeningsLink tileButton">
 						<a href="#studentHappenings">
-							<img class="tile-image" alt="hendelser" src="res/img/icons/Hendelser.svg">
+							<img class="tile-image" alt="hendelser" src="res/img/sqIcons/Hendelser.svg">
 							<h3>Hendelser</h3>
 						</a>
 					</li>
 					<li class="courseChoiceLink tileButton">
 						<a href="#studentCourseChoices">
-							<img class="tile-image" alt="fagvalg" src="res/img/icons/FagvalgUni.svg">
+							<img class="tile-image" alt="fagvalg" src="res/img/sqIcons/FagvalgUni.svg">
 							<h3>Fagvalg</h3>
 						</a>
 					</li>
@@ -1091,25 +1081,25 @@ http://www.summerschoolalpbach.at/index.php?file=start_uk.php"><img class="media
 				<ul class="nav-pills nav">
 					<li class="workEventLink tileButton">
 						<a href="#norskRomIndustri">
-							<img class="tile-image" alt="hendelser" src="res/img/icons/IndustriRel.svg">
+							<img class="tile-image" alt="hendelser" src="res/img/sqIcons/IndustriRel.svg">
 							<h3>Norsk romindustri</h3>
 						</a>
 					</li>
 					<li class="workplaces1Link tileButton">
 						<a href="#postStudentWorkplaces1">
-							<img class="tile-image" alt="Satellitteknologi" src="res/img/icons/Satelitt.svg">
+							<img class="tile-image" alt="Satellitteknologi" src="res/img/sqIcons/Satelitt.svg">
 							<h3>Satellitteknologi</h3>
 						</a>
 					</li>
 					<li class="workplaces2Link tileButton">
 						<a href="#postStudentWorkplaces2">
-							<img class="tile-image" alt="Raketteknologi" src="res/img/icons/RakettTeknologi.svg">
+							<img class="tile-image" alt="Raketteknologi" src="res/img/sqIcons/RakettTeknologi.svg">
 							<h3>Romfart</h3>
 						</a>
 					</li>
 					<li class="workplaces3Link tileButton">
 						<a href="#postStudentWorkplaces3">
-							<img class="tile-image" alt="Forskning" src="res/img/icons/Forskning.svg">
+							<img class="tile-image" alt="Forskning" src="res/img/sqIcons/Forskning.svg">
 							<h3>Forskning</h3>
 						</a>
 					</li>

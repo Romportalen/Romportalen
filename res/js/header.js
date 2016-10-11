@@ -4,6 +4,9 @@ var lastScrollPosition = -1;
 var linkNavState = "changing";
 var prevLinkNavState = "init";
 var lastViewportWidth = -1;
+var currentScroll = 0;
+var prevScroll = 0;
+var deltaY = 0;
 
 	function updateHeaderState() {
 		if (!document.querySelector(".frontpageContainer.navbarState")) {
@@ -12,12 +15,15 @@ var lastViewportWidth = -1;
 			if ($(window).scrollTop() < $(".frontPageContainer").height()/10) {
 				document.querySelector(".titleContainer").style.top = "10vh";
 				document.querySelector(".titleContainer").style.bottom = "auto";
+				$(".frontPageContainer").removeClass("scrolled");
 			} else if ($(window).scrollTop() < $(".frontPageContainer").height()-$(".frontPageContainer .titleContainer h1").outerHeight()-$(".frontPageContainer ul li a h3").height()) {
 				document.querySelector(".titleContainer").style.top = $(window).scrollTop()+"px";
 				document.querySelector(".titleContainer").style.bottom = "auto";
+				$(".frontPageContainer").addClass("scrolled");
 			} else {
 				document.querySelector(".titleContainer").style.top = "auto";
 				document.querySelector(".titleContainer").style.bottom = $(".frontPageContainer .titleContainer h1").outerHeight()+$(".frontPageContainer ul li a h3").height()+$(".frontPageContainer .titleContainer .progressContainer").outerHeight()+"px";
+				$(".frontPageContainer").addClass("scrolled");
 			}
 			/* title animation rules end */
 		}
@@ -29,8 +35,24 @@ var lastViewportWidth = -1;
 		
 		if ($(window).scrollTop() == 0) {
 			document.querySelector(".frontPageContainer video").play();
+			document.querySelector(".frontPageContainer video").style.display = "block";
 		} else {
+			$(".frontPageContainer").addClass("scrolled");
+			document.querySelector(".frontPageContainer video").style.display = "none";
 			document.querySelector(".frontPageContainer video").pause();
+			document.querySelector(".frontPageContainer video").currentTime = 0;
+		}
+		
+		currentScroll = $(window).scrollTop();
+		
+		deltaY = currentScroll - prevScroll;
+		
+		prevScroll = currentScroll;
+		
+		if ($(window).scrollTop() < $(".frontPageContainer").height()*3/10 && deltaY > 0) {
+			prevScroll = 90000;
+			deltaY = 0;
+			$("#generalInfoLink").click();
 		}
         
 		updateHeaderState();

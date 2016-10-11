@@ -456,8 +456,9 @@ body > .sectionTransition {
 }
 
 body > .sectionTransition.preCalendar {
-    margin-top: 100vh !important;
-    height: auto;
+    height: 100vh;
+	margin-top: 0 !important; 
+	background: black;
     position: relative;
 }
 
@@ -999,6 +1000,7 @@ section header h1 {
 }
 
 .background-wrap {
+	background: url("/res/img/space-texture_06_dark.jpg");
 	position: absolute;
 	z-index: -99;
 	width: 100%;
@@ -1023,15 +1025,24 @@ section header h1 {
 	box-shadow: 0px 0px 0em 0.2em rgba(34, 34, 34, 0.5) !important;
 }
 
+.frontpageContainer {
+    background: black url(/res/img/fpBG_loader.jpg);
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
 .frontPageContainer video {
-	background: black url("http://romportalen.no/res/img/fpVideoPlaceholder.jpg");
-	background-size: cover;
+    background: black url(/res/img/fpBG_loader.jpg);
+    background-size: contain;
     height: 100%;
-    width: 162.18809980806142034548944337812vh;
+    width: 100%;
     min-width: 100%;
     min-height: 61.656804733727810650887573964497vw;
     left: 0;
     top: 0;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
 
 nav.tileNav {
@@ -1170,6 +1181,22 @@ nav.tileNav {
 	min-width: 15em !important;
 }
 
+.frontPageContainer .rotator {
+	height: 100%;
+	width: 100%;
+	transform-origin: 50% 100%;
+    background: black url(/res/img/fpBG_loader.jpg);
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+	transform: perspective(500vw) rotateX(0deg);
+	transition: transform 0.5s ease;
+}
+
+.frontPageContainer.scrolled .rotator {
+	transform: perspective(500vw) rotateX(88.9deg);
+}
+
 nav.tileNav ul {
 	text-align: center;
 	overflow: show;
@@ -1231,7 +1258,7 @@ nav.tileNav .tileButton h3 {
     position: relative;
     margin-bottom: 1.5em;
     background-size: cover !important;
-    background: url("http://romportalen.no/res/img/VideoPrtScrResize.jpg");
+    background: url("/res/img/space-texture_06_darker.jpg");
     padding-bottom: 1em;
     /* margin-bottom: -17.75em; */
     /* padding-top: 14.5em; */
@@ -1248,6 +1275,14 @@ nav.tileNav .tileButton h3 {
 
 .calendar + .sectionContainer  {
     margin-bottom: -4.5em !important;
+}
+
+.generalInfoSection, .compactCalendar {
+	background: #1b1b1b !important;
+}
+
+.lightTheme .sectionContainer.preStudent nav.tileNav {
+    box-shadow: 0 -0.5em 0.2em -0.1em #343434 inset, 0 0.5em 0.2em -0.1em #1b1b1b inset !important;
 }
 
 .generalInfoSection .calendarContainer {
@@ -1491,18 +1526,22 @@ a[data-toggle="collapse"] header h3:hover:after {
 }
 
 .button1, .button2 {
-	width: 10%;
-	height: 100%;
 	z-index: 1000;
 	font-weight: bold;
-	top: 0;
 	position: absolute;
 	text-align: center;
 	vertical-align: middle;
 }
 
 .button1 {
-	right: 0;
+	right: 1em;
+	opacity: 0.8;
+	transition: opacity 0.3s ease;
+	-webkit-transition: opacity 0.3s ease;
+	height: 5em;
+	width: 5em;
+	bottom: 1em;
+	position: absolute;
 	opacity: 0.8;
 	transition: opacity 0.3s ease;
 	-webkit-transition: opacity 0.3s ease;
@@ -1549,7 +1588,7 @@ a[data-toggle="collapse"] header h3:hover:after {
 }
 
 .button1:after {
-	content: '\f137';
+	content: '\f129';
 }
 
 .button2:after {

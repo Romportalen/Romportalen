@@ -1,0 +1,4 @@
+﻿<header>CanSat</header>
+<content>
+	<p>Gjennom CanSat prosjektet får du mulighet til å bygge din egen satellittmodell som skal passe inn i en 0,33L brusboks. CanSat’en skal skytes opp med en rakett for så å sveve tilbake til bakken i fallskjerm. På vei ned skal den gjøre ulike målinger som sendes til en bakkestasjon. I dette prosjektet, som er arrangert av NAROM ved Andøya Space Center, vil din CanSat vere med på å konkurrere mot andre norske elever om en plass i den Europeiske CanSat konkurransen.</p>
+</content>
