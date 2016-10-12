@@ -1,0 +1,4 @@
+<header>CUBESTAR</header>
+<content>
+	<p>CUBESTAR er UiO sitt bidrag til det nasjonale studentsatelittprogrammet ANSAT. Gjennom dette prosjektet får studenter bygge sin egen satelitt. CUBESTAR satelitten har som mål å teste et nytt type instrument som skal måle elektrontettheten i en lav jordbane. <a href="http://www.cubestar.no/" target="_BLANK">Besøk siden.</a></p>
+</content>

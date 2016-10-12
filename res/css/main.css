@@ -423,6 +423,7 @@ article header.panel-heading {
 
 .panel-heading {
 	border-radius: 0px !important;
+	border-bottom: 0px !important;
 }
 
 .panel {
@@ -1457,25 +1458,54 @@ a[data-toggle="collapse"] {
 	cursor: pointer;
 }
 
-a[data-toggle="collapse"] header h3:after {
-	content: "\f0d7 ";
-	font: normal normal normal 14px/1 FontAwesome;
-	font-size: inherit;
-	text-rendering: auto;
-	-webkit-font-smoothing: antialiased;
-	position: absolute;
-	right: 0.7em;
-	transition: color 0.2s ease, transform 0.2s ease;
-	-webkit-transition: color 0.2s ease, transform 0.2s ease;
-	transform: rotate(90deg);
-	-webkit-transform: rotate(90deg);
+a[data-toggle="collapse"] .panel-heading {
+	border-bottom: 1em solid #292929 !important;
+	transition: border 0.5s ease;
 }
 
-a[data-toggle="collapse"] header h3:hover:after {
+a[data-toggle="collapse"]:hover .panel-heading {
+	border-bottom: 2em solid #292929 !important;
+}
+
+a[data-toggle="collapse"][aria-expanded="true"]:hover .panel-heading {
+	border-bottom: 1em solid #292929 !important;
+}
+
+a[data-toggle="collapse"] header h3:after {
+    content: "\f067";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    right: 0;
+    transition: color 0.2s ease, transform 0.2s ease;
+    -webkit-transition: color 0.2s ease, transform 0.2s ease;
+    bottom: 0;
+    width: 2em;
+    height: 100%;
+    top: 0;
+    background: #292929;
+    text-align: center;
+    margin: 0;
+    padding-top: 0.5em;
+	color: white;
+}
+
+a[data-toggle="collapse"][aria-expanded="true"] header h3:after {
+    content: "\f068";
+}
+
+.collapse, .collapsing {
+	background: #292929 !important;
+}
+
+a[data-toggle="collapse"]:hover header h3:after {
 	transition: color 0.2s ease, transform 0.2s ease;
 	-webkit-transition: color 0.2s ease, transform 0.2s ease;
 	transform: rotate(0deg);
 	-webkit-transform: rotate(0deg);
+	color: #0055A2;
 }
 
 /* css for picture collapse	*/

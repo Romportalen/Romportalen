@@ -1,0 +1,4 @@
+<header>Mars Institute Student Chapter</header>
+<content>
+	<p>Mars Institute Student Chapter er en studentorganisasjon ved Universitet av Stavanger, underlagt Mars Institute Norge. Gjennom deres arrangerte foredrag og prosjekter kan du få innsikt i den nårværende teknologien og forskningen som ligger bak utforskningen av mars. I tillegg gir de hvert år en eller flere studenter tilbud om et internship hos NASA Ames Research Center i San Francisco. <a href="https://www.facebook.com/MarsInstituteSC/?fref=ts" target="_BLANK">Besøk siden.</a></p>
+</content>

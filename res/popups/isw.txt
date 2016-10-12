@@ -1,0 +1,4 @@
+<header>World Space Week</header>
+<content>
+	<p>World Space Week har blitt holdt hvert år fra 4. til 10. oktober, etter initiativ fra FNs Generalforsamling i 1999. Mange hundre ulike arrangementer blir arrangert denne uken. Her feires engasjementet og teknologien som blir utviklet i forbindelse med utforskning av rommet. Det er også åpent for alle å holde et eget arrangement ifbm. World Space Week. <a href="http://www.worldspaceweek.org/" target="_BLANK">Mer informasjon</a>.</p>
+</content>

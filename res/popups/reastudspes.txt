@@ -1,0 +1,4 @@
+<header>Realfaglig studiespesialisering</header>
+<content>
+	<p>Studiespesialisering med fag fra programområdet realfag er et godt valg for deg som liker teoretiske fag og er interessert i problemstillinger og spørsmål knyttet til matematikk, teknologi og selvfølgelig romfart! Ved å ta realfaglig studiespesialisering har du muligheten til å få en grunnleggende innføring i fysikk, matematikk og kjemi. De fleste studier for høyere utdanning rettet mot vitenskap, teknologi og romfart setter spesiell studiekompetanse som et inntakskrav. De forskjellige studiene stiller ulike krav til til fagkombinasjon og karakter.</p>
+</content>

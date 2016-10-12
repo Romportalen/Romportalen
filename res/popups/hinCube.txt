@@ -1,0 +1,4 @@
+<header>HiNCube</header>
+<content>
+	<p>HiNCube er tidligere Høyskolen i Narvik, nå UiT, sitt bidrag til nasjonale studentsatelittprogrammet ANSAT. Deres første satellitt ble skutt opp i November 2013 og hadde som mål å ta bilder av jorden. HiNCube er bekreftet å ha entret en lav jordbane rundt jorden men det har ikke blitt opprettet kontakt med satelitten. <a href="http://www.hincube.cubesat.no/wp/" target="_BLANK">Besøk siden.</a></p>
+</content>
