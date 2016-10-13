@@ -139,6 +139,7 @@ function viewPoll( selector ) {
 			$(".frontPageContainer").removeClass("navWrapped");
 			$("body").removeClass("navWrapped");
 		}
+		/*
 		var calIsWrapped = false;
 		$(".calendarEventName").each(function(){
 			if ($(this).children(".calContent").outerWidth() > $(this).outerWidth()) {
@@ -150,7 +151,7 @@ function viewPoll( selector ) {
 			$(".generalInfoSection").addClass("calWrapped");
 		} else {
 			$(".generalInfoSection").removeClass("calWrapped");
-		}
+		}*/
 		
 
 		lastScrollPosition = -7;
