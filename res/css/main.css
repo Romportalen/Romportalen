@@ -944,7 +944,7 @@ section header h1 {
 }
 
 .frontPageContainer .tileButton p {
-	border-top: 0.1em solid #545454;
+	border-top: 0.2em solid #545454;
     bottom: -1.75em;
     padding-top: 0.35em;
 	transition: opacity 0.5s ease, border 0.2s ease;
