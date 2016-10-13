@@ -751,9 +751,7 @@ body > .sectionTransition {
 
 /* UNI NAV THINGY END */
 
-
 /**********************	POPUP-BOXES****************************/
-
 
 .popup{
 	display: none;
@@ -1314,10 +1312,16 @@ nav.tileNav .tileButton h3 {
     left: 66%;
 	overflow-y: hidden;
     margin-bottom: 1em;
+	margin-right: 0.5em;
 }
 
 .generalInfoSection .compactCalendar:hover {
 	overflow-y: auto;
+	margin-right: 0;
+}
+
+.generalInfoSection .compactCalendar:hover {
+	margin-right: 17px;
 }
 
 .compactCalendar .calendarEventDate {
@@ -1362,7 +1366,7 @@ nav.tileNav .tileButton h3 {
     font-family: 'Electrolize', sans-serif !important;
     font-size: 1.5em;
     border-left: 0.1em solid #FFF;
-    margin-right: 0;
+    margin-right: 0.5em;
 }
 
 .calendarEventContainer {
