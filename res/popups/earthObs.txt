@@ -1,6 +1,7 @@
 ﻿<header>Jordobservasjoner</header>
 <content>
-	<p>Emnebeskrivelse kommer.</p>
+	<p>Jordobservasjon er et samlebegrep på all virksomhet knyttet til innsamling av informasjon om jordas overflate eller atmosfære fra rommet.</p>
+	<p>Denne informasjonen bearbeides blant annet videre til bruk innen værvarsling, miljø- og klimaovervåkning og geofysisk forskning, samt til produksjon av kart.</p>
 	<div id="earthObsTab" class="tabContainer">          
 		<ul class="resp-tabs-list earthObsTabChild">
 			<li><img class="imgTabIcon" src="res/img/companyLogos/NTNU_sort.png" alt="ntnu company logo"></li>
