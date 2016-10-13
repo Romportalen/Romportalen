@@ -1,7 +1,7 @@
 <header>Kerbal Space Program</header>
 <content>
 	<p>
-		Et dataspill hvor man kan bygge sine egne romskip og utforske verdensrommet. Vil ditt romskip besøke fremmede planeter, eller uforske fjerne deler av galaksen? Med en fantastisk reell fysikkmotor, er dette en utfordring selv for rominteresserte. Du kan også tøye de fysiske barrierene og fly nærme lysets hastiget. Live long a prosper _|Y| .
+		KSP er et dataspill hvor man kan bygge sine egne romskip og utforske et solsystem. Vil ditt romskip besøke fremmede planeter, eller utforske fjerne deler av galaksen? Med en svært realistisk fysikkmotor er dette en utfordring selv for de mest rominteresserte. Du kan også tøye de fysiske barrierene og fly nærme lysets hastiget.
 	</p>
 	<a href="https://kerbalspaceprogram.com/en/" target="_BLANK" style= "width:100%; display: block; text-align:center;">
 		<img style="max-width:100%; height: 5em; display: inline-block;" src="res/img/Kerbal.png" alt="rocket nozzle">

@@ -1,0 +1,4 @@
+﻿<header>International Space Camp</header>
+<content>
+	<p>Er du mellom 15 og 18 år og interessert i romfart, kan en uke på International Space Camp være en super sommeropplevelse. International Space Camp går av stabelen i juli ved U.S. Space & Rocket Center i Huntsville, Alabama, USA. I løpet av romfartsleiren får du delta i en simulert oppskytning av romfergen samt utføre oppgaver og trene som om du var en ekte astronaut. Forelesninger, prosjekter og omvisninger er også en del av oppholdet. Norsk Romsenter tilbyr stipend for en gutt og en jente. <a href="http://www.romsenter.no/Media/Files/PDF-Office/Skole-student/Soeknadsskjema-ISC-2015" target="_BLANK">Søknadsskjema.</a></p>
+</content>

@@ -45,19 +45,19 @@
 }
 
 .preStudent.sectionContainer {
-	/*background-image: url("http://romportalen.no/res/img/Misc.png");*/
+	/*background-image: url("/res/img/Misc.png");*/
 }
 
 .student.sectionContainer {
-	/*background-image: url("http://romportalen.no/res/img/RocketsSmall.png");*/
+	/*background-image: url("/res/img/RocketsSmall.png");*/
 }
 
 .postStudent.sectionContainer {
-	/*background-image: url("http://romportalen.no/res/img/SpaceStationsSmall.png");*/
+	/*background-image: url("/res/img/SpaceStationsSmall.png");*/
 }
 
 .generalInfo.sectionContainer {
-	/*background-image: url("http://romportalen.no/res/img/Satellites.png");*/
+	/*background-image: url("/res/img/Satellites.png");*/
 }
 
 /* section background images end */
@@ -110,12 +110,11 @@ footer {
 }
 
 .footerContainer h3 {
-	color:  #ffffff;
 	font: normal 36px 'Electrolize', sans-serif !important;
 	margin: 0 0 10px;
 }
 
-.footerContainer h3 span{
+.footerContainer h3 span {
 	color:  #5383d3;
 }
 
@@ -133,7 +132,6 @@ footer {
 }
 
 .footerContainer .footer-company-name{
-	color:  #8f9296;
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
@@ -210,7 +208,6 @@ body > .calendar.sectionContainer {
 .footerContainer :-ms-input-placeholder{
 	color:  #5c666b;
 }
-
 
 .footerContainer form input{
 	height: 55px;

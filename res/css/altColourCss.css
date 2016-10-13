@@ -1,330 +1,5 @@
-/* main colour settings begin */
-/* new theme settings */
-.lightTheme .logo,
-.lightTheme .navbar-brand/*,
-.footer-left h3 */ {
-	color: #007AFF !important;
-}
-
-.lightTheme p,
-.lightTheme .level1Nav,
-.lightTheme .level2Nav,
-.lightTheme .level4BG,
-.lightTheme .level3BG,
-.lightTheme .level2BG,
-.lightTheme .level1BG,
-.lightTheme .panel,
-.lightTheme .col-sm-3 .panel-heading h3,
-.lightTheme .navbar,
-.lightTheme .navbar-nav>li>a {
-	color: #F4F4F4 !important;
-}
-
-.lightTheme nav.tileNav .tileButton h3 {
-	color: #F4F4F4 !important;
-}
-
-.lightTheme h2,
-.lightTheme .generalInfoSection .compactCalendar,
-.lightTheme .panel-heading h2,
-.lightTheme .panel-heading h3 {
-	color: white !important;
-}
-
-/* background colour */
-body.lightTheme,
-.lightTheme .sectionContainer nav.tileNav::after {
-	background: #343434;
-}
-
-body.lightTheme {
-    background-image: url("/res/img/footer_lodyas.png");
-    background-repeat: repeat;
-}
-
-/* set to same colour value as above */
-.lightTheme .sectionContainer nav.tileNav {
-    box-shadow: 0 -0.5em 0.2em -0.1em #343434 inset, 0 0.5em 0.2em -0.1em #343434 inset;
-}
-
-.lightTheme a:hover,
-.lightTheme .navbar-nav>li>a:hover {
-	color: #0055A2 !important;
-}
-
-.lightTheme .level1Nav,
-.lightTheme .navbar {
-	background: #173B5D !important;
-}
-
-.lightTheme .level2Nav {
-	background: #7B848D !important;
-}
-
-.lightTheme .level1BG {
-	background: #656565 !important;
-}
-
-/* should be set to a colour close to the video on the front page. */
-.lightTheme .headerVideoMatchingBG,
-.lightTheme .frontPageContainer,
-.lightTheme .calendarEventDate,
-.lightTheme footer {
-	background: rgba(34,34,34,1) !important;
-}
-
-.lightTheme .panel {
-	background: transparent !important;
-}
-
-.lightTheme .level2BG,
-.lightTheme .panel-heading,
-.lightTheme .calendarEventContainer,
-.lightTheme .picture_col,
-.lightTheme .calendarMonth,
-.lightTheme .button1,
-.lightTheme .button2 {
-	background: #545454;
-}
-
-.lightTheme .level3BG {
-	background: #404040 !important;
-}
-
-/* should be set to the same colour as above */
-
-.lightTheme .panel-default,
-.lightTheme .panel-default>.panel-heading {
-	border-color: #404040 !important;
-}
-
-body.lightTheme .contentContainer.panel-body {
-    background: rgba(0,0,0,0.2);
-}
-
-.lightTheme .level4BG,
-body.lightTheme > .sectionContainer {
-	/* background: rgba(255, 255, 255, 0.398); */
-}
-
-.lightTheme .tileButton p {
-    color: #ececec !important;
-}
-
-.lightTheme .tileButton:hover p,
-.lightTheme footer p {
-    color: #D8D8D8 !important;
-}
-
-.lightTheme .slick-slide h3 {
-	color: #FFF;
-}
-
-/* "Romportalen" logotype colour */
-
-.lightTheme .frontPageContainer .titleContainer h1,
-.lightTheme .footerContainer h3 {
-	color: white;
-}
-
-/* Front page catchphrase colour */
-
-.lightTheme .frontPageContainer .titleContainer h2.catchLine {
-	color: gray !important;
-}
-
-/* default tile button text colour */
-
-.lightTheme .tileButton a, .tileButton a:focus,
-.lightTheme .tileButton a:hover,
-.lightTheme .tileButton a {
-	color: white;
-}
-
-.lightTheme .uniNavContainer > h3 {
-    color: #FFF;
-}
-
-.lightTheme .uniNavContainer li div {
-    color: #FFF;
-}
-
-.lightTheme .uniNavContainer li div:hover {
-    color: #0068D1;
-}
-
-.lightTheme .frontPageContainer.navbarState h3 {
-	color: white !important;
-}
-
-.lightTheme .frontPageContainer.navbarState h3.currentSection {
-	color: #0068D1 !important;
-}
-
-/* new theme code ends */
-
-/***************************/
-/* colour scheme separator */
-/***************************/
-
-/* old dark theme code begins */
-
-
-.darkTheme .logo,
-.darkTheme .navbar-brand/*,
-.footer-left h3 */ {
-	color: #007AFF !important;
-}
-
-.darkTheme p,
-.darkTheme .level1Nav,
-.darkTheme .level2Nav,
-.darkTheme .level4BG,
-.darkTheme .level3BG,
-.darkTheme .level2BG,
-.darkTheme .level1BG,
-.darkTheme .panel,
-.darkTheme .col-sm-3 .panel-heading h3,
-.darkTheme .navbar,
-.darkTheme .navbar-nav>li>a {
-	color: #F4F4F4 !important;
-}
-
-.darkTheme nav.tileNav .tileButton h3 {
-	color: #F4F4F4 !important;
-}
-
-.darkTheme h2,
-.darkTheme .generalInfoSection .compactCalendar,
-.darkTheme .panel-heading h2,
-.darkTheme .panel-heading h3 {
-	color: white !important;
-}
-
-/* background colour */
-body.darkTheme,
-.darkTheme .sectionContainer nav.tileNav::after {
-	background: #343434;
-}
-
-/* set to same colour value as above */
-.darkTheme .sectionContainer nav.tileNav {
-    box-shadow: 0 -0.5em 0em -0.1em #343434 inset, 0 0.5em 0em -0.1em #343434 inset;
-}
-
-.darkTheme a:hover,
-.darkTheme .navbar-nav>li>a:hover {
-	color: #0055A2 !important;
-}
-
-.darkTheme .level1Nav,
-.darkTheme .navbar {
-	background: #173B5D !important;
-}
-
-.darkTheme .level2Nav {
-	background: #7B848D !important;
-}
-
-.darkTheme .level1BG {
-	background: #656565 !important;
-}
-
-/* should be set to a colour close to the video on the front page. */
-.darkTheme .headerVideoMatchingBG,
-.darkTheme .frontPageContainer,
-.darkTheme .calendarEventDate,
-.darkTheme footer {
-	background: rgba(34,34,34,1) !important;
-}
-
-.darkTheme .panel {
-	background: transparent !important;
-}
-
-.darkTheme .level2BG,
-.darkTheme .panel-heading,
-.darkTheme .calendarEventContainer,
-.darkTheme .picture_col,
-.darkTheme .calendarMonth,
-.darkTheme .button1,
-.darkTheme .button2 {
-	background: #545454;
-}
-
-.darkTheme .level3BG {
-	background: #404040 !important;
-}
-
-/* should be set to the same colour as above */
-
-.darkTheme .panel-default,
-.darkTheme .panel-default>.panel-heading {
-	border-color: #404040 !important;
-}
-
-.darkTheme .level4BG,
-body.darkTheme > .sectionContainer {
-	/* background: rgba(255, 255, 255, 0.398); */
-}
-
-.darkTheme .tileButton p {
-    color: #868686 !important;
-}
-
-.darkTheme .tileButton:hover p,
-.darkTheme footer p {
-    color: #D8D8D8 !important;
-}
-
-.darkTheme .slick-slide h3 {
-	color: #FFF;
-}
-
-/* "Romportalen" logotype colour */
-
-.darkTheme .frontPageContainer .titleContainer h1,
-.darkTheme .footerContainer h3 {
-	color: white;
-}
-
-/* Front page catchphrase colour */
-
-.darkTheme .frontPageContainer .titleContainer h2.catchLine {
-	color: gray !important;
-}
-
-/* default tile button text colour */
-
-.darkTheme .tileButton a, .tileButton a:focus,
-.darkTheme .tileButton a:hover,
-.darkTheme .tileButton a {
-	color: white;
-}
-
-.darkTheme .uniNavContainer > h3 {
-    color: #FFF;
-}
-
-.darkTheme .uniNavContainer li div {
-    color: #FFF;
-}
-
-.darkTheme .uniNavContainer li div:hover {
-    color: #0068D1;
-}
-
-.darkTheme .frontPageContainer.navbarState h3 {
-	color: white !important;
-}
-
-.darkTheme .frontPageContainer.navbarState h3.currentSection {
-	color: #0068D1 !important;
-}
-
-/* main colour settings end */
-
 body {
+	background-color: #F1F1F1;
 	font-family: "Open Sans", sans-serif !important;
 }
 
@@ -364,6 +39,7 @@ body > .sectionContainer {
 	z-index: 9999;
 	top: 0;
 	left: 0;
+	background: rgba(34,34,34,1);
 	overflow: hidden;
 	transition: box-shadow ease 0.5s;
 	-webkit-transition: box-shadow ease 0.5s;
@@ -412,6 +88,77 @@ img.logoLeft {
     left: -0.1em;
 }
 
+/* main colour settings */
+
+.logo,
+.navbar-brand/*,
+.footer-left h3 */ {
+	color: #007AFF !important;
+}
+
+.level1Nav,
+.level2Nav,
+.level4BG,
+.level3BG,
+.level2BG,
+.level1BG,
+.panel,
+.navbar,
+.navbar-nav>li>a,
+nav.tileNav .tileButton h3 {
+	color: #F4F4F4 !important;
+}
+
+p, .panel-heading h3 {
+	color: #424242;
+}
+
+a:hover,
+.navbar-nav>li>a:hover {
+	color: #0055A2 !important;
+}
+
+.level1Nav,
+.navbar {
+	background: #173B5D !important;
+}
+
+.level2Nav {
+	background: #7B848D !important;
+}
+
+.level1BG {
+	background: #656565 !important;
+}
+
+.panel {
+	background: transparent !important;
+}
+
+.level2BG {
+	background: #545454 !important;
+}
+
+.panel-heading {
+	background: #DEDEDE !important;
+}
+
+.level3BG {
+	background: #404040 !important;
+}
+
+.panel-default,
+.panel-default>.panel-heading {
+	border-color: #404040 !important;
+}
+
+.level4BG,
+body > .sectionContainer {
+	/* background: rgba(255, 255, 255, 0.398); */
+}
+
+/* main colour settings end */
+
 article.panel {
 	margin-bottom: 0 !important;
 }
@@ -423,7 +170,6 @@ article header.panel-heading {
 
 .panel-heading {
 	border-radius: 0px !important;
-	border-bottom: 0px !important;
 }
 
 .panel {
@@ -436,7 +182,10 @@ article header.panel-heading {
 	/* height: 20px; */
 }
 
-
+h2 {
+	color: #424242;
+	font-weight: bold;
+}
 
 .frontPageContainer,
 body > .sectionTransition {
@@ -451,15 +200,19 @@ body > .sectionTransition {
     display: block;
     padding: 0;
     margin: 0;
+    color: #868686 !important;
     text-shadow: 0 0 0.3em #000;
 	margin: 0 auto;
     width: 100%;
 }
 
+.tileButton:hover p {
+    color: #D8D8D8 !important;
+}
+
 body > .sectionTransition.preCalendar {
-    height: 100vh;
-	margin-top: 0 !important; 
-	background: black;
+    margin-top: 100vh !important;
+    height: auto;
     position: relative;
 }
 
@@ -530,12 +283,74 @@ body > .sectionTransition {
 	color: white;
 }
 
-.media-left, .media-body, .media-right {
-	vertical-align: middle !important;
+.slick-slide {
+	height: 100%;
+	width: auto;
+	position: relative;
 }
 
-.container-fluid {
-	padding-top: 15px;
+.slick-next, .slick-prev {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 0 !important;
+    display: block;
+    margin-top: 0px !important;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    height: 100% !important;
+	z-index: 99;
+    width: 50px !important;
+    background: #545454 !important;
+	opacity: 0.8;
+	transition: opacity 0.3s ease;
+}
+
+.slick-next:hover, .slick-prev:hover {
+	transition: opacity 0.3s ease;
+	opacity: 0.9;
+}
+
+.slick-next {
+	right: 1% !important;
+}
+
+.slick-prev {
+	left: 1% !important;
+}
+
+.slick-slider {
+	margin-bottom: 0px !important;
+}
+
+.slick-slider img {
+	display: block !important;
+	width: auto !important;
+	margin: 0 auto;
+}
+
+.slick-slider img:hover {
+	cursor: pointer;
+}
+
+.slick-slider.slider-for img {
+	height: 100vh !important;
+	min-width: 100% !important;
+}
+
+.sliderNavContainer {
+	background: rgba(0,0,0,0.6);
+	padding: 1vh;
+	bottom: 12vh;
+	width: 100%;
+	position: absolute;
+}
+
+.media-left, .media-body, .media-right {
+	vertical-align: middle !important;
 }
 
 .container-fluid .media-left,
@@ -545,7 +360,6 @@ body > .sectionTransition {
 	max-width: 100%;
 	text-align: center;
 }
-
 .happenings .media-object{
 	max-width: 50vw !important;
 }
@@ -606,6 +420,7 @@ body > .sectionTransition {
 
 .slick-slide h3 {
 	position: absolute;
+	color: #FFF;
 	top: 23vh;
 	left: 0;
 	right: 0;
@@ -721,6 +536,7 @@ body > .sectionTransition {
 
 .uniNavContainer li div:hover {
     background-color: rgba(0,0,0,1);
+    color: #0068D1;
 }
 
 .uniNavContainer li div{
@@ -739,8 +555,8 @@ body > .sectionTransition {
     font-size: 2.25em;
 	padding: 0.5em;
 }
-
 .uniNavContainer > h3 {
+    color: #FFF;
     margin: 0;
     z-index: 505;
     font-weight: bold;
@@ -751,7 +567,9 @@ body > .sectionTransition {
 
 /* UNI NAV THINGY END */
 
+
 /**********************	POPUP-BOXES****************************/
+
 
 .popup{
 	display: none;
@@ -829,7 +647,8 @@ body > .sectionTransition {
 .adContainer {
 	position: relative;
 	width: 100%;
-	height: 100vh;
+	height: 40vh;
+	top: 5vh;
 	background-size: cover;
 	overflow: hidden;
 }
@@ -855,7 +674,7 @@ body > .sectionTransition {
 }
 
 .adContainer.spaceShipAurora {
-	background-image: url("https://hurtigruten.global.ssl.fastly.net/assets/48e11a/globalassets/photos/excursions/explorer-voyages/crossingseurope/andenes---spaceship-aurora/2500x1250_aurora-meets-aurora.jpg?width=2500&height=1250&transform=DownFill");
+	background-image: url("http://romportalen.no/res/img/Aurora_c82.jpg");
 }
 
 .adContainer.spaceShipAurora .textContainer {
@@ -869,7 +688,7 @@ body > .sectionTransition {
 }
 
 .adContainer.vitTrond {
-	background-image: url("http://www.southfloridamuseum.org/portals/0/Planetarium/Constellation_web.jpg");
+	background-image: url("http://romportalen.no/res/img/Viten_i_TRH.png");
 }
 
 .adContainer.vitTrond .textContainer {
@@ -927,16 +746,6 @@ section header h1 {
 	background: #173B5D;
 }
 
-.frontPageContainer .titleContainer .progressContainer .sectionDivider {
-    position: relative;
-    width: 25%;
-    float: left;
-    height: 300%;
-    border-right: 0.2em solid #0079FF;
-    left: -0.1em;
-    top: -100%;
-}
-
 .frontPageContainer.navbarState .titleContainer .progressContainer {
 	transition: opacity 0.5s ease, height 0.5s ease;
 	height: 0.15em;
@@ -944,15 +753,8 @@ section header h1 {
 }
 
 .frontPageContainer .tileButton p {
-	border-top: 0.2em solid #545454;
-    bottom: -1.75em;
-    padding-top: 0.35em;
-	transition: opacity 0.5s ease, border 0.2s ease;
+	transition: opacity 0.5s ease;
 	opacity: 1;
-}
-
-.frontPageContainer .tileButton:hover p {
-	border-top: 0.2em solid #545454;
 }
 
 .frontPageContainer.navbarState .tileButton p {
@@ -974,21 +776,20 @@ section header h1 {
 .frontPageContainer .titleContainer h1 {
 	margin: 0;
 	padding: 0;
+	color: white;
 	text-decoration: none;
 	cursor: default;
 	transition: font-size 0.5s ease, opacity 0.5s ease, border 0.5s ease, padding 0.5s ease;
-	white-space: nowrap;
 }
 
 .frontPageContainer .titleContainer h2.catchLine {
 	margin: 0;
 	padding: 0;
+	color: gray;
 	font-size: 5.5vh;
 	font-family: "Electrolize", sans-serif;
 	opacity : 1;
 	transition: font-size 0.5s ease, opacity 0.5s ease;
-	width: 100%;
-	display: inline-block;
 }
 
 .frontPageContainer.navbarState .titleContainer h1 {
@@ -1006,7 +807,6 @@ section header h1 {
 }
 
 .background-wrap {
-	background: url("/res/img/space-texture_06_dark.jpg");
 	position: absolute;
 	z-index: -99;
 	width: 100%;
@@ -1028,27 +828,18 @@ section header h1 {
 .frontPageContainer.navbarState {
 	transition: box-shadow ease 0.5s;
 	-webkit-transition: box-shadow ease 0.5s;
-	box-shadow: 0px 0px 0em 0.2em rgba(34, 34, 34, 0.5) !important;
-}
-
-.frontpageContainer {
-    background: black url(/res/img/fpBG_loader.jpg);
-    background-size: contain;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+	box-shadow: 0px 0px 0.4em 0.3em rgba(34, 34, 34, 0.5) !important;
 }
 
 .frontPageContainer video {
-    background: black url(/res/img/fpBG_loader.jpg);
-    background-size: contain;
+	background: black url("res/img/fpVideoPoster.jpg");
+	background-size: cover;
     height: 100%;
-    width: 100%;
+    width: 162.18809980806142034548944337812vh;
     min-width: 100%;
     min-height: 61.656804733727810650887573964497vw;
     left: 0;
     top: 0;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
 }
 
 nav.tileNav {
@@ -1062,21 +853,17 @@ nav.tileNav {
 .frontPageContainer.navbarState {
 	transition: box-shadow ease 0.5s;
 	-webkit-transition: box-shadow ease 0.5s;
-	box-shadow: 0px 0px 0.0em 0.2em rgba(34, 34, 34, 0.7);
+	box-shadow: 0px 0px 0.4em 0.3em rgba(34, 34, 34, 0.5);
 }
 
 .frontPageContainer nav.tileNav ul {
 	position: absolute;
-	bottom: 22%;
-}
-
-.frontPageContainer.navWrapped nav.tileNav ul {
-	position: absolute;
-	bottom: 1em;
+	bottom: 13.5%;
 }
 
 .tileButton a:focus,.tileButton a:hover, .tileButton a {
 	background-color: transparent !important;
+	color: white;
 	text-decoration: none;
 }
 
@@ -1086,6 +873,7 @@ nav.tileNav {
 }
 
 .tileButton a {
+	color: white;
 	filter: brightness(100%);
 	-webkit-filter: brightness(100%);
 	padding: 0 !important;
@@ -1095,12 +883,14 @@ nav.tileNav {
 .frontPageContainer.navbarState h3 {
 	transition: color ease 0.2s, box-shadow ease 0.2s, font-size 0.2s ease;
 	-webkit-transition: color ease 0.2s, box-shadow ease 0.2s, font-size 0.5s ease;
+	color: white !important;
 	text-decoration: none;
 }
 
 .frontPageContainer.navbarState h3.currentSection {
 	transition: color ease 0.2s, box-shadow ease 0.2s, font-size 0.2s ease;
 	-webkit-transition: color ease 0.2s, box-shadow ease 0.2s, font-size 0.2s ease;
+	color: #0068D1 !important;
 	/* text-shadow: 0 0 0.25em rgba(255,255,255,0.3) !important;*/
 }
 
@@ -1192,22 +982,6 @@ nav.tileNav {
 	min-width: 15em !important;
 }
 
-.frontPageContainer .rotator {
-	height: 100%;
-	width: 100%;
-	transform-origin: 50% 100%;
-    background: black url(/res/img/fpBG_loader.jpg);
-    background-size: contain;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-	transform: perspective(500vw) rotateX(0deg);
-	transition: transform 0.5s ease;
-}
-
-.frontPageContainer.scrolled .rotator {
-	transform: perspective(500vw) rotateX(88.9deg);
-}
-
 nav.tileNav ul {
 	text-align: center;
 	overflow: show;
@@ -1269,7 +1043,8 @@ nav.tileNav .tileButton h3 {
     position: relative;
     margin-bottom: 1.5em;
     background-size: cover !important;
-    background: url("/res/img/space-texture_06_darker.jpg");
+    background: url("http://romportalen.no/res/img/VideoPrtScrResize.jpg");
+    /*box-shadow: 0 -0.5em 0.2em -0.1em #F1F1F1 inset, 0 0.5em 0.2em -0.1em #F1F1F1 inset;*/
     padding-bottom: 1em;
     /* margin-bottom: -17.75em; */
     /* padding-top: 14.5em; */
@@ -1280,108 +1055,10 @@ nav.tileNav .tileButton h3 {
     background-repeat: no-repeat;
     /* margin: 2em; */
     /* left: -2em; */
-	margin-right: 0;
-	margin-left: 0;
 }
 
 .calendar + .sectionContainer  {
     margin-bottom: -4.5em !important;
-}
-
-.generalInfoSection, .compactCalendar {
-	background: #1b1b1b !important;
-}
-
-.lightTheme .sectionContainer.preStudent nav.tileNav {
-    box-shadow: 0 -0.5em 0.2em -0.1em #343434 inset, 0 0.5em 0.2em -0.1em #1b1b1b inset !important;
-}
-
-.generalInfoSection .calendarContainer {
-	width: 66%;
-	height: 100%;
-	position: absolute;
-	left: 0;
-	top: 0;
-}
-
-.generalInfoSection .compactCalendar {
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    left: 66%;
-	overflow-y: hidden;
-    margin-bottom: 1em;
-	margin-right: 0.5em;
-}
-
-.generalInfoSection .compactCalendar:hover {
-	overflow-y: auto;
-	margin-right: 0;
-}
-
-.generalInfoSection .compactCalendar:hover {
-	margin-right: 17px;
-}
-
-.compactCalendar .calendarEventDate {
-    position: absolute;
-    padding: 0.15em;
-    padding-bottom: 0em;
-    margin: 0;
-    display: inline-block;
-    left: 0;
-    width: 2.75em;
-    text-align: center;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    vertical-align: middle;
-}
-
-.compactCalendar .calendarEventName {
-    position: relative;
-    left: 2.75em;
-    margin-right: 2.75em;
-}
-
-.compactCalendar .calendarEventDate .calContent {
-	position: absolute;
-	top: 50%;
-	margin-top: -0.65em;
-	display: inline-block;
-	vertical-align: middle;
-	left: 0;
-	right: 0;
-}
-
-.calendarMonth {
-	border-top: 0.1em none #FFF;
-}
-
-.calendarMonth, .calendarEventContainer {
-	position: relative;
-    padding: 0.5em;
-    margin: 0.5em;
-    font-family: 'Electrolize', sans-serif !important;
-    font-size: 1.5em;
-    border-left: 0.1em solid #FFF;
-    margin-right: 0.5em;
-}
-
-.calendarEventContainer {
-    transition: border 0.1s ease;
-}
-
-.calendarEventContainer:hover {
-    border-left: 0.2em solid #0068D1;
-    cursor: pointer;
-}
-
-.generalInfoSection .adSlider {
-	width: 100%;
-	height: 100%;
-	position: relative;
 }
 
 .sectionContainer nav.tileNav::after {
@@ -1394,8 +1071,8 @@ nav.tileNav .tileButton h3 {
     bottom: 0;
     left: 0;
     right: 0;
+    background-color: rgba(51,51,51,0.3);
     z-index: 0;
-	opacity: 0.3;
 }
 
 .sectionContainer nav.tilenav li {
@@ -1426,7 +1103,7 @@ nav.tileNav .tileButton h3 {
 }
 
 .sectionAnchor#generellInfo {
-	top: -7.25em;
+	top: -6em;
 }
 
 .navWrapped .sectionAnchor#generellInfo {
@@ -1474,54 +1151,25 @@ a[data-toggle="collapse"] {
 	cursor: pointer;
 }
 
-a[data-toggle="collapse"] .panel-heading {
-	border-bottom: 1em solid #292929 !important;
-	transition: border 0.5s ease;
-}
-
-a[data-toggle="collapse"]:hover .panel-heading {
-	border-bottom: 2em solid #292929 !important;
-}
-
-a[data-toggle="collapse"][aria-expanded="true"]:hover .panel-heading {
-	border-bottom: 1em solid #292929 !important;
-}
-
 a[data-toggle="collapse"] header h3:after {
-    content: "\f067";
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    position: absolute;
-    right: 0;
-    transition: color 0.2s ease, transform 0.2s ease;
-    -webkit-transition: color 0.2s ease, transform 0.2s ease;
-    bottom: 0;
-    width: 2em;
-    height: 100%;
-    top: 0;
-    background: #292929;
-    text-align: center;
-    margin: 0;
-    padding-top: 0.5em;
-	color: white;
+	content: "\f0d7 ";
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	position: absolute;
+	right: 0.7em;
+	transition: color 0.2s ease, transform 0.2s ease;
+	-webkit-transition: color 0.2s ease, transform 0.2s ease;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
 }
 
-a[data-toggle="collapse"][aria-expanded="true"] header h3:after {
-    content: "\f068";
-}
-
-.collapse, .collapsing {
-	background: #292929 !important;
-}
-
-a[data-toggle="collapse"]:hover header h3:after {
+a[data-toggle="collapse"] header h3:hover:after {
 	transition: color 0.2s ease, transform 0.2s ease;
 	-webkit-transition: color 0.2s ease, transform 0.2s ease;
 	transform: rotate(0deg);
 	-webkit-transform: rotate(0deg);
-	color: #0055A2;
 }
 
 /* css for picture collapse	*/
@@ -1534,6 +1182,7 @@ a[data-toggle="collapse"]:hover header h3:after {
 	top:0;
 	right:0;
 	z-index: 9000;
+	background-color: #545454;
 	overflow-y:auto;
 }
 
@@ -1572,32 +1221,29 @@ a[data-toggle="collapse"]:hover header h3:after {
 }
 
 .button1, .button2 {
+	width: 10%;
+	height: 100%;
 	z-index: 1000;
+	background-color: #545454;
 	font-weight: bold;
+	top: 0;
 	position: absolute;
 	text-align: center;
 	vertical-align: middle;
 }
 
 .button1 {
-	right: 1em;
+	right: 0;
 	opacity: 0.8;
 	transition: opacity 0.3s ease;
 	-webkit-transition: opacity 0.3s ease;
-	height: 5em;
-	width: 5em;
-	bottom: 1em;
-	position: absolute;
-	opacity: 0.8;
-	transition: opacity 0.3s ease, width 0.3s ease, height 0.3s ease;
-	-webkit-transition: opacity 0.3s ease, width 0.3s ease, height 0.3s ease;
 }
 
 .media_fwidth:hover .button1, 
 .button1:hover {
 	opacity: 0.9;
-	height: 6em;
-	width: 6em;
+	transition: opacity 0.3s ease;
+	-webkit-transition: opacity 0.3s ease;
 }
 
 .media_fwidth h3 {
@@ -1634,7 +1280,7 @@ a[data-toggle="collapse"]:hover header h3:after {
 }
 
 .button1:after {
-	content: '\f129';
+	content: '\f137';
 }
 
 .button2:after {
@@ -1697,7 +1343,7 @@ ul.resp-tabs-list {
 
 .resp-tabs-container {
     padding: 0px;
-    background-color: #191919 !important;
+    background-color: #fff;
     clear: left;
 }
 
@@ -1731,8 +1377,8 @@ h2.resp-accordion {
 }
 
 .resp-tab-content {
-    /*border: 1px solid #c1c1c1;
-	border-top-color: #5AB1D0;*/
+    border: 1px solid #c1c1c1;
+	border-top-color: #5AB1D0;
 }
 
 h2.resp-accordion {
@@ -1770,7 +1416,7 @@ h2.resp-tab-title:last-child {
 
 .resp-vtabs .resp-tabs-container {
     padding: 0px;
-    background-color: #191919 !important;
+    background-color: #fff;
     border: 1px solid #c1c1c1;
     float: left;
     width: 68%;
@@ -1936,29 +1582,7 @@ h2.resp-accordion:first-child {
 .modal .modal-body .resp-tabs-container,
 .modal .modal-body,
 .modal .modal-body p {
-	color: white !important;
-}
-
-.modal-header {
-	border-bottom: 1px solid #3a3a3a !important;
-	color: #f7f7f7 !important;
-}
-
-.modal-footer {
-	border-top: 1px solid #3a3a3a !important;
-}
-
-.close {
-	color: #fff !important;
-	text-shadow: 0 1px 0 #000 !important;
-}
-
-.btn:hover {
-	background-color: #eaeaea;
-}
-
-.modal-content {
-	background-color: #252525 !important;
+	color: black !important;
 }
 
 .modal {

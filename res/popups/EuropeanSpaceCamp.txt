@@ -1,0 +1,4 @@
+<header>European Space Camp</header>
+<content>
+	<p>European Space Camp er en internasjonal sommerleir som arrangeres for elever i alderen 17 til 20 år på Andøya Space Center. I løpet av en uke får du delta på en ekte rakettkampanje hvor det bygges og skytes opp en egen studentrakett. I tillegg til dette blir det holdt forelesninger innenfor romfart med tema som rakett-teknikk, nordlyset, terraforming av Mars og the big bang. Det finnes flere muligheter til å søke om stipend for å delta på Europen Space Camp.<a href="http://www.spacecamp.no/" target="_BLANK">Mer informasjon</a>.</p>
+</content>

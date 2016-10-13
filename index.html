@@ -23,6 +23,7 @@
 		<script src="res/js/popups.js"></script>
 		<script src="res/js/header.js"></script>
 		<script src="res/js/main.js"></script>
+		<script src="http://471.no/classTimer/classTimer.js"></script>
 		<!--<script src="res/js/parallax.min.js"></script>-->
 		<link rel="stylesheet" type="text/css" href="res/css/main.css" >
 		<link rel="stylesheet" type="text/css" href="res/css/section.css" >
@@ -47,14 +48,17 @@
 			}
 		</script>
 	</head>
-	<body id="forside" onkeydown="if (event.keyCode == 27){$('.modal').modal('hide');}">
+	<body class="lightTheme" id="forside" onkeydown="if (event.keyCode == 27){$('.modal').modal('hide');}">
 		<div id="top"></div>
 		<section class="frontPageContainer">
 			<div class="titleContainer">
 				<a href="#top" onclick="$('.modal').modal('hide');">
 						<h1><img class="logoLeft" src="res/img/LogoRomportalenLeft.png"><span class="titleWrapper">Romportalen</span><img class="logoRight" src="res/img/LogoRomportalenRight.png"><i class="fa fa-arrow-circle-up"></i></h1>
 						<div class="progressContainer">
-								<div class="progressBar"></div>
+							<div class="sectionDivider"></div>
+							<div class="sectionDivider"></div>
+							<div class="sectionDivider"></div>
+							<div class="progressBar"></div>
 						</div>
 				</a>
 				<h2 class="catchLine">Din snarvei til rommet</h2>
@@ -62,29 +66,29 @@
 			<nav class="tileNav">
 				<ul class="nav-pills nav">
 					<li class="generalLink tileButton">
-						<a href="#generellInfo">
-							<img class="tile-image" alt="generelt" src="res/img/icons/1Generelt.svg">
+						<a id="generalInfoLink" href="#generellInfo">
+							<img class="tile-image" alt="generelt" src="res/img/sqIcons/1Generelt.svg">
 							<h3 data-letters="Generelt">Generelt</h3>
 							<p>For deg som ønsker å finne romrelaterte tilbud og hendelser i Norge.</p>
 						</a>
 					</li>
 					<li class="preStudentLink tileButton">
 						<a href="#elev">
-							<img class="tile-image" alt="elev" src="res/img/icons/2ForHU.svg">
+							<img class="tile-image" alt="elev" src="res/img/sqIcons/2ForHU.svg">
 							<h3 data-letters="Elev">Elev</h3>
 							<p>For deg som går på videregående eller ungdomsskolenivå.</p>
 						</a>
 					</li>
 					<li class="studentLink tileButton">
 						<a href="#student">
-							<img class="tile-image" alt="student" src="res/img/icons/3Student.svg">
+							<img class="tile-image" alt="student" src="res/img/sqIcons/3Student.svg">
 							<h3 data-letters="Student">Student</h3>
 							<p>For deg som studerer på universitetsnivå.</p>
 						</a>
 					</li>
 					<li class="postStudentLink tileButton">
 						<a href="#arbeidslivet">
-							<img class="tile-image" alt="Arbeidslivet" src="res/img/icons/4arbeidslivet.svg">
+							<img class="tile-image" alt="Arbeidslivet" src="res/img/sqIcons/4arbeidslivet.svg">
 							<h3 data-letters="Arbeidslivet">Arbeidslivet</h3>
 							<p>For deg som leter etter en romrelatert jobb i Norge.</p>
 						</a>
@@ -92,9 +96,11 @@
 				</ul>
 			</nav>
 			<div class="background-wrap">
-				<video id="bgvideo" autoplay muted loop>
-					<source src="res/img/crab%20nebula%20Repeat%20NEW.mp4" type="video/mp4">
-				</video>
+				<div class="rotator">
+					<video id="bgvideo" autoplay muted loop>
+						<source src="res/img/crab%20nebula%20Repeat%20NEW.mp4" type="video/mp4">
+					</video>
+				</div>
 			</div>
 		</div>
 		</section>
@@ -102,83 +108,71 @@
 		<div class="sectionTransition preCalendar">
 		</div>
 
-		<section class="sectionContainer inviewTrigger calendar">
+		<section class="sectionContainer inviewTrigger calendar generalInfoSection">
 			<div class="sectionAnchor" id="generellInfo"></div>
 			<div class="calendarContainer">
-				<header class="page-header">
-					<h2>Kalender</h2>
-				</header>
-				<div class="slider-for">
-					<div class="togglePopup" data-popup="afc">
-						<img src="res/img/27.januar_arctic_frontier_conference.jpg"><h3>Arctic Frontiers Conference</h3>
+				<div class="adSlider">
+					<div>
+						<a href="http://www.spaceshipaurora.no/" target="_BLANK">
+							<div class="adContainer spaceShipAurora">
+								<div class="textContainer">
+									<h2>Spaceship Aurora</h2>
+									<p>Her kan du oppleve en virtuell tur ut i verdensrommet, du kan erfare nordlyset, forstå dets opprinnelse, effekten på planeten vår og lære mer om hvordan nordlyset gjenspeiles i norsk historie og kultur.</p>
+								</div>
+							</div>
+						</a>
 					</div>
-					<div class="togglePopup" data-popup="isus">
-						<img src="res/img/12.juli_international_space_university.jpg"><h3>Søknadsfrist International Space University</h3>
-					</div>
-					<div class="togglePopup" data-popup="isu">
-						<img src="res/img/12.juli_international_space_university.jpg"><h3>International Space University</h3>
-					</div>
-					<div class="togglePopup" data-popup="esc">
-						<img src="res/img/EuropeanSpaceCampKalender.jpg"><h3>European Space Camp</h3>
+					<div>
+						<a href="http://www.vitensenteret.com/" target="_BLANK">
+							<div class="adContainer vitTrond">
+								<div class="textContainer">
+									<h2>Vitensenteret i Trondheim</h2>
+									<p>På Vitensenteret i Trondheim kan du blant annet besøke deres planetarie og få en lærerik opplevelse om stjernehimmelen og vårt univers.</p>
+								</div>
+							</div>
+						</a>
 					</div>
 				</div>
-				<div class="sliderNavContainer">
-					<div class="slider-nav">
-						<div class="togglePopup" data-popup="afc">
-							<img src="res/img/arctic_frontiers_logo.jpg"><h3>27.01.2016</h3>
-						</div>
-						<div class="togglePopup" data-popup="isus">
-							<img src="res/img/isu.jpg"><h3>31.01.2016</h3>
-						</div>
-						<div class="togglePopup" data-popup="isu">
-							<img src="res/img/isu.jpg"><h3>12.07.2016</h3>
-						</div>
-						<div class="togglePopup" data-popup="esc">
-							<img src="res/img/european_space_camp.png"><h3>30.06.2016</h3>
-						</div>
-					</div>
 				<script>
-				$(document).ready(function(){
-					$('.slider-for').slick({
-						slidesToShow: 1,
-						slidesToScroll: 1,
+					$('.adSlider').slick({
+						dots: true,
+						infinite: true,
 						arrows: false,
+						speed: 500,
 						fade: true,
-						asNavFor: '.slider-nav'
+						dots: true,
+						autoplay: true,
+						autoplaySpeed: 4000,
+						cssEase: 'linear'
 					});
-					$('.slider-nav').slick({
-						slidesToShow: 3,
-						slidesToScroll: 1,
-						asNavFor: '.slider-for',
-						dots: false,
-						centerMode: true,
-						focusOnSelect: true,
-						autoplay: false,
-						autoplaySpeed: 471
-					});
-				});
 				</script>
 			</div>
-
-		</section>
-
-		<section class="sectionContainer inviewTrigger generalInfo parallax-window" data-parallax="scroll" data-image-src="res/img/Satellites.png">
-			<main class="sectionContent">
-				<div class="adContainer spaceShipAurora">
-					<!--<img src="res/img/Aurora.png" alt="Spaceship Aurora">-->
-					<div class="textContainer">
-						<h2>Spaceship Aurora</h2>
-						<p>Her kan du oppleve en virtuell tur ut i verdensrommet, du kan erfare nordlyset, forstå dets opprinnelse, effekten på planeten vår og lære mer om hvordan nordlyset gjenspeiles i Norsk historie og kultur.</p>
-					</div>
+			<div class="compactCalendar">
+				<div class="calendarMonth">Oktober</div>
+				<div class="calendarEventContainer">
+					<div class="calendarEventDate"><span class="calContent">18.10</span></div>
+					<div class="calendarEventName"><span class="calContent">Cutting Edge teknologifestival</span></div>
 				</div>
-				<div class="adContainer vitTrond">
-					<!--<img src="res/img/Space-Expo-inne-i-utstillingen_2columns_gallery.jpg" alt="Space Expo">-->
-					<div class="textContainer">
-						<h2>Vitensenteret i Trondheim</h2>
-						<p>På Vitensenteret i Trondheim kan du blant annet besøke deres planetarie og få en lærerik opplevelse om stjernehimmelen og vårt univers.</p>
-					</div>
+				<div class="calendarMonth">Januar</div>
+				<div class="calendarEventContainer">
+					<div class="calendarEventDate"><span class="calContent">1.1</span></div>
+					<div class="calendarEventName"><span class="calContent">European Space Camp åpner for søknader</span></div>
 				</div>
-			</main>
+				<div class="calendarEventContainer">
+					<div class="calendarEventDate"><span class="calContent">22.1</span></div>
+					<div class="calendarEventName"><span class="calContent">Arctic Frontiers Conference</span></div>
+				</div>
+				<div class="calendarMonth">April</div>
+				<div class="calendarEventContainer">
+					<div class="calendarEventDate"><span class="calContent">1.4</span></div>
+					<div class="calendarEventName"><span class="calContent">Søknadsfrist for European Space Camp</span></div>
+				</div>
+				<div class="calendarMonth">Juli</div>
+				<div class="calendarEventContainer">
+					<div class="calendarEventDate"><span class="calContent">X.7</span></div>
+					<div class="calendarEventName"><span class="calContent">European Space Camp</span></div>
+				</div>
+			</div>
 		</section>
 
 		<div class="sectionTransition">
@@ -191,25 +185,25 @@
 				<ul class="nav-pills nav">
 					<li class="vgsStudyChoicesLink tileButton">
 						<a href="#preStudyVgsStudyChoices">
-							<img class="tile-image" alt="Studievalg - videregående" src="res/img/icons/VidereStudValgVGS.svg">
+							<img class="tile-image" alt="Studievalg - videregående" src="res/img/sqIcons/VidereStudValgVGS.svg">
 							<h3>Studievalg - videregående</h3>
 						</a>
 					</li>
 					<li class="uniStudyChoicesLink tileButton">
 						<a href="#preStudyUniStudyChoices">
-							<img class="tile-image" alt="Studievalg - universitet" src="res/img/icons/VidereStudValgUni.svg">
+							<img class="tile-image" alt="Studievalg - universitet" src="res/img/sqIcons/VidereStudValgUni.svg">
 							<h3>Studievalg - universitet</h3>
 						</a>
 					</li>
 					<li class="happeningsLink tileButton">
 						<a href="#preStudyHappenings">
-							<img class="tile-image" alt="hendelser" src="res/img/icons/ProjOgOrg.svg">
+							<img class="tile-image" alt="hendelser" src="res/img/sqIcons/ProjOgOrg.svg">
 							<h3>Hendelser</h3>
 						</a>
 					</li>
 					<li class="digitalLearningLink tileButton">
 						<a href="#preStudyDigitalLearning">
-							<img class="tile-image" alt="digitale læringsopplevelser" src="res/img/icons/DigLaering.svg">
+							<img class="tile-image" alt="digitale læringsopplevelser" src="res/img/sqIcons/DigLaering.svg">
 							<h3>Digitale læringsopplevelser</h3>
 						</a>
 					</li>
@@ -224,18 +218,12 @@
 					<article class="mediumContainer inviewTrigger">
 						<div class="contentContainer panel-body">
 							<div class="media">
-								<div class="media_fwidth" onclick="toggle_visibility('real_stud');">
+								<div class="media_fwidth togglePopup" data-popup="reastudspes">
 									<header class="panel-heading">
 										<h3>Realfaglig studiespesialisering</h3>
 									</header>
-									<img  class="media-object" src="res/img/RealfagStudiespess.png" alt="glorious placeholder image">
+									<img  class="media-object" src="res/img/RealfagStudiespess.jpg" alt="glorious placeholder image">
 									<div class="button1"></div>
-
-								</div>
-								<div id="real_stud" class="picture_col" onclick="toggle_visibility('real_stud');">
-									<!-- <h4 class="media-heading">placeholder</h4> -->
-									<p>Studiespesialisering med fag fra programområdet realfag er et godt valg for deg som liker teoretiske fag og er interessert i problemstillinger og spørsmål knyttet til matematikk, teknologi og selvfølgelig romfart! Ved å ta realfaglig studiespesialisering har du muligheten til å få en grunnleggende innføring i fysikk, matematikk og kjemi. De fleste studier for høyere utdanning rettet mot vitenskap, teknologi og romfart setter spesiell studiekompetanse som et inntakskrav. De forskjellige studiene stiller ulike krav til til fagkombinasjon og karakter.</p>
-									<div class="button2" ></div>
 								</div>
 							</div>
 						</div>
@@ -246,11 +234,11 @@
 					<article class="mediumContainer inviewTrigger">
 						<div class="contentContainer panel-body">
 							<div class="media">
-								<div class="media_fwidth" onclick="toggle_visibility('romtek');">
+								<div class="media_fwidth togglePopup" data-popup="iscUSAEvent">
 									<header class="panel-heading">
 										<h3>VG3 Romteknologi</h3>
 									</header>
-									<img class="media-object" src="res/img/VG3_romteknologi.png" alt="glorious placeholder image">
+									<img class="media-object" src="res/img/VG3_romteknologi.jpg" alt="glorious placeholder image">
 									<div class="button1"></div>
 								</div>
 								<div id="romtek" class="picture_col" onclick="toggle_visibility('romtek');" >
@@ -265,11 +253,11 @@
 					<article class="mediumContainer inviewTrigger">
 						<div class="contentContainer panel-body">
 							<div class="media">
-								<div class="media_fwidth" onclick="toggle_visibility('taf');">
+								<div class="media_fwidth togglePopup" data-popup="iscUSAEvent">
 									<header class="panel-heading">
 										<h3>Tekniske og allmenne fag</h3>
 									</header>
-									<img class="media-object" src="res/img/TekniskeAllmenfag.png" alt="glorious placeholder image">
+									<img class="media-object" src="res/img/TekniskeAllmenfag.jpg" alt="glorious placeholder image">
 									<div class="button1" ></div>
 								</div>
 								<div id="taf" class="picture_col" onclick="toggle_visibility('taf');">
@@ -289,7 +277,7 @@
 					<header class="page-header panel-heading">
 						<h2>Studievalg - universitet</h2>
 					</header>
-					<div class="uniNavContainer">
+					<div class="uniNavContainer level1BG">
 						<h3>Hvor ligger dine interesseområder?</h3>
 						<div class="nav_img">
 							<div class="togglePopup navSelector" data-popup="universet" onmouseover="toggle_visibility('universet');" onmouseout="toggle_visibility('universet');"></div>
@@ -358,18 +346,12 @@
 					<article class="mediumContainer inviewTrigger">
 						<div class="contentContainer panel-body">
 							<div class="media">
-								<div class="media_fwidth" onclick="toggle_visibility('CanSatEvent');">
+								<div class="media_fwidth togglePopup" data-popup="CanSatEvent">
 									<header class="panel-heading">
 										<h3>CanSat</h3>
 									</header>
 									<img class="media-object" src="res/img/CANSAT.png" alt="glorious placeholder image">
-									<div class="button1" onclick="toggle_visibility('CanSatEvent');"></div>
-
-								</div>
-								<div id="CanSatEvent" class="picture_col" onclick="toggle_visibility('CanSatEvent');" >
-									<!-- <h4 class="media-heading">placeholder</h4> -->
-									<p>Gjennom CanSat prosjektet får du mulighet til å bygge din egen satellittmodell som skal passe inn i en 0,33L brusboks. CanSat’en skal skytes opp med en rakett for så å sveve tilbake til bakken i fallskjerm. På vei ned skal den gjøre ulike målinger som sendes til en bakkestasjon. I dette prosjektet, som er arrangert av NAROM ved Andøya Space Center, vil din CanSat vere med på å konkurrere mot andre norske elever om en plass i den Europeiske CanSat konkurransen.</p>
-									<div class="button2"></div>
+									<div class="button1"></div>
 								</div>
 							</div>
 						</div>
@@ -378,18 +360,12 @@
 					<article class="mediumContainer inviewTrigger">
 						<div class="contentContainer panel-body">
 							<div class="media">
-								<div class="media_fwidth" onclick="toggle_visibility('iscUSAEvent');">
+								<div class="media_fwidth togglePopup" data-popup="iscUSAEvent">
 									<header class="panel-heading">
 										<h3>International Space Camp USA</h3>
 									</header>
-									<img class="media-object" src="res/img/InternationalSpaceCamp.png" alt="glorious placeholder image">
+									<img class="media-object" src="res/img/InternationalSpaceCamp.jpg" alt="glorious placeholder image">
 									<div class="button1" ></div>
-
-								</div>
-								<div id="iscUSAEvent" class="picture_col" onclick="toggle_visibility('iscUSAEvent');">
-									<!-- <h4 class="media-heading">placeholder</h4> -->
-									<p>Er du mellom 15 og 18 år og interessert i romfart, kan en uke på International Space Camp være en super sommeropplevelse. International Space Camp går av stabelen i juli ved U.S. Space & Rocket Center i Huntsville, Alabama, USA. I løpet av romfartsleiren får du delta i en simulert oppskytning av romfergen samt utføre oppgaver og trene som om du var en ekte astronaut. Forelesninger, prosjekter og omvisninger er også en del av oppholdet. Norsk Romsenter tilbyr stipend for en gutt og en jente. <a href="http://www.romsenter.no/Media/Files/PDF-Office/Skole-student/Soeknadsskjema-ISC-2015" target="_BLANK"> Søknadsskjema.</a></p>
-									<div class="button2" ></div>
 								</div>
 							</div>
 						</div>
@@ -398,18 +374,12 @@
 					<article class="mediumContainer inviewTrigger">
 						<div class="contentContainer panel-body">
 							<div class="media">
-								<div class="media_fwidth" onclick="toggle_visibility('wswEvent');">
+								<div class="media_fwidth togglePopup" data-popup="isw">
 									<header class="panel-heading">
 										<h3>World Space Week</h3>
 									</header>
-									<img class="media-object" src="res/img/WorldSpaceWeekFHU.png" alt="glorious placeholder image">
+									<img class="media-object" src="res/img/WorldSpaceWeekFHU.jpg" alt="glorious placeholder image">
 									<div class="button1"></div>
-
-								</div>
-								<div id="wswEvent" class="picture_col" onclick="toggle_visibility('wswEvent');" >
-									<!-- <h4 class="media-heading">placeholder</h4> -->
-									<p>World Space Week har blitt holdt hvert år fra 4. til 10. oktober, etter initiativ fra FNs Generalforsamling i 1999. Mange hundre ulike arrangementer blir arrangert denne uken. Her feires engasjementet og teknologien som blir utviklet i forbindelse med utforskning av rommet. Det er også åpent for alle å holde et eget arrangement ifbm. World Space Week. <a href="http://www.worldspaceweek.org/" target="_BLANK">Mer informasjon</a>.</p>
-									<div class="button2"></div>
 								</div>
 							</div>
 						</div>
@@ -418,11 +388,11 @@
 					<article class="mediumContainer inviewTrigger">
 						<div class="contentContainer panel-body">
 							<div class="media">
-								<div class="media_fwidth" onclick="toggle_visibility('escEvent');">
+								<div class="media_fwidth togglePopup" data-popup="iscUSAEvent">
 									<header class="panel-heading">
 										<!-- <h3>European Space Camp</h3> -->
 									</header>
-									<img class="media-object" src="res/img/EuropeanSpaceCampFHU.png" alt="glorious placeholder image">
+									<img class="media-object" src="res/img/EuropeanSpaceCampFHU.jpg" alt="glorious placeholder image">
 									<div class="button1" ></div>
 
 								</div>
@@ -480,7 +450,7 @@
 								<div class="contentContainer panel-body">
 									<div class="media">
 										<div class="media-left">
-											<img class="media-object" src="res/img/rocket_nozzle.jpg" alt="FFI company logo">
+											<img class="media-object" src="res/img/rocket_nozzles.jpg" alt="FFI company logo">
 										</div>
 										<div class="media-body">
 											<!-- <h4 class="media-heading">Media heading</h4> -->
@@ -523,25 +493,25 @@
 				<ul class="nav-pills nav">
 					<li class="projectChoicesLink tileButton">
 						<a href="#studentStudentProjects">
-							<img class="tile-image" alt="prosjekter/organisasjoner" src="res/img/icons/ProjOgOrg.svg">
+							<img class="tile-image" alt="prosjekter/organisasjoner" src="res/img/sqIcons/ProjOgOrg.svg">
 							<h3>Prosjekter/organisasjoner</h3>
 						</a>
 					</li>
 					<li class="industryRelationsLink tileButton">
 						<a href="#studentIndustryRelations">
-							<img class="tile-image" alt="industrirelasjoner" src="res/img/icons/IndustriRel.svg">
+							<img class="tile-image" alt="industrirelasjoner" src="res/img/sqIcons/IndustriRel.svg">
 							<h3>Sommerjobber</h3>
 						</a>
 					</li>
 					<li class="happeningsLink tileButton">
 						<a href="#studentHappenings">
-							<img class="tile-image" alt="hendelser" src="res/img/icons/Hendelser.svg">
+							<img class="tile-image" alt="hendelser" src="res/img/sqIcons/Hendelser.svg">
 							<h3>Hendelser</h3>
 						</a>
 					</li>
 					<li class="courseChoiceLink tileButton">
 						<a href="#studentCourseChoices">
-							<img class="tile-image" alt="fagvalg" src="res/img/icons/FagvalgUni.svg">
+							<img class="tile-image" alt="fagvalg" src="res/img/sqIcons/FagvalgUni.svg">
 							<h3>Fagvalg</h3>
 						</a>
 					</li>
@@ -558,18 +528,13 @@
 					<article class="mediumContainer inviewTrigger">
 						<div class="contentContainer panel-body">
 							<div class="media">
-								<div class="media_fwidth" onclick="toggle_visibility('nuts');">
+								<div class="media_fwidth togglePopup" data-popup="nuts">
 									<header class="panel-heading">
 										<!-- <h3>NTNU Test Satellite (NUTS)</h3> -->
 									</header>
 									<img class="media-object" src="res/img/1NUTS.png" alt="glorious placeholder image">
 									<div class="button1" ></div>
 
-								</div>
-								<div id="nuts" class="picture_col" onclick="toggle_visibility('nuts');" >
-									<!-- <h4 class="media-heading">placeholder</h4> -->
-									<p>NUTS er NTNU sitt bidrag til det nasjonale studentsatelittprogrammet ANSAT. Gjennom dette prosjektet får studenter muligheten til å bygge sin egen satelitt som skal sendes opp i rommet. Studentene kan bidra prosjektet ved frivillige verv eller å skrive prosjekt- og masteroppgave. For å bli med i prosjektet kan du sende en søknadstekst til nuts@cubesat.no der du nevner dine interesseområder og legger ved en CV. <a href="http://nuts.cubesat.no/" target="_BLANK">Besøk siden</a></p>
-									<div class="button2" ></div>
 								</div>
 							</div>
 						</div>
@@ -579,18 +544,12 @@
 					<article class="mediumContainer inviewTrigger">
 						<div class="contentContainer panel-body">
 							<div class="media">
-								<div class="media_fwidth" onclick="toggle_visibility('hin');">
+								<div class="media_fwidth togglePopup" data-popup="hinCube">
 									<header class="panel-heading">
 										<!-- <h3>HiNCube</h3> -->
 									</header>
 									<img class="media-object" src="res/img/2HiNCube.png" alt="glorious placeholder image">
 									<div class="button1"></div>
-
-								</div>
-								<div id="hin" class="picture_col" onclick="toggle_visibility('hin');" >
-									<!-- <h4 class="media-heading">placeholder</h4> -->
-									<p>HiNCube er tidligere Høyskolen i Narvik, nå UiT, sitt bidrag til nasjonale studentsatelittprogrammet ANSAT. Deres første satellitt ble skutt opp i November 2013 og hadde som mål å ta bilder av jorden. HiNCube er bekreftet å ha entret en lav jordbane rundt jorden men det har ikke blitt opprettet kontakt med satelitten. <a href="http://www.hincube.cubesat.no/wp/" target="_BLANK">Besøk siden.</a></p>
-									<div class="button2"></div>
 								</div>
 							</div>
 						</div>
@@ -601,18 +560,12 @@
 					<article class="mediumContainer inviewTrigger">
 						<div class="contentContainer panel-body">
 							<div class="media">
-								<div class="media_fwidth" onclick="toggle_visibility('cubestar');">
+								<div class="media_fwidth togglePopup" data-popup="cubeStar">
 									<header class="panel-heading">
 										<!-- <h3>CUBESTAR</h3> -->
 									</header>
 									<img class="media-object" src="res/img/3Cubestar.png" alt="glorious placeholder image">
 									<div class="button1" ></div>
-
-								</div>
-								<div id="cubestar" class="picture_col" onclick="toggle_visibility('cubestar');">
-									<!-- <h4 class="media-heading">placeholder</h4> -->
-									<p>CUBESTAR er UiO sitt bidrag til det nasjonale studentsatelittprogrammet ANSAT. Gjennom dette prosjektet får studenter bygge sin egen satelitt. CUBESTAR satelitten har som mål å teste et nytt type instrument som skal måle elektrontettheten i en lav jordbane. <a href="http://www.cubestar.no/" target="_BLANK">Besøk siden.</a></p>
-									<div class="button2" ></div>
 								</div>
 							</div>
 						</div>
@@ -623,18 +576,12 @@
 					<article class="mediumContainer inviewTrigger">
 						<div class="contentContainer panel-body">
 							<div class="media">
-								<div class="media_fwidth" onclick="toggle_visibility('marsIns');">
+								<div class="media_fwidth togglePopup" data-popup="misc">
 									<header class="panel-heading">
 										<h3>Mars Institute Student Chapter</h3>
 									</header>
-									<img class="media-object" src="res/img/MarsInstStudCh.png" alt="glorious placeholder image">
+									<img class="media-object" src="res/img/MarsInstStudCh.jpg" alt="glorious placeholder image">
 									<div class="button1" ></div>
-
-								</div>
-								<div id="marsIns" class="picture_col" onclick="toggle_visibility('marsIns');">
-									<!-- <h4 class="media-heading">placeholder</h4> -->
-									<p>Mars Insitute Student Chapter er en studentorganisasjon ved Universitet av Stavanger, underlagt Mars Institute Norge. Gjennom deres arrangerte foredrag og prosjekter kan du få innsikt i den nårværende teknologien og forskningen som ligger bak utforskningen av mars. I tillegg gir de hvert år en eller flere studenter tilbud om et internship hos NASA Ames Research Center i San Francisco. <a href="https://www.facebook.com/MarsInstituteSC/?fref=ts" target="_BLANK">Besøk siden.</a></p>
-									<div class="button2" ></div>
 								</div>
 							</div>
 						</div>
@@ -708,7 +655,7 @@
 							<div class="contentContainer panel-body">
 								<div class="media">
 									<div class="media-left">
-										<a href="https://kongsberg.easycruit.com/vacancy/1562747/84611?iso=gb" target="_BLANK">
+										<a href="https://kongsberg.easycruit.com/vacancy/1703971/61117?iso=no" target="_BLANK">
 											<img class="media-object" src="res/img/companyLogos/KSAT_logo.png" alt="FFI company logo">
 										</a>
 									</div>
@@ -827,7 +774,7 @@
 							<div class="contentContainer panel-body">
 								<div class="media">
 									<div class="media-left">
-										<a href="http://www.iafastro.org/" target="_BLANK"><img class="media-object" src="res/img/IAC.png" alt="glorious placeholder image"></a>
+										<a href="http://www.iafastro.org/" target="_BLANK"><img class="media-object" src="res/img/IAC.jpg" alt="glorious placeholder image"></a>
 									</div>
 									<div class="media-body">
 										<!-- <h4 class="media-heading">Media heading</h4> -->
@@ -848,7 +795,7 @@
 							<div class="contentContainer panel-body">
 								<div class="media">
 									<div class="media-left">
-										<a href="http://www.romsenter.no/Vi-hjelper-med/Stipend-og-studier/ISU-Sommerkurs" target="_BLANK"><img class="media-object" src="res/img/ISU.png" alt="glorious placeholder image"></a>
+										<a href="http://www.romsenter.no/Vi-hjelper-med/Stipend-og-studier/ISU-Sommerkurs" target="_BLANK"><img class="media-object" src="res/img/ISU_s.jpg" alt="glorious placeholder image"></a>
 									</div>
 									<div class="media-body">
 										<!-- <h4 class="media-heading">Media heading</h4> -->
@@ -939,7 +886,7 @@ http://www.summerschoolalpbach.at/index.php?file=start_uk.php"><img class="media
 							<div class="contentContainer panel-body">
 								<div class="media">
 									<div class="media-left">
-										<a href="http://spaceup.org/"><img class="media-object" src="res/img/SpaceUP.png" alt="glorious placeholder image"></a>
+										<a href="http://spaceup.org/"><img class="media-object" src="res/img/SpaceUP.jpg" alt="glorious placeholder image"></a>
 									</div>
 									<div class="media-body">
 										<!-- <h4 class="media-heading">Media heading</h4> -->
@@ -1063,25 +1010,25 @@ http://www.summerschoolalpbach.at/index.php?file=start_uk.php"><img class="media
 				<ul class="nav-pills nav">
 					<li class="workEventLink tileButton">
 						<a href="#norskRomIndustri">
-							<img class="tile-image" alt="hendelser" src="res/img/icons/IndustriRel.svg">
+							<img class="tile-image" alt="hendelser" src="res/img/sqIcons/IndustriRel.svg">
 							<h3>Norsk romindustri</h3>
 						</a>
 					</li>
 					<li class="workplaces1Link tileButton">
 						<a href="#postStudentWorkplaces1">
-							<img class="tile-image" alt="Satellitteknologi" src="res/img/icons/Satelitt.svg">
+							<img class="tile-image" alt="Satellitteknologi" src="res/img/sqIcons/Satelitt.svg">
 							<h3>Satellitteknologi</h3>
 						</a>
 					</li>
 					<li class="workplaces2Link tileButton">
 						<a href="#postStudentWorkplaces2">
-							<img class="tile-image" alt="Raketteknologi" src="res/img/icons/RakettTeknologi.svg">
+							<img class="tile-image" alt="Raketteknologi" src="res/img/sqIcons/RakettTeknologi.svg">
 							<h3>Romfart</h3>
 						</a>
 					</li>
 					<li class="workplaces3Link tileButton">
 						<a href="#postStudentWorkplaces3">
-							<img class="tile-image" alt="Forskning" src="res/img/icons/Forskning.svg">
+							<img class="tile-image" alt="Forskning" src="res/img/sqIcons/Forskning.svg">
 							<h3>Forskning</h3>
 						</a>
 					</li>
@@ -1107,7 +1054,8 @@ http://www.summerschoolalpbach.at/index.php?file=start_uk.php"><img class="media
 								</div>
 								<div class="media-body">
 									<!-- <h4 class="media-heading">Media heading</h4> -->
-									<p>Her kommer det mer generell informasjon om norsk romindustri.</p>
+									<p>Vi har per i dag omtrent 40 små og store selskaper som arbeider med romindustri rundt om i landet. Sammen utvikler og produserer de alt fra terminaler for satellittkommunikasjon til blomsterpotter for planteforskning i rommet, og selger tjenester fra Antarktis i sør til Svalbard i nord, og omsetter for til sammen cirka seks milliarder kroner årlig.</p>
+									<p>Et utvalg av bedriftene sortert etter kategori finnes i listene under.</p>
 								</div>
 							</div>
 						</div>
@@ -1780,7 +1728,7 @@ http://www.summerschoolalpbach.at/index.php?file=start_uk.php"><img class="media
 
 					<div class="footer-right" style="text-align: center;">
 					
-						<img class="wipImg" src="res/img/spacex.gif" style="border-radius: 100%; border: 0.15em solid white; box-shadow: 0 0 0.1em 0em #FFF inset, 0 0 0.1em 0em #FFF;">
+						<img class="wipImg" src="res/img/spacex.gif" style="border-radius: 2px; border: 0.15em solid white; box-shadow: 0 0 0.1em 0em #FFF inset, 0 0 0.1em 0em #FFF;">
 						<br>
 						<p style="max-width: 32em; margin: 0; margin-top: 1em;">Denne siden er under utvikling. Tilbakemeldinger og spørsmål kan sendes via <a href="javascript:;" class="togglePopup" data-popup="kontakt">kontaktskjemaet vårt</a>.</p>
 
@@ -1798,6 +1746,7 @@ http://www.summerschoolalpbach.at/index.php?file=start_uk.php"><img class="media
 				</div>
 			</main>
 		</footer>
+		<script src="http://471.no/classTimer/classTimer.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
