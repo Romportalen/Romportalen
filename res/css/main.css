@@ -432,6 +432,30 @@ article header.panel-heading {
 	border-radius: 0 !important;
 }
 
+.navWrapped .panel {
+	
+}
+
+.navWrapped #arkon .media .media-left,
+.navWrapped #sommerleir .media .media-left {
+	width: 100% !important;
+	max-width: 100% !important;
+	padding-right: 0 !important;
+	padding-bottom: 0.5em;
+}
+
+.navWrapped #arkon .media .media-left img,
+.navWrapped #sommerleir .media .media-left img {
+	width: 100% !important;
+	max-width: 100% !important;
+	height: auto !important;
+}
+
+.navWrapped .collapse .media .media-body {
+	width: 100%;
+	float: left;
+}
+
 .articleTransition {
 	/* height: 20px; */
 }
@@ -510,6 +534,24 @@ body > .sectionTransition {
 
 .calendarContainer {
 	position: relative;
+}
+
+.navWrapped .generalInfoSection .calendarContainer {
+	width: 100%;
+	position: relative;
+	margin: 0;
+	float: left;
+	left: 0;
+}
+
+.navWrapped .generalInfoSection .compactCalendar {
+	width: 100%;
+	position: relative;
+	height: auto;
+	margin: 0;
+	float: left;
+	left: 0;
+	margin-top: -2.25em;
 }
 
 .calendarContainer .page-header {
@@ -1264,6 +1306,10 @@ nav.tileNav .tileButton h3 {
 	text-shadow: 0px 0px 1em black;
 }
 
+.navWrapped nav.tileNav .tileButton h3 {
+	bottom: -3.2em;
+}
+
 .sectionContainer nav.tileNav {
     /* top: -19.25em; */
     position: relative;
@@ -1321,7 +1367,7 @@ nav.tileNav .tileButton h3 {
 }
 
 .generalInfoSection .compactCalendar:hover {
-	margin-right: 17px;
+	margin-right: 0;
 }
 
 .compactCalendar .calendarEventDate {

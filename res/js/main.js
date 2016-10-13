@@ -139,6 +139,20 @@ function viewPoll( selector ) {
 			$(".frontPageContainer").removeClass("navWrapped");
 			$("body").removeClass("navWrapped");
 		}
+		var calIsWrapped = false;
+		$(".calendarEventName").each(function(){
+			if ($(this).children(".calContent").outerWidth() > $(this).outerWidth()) {
+				calIsWrapped = true;
+			}
+		});
+		
+		if(calIsWrapped) {
+			$(".generalInfoSection").addClass("calWrapped");
+		} else {
+			$(".generalInfoSection").removeClass("calWrapped");
+		}
+		
+
 		lastScrollPosition = -7;
 		linkNavState = "changing";
 		window.requestAnimationFrame(updateHeaderPosition);
