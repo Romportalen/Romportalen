@@ -59,7 +59,7 @@ var scrollJackAllowed = true;
 		
 		prevScroll = currentScroll;
 		
-		if ($(window).scrollTop() < $(".frontPageContainer").height()*3/10 && deltaY > 0 && scrollJacKAllowed) {
+		if ($(window).scrollTop() < $(".frontPageContainer").height()*3/10 && deltaY > 0 && scrollJackAllowed) {
 			prevScroll = 90000;
 			deltaY = 0;
 			$("#generalInfoLink").click();
