@@ -1,0 +1,4 @@
+<header>Tekniske og allmenne fag</header>
+<content>
+	<p>TAF er et 4-årig løp som kombinerer yrkesfag og fag fra programområdet realfag. Når du er ferdig med TAF-løpet har du både fagbrev og spesiell studiekompetanse. Du jobber både i bedrifter og har teoriundervisning alle de fire årene, i motsetning til vanlig yrkesfag der de to første årene er teori og de to siste er lærlingtid. Retningen passer for deg som føler deg trygg i matematikk etter ungdomsskolen, og som vil kombinere en praktisk og teoretisk utdanning. <a href="http://taf.no/kompetanse" target="_BLANK">Mer info.</a></p>
+</content>

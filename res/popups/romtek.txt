@@ -1,0 +1,4 @@
+<header>VG3 Romteknologi</header>
+<content>
+	<p>VG3 romteknologi er en populær yrkesfaglig linje, med mulighet for påbygging til generell studiekompetanse, ved Andøya videregående skole. Elever fra hele landet har deler av sin undervisning på Andøya Space Center i regi av NAROM. Dette gir elevene muligheten til å benytte seg av de unike instrumenter og laboratorier som finnes der. Ballongslipp og oppskyting av en egen studentrakett inngår som en del av undervisningsopplegget. <a href="https://www.narom.no/folder.php?aid=2&bid=57" target="_BLANK">Mer info.</a></p>
+</content>
