@@ -544,6 +544,11 @@ body > .sectionTransition {
 	left: 0;
 }
 
+.navWrapped .generalInfoSection {
+    height: 100vh;
+    margin-bottom: 100%;
+}
+
 .navWrapped .generalInfoSection .compactCalendar {
 	width: 100%;
 	position: relative;
