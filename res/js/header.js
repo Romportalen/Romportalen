@@ -7,6 +7,16 @@ var lastViewportWidth = -1;
 var currentScroll = 0;
 var prevScroll = 0;
 var deltaY = 0;
+var scrollJackAllowed = true;
+
+	function isTouchDevice() {
+		return 'ontouchstart' in document.documentElement;
+	}
+	
+	function disableScrollJack(time) {
+		scrollJackAllowed = false;
+		setTimeout(function(){scrollJackAllowed = true;}, time);
+	}
 
 	function updateHeaderState() {
 		if (!document.querySelector(".frontpageContainer.navbarState")) {
@@ -49,7 +59,7 @@ var deltaY = 0;
 		
 		prevScroll = currentScroll;
 		
-		if ($(window).scrollTop() < $(".frontPageContainer").height()*3/10 && deltaY > 0) {
+		if ($(window).scrollTop() < $(".frontPageContainer").height()*3/10 && deltaY > 0 && scrollJacKAllowed) {
 			prevScroll = 90000;
 			deltaY = 0;
 			$("#generalInfoLink").click();
