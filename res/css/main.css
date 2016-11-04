@@ -1069,7 +1069,7 @@ section header h1 {
 .frontPageContainer.navbarState .background-wrap {
 	transition: opacity ease 0.5s;
 	-webkit-transition: opacity ease 0.5s;
-	opacity: 0.3;
+	opacity: 0.4;
 }
 
 .frontPageContainer.navbarState {
@@ -1079,19 +1079,20 @@ section header h1 {
 }
 
 .frontpageContainer {
-    background: black url(/res/img/fpBG_loader.jpg);
-    background-size: contain;
+    background: black url(/res/img/videoPlaceholder.jpg);
+    background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
 
 .frontPageContainer video {
-    background: black url(/res/img/fpBG_loader.jpg);
-    background-size: contain;
+    background: black url(/res/img/videoPlaceholder.jpg);
+    background-size: cover;
+	object-fit: cover;
     height: 100%;
     width: 100%;
-    min-width: 100%;
-    min-height: 61.656804733727810650887573964497vw;
+/*  min-width: 100%;
+    min-height: 61.656804733727810650887573964497vw;*/
     left: 0;
     top: 0;
     background-position: 50% 50%;
@@ -1243,16 +1244,29 @@ nav.tileNav {
 	height: 100%;
 	width: 100%;
 	transform-origin: 50% 100%;
-    background: black url(/res/img/fpBG_loader.jpg);
-    background-size: contain;
+    background: black url(/res/img/videoPlaceholder.jpg);
+    background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-	transform: perspective(500vw) rotateX(0deg);
+	/*transform: perspective(500vw) rotateX(0deg);*/
 	transition: transform 0.5s ease;
 }
 
-.frontPageContainer.scrolled .rotator {
-	transform: perspective(500vw) rotateX(88.9deg);
+.frontPageContainer video {
+	filter: url("data:image/svg+xml;utf9,<svg%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'><filter%20id='blur'><feGaussianBlur%20stdDeviation='10'%20/></filter></svg>#blur");
+	-webkit-filter:blur(10px);
+	-ms-filter: blur(10px);
+	-o-filter: blur(10px);
+	filter:blur(10px);
+}
+
+.frontPageContainer.scrolled video {
+	/*transform: perspective(500vw) rotateX(88.9deg);*/
+	filter: none;
+	-webkit-filter: none;
+	-ms-filter: none;
+	-o-filter: none;
+	filter: none;
 }
 
 nav.tileNav ul {
