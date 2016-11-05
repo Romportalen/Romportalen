@@ -1364,7 +1364,7 @@ nav.tileNav .tileButton h3 {
 }
 
 .lightTheme .sectionContainer.preStudent nav.tileNav {
-    box-shadow: 0 -0.5em 0.2em -0.1em #343434 inset, 0 0.5em 0.2em -0.1em #1b1b1b inset !important;
+    box-shadow: 0 -0.5em 0.2em -0.1em #343434 inset, 0 0.5em 0.2em -0.1em #000000 inset !important;
 }
 
 .generalInfoSection .calendarContainer {
