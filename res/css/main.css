@@ -108,10 +108,9 @@ body.lightTheme > .sectionContainer {
 }
 
 .lightTheme .tileButton p {
-    color: #ececec !important;
+    color: #ffffff !important;
 }
 
-.lightTheme .tileButton:hover p,
 .lightTheme footer p {
     color: #D8D8D8 !important;
 }
@@ -130,7 +129,7 @@ body.lightTheme > .sectionContainer {
 /* Front page catchphrase colour */
 
 .lightTheme .frontPageContainer .titleContainer h2.catchLine {
-	color: gray !important;
+	color: #969696 !important;
 }
 
 /* default tile button text colour */
@@ -475,7 +474,7 @@ body > .sectionTransition {
     display: block;
     padding: 0;
     margin: 0;
-    text-shadow: 0 0 0.3em #000;
+    text-shadow: 0 0 0.5em rgba(0,0,0,0.2), 0 0 0.5em #000;
 	margin: 0 auto;
     width: 100%;
 	font-size: 1.2em;
@@ -999,15 +998,16 @@ section header h1 {
 }
 
 .frontPageContainer .tileButton p {
-	border-top: 0.2em solid #545454;
+	border-top: 0.2em solid #f1f1f1;
     bottom: -1.75em;
     padding-top: 0.35em;
 	transition: opacity 0.5s ease, border 0.2s ease;
 	opacity: 1;
+	font-family: "Open Sans", sans-serif;
 }
 
 .frontPageContainer .tileButton:hover p {
-	border-top: 0.2em solid #545454;
+	border-top: 0.2em solid #007dfb;
 }
 
 .frontPageContainer.navbarState .tileButton p {
@@ -1142,9 +1142,12 @@ nav.tileNav {
 }
 
 .tileButton a {
+	padding: 0 !important;
+}
+
+.tileButton a {
 	filter: brightness(100%);
 	-webkit-filter: brightness(100%);
-	padding: 0 !important;
 	transition: filter ease 0.2s, -webkit-filter ease 0.2s;
 }
 
