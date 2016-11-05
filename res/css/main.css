@@ -252,7 +252,7 @@ body.darkTheme,
 	background: #545454;
 }
 
-.darkTheme .level3BG {
+.darkTheme .level3BG {	
 	background: #404040 !important;
 }
 
@@ -483,7 +483,7 @@ body > .sectionTransition {
 body > .sectionTransition.preCalendar {
     height: 100vh;
 	margin-top: 0 !important; 
-	background: black;
+	background: #181D37;
     position: relative;
 }
 
