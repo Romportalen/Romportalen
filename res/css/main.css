@@ -1330,21 +1330,15 @@ nav.tileNav .tileButton h3 {
 }
 
 .sectionContainer nav.tileNav {
-    /* top: -19.25em; */
     position: relative;
     margin-bottom: 1.5em;
     background-size: cover !important;
     background: url("/res/img/space-texture_06_darker.jpg");
-    padding-bottom: 1em;
-    /* margin-bottom: -17.75em; */
-    /* padding-top: 14.5em; */
+    padding-top: 2em;
+    padding-bottom: 6em;
     background-position: 40% 42%;
-    /* padding: 0; */
     overflow: hidden;
-    /* padding: 1em; */
     background-repeat: no-repeat;
-    /* margin: 2em; */
-    /* left: -2em; */
 	margin-right: 0;
 	margin-left: 0;
 }
