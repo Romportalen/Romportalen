@@ -478,6 +478,7 @@ body > .sectionTransition {
     text-shadow: 0 0 0.3em #000;
 	margin: 0 auto;
     width: 100%;
+	font-size: 1.2em;
 }
 
 body > .sectionTransition.preCalendar {
@@ -964,6 +965,13 @@ section header h1 {
 	left: 0;
 	width: 100%;
 	z-index: 999;
+	padding-left: 10%;
+    padding-right: 10%;
+}
+
+.frontPageContainer.navbarState .titleContainer {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 
 .frontPageContainer .titleContainer .progressContainer {
@@ -1039,7 +1047,7 @@ section header h1 {
 }
 
 .frontPageContainer.navbarState .titleContainer h1 {
-	font-size: 2em;
+	font-size: 2em !important;
 	padding: 0.5em;
 	transition: font-size 0.5s ease, opacity 0.5s ease, border 0.5s ease, padding 0.5s ease;
 	cursor: pointer;
@@ -1120,7 +1128,7 @@ nav.tileNav {
 
 .frontPageContainer.navWrapped nav.tileNav ul {
 	position: absolute;
-	bottom: 1em;
+	bottom: 3em;
 }
 
 .tileButton a:focus,.tileButton a:hover, .tileButton a {
@@ -1271,7 +1279,7 @@ nav.tileNav {
 
 nav.tileNav ul {
 	text-align: center;
-	overflow: show;
+	overflow: visible;
 	width: 100%;
 	padding: 0;
 }
@@ -1329,13 +1337,17 @@ nav.tileNav .tileButton h3 {
 	bottom: -3.2em;
 }
 
+.navWrapped .sectionContainer nav.tileNav {
+    padding-bottom: 7em;
+}
+
 .sectionContainer nav.tileNav {
     position: relative;
     margin-bottom: 1.5em;
     background-size: cover !important;
     background: url("/res/img/space-texture_06_darker.jpg");
     padding-top: 2em;
-    padding-bottom: 6em;
+    padding-bottom: 4em;
     background-position: 40% 42%;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -1492,17 +1504,36 @@ nav.tileNav .tileButton h3 {
 	top: -4em;
 }
 
+.sectionAnchor#elev {
+    top: -9em;
+}
+
+.navWrapped .sectionAnchor#elev {
+    top: -4.75em;
+}
+
+.sectionHeading {
+	z-index: 5;
+}
+
+.sectionHeading h2 {
+	font-size: 3em;
+}
+
 .panel-heading h3, .panel-heading h2 {
 	padding: 0;
 	margin: 0;
 	text-align: center;
 }
 
+.panel-heading h2, a[data-toggle="collapse"] .panel-heading h3 {
+	font-family: 'Electrolize', sans-serif;
+}
+
 .page-header.panel-heading h2 {
 	padding: 0.25em;
 	padding-bottom: 0.5em;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
 }
 
 .col-sm-3 .media-left {
