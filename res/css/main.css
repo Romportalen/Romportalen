@@ -1166,17 +1166,19 @@ nav.tileNav {
 	font-size: 0em;	
 }
 
-.frontPageContainer .fa-arrow-circle-up {
-	display: none;
+.frontPageContainer .upIcon {
+	display: none !important;
 }
 
-.frontPageContainer.navbarState .fa-arrow-circle-up {
-	display: inline-block;
+.frontPageContainer.navbarState .upIcon {
+	display: inline-block !important;
 	position: absolute;
 	right: 0;
 	padding-right: 1em;
 	transition: color ease 0.2s;
 	color: #173B5D;
+    font-size: 0.525em;
+    margin-top: -0.1em;
 }
 
 .frontPageContainer.navbarState .titleContainer h1 .titleWrapper {
@@ -1191,28 +1193,33 @@ nav.tileNav {
 	text-shadow: 0 0 0.5em #0079FF;
 }
 
-.frontPageContainer.navbarState .titleContainer h1:hover .fa-arrow-circle-up,
-.frontPageContainer.navbarState .titleContainer h1 .fa-arrow-circle-up:hover {
+.frontPageContainer.navbarState .titleContainer h1:hover .upIcon,
+.frontPageContainer.navbarState .titleContainer h1 .upIcon:hover {
 	transition: color ease 0.2s;
 	color: #0068D1;
 }
 
-.frontPageContainer.navbarState .titleContainer h1 .fa-arrow-circle-up:after {
-	content: '';
-    background-color: white;
-    width: 0.8em;
-    height: 0.8em;
+.frontPageContainer.navbarState .titleContainer h1 .upIcon:after {
+    content: '';
+    background-color: #efefef;
+    width: 1.9em;
+    height: 1.9em;
     display: block;
     position: absolute;
-    top: 0.1em;
-    left: 0.02em;
-    border-radius: 100%;
+    top: 0.25em;
+    left: 0.35em;
+    border-radius: 0.3em;
     z-index: -99;
-	transition: opacity ease 0.2s;
-	opacity: 0;
+    transition: opacity ease 0.2s;
+    opacity: 0;
+    box-shadow: 0 0 1em 0em #0079FF;
 }
 
-.frontPageContainer.navbarState .titleContainer h1:hover .fa-arrow-circle-up:after {
+.upIcon .fa-arrow-up {
+	top: -0.1em;
+}
+
+.frontPageContainer.navbarState .titleContainer h1:hover .upIcon:after {
 	transition: opacity ease 0.2s;
 	opacity: 1;
 }
