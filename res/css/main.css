@@ -1113,6 +1113,7 @@ nav.tileNav {
 	width: 100%;
 	text-align: center;
 	font-family: 'Electrolize', sans-serif !important;
+	z-index: 10000471;
 }
 
 .frontPageContainer.navbarState {
