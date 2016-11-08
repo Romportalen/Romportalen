@@ -1556,6 +1556,26 @@ nav.tileNav .tileButton h3 {
 	padding-left: 0px !important;
 }
 
+.row {
+    overflow: hidden; 
+}
+
+.row .col-sm-3 {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+	background: rgba(0,0,0,0.2);
+}
+
+.row .col-sm-3 header {
+    display: inline;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.container-fluid {
+	padding-top: 0 !important;
+}
+
 .col-sm-3 .media-left {
     background: white;
     padding: 0em;
