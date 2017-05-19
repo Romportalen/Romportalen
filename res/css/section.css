@@ -27,13 +27,13 @@
  front page onLoad animation styles end */
 
 .inviewTrigger .media-object {
-  transition: all 1s ease, filter 0.3s ease, -webkit-filter 0.3s ease;
+  transition: all 1s ease, filter 0.3s ease, -webkit-filter 0.3s ease, padding 0.25s ease;
   position: relative;
   opacity: 1;
 }
 
 .inviewTrigger.inview .media-object {
-  transition: all 1s ease, filter 0.3s ease, -webkit-filter 0.3s ease;
+  transition: all 1s ease, filter 0.3s ease, -webkit-filter 0.3s ease, padding 0.25s ease;
 }
 
 /* section background images start */
